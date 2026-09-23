@@ -1,0 +1,1309 @@
+[
+  {
+    "id": "pugna",
+    "roles": ["pos5", "pos4", "pos2"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 1, "peel": 2, "poke": 1, "burst": 2, "dps": 1, "frontline": 0, "cc": 0, "mobility": 0, "waveclear": 2, "splitpush": 1, "pick": 1, "sustain": 1, "siege": 2 },
+    "powerCurve": { "early": 2, "mid": 2, "late": 1 },
+    "archetypes": ["push", "protect"],
+    "strongVs": [
+      { "id": "tinker", "s": 2, "note": "Nether Ward punishes constant spell/Rearm casting" },
+      { "id": "storm_spirit", "s": 2, "note": "Nether Ward punishes Ball Lightning/Remnant spam" },
+      { "id": "invoker", "s": 1 },
+      { "id": "phantom_assassin", "s": 1, "note": "Decrepify on the target ally blanks physical crits" },
+      { "id": "sven", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "nyx_assassin", "s": 2, "note": "Mind Flare/Mana Burn punish Pugna's large mana pool" },
+      { "id": "silencer", "s": 2, "note": "Silences stop Life Drain and Decrepify saves" },
+      { "id": "riki", "s": 2 },
+      { "id": "doom_bringer", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "skywrath_mage", "s": 2 },
+      { "id": "lina", "s": 2 },
+      { "id": "zuus", "s": 1 },
+      { "id": "death_prophet", "s": 1 }
+    ],
+    "meta": { "pos5": "B", "pos4": "B", "pos2": "C" },
+    "difficulty": 2,
+    "notes": "Tower-razing nuker: Nether Blast takes buildings fast (Oblivion Savant adds spell amp per tower), Decrepify saves allies from physical burst or amplifies magic combos, Nether Ward punishes spell-spammers. Very fragile; dies to invisible/mana-burn gankers and silences."
+  },
+  {
+    "id": "templar_assassin",
+    "roles": ["pos1", "pos2"],
+    "damage": "physical",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 0, "peel": 0, "poke": 1, "burst": 2, "dps": 2, "frontline": 0, "cc": 1, "mobility": 2, "waveclear": 1, "splitpush": 1, "pick": 2, "sustain": 0, "siege": 1 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["skirmish", "pick", "early"],
+    "strongVs": [
+      { "id": "meepo", "s": 2, "note": "Psi Blades split onto clones; Refraction blocks Poof instances" },
+      { "id": "huskar", "s": 2, "lane": true, "note": "Refraction absorbs Burning Spear attacks in lane" },
+      { "id": "broodmother", "s": 2 },
+      { "id": "phantom_lancer", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "shredder", "s": 2, "note": "Chakram/Whirling Death ticks strip Refraction; Reactive Armor soaks her burst" },
+      { "id": "bristleback", "s": 2, "note": "Quill Spray instances strip Refraction" },
+      { "id": "slardar", "s": 2, "note": "Corrosive Haze armor loss + True Sight on a low-armor carry" },
+      { "id": "razor", "s": 2, "lane": true, "note": "Static Link drains her attack damage in lane" },
+      { "id": "venomancer", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "vengefulspirit", "s": 2 },
+      { "id": "dazzle", "s": 1 }
+    ],
+    "meta": { "pos1": "B", "pos2": "C" },
+    "difficulty": 3,
+    "notes": "Refraction-shielded burst carry, now mostly played pos1, who snowballs off early kills, towers and Roshan; Psi Blades shred illusions/summons. Collapses vs damage-over-time that strips Refraction (Bristleback, Venomancer, Timbersaw), armor reduction and True Sight."
+  },
+  {
+    "id": "viper",
+    "roles": ["pos2", "pos3"],
+    "damage": "mixed",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 0, "peel": 0, "poke": 1, "burst": 1, "dps": 2, "frontline": 1, "cc": 1, "mobility": 1, "waveclear": 1, "splitpush": 1, "pick": 1, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 3, "mid": 2, "late": 1 },
+    "archetypes": ["early", "skirmish"],
+    "strongVs": [
+      { "id": "huskar", "s": 3, "lane": true, "note": "Viper Strike breaks Berserker's Blood; Poison Attack wins the ranged lane" },
+      { "id": "bristleback", "s": 2, "note": "Viper Strike breaks Bristleback's damage reduction" },
+      { "id": "spectre", "s": 2, "note": "Viper Strike breaks Dispersion and Desolate" },
+      { "id": "shredder", "s": 2, "note": "Break disables Reactive Armor" },
+      { "id": "phantom_assassin", "s": 1 },
+      { "id": "slark", "s": 1 },
+      { "id": "dragon_knight", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "phantom_lancer", "s": 2 },
+      { "id": "naga_siren", "s": 2 },
+      { "id": "terrorblade", "s": 1 },
+      { "id": "medusa", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "shadow_shaman", "s": 1 },
+      { "id": "lion", "s": 1 },
+      { "id": "bane", "s": 1 }
+    ],
+    "meta": { "pos2": "B", "pos3": "C" },
+    "difficulty": 1,
+    "notes": "Relentless lane bully; Viper Strike (2 charges) breaks passives (Bristleback, Spectre, PA, Huskar, Timbersaw) and Nethertoxin zones attack-speed carries. Strong early/mid, falls off late and its single-target damage struggles vs illusion carries (PL, Naga)."
+  },
+  {
+    "id": "luna",
+    "roles": ["pos1"],
+    "damage": "physical",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 0, "peel": 0, "poke": 0, "burst": 1, "dps": 3, "frontline": 0, "cc": 1, "mobility": 0, "waveclear": 3, "splitpush": 2, "pick": 0, "sustain": 0, "siege": 1 },
+    "powerCurve": { "early": 1, "mid": 3, "late": 2 },
+    "archetypes": ["push", "scaling"],
+    "strongVs": [
+      { "id": "phantom_lancer", "s": 2, "note": "Moon Glaives bounce through illusions" },
+      { "id": "naga_siren", "s": 2 },
+      { "id": "meepo", "s": 2 },
+      { "id": "broodmother", "s": 2 },
+      { "id": "chaos_knight", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "legion_commander", "s": 2, "note": "Duel isolates a low-armor carry" },
+      { "id": "phantom_assassin", "s": 2 },
+      { "id": "bristleback", "s": 2 },
+      { "id": "faceless_void", "s": 1 },
+      { "id": "slark", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "magnataur", "s": 2 },
+      { "id": "wisp", "s": 2 },
+      { "id": "vengefulspirit", "s": 1 },
+      { "id": "night_stalker", "s": 1, "note": "Eclipse turns day into night" }
+    ],
+    "meta": { "pos1": "B" },
+    "difficulty": 1,
+    "notes": "Fast-farming Moon Glaives carry who clears waves and punishes illusion/summon heroes, spiking mid-game with Manta/BKB. Low armor and HP; needs frontline and gets jumped by Legion Commander, PA and Bristleback."
+  },
+  {
+    "id": "dragon_knight",
+    "roles": ["pos2", "pos3", "pos1"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 1, "poke": 0, "burst": 1, "dps": 2, "frontline": 3, "cc": 1, "mobility": 0, "waveclear": 2, "splitpush": 1, "pick": 1, "sustain": 1, "siege": 2 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["push", "skirmish"],
+    "strongVs": [
+      { "id": "phantom_lancer", "s": 2 },
+      { "id": "meepo", "s": 2 },
+      { "id": "broodmother", "s": 2 },
+      { "id": "chaos_knight", "s": 1 },
+      { "id": "naga_siren", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "viper", "s": 2, "lane": true, "note": "Break shuts off Dragon Blood armor/regen" },
+      { "id": "shredder", "s": 2 },
+      { "id": "obsidian_destroyer", "s": 1, "lane": true },
+      { "id": "doom_bringer", "s": 1 },
+      { "id": "necrolyte", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "shadow_shaman", "s": 1 },
+      { "id": "chen", "s": 1 },
+      { "id": "wisp", "s": 1 }
+    ],
+    "meta": { "pos2": "B", "pos3": "B", "pos1": "C" },
+    "difficulty": 1,
+    "notes": "Tanky pusher whose Elder Dragon Form now evolves by level (corrosive, then splash, then frost slow) to take towers and win extended fights while shrugging off physical damage. Good vs illusions and melee; weak to break (Viper), pure damage (Timbersaw) and kiting."
+  },
+  {
+    "id": "dazzle",
+    "roles": ["pos5", "pos4"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 1, "peel": 3, "poke": 0, "burst": 0, "dps": 0, "frontline": 0, "cc": 1, "mobility": 0, "waveclear": 1, "splitpush": 0, "pick": 0, "sustain": 3, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["protect", "skirmish"],
+    "strongVs": [
+      { "id": "legion_commander", "s": 2, "note": "Shallow Grave denies Duel kills" },
+      { "id": "bloodseeker", "s": 1 },
+      { "id": "phantom_assassin", "s": 1 },
+      { "id": "lina", "s": 1 },
+      { "id": "zuus", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "ancient_apparition", "s": 3, "note": "Ice Blast blocks Shadow Wave and all healing on Graved targets" },
+      { "id": "doom_bringer", "s": 2, "note": "Doom silences Dazzle so Grave can't be cast" },
+      { "id": "silencer", "s": 2 },
+      { "id": "riki", "s": 1 },
+      { "id": "disruptor", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "huskar", "s": 2 },
+      { "id": "troll_warlord", "s": 2 },
+      { "id": "slardar", "s": 1 }
+    ],
+    "meta": { "pos5": "B", "pos4": "C" },
+    "difficulty": 2,
+    "notes": "Save support: Shallow Grave negates burst/Duel/Rupture kills, Shadow Wave heals, Weave swings armor for physical lineups. Must stay alive and un-silenced; hard-countered by Ice Blast, Doom and Global Silence."
+  },
+  {
+    "id": "rattletrap",
+    "roles": ["pos4", "pos5"],
+    "damage": "magic",
+    "range": "melee",
+    "attributes": { "engage": 2, "disengage": 1, "peel": 1, "poke": 1, "burst": 1, "dps": 0, "frontline": 1, "cc": 2, "mobility": 1, "waveclear": 0, "splitpush": 0, "pick": 2, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 3, "mid": 2, "late": 1 },
+    "archetypes": ["pick", "dive", "early"],
+    "strongVs": [
+      { "id": "sniper", "s": 2, "note": "Hookshot/Power Cogs trap an immobile backliner" },
+      { "id": "drow_ranger", "s": 2 },
+      { "id": "lina", "s": 1 },
+      { "id": "crystal_maiden", "s": 1 },
+      { "id": "nevermore", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "life_stealer", "s": 2, "note": "Rage ignores Hookshot/Battery Assault disables" },
+      { "id": "juggernaut", "s": 2 },
+      { "id": "slark", "s": 1 },
+      { "id": "weaver", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "skywrath_mage", "s": 2 },
+      { "id": "legion_commander", "s": 1 },
+      { "id": "zuus", "s": 1 }
+    ],
+    "meta": { "pos4": "A", "pos5": "A" },
+    "difficulty": 2,
+    "notes": "Hookshot/Power Cogs pickoff initiator who isolates squishy backliners early; played as both pos4 and pos5. Needs follow-up damage; weak vs spell immunity/dispel carries (Lifestealer Rage, Jugg spin, Slark Dark Pact)."
+  },
+  {
+    "id": "leshrac",
+    "roles": ["pos2"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 0, "peel": 0, "poke": 1, "burst": 1, "dps": 2, "frontline": 1, "cc": 1, "mobility": 0, "waveclear": 3, "splitpush": 2, "pick": 1, "sustain": 0, "siege": 3 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 1 },
+    "archetypes": ["push", "early", "skirmish"],
+    "strongVs": [
+      { "id": "phantom_lancer", "s": 2 },
+      { "id": "naga_siren", "s": 2 },
+      { "id": "broodmother", "s": 2 },
+      { "id": "meepo", "s": 2, "lane": true },
+      { "id": "chaos_knight", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "antimage", "s": 2, "note": "Mana Break drains Pulse Nova upkeep" },
+      { "id": "nyx_assassin", "s": 2 },
+      { "id": "silencer", "s": 2 },
+      { "id": "doom_bringer", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "shadow_demon", "s": 2, "note": "Disruption guarantees Split Earth" },
+      { "id": "faceless_void", "s": 1 },
+      { "id": "magnataur", "s": 1 },
+      { "id": "chen", "s": 1 }
+    ],
+    "meta": { "pos2": "C" },
+    "difficulty": 2,
+    "notes": "Diabolic Edict tower-destroyer and Pulse Nova AoE fighter; one of the best at fast pushes and clearing illusions/summons. Mana-hungry: countered by mana burn (Anti-Mage, Nyx) and silences."
+  },
+  {
+    "id": "furion",
+    "roles": ["pos1", "pos2", "pos3", "pos4"],
+    "damage": "physical",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 0, "peel": 0, "poke": 1, "burst": 1, "dps": 1, "frontline": 0, "cc": 1, "mobility": 2, "waveclear": 2, "splitpush": 3, "pick": 1, "sustain": 0, "siege": 2 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["split", "push", "pick"],
+    "strongVs": [
+      { "id": "sniper", "s": 1 },
+      { "id": "crystal_maiden", "s": 1 },
+      { "id": "drow_ranger", "s": 1, "note": "Sprout isolates an immobile ranged carry for global ganks" }
+    ],
+    "weakVs": [
+      { "id": "shredder", "s": 2, "lane": true, "note": "Timbersaw clears Sprout/forest and wins the lane" },
+      { "id": "spirit_breaker", "s": 2, "note": "Global Charge punishes lone split-pushing and TPs" },
+      { "id": "legion_commander", "s": 1 },
+      { "id": "bounty_hunter", "s": 1 },
+      { "id": "storm_spirit", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "spectre", "s": 1 },
+      { "id": "chen", "s": 1 },
+      { "id": "shadow_shaman", "s": 1 }
+    ],
+    "meta": { "pos1": "B", "pos2": "B", "pos3": "C", "pos4": "C" },
+    "difficulty": 2,
+    "notes": "Global split-pusher, now mostly a pos1: Teleportation + treants (which feed Spirit of the Forest damage) create map pressure and fast tower damage, Sprout sets up picks. Punished when caught alone by global/fast gankers (Spirit Breaker) and Timbersaw clearing trees."
+  },
+  {
+    "id": "life_stealer",
+    "roles": ["pos1"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 0, "poke": 0, "burst": 1, "dps": 2, "frontline": 2, "cc": 1, "mobility": 1, "waveclear": 0, "splitpush": 1, "pick": 1, "sustain": 2, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["skirmish", "dive"],
+    "strongVs": [
+      { "id": "centaur", "s": 2, "note": "Feast %-max-HP damage shreds tanks" },
+      { "id": "pudge", "s": 2 },
+      { "id": "dragon_knight", "s": 1 },
+      { "id": "tidehunter", "s": 1 },
+      { "id": "skywrath_mage", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "ancient_apparition", "s": 2, "note": "Ice Blast shuts off Feast lifesteal" },
+      { "id": "doom_bringer", "s": 2, "note": "Doom pierces Rage debuff immunity and blocks healing" },
+      { "id": "shredder", "s": 2, "lane": true },
+      { "id": "beastmaster", "s": 1 },
+      { "id": "necrolyte", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "spirit_breaker", "s": 2 },
+      { "id": "storm_spirit", "s": 1 },
+      { "id": "batrider", "s": 1 }
+    ],
+    "meta": { "pos1": "A" },
+    "difficulty": 1,
+    "notes": "Rage-immune melee carry whose Feast shreds high-HP tanks; Infest lets him ride allies (Spirit Breaker, Batrider) into fights. Countered by anti-heal, debuff-immunity-piercing disables (Doom, Beastmaster) and pure damage."
+  },
+  {
+    "id": "dark_seer",
+    "roles": ["pos3"],
+    "damage": "magic",
+    "range": "melee",
+    "attributes": { "engage": 2, "disengage": 1, "peel": 1, "poke": 0, "burst": 1, "dps": 0, "frontline": 1, "cc": 2, "mobility": 1, "waveclear": 2, "splitpush": 1, "pick": 1, "sustain": 1, "siege": 1 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["engage", "skirmish"],
+    "strongVs": [
+      { "id": "phantom_lancer", "s": 2, "lane": true, "note": "Ion Shell melts illusions" },
+      { "id": "naga_siren", "s": 2, "lane": true },
+      { "id": "broodmother", "s": 2 },
+      { "id": "meepo", "s": 2, "note": "Ion Shell hits clustered clones" },
+      { "id": "chen", "s": 2 },
+      { "id": "lycan", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "silencer", "s": 1 },
+      { "id": "doom_bringer", "s": 1 },
+      { "id": "antimage", "s": 1 },
+      { "id": "nyx_assassin", "s": 1 },
+      { "id": "life_stealer", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "enigma", "s": 2 },
+      { "id": "faceless_void", "s": 2 },
+      { "id": "earthshaker", "s": 2 },
+      { "id": "magnataur", "s": 1 }
+    ],
+    "meta": { "pos3": "A" },
+    "difficulty": 2,
+    "notes": "Offlane enabler: Ion Shell wins lanes and deletes illusions/summons, Surge speeds cores, Vacuum + Wall of Replica set up AoE wombos. Needs AoE follow-up; spell-reliant, so silences and mana burn blunt him."
+  },
+  {
+    "id": "clinkz",
+    "roles": ["pos1", "pos2"],
+    "damage": "physical",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 0, "peel": 0, "poke": 0, "burst": 2, "dps": 2, "frontline": 0, "cc": 0, "mobility": 1, "waveclear": 1, "splitpush": 1, "pick": 2, "sustain": 0, "siege": 1 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["pick", "skirmish", "split"],
+    "strongVs": [
+      { "id": "crystal_maiden", "s": 2 },
+      { "id": "sniper", "s": 2 },
+      { "id": "witch_doctor", "s": 1 },
+      { "id": "lion", "s": 1 },
+      { "id": "dragon_knight", "s": 1, "note": "Infernal Shred pierces armor" }
+    ],
+    "weakVs": [
+      { "id": "bounty_hunter", "s": 2, "note": "Track reveals Skeleton Walk" },
+      { "id": "slardar", "s": 2, "note": "Corrosive Haze reveals and strips armor" },
+      { "id": "zuus", "s": 2, "note": "Lightning Bolt/Thundergod's Wrath give True Sight" },
+      { "id": "legion_commander", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "vengefulspirit", "s": 1 },
+      { "id": "dazzle", "s": 1 },
+      { "id": "shadow_demon", "s": 1 }
+    ],
+    "meta": { "pos1": "B", "pos2": "C" },
+    "difficulty": 2,
+    "notes": "Invisible armor-piercing carry (Infernal Shred, Searing Arrows, Skeleton Walk archers) who picks off isolated supports. Fragile; hard-countered by detection and reveals (Track, Corrosive Haze, Zeus)."
+  },
+  {
+    "id": "omniknight",
+    "roles": ["pos5", "pos3", "pos4"],
+    "damage": "magic",
+    "range": "melee",
+    "attributes": { "engage": 0, "disengage": 2, "peel": 3, "poke": 0, "burst": 1, "dps": 0, "frontline": 1, "cc": 1, "mobility": 0, "waveclear": 1, "splitpush": 0, "pick": 0, "sustain": 2, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["protect", "skirmish"],
+    "strongVs": [
+      { "id": "phantom_assassin", "s": 2, "note": "Guardian Angel nullifies physical crits" },
+      { "id": "sven", "s": 2 },
+      { "id": "ursa", "s": 2 },
+      { "id": "drow_ranger", "s": 1 },
+      { "id": "juggernaut", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "ancient_apparition", "s": 2 },
+      { "id": "doom_bringer", "s": 2 },
+      { "id": "silencer", "s": 2 },
+      { "id": "zuus", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "troll_warlord", "s": 2 },
+      { "id": "huskar", "s": 1 },
+      { "id": "faceless_void", "s": 1 }
+    ],
+    "meta": { "pos5": "C", "pos3": "C", "pos4": "D" },
+    "difficulty": 1,
+    "notes": "Anti-physical protector: Guardian Angel is now a 700-radius aura around Omni with no linger, so he must stand in the fight; Repel grants debuff immunity and Purification/Hammer heal. Useless vs magic-heavy lineups and countered by silences and anti-heal."
+  },
+  {
+    "id": "enchantress",
+    "roles": ["pos5", "pos4"],
+    "damage": "mixed",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 1, "peel": 2, "poke": 2, "burst": 0, "dps": 1, "frontline": 0, "cc": 1, "mobility": 1, "waveclear": 0, "splitpush": 0, "pick": 0, "sustain": 2, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 2, "late": 2 },
+    "archetypes": ["poke", "protect", "skirmish"],
+    "strongVs": [
+      { "id": "troll_warlord", "s": 2, "note": "Untouchable slows attack speed; Impetus kites" },
+      { "id": "ursa", "s": 2, "note": "Untouchable guts melee attack speed" },
+      { "id": "sven", "s": 1 },
+      { "id": "juggernaut", "s": 1 },
+      { "id": "phantom_assassin", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "storm_spirit", "s": 2 },
+      { "id": "queenofpain", "s": 1 },
+      { "id": "ancient_apparition", "s": 1 },
+      { "id": "lina", "s": 1 },
+      { "id": "nyx_assassin", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "mars", "s": 1 },
+      { "id": "tidehunter", "s": 1 }
+    ],
+    "meta": { "pos5": "B", "pos4": "B" },
+    "difficulty": 2,
+    "notes": "Long-range Impetus poke with heals and Untouchable, which cripples melee right-click carries. Needs a frontline to hide behind; vulnerable to magic burst and mobile divers."
+  },
+  {
+    "id": "huskar",
+    "roles": ["pos2", "pos3"],
+    "damage": "mixed",
+    "range": "ranged",
+    "attributes": { "engage": 2, "disengage": 0, "peel": 0, "poke": 0, "burst": 1, "dps": 2, "frontline": 1, "cc": 1, "mobility": 1, "waveclear": 0, "splitpush": 0, "pick": 1, "sustain": 3, "siege": 1 },
+    "powerCurve": { "early": 3, "mid": 2, "late": 1 },
+    "archetypes": ["early", "dive", "skirmish"],
+    "strongVs": [
+      { "id": "pudge", "s": 2, "note": "Life Break and %-HP spears chunk high-HP strength heroes" },
+      { "id": "kunkka", "s": 1, "lane": true },
+      { "id": "tiny", "s": 1 },
+      { "id": "primal_beast", "s": 1 },
+      { "id": "dragon_knight", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "viper", "s": 3, "lane": true, "note": "Viper Strike breaks Berserker's Blood" },
+      { "id": "ancient_apparition", "s": 3, "note": "Ice Blast stops all healing and regen" },
+      { "id": "necrolyte", "s": 2, "note": "Heartstopper %HP drain and Reaper's Scythe punish his low-HP style" },
+      { "id": "templar_assassin", "s": 2, "lane": true },
+      { "id": "axe", "s": 2, "note": "Culling Blade executes low-HP Huskar" }
+    ],
+    "synergies": [
+      { "id": "dazzle", "s": 2 },
+      { "id": "oracle", "s": 2 },
+      { "id": "magnataur", "s": 1 },
+      { "id": "wisp", "s": 1 }
+    ],
+    "meta": { "pos2": "C", "pos3": "C" },
+    "difficulty": 2,
+    "notes": "Low-HP berserker who dominates melee/strength lanes and dives with Life Break; needs save supports (Dazzle, Oracle). Heavily banned but poor when picked into prepared drafts; falls off late and is hard-countered by break, anti-heal, Necrophos and Culling Blade."
+  },
+  {
+    "id": "night_stalker",
+    "roles": ["pos3"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 0, "poke": 0, "burst": 1, "dps": 1, "frontline": 2, "cc": 2, "mobility": 2, "waveclear": 0, "splitpush": 0, "pick": 2, "sustain": 1, "siege": 0 },
+    "powerCurve": { "early": 3, "mid": 3, "late": 1 },
+    "archetypes": ["pick", "dive", "early"],
+    "strongVs": [
+      { "id": "storm_spirit", "s": 2, "note": "Crippling Fear silence + Void catch blinkers" },
+      { "id": "puck", "s": 2 },
+      { "id": "queenofpain", "s": 2 },
+      { "id": "ember_spirit", "s": 1 },
+      { "id": "invoker", "s": 1 },
+      { "id": "windrunner", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "shredder", "s": 2 },
+      { "id": "bristleback", "s": 1 },
+      { "id": "phantom_lancer", "s": 1 },
+      { "id": "troll_warlord", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "luna", "s": 2 },
+      { "id": "spirit_breaker", "s": 1 },
+      { "id": "shadow_shaman", "s": 1 }
+    ],
+    "meta": { "pos3": "B" },
+    "difficulty": 1,
+    "notes": "Night-time ganker: Void and Crippling Fear silence catch mobile spellcasters, Dark Ascension gives flying vision, Midnight Feast sustains. Wants early fights and night timings; weak vs tanky/pure-damage offlaners and when games go late."
+  },
+  {
+    "id": "broodmother",
+    "roles": ["pos1", "pos3", "pos2"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 0, "disengage": 0, "peel": 0, "poke": 0, "burst": 1, "dps": 1, "frontline": 0, "cc": 1, "mobility": 2, "waveclear": 2, "splitpush": 2, "pick": 1, "sustain": 1, "siege": 3 },
+    "powerCurve": { "early": 3, "mid": 3, "late": 1 },
+    "archetypes": ["push", "split", "early"],
+    "strongVs": [
+      { "id": "antimage", "s": 2 },
+      { "id": "spectre", "s": 1 },
+      { "id": "medusa", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "leshrac", "s": 2, "note": "Pulse Nova/Edict wipe spiderlings" },
+      { "id": "templar_assassin", "s": 2 },
+      { "id": "luna", "s": 2 },
+      { "id": "shredder", "s": 2 },
+      { "id": "dark_seer", "s": 2 },
+      { "id": "earthshaker", "s": 1 },
+      { "id": "sven", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "furion", "s": 1 },
+      { "id": "lycan", "s": 1 },
+      { "id": "shadow_shaman", "s": 1 }
+    ],
+    "meta": { "pos1": "C", "pos3": "C", "pos2": "C" },
+    "difficulty": 3,
+    "notes": "Spiderling lane-dominator and relentless tower/split pusher who wins early and must end games. Hard-countered by AoE that farms spiders (Leshrac, TA, Luna, Timbersaw, Dark Seer)."
+  },
+  {
+    "id": "bounty_hunter",
+    "roles": ["pos4"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 0, "poke": 1, "burst": 1, "dps": 0, "frontline": 0, "cc": 1, "mobility": 1, "waveclear": 0, "splitpush": 0, "pick": 3, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 3, "mid": 2, "late": 1 },
+    "archetypes": ["pick", "early"],
+    "strongVs": [
+      { "id": "riki", "s": 3, "note": "Track grants True Sight through Cloak and Dagger" },
+      { "id": "clinkz", "s": 2, "note": "Track reveals Skeleton Walk" },
+      { "id": "weaver", "s": 2, "note": "Track reveals Shukuchi" },
+      { "id": "nyx_assassin", "s": 2 },
+      { "id": "templar_assassin", "s": 1 },
+      { "id": "sniper", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "zuus", "s": 2, "note": "Zeus spells reveal and burst Shadow Walk" },
+      { "id": "bristleback", "s": 1 },
+      { "id": "slardar", "s": 1 },
+      { "id": "axe", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "spectre", "s": 1 },
+      { "id": "spirit_breaker", "s": 1 },
+      { "id": "furion", "s": 1 }
+    ],
+    "meta": { "pos4": "A" },
+    "difficulty": 1,
+    "notes": "Roaming invisible pos4: Track grants True Sight and pays team gold, Big Game Hunter adds kill gold on the enemy's top-3 net-worth heroes, and marks targets for global/fast gankers. Premier counter to invis heroes; weak to reveals and tanky melee."
+  },
+  {
+    "id": "weaver",
+    "roles": ["pos1", "pos4"],
+    "damage": "physical",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 1, "peel": 0, "poke": 1, "burst": 1, "dps": 2, "frontline": 0, "cc": 0, "mobility": 2, "waveclear": 1, "splitpush": 1, "pick": 1, "sustain": 1, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 2, "late": 2 },
+    "archetypes": ["skirmish", "pick"],
+    "strongVs": [
+      { "id": "sniper", "s": 1 },
+      { "id": "drow_ranger", "s": 1 },
+      { "id": "pudge", "s": 1 },
+      { "id": "crystal_maiden", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "bounty_hunter", "s": 2, "note": "Track reveals Shukuchi" },
+      { "id": "slardar", "s": 2 },
+      { "id": "zuus", "s": 1 },
+      { "id": "axe", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "dazzle", "s": 1 },
+      { "id": "vengefulspirit", "s": 1 }
+    ],
+    "meta": { "pos1": "C", "pos4": "D" },
+    "difficulty": 2,
+    "notes": "Elusive Shukuchi/Time Lapse skirmisher; Swarm armor reduction, Threads of Fate and Geminate Attack burst immobile targets. Hard to pin down but flimsy; countered by True Sight/reveals (Track, Corrosive Haze)."
+  },
+  {
+    "id": "jakiro",
+    "roles": ["pos5", "pos4"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 1, "disengage": 1, "peel": 1, "poke": 2, "burst": 1, "dps": 1, "frontline": 0, "cc": 2, "mobility": 0, "waveclear": 2, "splitpush": 0, "pick": 1, "sustain": 0, "siege": 2 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 1 },
+    "archetypes": ["push", "poke"],
+    "strongVs": [
+      { "id": "phantom_lancer", "s": 2, "note": "Macropyre and Dual Breath hit every illusion" },
+      { "id": "naga_siren", "s": 2 },
+      { "id": "meepo", "s": 1 },
+      { "id": "broodmother", "s": 1 },
+      { "id": "lycan", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "storm_spirit", "s": 1 },
+      { "id": "phantom_assassin", "s": 1 },
+      { "id": "riki", "s": 1 },
+      { "id": "spirit_breaker", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "faceless_void", "s": 2 },
+      { "id": "enigma", "s": 2 },
+      { "id": "magnataur", "s": 1 },
+      { "id": "death_prophet", "s": 1 }
+    ],
+    "meta": { "pos5": "C", "pos4": "C" },
+    "difficulty": 1,
+    "notes": "Lane-bully pushing support: Liquid Fire/Frost melt towers, Ice Path + Macropyre zone teamfights and clear illusions. Slow and immobile; punished by divers and invisible gankers."
+  },
+  {
+    "id": "batrider",
+    "roles": ["pos3", "pos4", "pos2"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 2, "disengage": 1, "peel": 1, "poke": 1, "burst": 1, "dps": 1, "frontline": 0, "cc": 2, "mobility": 2, "waveclear": 1, "splitpush": 0, "pick": 3, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 1 },
+    "archetypes": ["pick", "engage"],
+    "strongVs": [
+      { "id": "sniper", "s": 2 },
+      { "id": "drow_ranger", "s": 2 },
+      { "id": "storm_spirit", "s": 1 },
+      { "id": "antimage", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "rubick", "s": 2, "note": "Rubick steals Flaming Lasso" },
+      { "id": "silencer", "s": 1 },
+      { "id": "doom_bringer", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "wisp", "s": 2, "note": "Relocate/Tether + Lasso drags targets across the map" },
+      { "id": "life_stealer", "s": 1 }
+    ],
+    "meta": { "pos3": "B", "pos4": "C", "pos2": "C" },
+    "difficulty": 2,
+    "notes": "Blink + Firefly + Flaming Lasso drags one key target into the team; elite pick/initiation plus Sticky Napalm lane pressure. Needs follow-up; Rubick stealing Lasso and silences punish him."
+  },
+  {
+    "id": "chen",
+    "roles": ["pos5", "pos4"],
+    "damage": "mixed",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 0, "peel": 1, "poke": 0, "burst": 0, "dps": 1, "frontline": 1, "cc": 1, "mobility": 0, "waveclear": 1, "splitpush": 2, "pick": 1, "sustain": 2, "siege": 3 },
+    "powerCurve": { "early": 3, "mid": 3, "late": 1 },
+    "archetypes": ["push", "early"],
+    "strongVs": [
+      { "id": "medusa", "s": 1 },
+      { "id": "antimage", "s": 1 },
+      { "id": "spectre", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "dark_seer", "s": 2, "note": "Ion Shell deletes the creep army" },
+      { "id": "leshrac", "s": 2 },
+      { "id": "earthshaker", "s": 1 },
+      { "id": "axe", "s": 1 },
+      { "id": "shredder", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "lycan", "s": 2 },
+      { "id": "death_prophet", "s": 1 },
+      { "id": "furion", "s": 1 },
+      { "id": "shadow_shaman", "s": 1 }
+    ],
+    "meta": { "pos5": "C", "pos4": "D" },
+    "difficulty": 3,
+    "notes": "Creep-army micro support for early pushes, with global Hand of God heals and Zealot/Penitence utility. Must end early; creeps get deleted by AoE (Ion Shell, Leshrac) and the hero falls off late."
+  },
+  {
+    "id": "spectre",
+    "roles": ["pos1"],
+    "damage": "mixed",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 0, "poke": 0, "burst": 0, "dps": 2, "frontline": 2, "cc": 0, "mobility": 2, "waveclear": 1, "splitpush": 1, "pick": 1, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 1, "mid": 2, "late": 3 },
+    "archetypes": ["scaling", "skirmish"],
+    "strongVs": [
+      { "id": "phantom_lancer", "s": 2 },
+      { "id": "naga_siren", "s": 1 },
+      { "id": "skywrath_mage", "s": 1 },
+      { "id": "zuus", "s": 1 },
+      { "id": "lina", "s": 1 },
+      { "id": "sniper", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "viper", "s": 2, "note": "Viper Strike breaks Dispersion" },
+      { "id": "doom_bringer", "s": 2, "note": "Scepter Doom breaks Dispersion/Desolate" },
+      { "id": "broodmother", "s": 1 },
+      { "id": "shredder", "s": 1, "lane": true },
+      { "id": "necrolyte", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "silencer", "s": 1 },
+      { "id": "furion", "s": 1 },
+      { "id": "bounty_hunter", "s": 1 }
+    ],
+    "meta": { "pos1": "B" },
+    "difficulty": 1,
+    "notes": "Global hyper-carry: Haunt joins every fight, Shadow Step is a long-range illusion gap-closer, Dispersion reflects burst and innate Desolate adds pure damage. Slow early; break (Viper, Doom scepter) and lane pressure are her kryptonite."
+  },
+  {
+    "id": "ancient_apparition",
+    "roles": ["pos5", "pos4"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 1, "peel": 1, "poke": 2, "burst": 1, "dps": 1, "frontline": 0, "cc": 1, "mobility": 0, "waveclear": 1, "splitpush": 0, "pick": 1, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 2, "late": 2 },
+    "archetypes": ["poke", "pick"],
+    "strongVs": [
+      { "id": "huskar", "s": 3, "note": "Ice Blast stops Berserker's Blood regen and heals" },
+      { "id": "dazzle", "s": 3, "note": "Ice Blast blocks Shadow Wave and all healing on Graved targets" },
+      { "id": "oracle", "s": 2 },
+      { "id": "necrolyte", "s": 2 },
+      { "id": "alchemist", "s": 2, "note": "Ice Blast shuts off Chemical Rage regen" },
+      { "id": "life_stealer", "s": 2 },
+      { "id": "omniknight", "s": 2 },
+      { "id": "wisp", "s": 2 }
+    ],
+    "weakVs": [
+      { "id": "storm_spirit", "s": 1 },
+      { "id": "riki", "s": 1 },
+      { "id": "phantom_assassin", "s": 1 },
+      { "id": "spirit_breaker", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "zuus", "s": 1 },
+      { "id": "faceless_void", "s": 1 },
+      { "id": "magnataur", "s": 1 }
+    ],
+    "meta": { "pos5": "B", "pos4": "C" },
+    "difficulty": 2,
+    "notes": "Global Ice Blast shuts off healing and shatters low-HP targets; Cold Feet/Ice Vortex give long-range zoning and Bone Chill saps Strength. The go-to counter-pick vs regen/heal heroes; fragile vs divers."
+  },
+  {
+    "id": "doom_bringer",
+    "roles": ["pos3", "pos1"],
+    "damage": "magic",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 0, "poke": 0, "burst": 1, "dps": 1, "frontline": 2, "cc": 2, "mobility": 1, "waveclear": 1, "splitpush": 0, "pick": 2, "sustain": 1, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["skirmish", "pick"],
+    "strongVs": [
+      { "id": "storm_spirit", "s": 2, "note": "Doom silences Ball Lightning" },
+      { "id": "tinker", "s": 2 },
+      { "id": "invoker", "s": 2 },
+      { "id": "omniknight", "s": 2 },
+      { "id": "dazzle", "s": 2 },
+      { "id": "spectre", "s": 2 },
+      { "id": "life_stealer", "s": 2 }
+    ],
+    "weakVs": [
+      { "id": "rubick", "s": 2, "note": "Rubick steals Doom" },
+      { "id": "phantom_lancer", "s": 2, "note": "Single-target ult vs an illusion army" },
+      { "id": "naga_siren", "s": 1 },
+      { "id": "chaos_knight", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "lina", "s": 1 },
+      { "id": "lion", "s": 1 },
+      { "id": "shadow_shaman", "s": 1 }
+    ],
+    "meta": { "pos3": "S", "pos1": "C" },
+    "difficulty": 2,
+    "notes": "Tanky offlaner (occasionally safelane) whose Doom dispels, silences and blocks healing on the enemy's key hero, with Scepter adding Break; farms fast via Devour. Premier answer to spell/save-reliant cores; single-target ult is weak vs illusion carries."
+  },
+  {
+    "id": "ursa",
+    "roles": ["pos1"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 0, "poke": 0, "burst": 2, "dps": 2, "frontline": 1, "cc": 1, "mobility": 1, "waveclear": 0, "splitpush": 0, "pick": 1, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 3, "mid": 3, "late": 1 },
+    "archetypes": ["early", "dive", "skirmish"],
+    "strongVs": [
+      { "id": "pudge", "s": 2 },
+      { "id": "centaur", "s": 1 },
+      { "id": "dragon_knight", "s": 1 },
+      { "id": "skeleton_king", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "enchantress", "s": 2, "note": "Untouchable guts Ursa's attack speed" },
+      { "id": "omniknight", "s": 2 },
+      { "id": "windrunner", "s": 2 },
+      { "id": "winter_wyvern", "s": 2, "note": "Winter's Curse turns Ursa on her allies" },
+      { "id": "viper", "s": 1 },
+      { "id": "venomancer", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "ogre_magi", "s": 2 },
+      { "id": "dazzle", "s": 1 },
+      { "id": "vengefulspirit", "s": 1 },
+      { "id": "disruptor", "s": 1 }
+    ],
+    "meta": { "pos1": "A" },
+    "difficulty": 1,
+    "notes": "Early Roshan and single-target melee shredder (Fury Swipes, Enrage, HP-scaling Maul). Wants to end mid-game; countered by kiting, evasion, Untouchable/Guardian Angel and Winter's Curse."
+  },
+  {
+    "id": "spirit_breaker",
+    "roles": ["pos4", "pos5", "pos3"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 2, "disengage": 0, "peel": 0, "poke": 0, "burst": 1, "dps": 1, "frontline": 1, "cc": 2, "mobility": 2, "waveclear": 0, "splitpush": 0, "pick": 3, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 3, "mid": 3, "late": 1 },
+    "archetypes": ["pick", "dive", "early"],
+    "strongVs": [
+      { "id": "sniper", "s": 2 },
+      { "id": "furion", "s": 2, "note": "Global Charge punishes split-pushing" },
+      { "id": "drow_ranger", "s": 1 },
+      { "id": "crystal_maiden", "s": 1 },
+      { "id": "ancient_apparition", "s": 1 },
+      { "id": "jakiro", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "viper", "s": 1 },
+      { "id": "naga_siren", "s": 1 },
+      { "id": "phantom_lancer", "s": 1 },
+      { "id": "shadow_demon", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "life_stealer", "s": 2, "note": "Infest on Spirit Breaker during Charge" },
+      { "id": "bounty_hunter", "s": 1 },
+      { "id": "lion", "s": 1 }
+    ],
+    "meta": { "pos4": "B", "pos5": "C", "pos3": "C" },
+    "difficulty": 1,
+    "notes": "Global Charge of Darkness ganker who punishes split-pushers and immobile backliners; Greater Bash chain-stuns. Best early-mid; weak vs illusions, break and saves on the charge target."
+  },
+  {
+    "id": "gyrocopter",
+    "roles": ["pos1", "pos4"],
+    "damage": "mixed",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 0, "peel": 0, "poke": 1, "burst": 1, "dps": 2, "frontline": 0, "cc": 1, "mobility": 1, "waveclear": 3, "splitpush": 0, "pick": 1, "sustain": 0, "siege": 1 },
+    "powerCurve": { "early": 2, "mid": 2, "late": 2 },
+    "archetypes": ["skirmish", "scaling"],
+    "strongVs": [
+      { "id": "phantom_lancer", "s": 2, "note": "Flak Cannon hits every illusion" },
+      { "id": "naga_siren", "s": 2 },
+      { "id": "meepo", "s": 2 },
+      { "id": "broodmother", "s": 2 },
+      { "id": "chaos_knight", "s": 1 },
+      { "id": "lycan", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "legion_commander", "s": 2 },
+      { "id": "phantom_assassin", "s": 1 },
+      { "id": "storm_spirit", "s": 1 },
+      { "id": "slark", "s": 1 },
+      { "id": "spirit_breaker", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "wisp", "s": 3, "note": "Tether + Flak Cannon: classic pairing" },
+      { "id": "magnataur", "s": 1 },
+      { "id": "vengefulspirit", "s": 1 }
+    ],
+    "meta": { "pos1": "D", "pos4": "C" },
+    "difficulty": 1,
+    "notes": "Flak Cannon/Rocket Barrage multi-target damage that farms fast and wrecks illusions and summons. No escape; gets jumped by Duel, PA and mobile gankers. Io + Gyro is a classic combo."
+  },
+  {
+    "id": "alchemist",
+    "roles": ["pos1", "pos2", "pos3"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 0, "poke": 0, "burst": 1, "dps": 2, "frontline": 2, "cc": 1, "mobility": 1, "waveclear": 1, "splitpush": 1, "pick": 0, "sustain": 2, "siege": 1 },
+    "powerCurve": { "early": 1, "mid": 3, "late": 2 },
+    "archetypes": ["scaling", "skirmish"],
+    "strongVs": [
+      { "id": "phantom_lancer", "s": 1 },
+      { "id": "naga_siren", "s": 1 },
+      { "id": "meepo", "s": 1 },
+      { "id": "chen", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "ancient_apparition", "s": 2, "note": "Ice Blast shuts off Chemical Rage regen" },
+      { "id": "necrolyte", "s": 2 },
+      { "id": "shredder", "s": 2 },
+      { "id": "doom_bringer", "s": 1 },
+      { "id": "axe", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "wisp", "s": 1 },
+      { "id": "ogre_magi", "s": 1 },
+      { "id": "magnataur", "s": 1 }
+    ],
+    "meta": { "pos1": "B", "pos2": "C", "pos3": "D" },
+    "difficulty": 2,
+    "notes": "Fastest farmer in the game; Chemical Rage regen makes him a durable mid-game fighter, and he can melt Aghanim's Scepters into allies. Needs space early; anti-heal (Ice Blast, Heartstopper) and pure damage cut his sustain."
+  },
+  {
+    "id": "invoker",
+    "roles": ["pos2", "pos4"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 1, "disengage": 1, "peel": 1, "poke": 2, "burst": 2, "dps": 1, "frontline": 0, "cc": 2, "mobility": 1, "waveclear": 2, "splitpush": 1, "pick": 1, "sustain": 0, "siege": 1 },
+    "powerCurve": { "early": 1, "mid": 2, "late": 3 },
+    "archetypes": ["scaling", "poke", "skirmish"],
+    "strongVs": [
+      { "id": "medusa", "s": 2, "note": "EMP burns Mana Shield" },
+      { "id": "storm_spirit", "s": 1 },
+      { "id": "sniper", "s": 1 },
+      { "id": "witch_doctor", "s": 1 },
+      { "id": "leshrac", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "nyx_assassin", "s": 2, "note": "Mind Flare scales with Invoker's large mana pool" },
+      { "id": "antimage", "s": 2 },
+      { "id": "doom_bringer", "s": 2 },
+      { "id": "silencer", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "faceless_void", "s": 2 },
+      { "id": "magnataur", "s": 2 },
+      { "id": "enigma", "s": 1 }
+    ],
+    "meta": { "pos2": "A", "pos4": "C" },
+    "difficulty": 3,
+    "notes": "Level-scaling spellcaster with global Sun Strike, Tornado-Meteor-Blast teamfight burst and EMP vs mana heroes. Needs levels and space; mana burn, Doom and gap-closers punish him."
+  },
+  {
+    "id": "silencer",
+    "roles": ["pos5", "pos4"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 2, "peel": 2, "poke": 1, "burst": 0, "dps": 1, "frontline": 0, "cc": 2, "mobility": 0, "waveclear": 0, "splitpush": 0, "pick": 1, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 2, "late": 2 },
+    "archetypes": ["protect", "skirmish"],
+    "strongVs": [
+      { "id": "storm_spirit", "s": 2, "note": "Global Silence/Last Word stop Ball Lightning" },
+      { "id": "puck", "s": 2 },
+      { "id": "queenofpain", "s": 2 },
+      { "id": "enigma", "s": 2, "note": "Global Silence prevents the Black Hole engage" },
+      { "id": "tinker", "s": 2 },
+      { "id": "leshrac", "s": 2 },
+      { "id": "invoker", "s": 1 },
+      { "id": "batrider", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "juggernaut", "s": 1 },
+      { "id": "life_stealer", "s": 1 },
+      { "id": "troll_warlord", "s": 1 },
+      { "id": "phantom_assassin", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "spectre", "s": 1 },
+      { "id": "faceless_void", "s": 1 },
+      { "id": "sven", "s": 1 }
+    ],
+    "meta": { "pos5": "B", "pos4": "C" },
+    "difficulty": 1,
+    "notes": "Global Silence and Last Word shut down spell-reliant heroes and blink/BKB-less initiators; steals Int over the game. Little impact vs right-click lineups that ignore silence."
+  },
+  {
+    "id": "obsidian_destroyer",
+    "roles": ["pos2"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 1, "peel": 2, "poke": 0, "burst": 2, "dps": 2, "frontline": 0, "cc": 1, "mobility": 0, "waveclear": 0, "splitpush": 0, "pick": 1, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["skirmish", "scaling"],
+    "strongVs": [
+      { "id": "pudge", "s": 2 },
+      { "id": "dragon_knight", "s": 1, "lane": true },
+      { "id": "huskar", "s": 1, "lane": true, "note": "Arcane Orb pure damage ignores Berserker's Blood magic resistance" }
+    ],
+    "weakVs": [
+      { "id": "antimage", "s": 2, "note": "Mana Break/Void punish a mana-scaling hero" },
+      { "id": "nyx_assassin", "s": 2 },
+      { "id": "silencer", "s": 2 },
+      { "id": "doom_bringer", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "faceless_void", "s": 1 },
+      { "id": "magnataur", "s": 1 }
+    ],
+    "meta": { "pos2": "A" },
+    "difficulty": 2,
+    "notes": "Mana-scaling mid: Arcane Orb pure damage melts high-HP heroes, Objurgation barrier and Astral Imprisonment save himself or allies, Sanity's Eclipse punishes low-mana teams. Mana burn and silences counter him."
+  },
+  {
+    "id": "lycan",
+    "roles": ["pos3"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 0, "poke": 0, "burst": 1, "dps": 2, "frontline": 1, "cc": 0, "mobility": 2, "waveclear": 1, "splitpush": 2, "pick": 1, "sustain": 1, "siege": 3 },
+    "powerCurve": { "early": 3, "mid": 3, "late": 1 },
+    "archetypes": ["push", "split", "early"],
+    "strongVs": [
+      { "id": "spectre", "s": 1 },
+      { "id": "medusa", "s": 1 },
+      { "id": "antimage", "s": 1 },
+      { "id": "sniper", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "axe", "s": 2, "note": "Counter Helix and Call kill wolves" },
+      { "id": "leshrac", "s": 2 },
+      { "id": "dark_seer", "s": 1 },
+      { "id": "gyrocopter", "s": 1 },
+      { "id": "luna", "s": 1 },
+      { "id": "jakiro", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "chen", "s": 2 },
+      { "id": "vengefulspirit", "s": 1 },
+      { "id": "beastmaster", "s": 1 }
+    ],
+    "meta": { "pos3": "B" },
+    "difficulty": 2,
+    "notes": "Offlane wolf-pack tower pusher and Shapeshift ganker who must convert early pressure into buildings. Falls off if stalled; AoE that kills wolves (Axe, Leshrac) blunts him."
+  },
+  {
+    "id": "brewmaster",
+    "roles": ["pos3"],
+    "damage": "mixed",
+    "range": "melee",
+    "attributes": { "engage": 2, "disengage": 1, "peel": 1, "poke": 0, "burst": 1, "dps": 1, "frontline": 2, "cc": 2, "mobility": 1, "waveclear": 1, "splitpush": 0, "pick": 1, "sustain": 0, "siege": 1 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["engage", "skirmish"],
+    "strongVs": [
+      { "id": "ursa", "s": 1 },
+      { "id": "phantom_assassin", "s": 1 },
+      { "id": "sniper", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "doom_bringer", "s": 2, "note": "Doom before Primal Split stops the ultimate" },
+      { "id": "silencer", "s": 1 },
+      { "id": "antimage", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "magnataur", "s": 1 },
+      { "id": "vengefulspirit", "s": 1 }
+    ],
+    "meta": { "pos3": "B" },
+    "difficulty": 3,
+    "notes": "Primal Split initiator: Earth tank, Storm Cyclone/Dispel and Fire damage let him dictate fights; stances work while silenced. Very micro-intensive; Doom and silence before Split shut him down."
+  },
+  {
+    "id": "shadow_demon",
+    "roles": ["pos4", "pos5"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 2, "peel": 2, "poke": 1, "burst": 1, "dps": 0, "frontline": 0, "cc": 2, "mobility": 0, "waveclear": 1, "splitpush": 0, "pick": 1, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 2, "late": 2 },
+    "archetypes": ["protect", "pick"],
+    "strongVs": [
+      { "id": "legion_commander", "s": 1 },
+      { "id": "pudge", "s": 1 },
+      { "id": "abaddon", "s": 1, "note": "Demonic Purge dispels Aphotic Shield" }
+    ],
+    "weakVs": [
+      { "id": "phantom_assassin", "s": 1 },
+      { "id": "riki", "s": 1 },
+      { "id": "storm_spirit", "s": 1 },
+      { "id": "juggernaut", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "leshrac", "s": 2, "note": "Disruption guarantees Split Earth" },
+      { "id": "invoker", "s": 2 },
+      { "id": "lina", "s": 1 },
+      { "id": "kunkka", "s": 1 }
+    ],
+    "meta": { "pos4": "B", "pos5": "C" },
+    "difficulty": 3,
+    "notes": "Disruption saves allies and sets up skillshots, Demonic Purge dispels enemy buffs and slows. Combos with point-target nukers (Split Earth, Sun Strike, Light Strike); fragile vs divers."
+  },
+  {
+    "id": "lone_druid",
+    "roles": ["pos1", "pos2"],
+    "damage": "physical",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 1, "peel": 1, "poke": 0, "burst": 1, "dps": 2, "frontline": 1, "cc": 2, "mobility": 1, "waveclear": 1, "splitpush": 2, "pick": 1, "sustain": 1, "siege": 2 },
+    "powerCurve": { "early": 3, "mid": 3, "late": 2 },
+    "archetypes": ["push", "early", "split"],
+    "strongVs": [
+      { "id": "antimage", "s": 1 },
+      { "id": "spectre", "s": 1 },
+      { "id": "medusa", "s": 1 },
+      { "id": "sniper", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "doom_bringer", "s": 2, "note": "Doom on druid or bear ends his fight" },
+      { "id": "axe", "s": 2 },
+      { "id": "winter_wyvern", "s": 1 },
+      { "id": "viper", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "vengefulspirit", "s": 1 },
+      { "id": "chen", "s": 1 },
+      { "id": "ogre_magi", "s": 1 }
+    ],
+    "meta": { "pos1": "S", "pos2": "C" },
+    "difficulty": 3,
+    "notes": "Innate Spirit Bear + Entangle root lane dominance that snowballs into tower pressure and split-pushing; top-tier pro pick/ban. Micro-heavy; Doom/Axe/Winter's Curse on the bear or druid ruin fights."
+  },
+  {
+    "id": "chaos_knight",
+    "roles": ["pos1", "pos3"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 0, "poke": 0, "burst": 2, "dps": 2, "frontline": 1, "cc": 1, "mobility": 1, "waveclear": 0, "splitpush": 1, "pick": 2, "sustain": 0, "siege": 1 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["dive", "skirmish", "pick"],
+    "strongVs": [
+      { "id": "sniper", "s": 1 },
+      { "id": "drow_ranger", "s": 1 },
+      { "id": "doom_bringer", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "axe", "s": 2, "note": "Counter Helix and Call punish Phantasm illusions" },
+      { "id": "earthshaker", "s": 2, "note": "Echo Slam scales with illusions" },
+      { "id": "leshrac", "s": 1 },
+      { "id": "luna", "s": 1 },
+      { "id": "gyrocopter", "s": 1 },
+      { "id": "dragon_knight", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "ogre_magi", "s": 1 },
+      { "id": "vengefulspirit", "s": 1 }
+    ],
+    "meta": { "pos1": "B", "pos3": "C" },
+    "difficulty": 1,
+    "notes": "Reality Rift + Chaos Bolt + crit illusions burst a single target in seconds. Strong mid-game diver; AoE illusion killers (Axe, Earthshaker, Leshrac) punish Phantasm."
+  },
+  {
+    "id": "meepo",
+    "roles": ["pos2", "pos1"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 0, "poke": 0, "burst": 2, "dps": 1, "frontline": 0, "cc": 1, "mobility": 2, "waveclear": 1, "splitpush": 2, "pick": 2, "sustain": 1, "siege": 1 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["pick", "skirmish", "split"],
+    "strongVs": [
+      { "id": "sniper", "s": 1 },
+      { "id": "drow_ranger", "s": 1 },
+      { "id": "crystal_maiden", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "earthshaker", "s": 3, "note": "Echo Slam + Aftershock hit all clones; one dies, all die" },
+      { "id": "leshrac", "s": 2, "lane": true },
+      { "id": "templar_assassin", "s": 2 },
+      { "id": "luna", "s": 2 },
+      { "id": "ember_spirit", "s": 2, "lane": true },
+      { "id": "gyrocopter", "s": 2 },
+      { "id": "dark_seer", "s": 2 },
+      { "id": "jakiro", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "wisp", "s": 1 },
+      { "id": "ogre_magi", "s": 1 }
+    ],
+    "meta": { "pos2": "B", "pos1": "C" },
+    "difficulty": 3,
+    "notes": "Multi-body ganker: Earthbind + Poof burst, farms and split-pushes everywhere, now copying items across clones. One clone dies, all die, so AoE (Earthshaker, Leshrac, TA, Ember) hard-counters him."
+  },
+  {
+    "id": "treant",
+    "roles": ["pos5", "pos4"],
+    "damage": "magic",
+    "range": "melee",
+    "attributes": { "engage": 2, "disengage": 1, "peel": 1, "poke": 0, "burst": 0, "dps": 0, "frontline": 1, "cc": 2, "mobility": 1, "waveclear": 0, "splitpush": 0, "pick": 1, "sustain": 2, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["engage", "protect"],
+    "strongVs": [
+      { "id": "antimage", "s": 2, "note": "Overgrowth root disables Blink" },
+      { "id": "storm_spirit", "s": 1 },
+      { "id": "queenofpain", "s": 1 },
+      { "id": "ember_spirit", "s": 1 },
+      { "id": "faceless_void", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "shredder", "s": 2, "note": "Timbersaw destroys trees and deals pure damage" },
+      { "id": "ancient_apparition", "s": 1 },
+      { "id": "life_stealer", "s": 1 },
+      { "id": "juggernaut", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "sven", "s": 1 },
+      { "id": "jakiro", "s": 1 },
+      { "id": "lina", "s": 1 }
+    ],
+    "meta": { "pos5": "B", "pos4": "B" },
+    "difficulty": 2,
+    "notes": "Overgrowth AoE root stops blinks and escapes; Living Armor and Leech Seed sustain the team, Nature's Guise lets him roam invisibly. Top contested pos5 of 7.41d-e before the 7.41f nerfs; Timbersaw and debuff-immune carries blunt him."
+  },
+  {
+    "id": "ogre_magi",
+    "roles": ["pos5", "pos4", "pos3"],
+    "damage": "magic",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 1, "poke": 1, "burst": 1, "dps": 1, "frontline": 2, "cc": 2, "mobility": 0, "waveclear": 1, "splitpush": 0, "pick": 1, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 3, "mid": 2, "late": 1 },
+    "archetypes": ["early", "skirmish"],
+    "strongVs": [
+      { "id": "drow_ranger", "s": 1, "lane": true },
+      { "id": "crystal_maiden", "s": 1, "lane": true },
+      { "id": "sniper", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "silencer", "s": 1 },
+      { "id": "doom_bringer", "s": 1 },
+      { "id": "shredder", "s": 1 },
+      { "id": "necrolyte", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "troll_warlord", "s": 2 },
+      { "id": "ursa", "s": 2, "note": "Bloodlust stacks Fury Swipes faster" },
+      { "id": "lone_druid", "s": 1 },
+      { "id": "chaos_knight", "s": 1 }
+    ],
+    "meta": { "pos5": "B", "pos4": "C", "pos3": "C" },
+    "difficulty": 1,
+    "notes": "Unkillable lane support with Multicast Fireblast stuns and Bloodlust for attack-speed cores. Strong early; low late impact and weak to pure damage and silence."
+  },
+  {
+    "id": "undying",
+    "roles": ["pos5", "pos3", "pos4"],
+    "damage": "magic",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 1, "peel": 1, "poke": 1, "burst": 1, "dps": 0, "frontline": 2, "cc": 1, "mobility": 0, "waveclear": 1, "splitpush": 0, "pick": 0, "sustain": 2, "siege": 0 },
+    "powerCurve": { "early": 3, "mid": 2, "late": 1 },
+    "archetypes": ["early", "skirmish"],
+    "strongVs": [
+      { "id": "pudge", "s": 1 },
+      { "id": "centaur", "s": 1, "lane": true },
+      { "id": "dragon_knight", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "ancient_apparition", "s": 1 },
+      { "id": "life_stealer", "s": 1 },
+      { "id": "necrolyte", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "mars", "s": 2 },
+      { "id": "faceless_void", "s": 1 },
+      { "id": "disruptor", "s": 1 }
+    ],
+    "meta": { "pos5": "A", "pos3": "B", "pos4": "C" },
+    "difficulty": 1,
+    "notes": "Decay Strength-steal lane bully, Tombstone zone control and Flesh Golem frontline for early fights; a heavily contested pos5 that also flexes to offlane. Tombstone combos with trapping ults (Arena, Kinetic Field); falls off late."
+  },
+  {
+    "id": "rubick",
+    "roles": ["pos4", "pos5", "pos2"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 1, "disengage": 1, "peel": 2, "poke": 1, "burst": 1, "dps": 0, "frontline": 0, "cc": 2, "mobility": 0, "waveclear": 1, "splitpush": 0, "pick": 1, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 2, "late": 2 },
+    "archetypes": ["skirmish", "protect", "pick"],
+    "strongVs": [
+      { "id": "enigma", "s": 2, "note": "Steals Black Hole" },
+      { "id": "magnataur", "s": 2, "note": "Steals Reverse Polarity" },
+      { "id": "tidehunter", "s": 2 },
+      { "id": "earthshaker", "s": 2 },
+      { "id": "batrider", "s": 2, "note": "Steals Flaming Lasso" },
+      { "id": "doom_bringer", "s": 2 },
+      { "id": "faceless_void", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "phantom_assassin", "s": 1 },
+      { "id": "riki", "s": 1 },
+      { "id": "storm_spirit", "s": 1 },
+      { "id": "nyx_assassin", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "leshrac", "s": 1, "note": "Telekinesis landing spot guarantees Split Earth" },
+      { "id": "lina", "s": 1 }
+    ],
+    "meta": { "pos4": "A", "pos5": "B", "pos2": "C" },
+    "difficulty": 3,
+    "notes": "Flexible pos4: Telekinesis peel/setup and Spell Steal turns enemy teamfight ultimates (Black Hole, RP, Ravage, Echo Slam, Lasso) against them. Squishy; divers and invisible gankers punish him."
+  },
+  {
+    "id": "disruptor",
+    "roles": ["pos5", "pos4"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 1, "disengage": 2, "peel": 1, "poke": 1, "burst": 1, "dps": 0, "frontline": 0, "cc": 2, "mobility": 0, "waveclear": 0, "splitpush": 0, "pick": 2, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["pick", "engage"],
+    "strongVs": [
+      { "id": "antimage", "s": 2, "note": "Glimpse returns blinked heroes; Static Storm silences" },
+      { "id": "storm_spirit", "s": 2, "note": "Glimpse undoes Ball Lightning; Static Storm silences" },
+      { "id": "queenofpain", "s": 2 },
+      { "id": "ember_spirit", "s": 2 },
+      { "id": "puck", "s": 2 },
+      { "id": "void_spirit", "s": 2 },
+      { "id": "weaver", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "phantom_assassin", "s": 1 },
+      { "id": "riki", "s": 1 },
+      { "id": "life_stealer", "s": 1 },
+      { "id": "juggernaut", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "jakiro", "s": 2 },
+      { "id": "undying", "s": 1 },
+      { "id": "faceless_void", "s": 1 }
+    ],
+    "meta": { "pos5": "B", "pos4": "C" },
+    "difficulty": 2,
+    "notes": "Glimpse and Kinetic Field trap mobile/blink heroes; Static Storm silences whole teams. Excellent vs escape-reliant cores; fragile vs divers and debuff-immune carries."
+  }
+]

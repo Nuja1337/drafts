@@ -1,0 +1,33 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "drafts",
+  "main": "src/worker/index.ts",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "drafts-db",
+      "database_id": "58878230-b250-4d69-8513-4b1f5ef83b95",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "kv_namespaces": [
+    { "binding": "CACHE", "id": "5acf5943c9f24b30a728fdaa7e9fa2cb" }
+  ],
+  "durable_objects": {
+    "bindings": [{ "name": "ROOMS", "class_name": "DraftRoom" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["DraftRoom"] }],
+  "ai": { "binding": "AI" },
+  "ratelimits": [
+    { "name": "WRITE_LIMITER", "namespace_id": "4101", "simple": { "limit": 40, "period": 60 } },
+    { "name": "AI_LIMITER", "namespace_id": "4102", "simple": { "limit": 6, "period": 60 } }
+  ],
+  "triggers": { "crons": ["*/20 * * * *"] },
+  "observability": { "enabled": true }
+}

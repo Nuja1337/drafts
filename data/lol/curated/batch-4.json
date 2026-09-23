@@ -1,0 +1,1295 @@
+[
+  {
+    "id": "Rakan",
+    "roles": ["support"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 3, "disengage": 1, "peel": 2, "poke": 0, "burst": 1, "dps": 0, "frontline": 0, "cc": 2, "mobility": 2, "waveclear": 0, "splitpush": 0, "pick": 1, "sustain": 1, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["engage", "dive", "protect"],
+    "strongVs": [
+      { "id": "Blitzcrank", "s": 2, "lane": true },
+      { "id": "Zoe", "s": 1, "lane": true },
+      { "id": "Xerath", "s": 1, "lane": true },
+      { "id": "Shaco", "s": 1, "lane": true },
+      { "id": "Pyke", "s": 1, "lane": true },
+      { "id": "Taric", "s": 1, "lane": true },
+      { "id": "TahmKench", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Neeko", "s": 2, "lane": true },
+      { "id": "Senna", "s": 1, "lane": true },
+      { "id": "Janna", "s": 1, "lane": true },
+      { "id": "Zilean", "s": 1, "lane": true },
+      { "id": "Sona", "s": 1, "lane": true },
+      { "id": "Poppy", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Xayah", "s": 3 },
+      { "id": "Yasuo", "s": 2 },
+      { "id": "Samira", "s": 2 },
+      { "id": "Orianna", "s": 1 },
+      { "id": "Kaisa", "s": 1 }
+    ],
+    "meta": { "support": "B" },
+    "difficulty": 2,
+    "notes": "Mobile engage/peel support: Grand Entrance knockup and The Quickness charm start fights, Battle Dance dashes to shield allies. Best with Xayah and AoE follow-up (Yasuo, Orianna); struggles into Neeko, long-range Senna and dash-stoppers/disengage (Poppy, Janna)."
+  },
+  {
+    "id": "Rammus",
+    "roles": ["jungle"],
+    "damage": "magic",
+    "range": "melee",
+    "attributes": { "engage": 2, "disengage": 0, "peel": 1, "poke": 0, "burst": 1, "dps": 1, "frontline": 2, "cc": 2, "mobility": 2, "waveclear": 1, "splitpush": 0, "pick": 1, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 1 },
+    "archetypes": ["engage", "dive", "pick"],
+    "strongVs": [
+      { "id": "Rengar", "s": 3, "lane": true },
+      { "id": "Nidalee", "s": 2, "lane": true },
+      { "id": "Gwen", "s": 2, "lane": true },
+      { "id": "MasterYi", "s": 2, "lane": true },
+      { "id": "Khazix", "s": 1, "lane": true },
+      { "id": "Viego", "s": 1, "lane": true },
+      { "id": "Tryndamere", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "Lillia", "s": 2, "lane": true },
+      { "id": "RekSai", "s": 2, "lane": true },
+      { "id": "Trundle", "s": 2, "lane": true },
+      { "id": "Ivern", "s": 1, "lane": true },
+      { "id": "JarvanIV", "s": 1, "lane": true },
+      { "id": "Skarner", "s": 1, "lane": true },
+      { "id": "Chogath", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Orianna", "s": 1 },
+      { "id": "Yasuo", "s": 1 },
+      { "id": "MissFortune", "s": 1 }
+    ],
+    "meta": { "jungle": "A" },
+    "difficulty": 1,
+    "notes": "Powerball gank-and-taunt tank jungler; Defensive Ball Curl punishes auto-attack divers (Rengar, Yi, Tryndamere). Weaker into kiting/early-duel junglers (Lillia, Rek'Sai, Trundle); wants magic-damage allies and follow-up for his engage."
+  },
+  {
+    "id": "RekSai",
+    "roles": ["jungle"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 2, "disengage": 0, "peel": 0, "poke": 0, "burst": 2, "dps": 1, "frontline": 1, "cc": 1, "mobility": 2, "waveclear": 1, "splitpush": 0, "pick": 2, "sustain": 1, "siege": 0 },
+    "powerCurve": { "early": 3, "mid": 2, "late": 1 },
+    "archetypes": ["early", "dive", "pick", "skirmish"],
+    "strongVs": [
+      { "id": "Rammus", "s": 2, "lane": true },
+      { "id": "Kayn", "s": 2, "lane": true },
+      { "id": "Briar", "s": 2, "lane": true },
+      { "id": "Lillia", "s": 1, "lane": true },
+      { "id": "Diana", "s": 1, "lane": true },
+      { "id": "Talon", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Sejuani", "s": 2, "lane": true },
+      { "id": "Trundle", "s": 1, "lane": true },
+      { "id": "Nunu", "s": 1, "lane": true },
+      { "id": "Amumu", "s": 1, "lane": true },
+      { "id": "Zyra", "s": 1, "lane": true },
+      { "id": "Belveth", "s": 1, "lane": true },
+      { "id": "Skarner", "s": 1, "lane": true },
+      { "id": "Taliyah", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Yasuo", "s": 1 },
+      { "id": "Yone", "s": 1 }
+    ],
+    "meta": { "jungle": "B" },
+    "difficulty": 2,
+    "notes": "Early tunnel ganker with Unburrow knockup and a long-range Void Rush execute; wants to snowball side lanes before tanks outscale. Beats Rammus, Kayn and Briar early but struggles into Sejuani and hard-CC tank junglers."
+  },
+  {
+    "id": "Rell",
+    "roles": ["support"],
+    "damage": "magic",
+    "range": "melee",
+    "attributes": { "engage": 3, "disengage": 1, "peel": 1, "poke": 0, "burst": 0, "dps": 0, "frontline": 2, "cc": 3, "mobility": 1, "waveclear": 0, "splitpush": 0, "pick": 1, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["engage", "dive"],
+    "strongVs": [
+      { "id": "Nautilus", "s": 2, "lane": true },
+      { "id": "Galio", "s": 1, "lane": true },
+      { "id": "Zyra", "s": 1, "lane": true },
+      { "id": "Elise", "s": 1, "lane": true },
+      { "id": "Pantheon", "s": 1, "lane": true },
+      { "id": "Shaco", "s": 1, "lane": true },
+      { "id": "Camille", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Swain", "s": 2, "lane": true },
+      { "id": "Neeko", "s": 2, "lane": true },
+      { "id": "Janna", "s": 1, "lane": true },
+      { "id": "Senna", "s": 1, "lane": true },
+      { "id": "Poppy", "s": 1, "lane": true },
+      { "id": "Milio", "s": 1, "lane": true },
+      { "id": "Lulu", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Samira", "s": 2 },
+      { "id": "MissFortune", "s": 2 },
+      { "id": "Orianna", "s": 2 },
+      { "id": "Nilah", "s": 1 },
+      { "id": "Yasuo", "s": 1 }
+    ],
+    "meta": { "support": "A" },
+    "difficulty": 2,
+    "notes": "Hard-engage tank support: Crash Down knockup, Full Tilt stun and Magnet Storm pull make her a premier teamfight initiator. Pairs with AoE follow-up (Miss Fortune, Orianna, Samira); weak into drain/disengage supports (Swain, Janna, Neeko) and Poppy W."
+  },
+  {
+    "id": "Renata",
+    "roles": ["support"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 1, "disengage": 2, "peel": 2, "poke": 1, "burst": 0, "dps": 0, "frontline": 0, "cc": 2, "mobility": 0, "waveclear": 1, "splitpush": 0, "pick": 1, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 2, "late": 2 },
+    "archetypes": ["protect", "skirmish"],
+    "strongVs": [
+      { "id": "Pyke", "s": 2, "lane": true },
+      { "id": "Zyra", "s": 1, "lane": true },
+      { "id": "Nautilus", "s": 1, "lane": true },
+      { "id": "TahmKench", "s": 1, "lane": true },
+      { "id": "Morgana", "s": 1, "lane": true },
+      { "id": "Taric", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Velkoz", "s": 2, "lane": true },
+      { "id": "Xerath", "s": 1, "lane": true },
+      { "id": "Lulu", "s": 1, "lane": true },
+      { "id": "Poppy", "s": 1, "lane": true },
+      { "id": "Milio", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Jinx", "s": 1 },
+      { "id": "Samira", "s": 1 },
+      { "id": "Draven", "s": 1 },
+      { "id": "MissFortune", "s": 1 }
+    ],
+    "meta": { "support": "B" },
+    "difficulty": 2,
+    "notes": "Utility enchanter: Bailout revives aggressive carries and Hostile Takeover turns enemy dive/clumped teamfights on itself. Good vs Pyke and all-in lanes; bullied by long-range mage supports (Vel'Koz, Xerath) and Lulu."
+  },
+  {
+    "id": "Renekton",
+    "roles": ["top"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 0, "poke": 0, "burst": 2, "dps": 1, "frontline": 1, "cc": 1, "mobility": 2, "waveclear": 2, "splitpush": 1, "pick": 1, "sustain": 1, "siege": 0 },
+    "powerCurve": { "early": 3, "mid": 2, "late": 1 },
+    "archetypes": ["early", "dive", "skirmish"],
+    "strongVs": [
+      { "id": "Yasuo", "s": 2, "lane": true },
+      { "id": "Riven", "s": 2, "lane": true },
+      { "id": "Yorick", "s": 2, "lane": true },
+      { "id": "Akali", "s": 1, "lane": true },
+      { "id": "KSante", "s": 1, "lane": true },
+      { "id": "Ambessa", "s": 1, "lane": true },
+      { "id": "Kayle", "s": 1, "lane": true },
+      { "id": "Nasus", "s": 2, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "DrMundo", "s": 3, "lane": true },
+      { "id": "Illaoi", "s": 2, "lane": true },
+      { "id": "Vayne", "s": 2, "lane": true },
+      { "id": "Teemo", "s": 2, "lane": true },
+      { "id": "Gangplank", "s": 2, "lane": true },
+      { "id": "Ornn", "s": 1, "lane": true },
+      { "id": "Gnar", "s": 1, "lane": true },
+      { "id": "Chogath", "s": 1, "lane": true },
+      { "id": "Sion", "s": 1, "lane": true },
+      { "id": "Rumble", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Elise", "s": 2 },
+      { "id": "Nidalee", "s": 1 },
+      { "id": "LeeSin", "s": 1 },
+      { "id": "JarvanIV", "s": 1 }
+    ],
+    "meta": { "top": "B" },
+    "difficulty": 2,
+    "notes": "Lane-bully bruiser with double dash and empowered W stun; wants to win lane and convert into early dives with his jungler. Falls off late and struggles into sustain/scaling tops (Dr. Mundo, Illaoi, Gangplank), Vayne and Teemo."
+  },
+  {
+    "id": "Rengar",
+    "roles": ["jungle"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 0, "poke": 0, "burst": 3, "dps": 1, "frontline": 0, "cc": 1, "mobility": 2, "waveclear": 1, "splitpush": 1, "pick": 2, "sustain": 1, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["pick", "skirmish", "dive"],
+    "strongVs": [
+      { "id": "Lillia", "s": 2, "lane": true },
+      { "id": "Talon", "s": 2, "lane": true },
+      { "id": "Qiyana", "s": 2, "lane": true },
+      { "id": "Khazix", "s": 1, "lane": true },
+      { "id": "Nidalee", "s": 1, "lane": true },
+      { "id": "Evelynn", "s": 1, "lane": true },
+      { "id": "Vi", "s": 1, "lane": true },
+      { "id": "Taliyah", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Rammus", "s": 3, "lane": true },
+      { "id": "Sejuani", "s": 2, "lane": true },
+      { "id": "Naafiri", "s": 2, "lane": true },
+      { "id": "Poppy", "s": 2 },
+      { "id": "Warwick", "s": 1, "lane": true },
+      { "id": "Hecarim", "s": 1, "lane": true },
+      { "id": "MasterYi", "s": 1, "lane": true },
+      { "id": "Gwen", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Lulu", "s": 1 },
+      { "id": "Karma", "s": 1 }
+    ],
+    "meta": { "jungle": "D" },
+    "difficulty": 3,
+    "notes": "Bush-leaping one-shot assassin that snowballs picks on squishy carries and squishy junglers. Hard-countered by tanky taunt/CC junglers (Rammus, Sejuani) and Poppy W; needs an early lead to matter."
+  },
+  {
+    "id": "Riven",
+    "roles": ["top"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 0, "poke": 0, "burst": 2, "dps": 1, "frontline": 0, "cc": 1, "mobility": 2, "waveclear": 1, "splitpush": 2, "pick": 0, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["skirmish", "split", "dive"],
+    "strongVs": [
+      { "id": "Yasuo", "s": 2, "lane": true },
+      { "id": "Sett", "s": 2, "lane": true },
+      { "id": "Sion", "s": 2, "lane": true },
+      { "id": "Akali", "s": 2, "lane": true },
+      { "id": "Gwen", "s": 2, "lane": true },
+      { "id": "Vladimir", "s": 1, "lane": true },
+      { "id": "Yorick", "s": 1, "lane": true },
+      { "id": "Shen", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Kennen", "s": 3, "lane": true },
+      { "id": "Illaoi", "s": 2, "lane": true },
+      { "id": "Singed", "s": 2, "lane": true },
+      { "id": "Vayne", "s": 2, "lane": true },
+      { "id": "Zaahen", "s": 2, "lane": true },
+      { "id": "Renekton", "s": 2, "lane": true },
+      { "id": "Garen", "s": 1, "lane": true },
+      { "id": "Malphite", "s": 1, "lane": true },
+      { "id": "Gragas", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "JarvanIV", "s": 1 },
+      { "id": "Lulu", "s": 1 },
+      { "id": "Yasuo", "s": 1 }
+    ],
+    "meta": { "top": "C" },
+    "difficulty": 3,
+    "notes": "High-skill mobile skirmisher with animation-cancel burst and strong split-push; beats immobile bruisers/tanks (Sett, Sion, Yasuo, Gwen). Countered by ranged/stun tops (Kennen, Vayne) and sustain juggernauts (Illaoi, Singed)."
+  },
+  {
+    "id": "Rumble",
+    "roles": ["top", "jungle", "mid"],
+    "damage": "magic",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 1, "peel": 0, "poke": 1, "burst": 2, "dps": 2, "frontline": 1, "cc": 1, "mobility": 1, "waveclear": 2, "splitpush": 0, "pick": 0, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["skirmish", "engage"],
+    "strongVs": [
+      { "id": "Fiora", "s": 2, "lane": true },
+      { "id": "Vayne", "s": 2, "lane": true },
+      { "id": "Jax", "s": 1, "lane": true },
+      { "id": "Renekton", "s": 1, "lane": true },
+      { "id": "Yasuo", "s": 1, "lane": true },
+      { "id": "Illaoi", "s": 1, "lane": true },
+      { "id": "Vladimir", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Kayle", "s": 2, "lane": true },
+      { "id": "Gragas", "s": 2, "lane": true },
+      { "id": "TahmKench", "s": 2, "lane": true },
+      { "id": "Yone", "s": 1, "lane": true },
+      { "id": "Garen", "s": 1, "lane": true },
+      { "id": "Irelia", "s": 1, "lane": true },
+      { "id": "Urgot", "s": 1, "lane": true },
+      { "id": "Heimerdinger", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "JarvanIV", "s": 2 },
+      { "id": "Amumu", "s": 1 },
+      { "id": "Sejuani", "s": 1 },
+      { "id": "Orianna", "s": 1 },
+      { "id": "Leona", "s": 1 }
+    ],
+    "meta": { "top": "B", "jungle": "C", "mid": "C" },
+    "difficulty": 2,
+    "notes": "Mech-mage teamfighter: Flamespitter wins trades vs melee and The Equalizer zones whole fights; a high-priority pro flex (top/jungle/mid) that wants CC to lock enemies in the ult. Struggles into Kayle, Gragas and Tahm Kench, and is a weak solo-queue blind."
+  },
+  {
+    "id": "Ryze",
+    "roles": ["mid", "top"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 1, "disengage": 1, "peel": 1, "poke": 1, "burst": 1, "dps": 2, "frontline": 0, "cc": 1, "mobility": 1, "waveclear": 2, "splitpush": 1, "pick": 1, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 1, "mid": 2, "late": 3 },
+    "archetypes": ["scaling", "skirmish"],
+    "strongVs": [
+      { "id": "Nasus", "s": 2, "lane": true },
+      { "id": "Teemo", "s": 2, "lane": true },
+      { "id": "Sett", "s": 1, "lane": true },
+      { "id": "Akali", "s": 1, "lane": true },
+      { "id": "Vex", "s": 1, "lane": true },
+      { "id": "Sylas", "s": 1, "lane": true },
+      { "id": "Kassadin", "s": 1, "lane": true },
+      { "id": "Akshan", "s": 1, "lane": true },
+      { "id": "Riven", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Irelia", "s": 2, "lane": true },
+      { "id": "Zoe", "s": 2, "lane": true },
+      { "id": "Qiyana", "s": 2, "lane": true },
+      { "id": "Zed", "s": 1, "lane": true },
+      { "id": "Yone", "s": 1, "lane": true },
+      { "id": "Hwei", "s": 1, "lane": true },
+      { "id": "Ahri", "s": 1, "lane": true },
+      { "id": "Malzahar", "s": 1, "lane": true },
+      { "id": "Taliyah", "s": 1, "lane": true },
+      { "id": "TahmKench", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "JarvanIV", "s": 1 },
+      { "id": "Nocturne", "s": 1 },
+      { "id": "Sejuani", "s": 1 }
+    ],
+    "meta": { "mid": "C", "top": "C" },
+    "difficulty": 3,
+    "notes": "Scaling battlemage with high sustained single-target DPS and Realm Warp for team flanks/escapes; a pro staple but a weak solo-queue lane. Needs time and items; bullied by mobile mids (Irelia, Qiyana, Zoe)."
+  },
+  {
+    "id": "Samira",
+    "roles": ["bot"],
+    "damage": "physical",
+    "range": "ranged",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 0, "poke": 0, "burst": 2, "dps": 2, "frontline": 0, "cc": 1, "mobility": 2, "waveclear": 1, "splitpush": 0, "pick": 0, "sustain": 1, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["dive", "skirmish"],
+    "strongVs": [
+      { "id": "Twitch", "s": 2, "lane": true },
+      { "id": "Yasuo", "s": 1, "lane": true },
+      { "id": "Kaisa", "s": 1, "lane": true },
+      { "id": "Draven", "s": 1, "lane": true },
+      { "id": "Jhin", "s": 1, "lane": true },
+      { "id": "Caitlyn", "s": 1, "lane": true },
+      { "id": "Ashe", "s": 1, "lane": true },
+      { "id": "Ziggs", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Swain", "s": 2, "lane": true },
+      { "id": "Veigar", "s": 2, "lane": true },
+      { "id": "Vladimir", "s": 2, "lane": true },
+      { "id": "Velkoz", "s": 1, "lane": true },
+      { "id": "Viktor", "s": 1, "lane": true },
+      { "id": "Xerath", "s": 1, "lane": true },
+      { "id": "Syndra", "s": 1, "lane": true },
+      { "id": "Janna", "s": 1, "lane": true },
+      { "id": "Poppy", "s": 1 }
+    ],
+    "synergies": [
+      { "id": "Nautilus", "s": 3 },
+      { "id": "Leona", "s": 2 },
+      { "id": "Rell", "s": 2 },
+      { "id": "Rakan", "s": 2 },
+      { "id": "Alistar", "s": 2 },
+      { "id": "Yasuo", "s": 1 }
+    ],
+    "meta": { "bot": "B" },
+    "difficulty": 3,
+    "notes": "All-in hypercarry who builds Style to unleash Inferno Trigger; wants hard-engage supports (Nautilus, Leona, Rell, Rakan) and knockups. Wind Wall eats projectiles, but she is kited by long-range/drain mages (Swain, Veigar) and interrupts (Janna, Poppy)."
+  },
+  {
+    "id": "Sejuani",
+    "roles": ["jungle"],
+    "damage": "magic",
+    "range": "melee",
+    "attributes": { "engage": 3, "disengage": 1, "peel": 1, "poke": 0, "burst": 0, "dps": 0, "frontline": 2, "cc": 3, "mobility": 1, "waveclear": 1, "splitpush": 0, "pick": 1, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 1, "mid": 3, "late": 2 },
+    "archetypes": ["engage", "dive"],
+    "strongVs": [
+      { "id": "Kindred", "s": 2, "lane": true },
+      { "id": "Rengar", "s": 2, "lane": true },
+      { "id": "RekSai", "s": 2, "lane": true },
+      { "id": "Shaco", "s": 2, "lane": true },
+      { "id": "Qiyana", "s": 1, "lane": true },
+      { "id": "Naafiri", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Lillia", "s": 2, "lane": true },
+      { "id": "Trundle", "s": 2, "lane": true },
+      { "id": "Karthus", "s": 1, "lane": true },
+      { "id": "Diana", "s": 1, "lane": true },
+      { "id": "Zac", "s": 1, "lane": true },
+      { "id": "Nunu", "s": 1, "lane": true },
+      { "id": "Shyvana", "s": 1, "lane": true },
+      { "id": "MonkeyKing", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Ashe", "s": 2 },
+      { "id": "Orianna", "s": 2 },
+      { "id": "Rumble", "s": 1 },
+      { "id": "MissFortune", "s": 1 },
+      { "id": "Yone", "s": 1 }
+    ],
+    "meta": { "jungle": "B" },
+    "difficulty": 2,
+    "notes": "Tank engage jungler with Glacial Prison and frost-stun passive; a reliable teamfight initiator and anti-dive frontline that loves melee-heavy allies. Beats snowball assassin junglers (Rengar, Rek'Sai, Kindred, Shaco); weak to kiting magic junglers (Lillia, Diana) and Trundle."
+  },
+  {
+    "id": "Senna",
+    "roles": ["support"],
+    "damage": "physical",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 1, "peel": 1, "poke": 2, "burst": 1, "dps": 2, "frontline": 0, "cc": 1, "mobility": 0, "waveclear": 1, "splitpush": 0, "pick": 1, "sustain": 1, "siege": 1 },
+    "powerCurve": { "early": 1, "mid": 2, "late": 3 },
+    "archetypes": ["poke", "scaling", "protect"],
+    "strongVs": [
+      { "id": "Taric", "s": 2, "lane": true },
+      { "id": "Galio", "s": 2, "lane": true },
+      { "id": "Soraka", "s": 1, "lane": true },
+      { "id": "Rakan", "s": 1, "lane": true },
+      { "id": "Swain", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Nautilus", "s": 2, "lane": true },
+      { "id": "Xerath", "s": 2, "lane": true },
+      { "id": "Elise", "s": 1, "lane": true },
+      { "id": "Zyra", "s": 1, "lane": true },
+      { "id": "Amumu", "s": 1, "lane": true },
+      { "id": "Blitzcrank", "s": 1, "lane": true },
+      { "id": "TahmKench", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Lucian", "s": 1 },
+      { "id": "Jhin", "s": 1 },
+      { "id": "Ashe", "s": 1 },
+      { "id": "Caitlyn", "s": 1 },
+      { "id": "Seraphine", "s": 1 }
+    ],
+    "meta": { "support": "A" },
+    "difficulty": 2,
+    "notes": "Scaling ranged support/carry: collects Mist for infinite range and AD, heals with Piercing Darkness and global-shields with Dawning Shadow. Wants long-range ADCs; vulnerable to point-and-click engage (Nautilus) and outranged by Xerath."
+  },
+  {
+    "id": "Seraphine",
+    "roles": ["support", "bot"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 2, "disengage": 1, "peel": 2, "poke": 2, "burst": 1, "dps": 1, "frontline": 0, "cc": 2, "mobility": 0, "waveclear": 1, "splitpush": 0, "pick": 1, "sustain": 1, "siege": 1 },
+    "powerCurve": { "early": 1, "mid": 2, "late": 3 },
+    "archetypes": ["protect", "poke", "engage"],
+    "strongVs": [
+      { "id": "Lucian", "s": 2, "lane": true },
+      { "id": "Brand", "s": 2, "lane": true },
+      { "id": "Aphelios", "s": 1, "lane": true },
+      { "id": "Yunara", "s": 1, "lane": true },
+      { "id": "Tristana", "s": 1, "lane": true },
+      { "id": "Zyra", "s": 1, "lane": true },
+      { "id": "Shen", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Yasuo", "s": 2, "lane": true },
+      { "id": "Sylas", "s": 1, "lane": true },
+      { "id": "Sivir", "s": 1, "lane": true },
+      { "id": "Kaisa", "s": 1, "lane": true },
+      { "id": "Pyke", "s": 1, "lane": true },
+      { "id": "Milio", "s": 1, "lane": true },
+      { "id": "Fiddlesticks", "s": 1, "lane": true },
+      { "id": "Amumu", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "MissFortune", "s": 2 },
+      { "id": "Senna", "s": 1 },
+      { "id": "Jinx", "s": 1 },
+      { "id": "Ashe", "s": 1 }
+    ],
+    "meta": { "support": "A", "bot": "B" },
+    "difficulty": 2,
+    "notes": "Scaling teamfight mage (support or bot) with long-range Encore charm engage, AoE shield/heal and solid waveclear. Needs frontline to cast behind; punished by dive/hook supports, Sivir's spell shield and Yasuo's Wind Wall."
+  },
+  {
+    "id": "Sett",
+    "roles": ["top"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 2, "disengage": 0, "peel": 1, "poke": 0, "burst": 2, "dps": 1, "frontline": 2, "cc": 1, "mobility": 0, "waveclear": 1, "splitpush": 1, "pick": 1, "sustain": 1, "siege": 0 },
+    "powerCurve": { "early": 3, "mid": 3, "late": 1 },
+    "archetypes": ["skirmish", "engage", "dive"],
+    "strongVs": [
+      { "id": "Yasuo", "s": 2, "lane": true },
+      { "id": "Irelia", "s": 2, "lane": true },
+      { "id": "Yorick", "s": 2, "lane": true },
+      { "id": "Chogath", "s": 1, "lane": true },
+      { "id": "Sion", "s": 1, "lane": true },
+      { "id": "Olaf", "s": 1, "lane": true },
+      { "id": "TahmKench", "s": 1, "lane": true },
+      { "id": "Fiora", "s": 1, "lane": true },
+      { "id": "Nasus", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Vayne", "s": 2, "lane": true },
+      { "id": "Riven", "s": 2, "lane": true },
+      { "id": "Ryze", "s": 1, "lane": true },
+      { "id": "Kennen", "s": 1, "lane": true },
+      { "id": "Ornn", "s": 1, "lane": true },
+      { "id": "Zaahen", "s": 1, "lane": true },
+      { "id": "MonkeyKing", "s": 1, "lane": true },
+      { "id": "Malphite", "s": 1, "lane": true },
+      { "id": "Teemo", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Orianna", "s": 1 },
+      { "id": "MissFortune", "s": 1 },
+      { "id": "JarvanIV", "s": 1 }
+    ],
+    "meta": { "top": "A" },
+    "difficulty": 1,
+    "notes": "Early/mid-game juggernaut with true-damage Haymaker and The Show Stopper suplex engage; bullies melee lanes and starts fights. Kited by ranged tops (Vayne, Ryze) and outplayed by Riven; falls off vs late-game scalers."
+  },
+  {
+    "id": "Shaco",
+    "roles": ["jungle", "support"],
+    "damage": "mixed",
+    "range": "melee",
+    "attributes": { "engage": 0, "disengage": 1, "peel": 1, "poke": 0, "burst": 2, "dps": 1, "frontline": 0, "cc": 1, "mobility": 2, "waveclear": 1, "splitpush": 1, "pick": 2, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 3, "mid": 2, "late": 1 },
+    "archetypes": ["early", "pick"],
+    "strongVs": [
+      { "id": "Ivern", "s": 2, "lane": true },
+      { "id": "MasterYi", "s": 2, "lane": true },
+      { "id": "Elise", "s": 2, "lane": true },
+      { "id": "Kindred", "s": 2, "lane": true },
+      { "id": "Rammus", "s": 1, "lane": true },
+      { "id": "Zyra", "s": 1, "lane": true },
+      { "id": "Khazix", "s": 1, "lane": true },
+      { "id": "LeeSin", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Sejuani", "s": 2, "lane": true },
+      { "id": "Talon", "s": 2, "lane": true },
+      { "id": "Lillia", "s": 1, "lane": true },
+      { "id": "Nunu", "s": 1, "lane": true },
+      { "id": "Zac", "s": 1, "lane": true },
+      { "id": "Graves", "s": 1, "lane": true },
+      { "id": "Aatrox", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Nautilus", "s": 1 },
+      { "id": "Leona", "s": 1 }
+    ],
+    "meta": { "jungle": "B", "support": "D" },
+    "difficulty": 3,
+    "notes": "Invade-heavy trickster (AD jungle, occasionally AP support) with stealth, Jack in the Box fears and a clone; snowballs early and picks off carries. Falls off late; countered by tanky CC junglers (Sejuani) and strong early duelists."
+  },
+  {
+    "id": "Shen",
+    "roles": ["top", "support"],
+    "damage": "mixed",
+    "range": "melee",
+    "attributes": { "engage": 2, "disengage": 1, "peel": 2, "poke": 0, "burst": 0, "dps": 1, "frontline": 2, "cc": 1, "mobility": 1, "waveclear": 1, "splitpush": 2, "pick": 0, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["split", "protect", "dive"],
+    "strongVs": [
+      { "id": "Fiora", "s": 2, "lane": true },
+      { "id": "Yorick", "s": 2, "lane": true },
+      { "id": "TahmKench", "s": 1, "lane": true },
+      { "id": "KSante", "s": 1, "lane": true },
+      { "id": "Sion", "s": 1, "lane": true },
+      { "id": "Malphite", "s": 1, "lane": true },
+      { "id": "Volibear", "s": 1, "lane": true },
+      { "id": "DrMundo", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Quinn", "s": 2, "lane": true },
+      { "id": "Singed", "s": 1, "lane": true },
+      { "id": "Olaf", "s": 1, "lane": true },
+      { "id": "Tryndamere", "s": 1, "lane": true },
+      { "id": "Sett", "s": 1, "lane": true },
+      { "id": "Mordekaiser", "s": 1, "lane": true },
+      { "id": "Riven", "s": 1, "lane": true },
+      { "id": "Heimerdinger", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "TwistedFate", "s": 2 },
+      { "id": "Galio", "s": 1 },
+      { "id": "Kaisa", "s": 1 },
+      { "id": "Nocturne", "s": 1 }
+    ],
+    "meta": { "top": "A", "support": "C" },
+    "difficulty": 2,
+    "notes": "Global-presence tank: Stand United shields and joins fights anywhere while he split-pushes; Shadow Dash taunt engages and Spirit's Refuge blocks autos. Good vs Fiora, Yorick and tanks; struggles into Quinn, Singed and extended-trade bruisers (Olaf, Sett, Tryndamere)."
+  },
+  {
+    "id": "Shyvana",
+    "roles": ["jungle"],
+    "damage": "mixed",
+    "range": "melee",
+    "attributes": { "engage": 2, "disengage": 1, "peel": 0, "poke": 1, "burst": 1, "dps": 2, "frontline": 2, "cc": 1, "mobility": 1, "waveclear": 2, "splitpush": 1, "pick": 0, "sustain": 1, "siege": 0 },
+    "powerCurve": { "early": 1, "mid": 2, "late": 3 },
+    "archetypes": ["scaling", "engage", "skirmish"],
+    "strongVs": [
+      { "id": "Amumu", "s": 2, "lane": true },
+      { "id": "Gragas", "s": 1, "lane": true },
+      { "id": "Diana", "s": 1, "lane": true },
+      { "id": "Karthus", "s": 1, "lane": true },
+      { "id": "Elise", "s": 1, "lane": true },
+      { "id": "Volibear", "s": 1, "lane": true },
+      { "id": "Sejuani", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Sylas", "s": 3, "lane": true },
+      { "id": "Ivern", "s": 2, "lane": true },
+      { "id": "Udyr", "s": 1, "lane": true },
+      { "id": "Nunu", "s": 1, "lane": true },
+      { "id": "Khazix", "s": 1, "lane": true },
+      { "id": "RekSai", "s": 1, "lane": true },
+      { "id": "Nidalee", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Orianna", "s": 1 },
+      { "id": "Lulu", "s": 1 }
+    ],
+    "meta": { "jungle": "A" },
+    "difficulty": 2,
+    "notes": "Reworked in 26.6: bruiser-tank dragon who farms Scalemail defensive stacks, then engages with the fear-leap Dragon's Descent and brawls with empowered abilities. Needs farm and time; hard-countered by Sylas (steals ult) and weak into Ivern and Udyr."
+  },
+  {
+    "id": "Singed",
+    "roles": ["top"],
+    "damage": "magic",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 1, "peel": 1, "poke": 0, "burst": 0, "dps": 1, "frontline": 2, "cc": 1, "mobility": 1, "waveclear": 1, "splitpush": 2, "pick": 0, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 1, "mid": 2, "late": 2 },
+    "archetypes": ["split", "scaling"],
+    "strongVs": [
+      { "id": "Yasuo", "s": 2, "lane": true },
+      { "id": "Mordekaiser", "s": 2, "lane": true },
+      { "id": "Gwen", "s": 2, "lane": true },
+      { "id": "Jax", "s": 2, "lane": true },
+      { "id": "Zaahen", "s": 2, "lane": true },
+      { "id": "Malphite", "s": 2, "lane": true },
+      { "id": "Riven", "s": 2, "lane": true },
+      { "id": "TahmKench", "s": 2, "lane": true },
+      { "id": "Shen", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Gangplank", "s": 2, "lane": true },
+      { "id": "Kayle", "s": 2, "lane": true },
+      { "id": "Kennen", "s": 1, "lane": true },
+      { "id": "Urgot", "s": 1, "lane": true },
+      { "id": "Jayce", "s": 1, "lane": true },
+      { "id": "Darius", "s": 1, "lane": true },
+      { "id": "Olaf", "s": 1, "lane": true },
+      { "id": "Fiora", "s": 1, "lane": true },
+      { "id": "Yone", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Zilean", "s": 1 },
+      { "id": "Karma", "s": 1 }
+    ],
+    "meta": { "top": "B" },
+    "difficulty": 2,
+    "notes": "Proxy-farming split-pusher who drags enemies into chases with Poison Trail and flings targets into his team. Frustrates melee tops (Yasuo, Mordekaiser, Riven, Jax); weak into ranged/burst scalers (Gangplank, Kayle, Kennen)."
+  },
+  {
+    "id": "Sion",
+    "roles": ["top"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 2, "disengage": 0, "peel": 1, "poke": 0, "burst": 1, "dps": 0, "frontline": 3, "cc": 2, "mobility": 1, "waveclear": 2, "splitpush": 1, "pick": 0, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 1, "mid": 2, "late": 3 },
+    "archetypes": ["engage", "scaling"],
+    "strongVs": [
+      { "id": "TahmKench", "s": 2, "lane": true },
+      { "id": "Malphite", "s": 2, "lane": true },
+      { "id": "Teemo", "s": 2, "lane": true },
+      { "id": "Vladimir", "s": 1, "lane": true },
+      { "id": "Yorick", "s": 1, "lane": true },
+      { "id": "Jax", "s": 1, "lane": true },
+      { "id": "Renekton", "s": 1, "lane": true },
+      { "id": "Heimerdinger", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Riven", "s": 2, "lane": true },
+      { "id": "Yone", "s": 2, "lane": true },
+      { "id": "Zaahen", "s": 2, "lane": true },
+      { "id": "Shen", "s": 2, "lane": true },
+      { "id": "Quinn", "s": 1, "lane": true },
+      { "id": "Ornn", "s": 1, "lane": true },
+      { "id": "Gwen", "s": 1, "lane": true },
+      { "id": "Chogath", "s": 1, "lane": true },
+      { "id": "Sett", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Orianna", "s": 1 },
+      { "id": "MissFortune", "s": 1 },
+      { "id": "JarvanIV", "s": 1 }
+    ],
+    "meta": { "top": "B" },
+    "difficulty": 2,
+    "notes": "Scaling HP-stacking tank with long-range Unstoppable Onslaught engage, Decimating Smash knockup and strong side-wave shove; a pro-play staple. Weak lane vs Riven, Yone, Shen and true-damage/ranged tops (Zaahen, Quinn, Gwen)."
+  },
+  {
+    "id": "Sivir",
+    "roles": ["bot"],
+    "damage": "physical",
+    "range": "ranged",
+    "attributes": { "engage": 1, "disengage": 2, "peel": 0, "poke": 1, "burst": 0, "dps": 2, "frontline": 0, "cc": 0, "mobility": 1, "waveclear": 3, "splitpush": 0, "pick": 0, "sustain": 0, "siege": 3 },
+    "powerCurve": { "early": 1, "mid": 2, "late": 3 },
+    "archetypes": ["push", "scaling", "engage"],
+    "strongVs": [
+      { "id": "Velkoz", "s": 2, "lane": true },
+      { "id": "Veigar", "s": 2, "lane": true },
+      { "id": "Swain", "s": 1, "lane": true },
+      { "id": "Nilah", "s": 1, "lane": true },
+      { "id": "Ezreal", "s": 1, "lane": true },
+      { "id": "Seraphine", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "KogMaw", "s": 2, "lane": true },
+      { "id": "Twitch", "s": 2, "lane": true },
+      { "id": "Jinx", "s": 1, "lane": true },
+      { "id": "Zeri", "s": 1, "lane": true },
+      { "id": "Viktor", "s": 1, "lane": true },
+      { "id": "Vladimir", "s": 1, "lane": true },
+      { "id": "Yunara", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Karma", "s": 2 },
+      { "id": "Rakan", "s": 1 },
+      { "id": "Rell", "s": 1 },
+      { "id": "Lulu", "s": 1 },
+      { "id": "Hecarim", "s": 1 }
+    ],
+    "meta": { "bot": "B" },
+    "difficulty": 1,
+    "notes": "Waveclear/siege ADC with Spell Shield and team-wide On The Hunt speed; enables fast pushes, engages and disengages. Strong into mage/poke bots (Seraphine, Vel'Koz, Veigar); out-DPSed late by Kog'Maw and Twitch."
+  },
+  {
+    "id": "Skarner",
+    "roles": ["jungle"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 2, "disengage": 0, "peel": 1, "poke": 0, "burst": 0, "dps": 1, "frontline": 2, "cc": 3, "mobility": 1, "waveclear": 1, "splitpush": 0, "pick": 2, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["engage", "pick", "dive"],
+    "strongVs": [
+      { "id": "Nocturne", "s": 2, "lane": true },
+      { "id": "Graves", "s": 2, "lane": true },
+      { "id": "Sylas", "s": 2, "lane": true },
+      { "id": "Rammus", "s": 1, "lane": true },
+      { "id": "Qiyana", "s": 1, "lane": true },
+      { "id": "Zed", "s": 1, "lane": true },
+      { "id": "RekSai", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Udyr", "s": 2, "lane": true },
+      { "id": "Gwen", "s": 2, "lane": true },
+      { "id": "Lillia", "s": 2, "lane": true },
+      { "id": "Fiddlesticks", "s": 1, "lane": true },
+      { "id": "Kayn", "s": 1, "lane": true },
+      { "id": "Ivern", "s": 1, "lane": true },
+      { "id": "Evelynn", "s": 1, "lane": true },
+      { "id": "Shyvana", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Orianna", "s": 1 },
+      { "id": "Syndra", "s": 1 },
+      { "id": "Ahri", "s": 1 }
+    ],
+    "meta": { "jungle": "B" },
+    "difficulty": 2,
+    "notes": "Tank jungler whose Impale suppresses and drags carries into his team, with Ixtal's Impact wall-stun charges for engage. Strong pick/anti-dive vs Nocturne, Graves and Sylas; weak to kiting and duelist junglers (Udyr, Gwen, Lillia)."
+  },
+  {
+    "id": "Smolder",
+    "roles": ["bot"],
+    "damage": "physical",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 0, "peel": 0, "poke": 1, "burst": 1, "dps": 2, "frontline": 0, "cc": 0, "mobility": 1, "waveclear": 2, "splitpush": 0, "pick": 0, "sustain": 1, "siege": 1 },
+    "powerCurve": { "early": 1, "mid": 2, "late": 3 },
+    "archetypes": ["scaling", "protect"],
+    "strongVs": [
+      { "id": "Xayah", "s": 2, "lane": true },
+      { "id": "Veigar", "s": 1, "lane": true },
+      { "id": "Nilah", "s": 1, "lane": true },
+      { "id": "Vayne", "s": 1, "lane": true },
+      { "id": "MissFortune", "s": 1, "lane": true },
+      { "id": "Ornn", "s": 1 },
+      { "id": "Sion", "s": 1 },
+      { "id": "KSante", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "Lux", "s": 1, "lane": true },
+      { "id": "Ziggs", "s": 1, "lane": true },
+      { "id": "Velkoz", "s": 1, "lane": true },
+      { "id": "Twitch", "s": 1, "lane": true },
+      { "id": "Zeri", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Lulu", "s": 2 },
+      { "id": "Milio", "s": 2 },
+      { "id": "Karma", "s": 1 },
+      { "id": "Yuumi", "s": 1 },
+      { "id": "Janna", "s": 1 }
+    ],
+    "meta": { "bot": "C" },
+    "difficulty": 2,
+    "notes": "Stack-scaling dragon ADC: quiet lane, then huge AoE waveclear and max-HP executes vs tanks at high stacks. Needs enchanter protection (Lulu, Milio) and time; long-range mage bots (Lux, Ziggs, Vel'Koz) and Twitch/Zeri out-trade him."
+  },
+  {
+    "id": "Sona",
+    "roles": ["support"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 1, "disengage": 1, "peel": 2, "poke": 1, "burst": 0, "dps": 0, "frontline": 0, "cc": 2, "mobility": 0, "waveclear": 0, "splitpush": 0, "pick": 0, "sustain": 2, "siege": 0 },
+    "powerCurve": { "early": 1, "mid": 2, "late": 3 },
+    "archetypes": ["protect", "scaling"],
+    "strongVs": [
+      { "id": "Karma", "s": 1, "lane": true },
+      { "id": "Poppy", "s": 1, "lane": true },
+      { "id": "Lux", "s": 1, "lane": true },
+      { "id": "TahmKench", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Neeko", "s": 1, "lane": true },
+      { "id": "Zoe", "s": 1, "lane": true },
+      { "id": "Maokai", "s": 1, "lane": true },
+      { "id": "Pantheon", "s": 1, "lane": true },
+      { "id": "Blitzcrank", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Jinx", "s": 1 },
+      { "id": "KogMaw", "s": 1 },
+      { "id": "MissFortune", "s": 1 }
+    ],
+    "meta": { "support": "B" },
+    "difficulty": 1,
+    "notes": "Scaling aura enchanter with heals, team speed and an AoE Crescendo stun; strong late-teamfight value. Fragile and immobile, so she needs a bot laner who can hold early pressure and frontline to protect her."
+  },
+  {
+    "id": "Soraka",
+    "roles": ["support"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 1, "peel": 2, "poke": 1, "burst": 0, "dps": 0, "frontline": 0, "cc": 1, "mobility": 0, "waveclear": 0, "splitpush": 0, "pick": 0, "sustain": 3, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 2, "late": 2 },
+    "archetypes": ["protect", "scaling"],
+    "strongVs": [
+      { "id": "Pantheon", "s": 2, "lane": true },
+      { "id": "Brand", "s": 1, "lane": true },
+      { "id": "Swain", "s": 1, "lane": true },
+      { "id": "Morgana", "s": 1, "lane": true },
+      { "id": "Galio", "s": 1, "lane": true },
+      { "id": "Xerath", "s": 1, "lane": true },
+      { "id": "TahmKench", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Senna", "s": 1, "lane": true },
+      { "id": "Nami", "s": 1, "lane": true },
+      { "id": "Neeko", "s": 1, "lane": true },
+      { "id": "Maokai", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "KogMaw", "s": 1 },
+      { "id": "Jinx", "s": 1 },
+      { "id": "Twitch", "s": 1 },
+      { "id": "Vayne", "s": 1 }
+    ],
+    "meta": { "support": "A" },
+    "difficulty": 1,
+    "notes": "Premier sustain enchanter: Astral Infusion heals and global Wish negate poke and extend fights; Equinox silences. Great vs poke and all-in comps that can't burst through heals; countered by Grievous Wounds and out-traded by Senna and Nami."
+  },
+  {
+    "id": "Swain",
+    "roles": ["support", "bot", "mid", "top"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 1, "disengage": 0, "peel": 1, "poke": 1, "burst": 1, "dps": 2, "frontline": 1, "cc": 2, "mobility": 0, "waveclear": 1, "splitpush": 0, "pick": 1, "sustain": 2, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["skirmish", "pick", "engage"],
+    "strongVs": [
+      { "id": "Rell", "s": 2, "lane": true },
+      { "id": "Alistar", "s": 2, "lane": true },
+      { "id": "Leona", "s": 2, "lane": true },
+      { "id": "Nautilus", "s": 2, "lane": true },
+      { "id": "Samira", "s": 2, "lane": true },
+      { "id": "Draven", "s": 1, "lane": true },
+      { "id": "Kaisa", "s": 1, "lane": true },
+      { "id": "MissFortune", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Zeri", "s": 2, "lane": true },
+      { "id": "Syndra", "s": 2, "lane": true },
+      { "id": "Yunara", "s": 2, "lane": true },
+      { "id": "Nami", "s": 2, "lane": true },
+      { "id": "Velkoz", "s": 2, "lane": true },
+      { "id": "Karma", "s": 2, "lane": true },
+      { "id": "Soraka", "s": 1, "lane": true },
+      { "id": "Sivir", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Nautilus", "s": 1 },
+      { "id": "Leona", "s": 1 },
+      { "id": "Ashe", "s": 1 }
+    ],
+    "meta": { "support": "B", "bot": "B", "mid": "D", "top": "D" },
+    "difficulty": 2,
+    "notes": "Drain-tank battlemage (mostly support/bot, also mid/top) with Nevermove pull-root and Demonic Ascension sustain; wins brawls vs melee/all-in lanes (Rell, Leona, Nautilus, Samira). Kited by long-range mages and enchanters (Syndra, Zeri, Nami, Karma)."
+  },
+  {
+    "id": "Sylas",
+    "roles": ["jungle", "mid"],
+    "damage": "magic",
+    "range": "melee",
+    "attributes": { "engage": 2, "disengage": 0, "peel": 0, "poke": 0, "burst": 2, "dps": 1, "frontline": 0, "cc": 1, "mobility": 2, "waveclear": 1, "splitpush": 0, "pick": 1, "sustain": 2, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["skirmish", "dive", "engage"],
+    "strongVs": [
+      { "id": "Malphite", "s": 3 },
+      { "id": "Shyvana", "s": 3, "lane": true },
+      { "id": "Hecarim", "s": 2, "lane": true },
+      { "id": "Amumu", "s": 2, "lane": true },
+      { "id": "Nunu", "s": 2, "lane": true },
+      { "id": "Nasus", "s": 2, "lane": true },
+      { "id": "Fizz", "s": 2, "lane": true },
+      { "id": "XinZhao", "s": 1, "lane": true },
+      { "id": "Zed", "s": 1, "lane": true },
+      { "id": "Syndra", "s": 1, "lane": true },
+      { "id": "JarvanIV", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Taliyah", "s": 2, "lane": true },
+      { "id": "Pantheon", "s": 2, "lane": true },
+      { "id": "Naafiri", "s": 2, "lane": true },
+      { "id": "Swain", "s": 2, "lane": true },
+      { "id": "Gwen", "s": 2, "lane": true },
+      { "id": "Ivern", "s": 2, "lane": true },
+      { "id": "Skarner", "s": 2, "lane": true },
+      { "id": "Elise", "s": 1, "lane": true },
+      { "id": "Volibear", "s": 1, "lane": true },
+      { "id": "Lillia", "s": 1, "lane": true },
+      { "id": "Vex", "s": 1, "lane": true },
+      { "id": "Velkoz", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Nautilus", "s": 1 },
+      { "id": "Leona", "s": 1 }
+    ],
+    "meta": { "jungle": "S", "mid": "B" },
+    "difficulty": 3,
+    "notes": "Skirmish mage (jungle or mid) who steals enemy ultimates; his value scales with the enemy's ults (hard-counters Malphite, Shyvana). Struggles into Taliyah, Gwen, Skarner, Pantheon and drain/anti-dash champions."
+  },
+  {
+    "id": "Syndra",
+    "roles": ["mid", "bot"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 1, "peel": 1, "poke": 2, "burst": 3, "dps": 0, "frontline": 0, "cc": 1, "mobility": 0, "waveclear": 2, "splitpush": 0, "pick": 2, "sustain": 0, "siege": 1 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 3 },
+    "archetypes": ["pick", "poke", "scaling"],
+    "strongVs": [
+      { "id": "Cassiopeia", "s": 2, "lane": true },
+      { "id": "Azir", "s": 2, "lane": true },
+      { "id": "Anivia", "s": 1, "lane": true },
+      { "id": "Galio", "s": 1, "lane": true },
+      { "id": "Viktor", "s": 1, "lane": true },
+      { "id": "Taliyah", "s": 1, "lane": true },
+      { "id": "Malzahar", "s": 1, "lane": true },
+      { "id": "Yone", "s": 1, "lane": true },
+      { "id": "Swain", "s": 1, "lane": true },
+      { "id": "Samira", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Fizz", "s": 2, "lane": true },
+      { "id": "Katarina", "s": 2, "lane": true },
+      { "id": "Locke", "s": 2, "lane": true },
+      { "id": "AurelionSol", "s": 2, "lane": true },
+      { "id": "Gwen", "s": 1, "lane": true },
+      { "id": "Ekko", "s": 1, "lane": true },
+      { "id": "Qiyana", "s": 1, "lane": true },
+      { "id": "Zed", "s": 1, "lane": true },
+      { "id": "Nasus", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "JarvanIV", "s": 1 },
+      { "id": "Nocturne", "s": 1 },
+      { "id": "Sejuani", "s": 1 }
+    ],
+    "meta": { "mid": "A", "bot": "B" },
+    "difficulty": 3,
+    "notes": "Burst/control mage (mid, also bot) with Scatter the Weak stun and point-and-click Unleashed Power execute; strong pick threat and lane control. Vulnerable to mobile assassins that dive past her stun (Fizz, Katarina, Locke)."
+  },
+  {
+    "id": "TahmKench",
+    "roles": ["support", "top"],
+    "damage": "magic",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 1, "peel": 3, "poke": 0, "burst": 0, "dps": 1, "frontline": 2, "cc": 2, "mobility": 1, "waveclear": 1, "splitpush": 0, "pick": 1, "sustain": 1, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["protect", "skirmish"],
+    "strongVs": [
+      { "id": "Jayce", "s": 2, "lane": true },
+      { "id": "Irelia", "s": 2, "lane": true },
+      { "id": "Rumble", "s": 2, "lane": true },
+      { "id": "Darius", "s": 1, "lane": true },
+      { "id": "Trundle", "s": 1, "lane": true },
+      { "id": "Ryze", "s": 1, "lane": true },
+      { "id": "Lux", "s": 1, "lane": true },
+      { "id": "Xerath", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Sion", "s": 2, "lane": true },
+      { "id": "Ornn", "s": 2, "lane": true },
+      { "id": "Gwen", "s": 2, "lane": true },
+      { "id": "Singed", "s": 1, "lane": true },
+      { "id": "Jax", "s": 1, "lane": true },
+      { "id": "Yorick", "s": 1, "lane": true },
+      { "id": "Shen", "s": 1, "lane": true },
+      { "id": "Soraka", "s": 1, "lane": true },
+      { "id": "Taric", "s": 1, "lane": true },
+      { "id": "Alistar", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Twitch", "s": 1 },
+      { "id": "KogMaw", "s": 1 },
+      { "id": "Jinx", "s": 1 },
+      { "id": "Seraphine", "s": 1 }
+    ],
+    "meta": { "support": "B", "top": "C" },
+    "difficulty": 2,
+    "notes": "Peel tank (support or top): Devour saves carries and grey-health bulk makes him a strong anti-assassin frontline. Beats melee/short-range tops (Irelia, Jayce, Rumble); weak to tanky scalers (Sion, Ornn, Singed) and Gwen's true damage."
+  },
+  {
+    "id": "Taliyah",
+    "roles": ["mid", "jungle"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 1, "disengage": 2, "peel": 1, "poke": 1, "burst": 2, "dps": 1, "frontline": 0, "cc": 2, "mobility": 1, "waveclear": 3, "splitpush": 0, "pick": 1, "sustain": 0, "siege": 1 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["skirmish", "pick"],
+    "strongVs": [
+      { "id": "Yasuo", "s": 2, "lane": true },
+      { "id": "Sylas", "s": 2, "lane": true },
+      { "id": "Graves", "s": 1, "lane": true },
+      { "id": "Akali", "s": 1, "lane": true },
+      { "id": "Cassiopeia", "s": 1, "lane": true },
+      { "id": "Talon", "s": 1, "lane": true },
+      { "id": "Ryze", "s": 1, "lane": true },
+      { "id": "Vi", "s": 1, "lane": true },
+      { "id": "RekSai", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Zed", "s": 2, "lane": true },
+      { "id": "Kassadin", "s": 2, "lane": true },
+      { "id": "Katarina", "s": 2, "lane": true },
+      { "id": "Leblanc", "s": 2, "lane": true },
+      { "id": "Xerath", "s": 2, "lane": true },
+      { "id": "Locke", "s": 2, "lane": true },
+      { "id": "MasterYi", "s": 2, "lane": true },
+      { "id": "Ekko", "s": 1, "lane": true },
+      { "id": "Syndra", "s": 1, "lane": true },
+      { "id": "Rengar", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Yasuo", "s": 2 },
+      { "id": "Yone", "s": 1 }
+    ],
+    "meta": { "mid": "B", "jungle": "C" },
+    "difficulty": 3,
+    "notes": "Roaming waveclear mage (mid or jungle): Weaver's Wall splits fights and enables roams, Seismic Shove + Unraveled Earth punish dashers. Strong vs Yasuo/Sylas; weak to assassins (Zed, Katarina, Kassadin, LeBlanc) and long-range Xerath."
+  },
+  {
+    "id": "Talon",
+    "roles": ["jungle", "mid"],
+    "damage": "physical",
+    "range": "melee",
+    "attributes": { "engage": 0, "disengage": 0, "peel": 0, "poke": 1, "burst": 3, "dps": 0, "frontline": 0, "cc": 1, "mobility": 2, "waveclear": 1, "splitpush": 1, "pick": 2, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 3, "mid": 3, "late": 1 },
+    "archetypes": ["early", "pick", "skirmish"],
+    "strongVs": [
+      { "id": "Elise", "s": 2, "lane": true },
+      { "id": "Xerath", "s": 2, "lane": true },
+      { "id": "Shaco", "s": 2, "lane": true },
+      { "id": "Kassadin", "s": 1, "lane": true },
+      { "id": "Malzahar", "s": 1, "lane": true },
+      { "id": "Anivia", "s": 1, "lane": true },
+      { "id": "Veigar", "s": 1, "lane": true },
+      { "id": "Naafiri", "s": 1, "lane": true },
+      { "id": "Volibear", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Rengar", "s": 2, "lane": true },
+      { "id": "Qiyana", "s": 2, "lane": true },
+      { "id": "Azir", "s": 2, "lane": true },
+      { "id": "Katarina", "s": 1, "lane": true },
+      { "id": "Fiddlesticks", "s": 1, "lane": true },
+      { "id": "RekSai", "s": 1, "lane": true },
+      { "id": "Fizz", "s": 1, "lane": true },
+      { "id": "Ekko", "s": 1, "lane": true },
+      { "id": "Irelia", "s": 1, "lane": true },
+      { "id": "Taliyah", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Nautilus", "s": 1 },
+      { "id": "Leona", "s": 1 }
+    ],
+    "meta": { "jungle": "A", "mid": "B" },
+    "difficulty": 2,
+    "notes": "Roaming AD assassin with wall-hop parkour; snowballs early picks from jungle or mid and punishes squishy carries. Falls off late; weak vs Rengar, Fiddlesticks and mobile/CC mids (Ekko, Qiyana, Azir)."
+  },
+  {
+    "id": "Taric",
+    "roles": ["support"],
+    "damage": "magic",
+    "range": "melee",
+    "attributes": { "engage": 1, "disengage": 1, "peel": 3, "poke": 0, "burst": 0, "dps": 0, "frontline": 1, "cc": 2, "mobility": 0, "waveclear": 0, "splitpush": 0, "pick": 0, "sustain": 2, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["protect", "dive", "engage"],
+    "strongVs": [
+      { "id": "Pantheon", "s": 2, "lane": true },
+      { "id": "Nautilus", "s": 2, "lane": true },
+      { "id": "Blitzcrank", "s": 1, "lane": true },
+      { "id": "Maokai", "s": 1, "lane": true },
+      { "id": "TahmKench", "s": 1, "lane": true },
+      { "id": "Zed", "s": 1 },
+      { "id": "Khazix", "s": 1 }
+    ],
+    "weakVs": [
+      { "id": "Senna", "s": 2, "lane": true },
+      { "id": "Milio", "s": 2, "lane": true },
+      { "id": "Morgana", "s": 2, "lane": true },
+      { "id": "Janna", "s": 1, "lane": true },
+      { "id": "Renata", "s": 1, "lane": true },
+      { "id": "Zilean", "s": 1, "lane": true },
+      { "id": "Rakan", "s": 1, "lane": true },
+      { "id": "Bard", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "MasterYi", "s": 2 },
+      { "id": "Kaisa", "s": 1 },
+      { "id": "Vayne", "s": 1 },
+      { "id": "Samira", "s": 1 }
+    ],
+    "meta": { "support": "B" },
+    "difficulty": 2,
+    "notes": "Protect/dive tank-enchanter: Cosmic Radiance invulnerability and linked Dazzle stuns enable all-ins and dives (Master Yi, Kai'Sa). Weak lane into ranged/poke and anti-engage supports (Senna, Milio, Morgana)."
+  },
+  {
+    "id": "Teemo",
+    "roles": ["top"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 0, "disengage": 1, "peel": 1, "poke": 2, "burst": 0, "dps": 1, "frontline": 0, "cc": 1, "mobility": 1, "waveclear": 1, "splitpush": 2, "pick": 0, "sustain": 0, "siege": 1 },
+    "powerCurve": { "early": 2, "mid": 2, "late": 2 },
+    "archetypes": ["split", "poke"],
+    "strongVs": [
+      { "id": "Vayne", "s": 3, "lane": true },
+      { "id": "Zaahen", "s": 2, "lane": true },
+      { "id": "Volibear", "s": 2, "lane": true },
+      { "id": "Trundle", "s": 2, "lane": true },
+      { "id": "Illaoi", "s": 2, "lane": true },
+      { "id": "Camille", "s": 2, "lane": true },
+      { "id": "Darius", "s": 2, "lane": true },
+      { "id": "Renekton", "s": 2, "lane": true },
+      { "id": "Ambessa", "s": 1, "lane": true },
+      { "id": "Sett", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Olaf", "s": 2, "lane": true },
+      { "id": "Ryze", "s": 2, "lane": true },
+      { "id": "Akali", "s": 2, "lane": true },
+      { "id": "Sion", "s": 2, "lane": true },
+      { "id": "Ornn", "s": 1, "lane": true },
+      { "id": "Yasuo", "s": 1, "lane": true },
+      { "id": "Vladimir", "s": 1, "lane": true },
+      { "id": "Malphite", "s": 1, "lane": true },
+      { "id": "Poppy", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Karma", "s": 1 },
+      { "id": "Lulu", "s": 1 }
+    ],
+    "meta": { "top": "A" },
+    "difficulty": 1,
+    "notes": "Ranged top that blinds auto-attackers (Vayne, Volibear, Renekton, Camille) and zones with Noxious Traps; split-pusher with poor teamfight. Countered by tanky engage and magic damage (Olaf, Sion, Ryze, Akali)."
+  },
+  {
+    "id": "Thresh",
+    "roles": ["support"],
+    "damage": "magic",
+    "range": "ranged",
+    "attributes": { "engage": 2, "disengage": 1, "peel": 2, "poke": 0, "burst": 0, "dps": 0, "frontline": 1, "cc": 2, "mobility": 1, "waveclear": 0, "splitpush": 0, "pick": 3, "sustain": 0, "siege": 0 },
+    "powerCurve": { "early": 2, "mid": 3, "late": 2 },
+    "archetypes": ["pick", "engage", "protect"],
+    "strongVs": [
+      { "id": "Yuumi", "s": 1, "lane": true },
+      { "id": "Fiddlesticks", "s": 1, "lane": true },
+      { "id": "Nautilus", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Brand", "s": 1, "lane": true },
+      { "id": "Morgana", "s": 1, "lane": true },
+      { "id": "Hwei", "s": 1, "lane": true },
+      { "id": "Braum", "s": 1, "lane": true },
+      { "id": "Rakan", "s": 1, "lane": true },
+      { "id": "Elise", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Kalista", "s": 3 },
+      { "id": "Draven", "s": 2 },
+      { "id": "Lucian", "s": 1 },
+      { "id": "Jhin", "s": 1 },
+      { "id": "Samira", "s": 1 }
+    ],
+    "meta": { "support": "S" },
+    "difficulty": 3,
+    "notes": "Pick-and-peel playmaker: Death Sentence hooks and Flay engage, while Dark Passage lantern saves or repositions allies. Fits almost any comp; best with Kalista/Draven. Mage supports (Brand) and spell shields blunt his hooks."
+  },
+  {
+    "id": "Tristana",
+    "roles": ["bot", "mid"],
+    "damage": "physical",
+    "range": "ranged",
+    "attributes": { "engage": 1, "disengage": 1, "peel": 1, "poke": 0, "burst": 2, "dps": 2, "frontline": 0, "cc": 1, "mobility": 2, "waveclear": 1, "splitpush": 0, "pick": 0, "sustain": 0, "siege": 2 },
+    "powerCurve": { "early": 2, "mid": 2, "late": 3 },
+    "archetypes": ["dive", "skirmish", "scaling", "push"],
+    "strongVs": [
+      { "id": "Velkoz", "s": 2, "lane": true },
+      { "id": "Katarina", "s": 2, "lane": true },
+      { "id": "Xerath", "s": 1, "lane": true },
+      { "id": "Kalista", "s": 1, "lane": true },
+      { "id": "Twitch", "s": 1, "lane": true },
+      { "id": "Smolder", "s": 1, "lane": true },
+      { "id": "Ashe", "s": 1, "lane": true }
+    ],
+    "weakVs": [
+      { "id": "Nilah", "s": 1, "lane": true },
+      { "id": "Karthus", "s": 1, "lane": true },
+      { "id": "Veigar", "s": 1, "lane": true },
+      { "id": "Vladimir", "s": 1, "lane": true },
+      { "id": "Seraphine", "s": 1, "lane": true },
+      { "id": "Syndra", "s": 1, "lane": true },
+      { "id": "Draven", "s": 1, "lane": true },
+      { "id": "Sylas", "s": 1, "lane": true }
+    ],
+    "synergies": [
+      { "id": "Leona", "s": 1 },
+      { "id": "Nautilus", "s": 1 },
+      { "id": "Rell", "s": 1 },
+      { "id": "Lulu", "s": 1 }
+    ],
+    "meta": { "bot": "S", "mid": "D" },
+    "difficulty": 2,
+    "notes": "Scaling siege ADC with Rocket Jump resets, tower-shredding Explosive Charge and self-peel Buster Shot; all-in capable with engage supports. Strong into immobile mage bots (Vel'Koz, Xerath); struggles vs Nilah and drain/burst mages (Karthus, Veigar, Vladimir)."
+  }
+]
