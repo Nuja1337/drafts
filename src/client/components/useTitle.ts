@@ -5,7 +5,7 @@ export function useTitle(title: string | null | undefined) {
   useEffect(() => {
     if (!title) return;
     const prev = document.title;
-    document.title = `${title} · drafts`;
+    document.title = `${title} · Drafts`;
     return () => {
       document.title = prev;
     };

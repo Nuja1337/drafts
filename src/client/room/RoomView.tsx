@@ -127,9 +127,9 @@ function RoomLive({
   useEffect(() => {
     const prev = getRoom(roomId);
     if (!prev || prev.label !== label || prev.game !== game) saveRoom({ roomId, label, game });
-    document.title = `${label} · drafts`;
+    document.title = `${label} · Drafts`;
   }, [roomId, label, game]);
-  useEffect(() => () => void (document.title = "drafts"), []);
+  useEffect(() => () => void (document.title = "Drafts"), []);
 
   const view = useMemo(() => (format ? buildDraftView(state, format, you) : null), [state, format, you]);
 
