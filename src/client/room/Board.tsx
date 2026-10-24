@@ -235,7 +235,7 @@ function GamePicks({ game, slot, lookup }: { game: GameRecord; slot: TeamSlot; l
       {ids.map((id) => {
         const c = lookup(id);
         return (
-          <span key={id} title={`${c?.name ?? id} — game ${game.number}`}>
+          <span key={id} title={`${c?.name ?? id} (game ${game.number})`}>
             <Portrait champ={c} fallbackId={id} className="size-6 sm:size-7" rounded="rounded" />
           </span>
         );

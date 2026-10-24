@@ -42,7 +42,7 @@ export function WinGauge({ value, side, label }: { value: number; side: Side; la
   };
   const pct = Math.round(v * 100);
   return (
-    <div className="flex items-center gap-2" title={`${label}: ${pct}% — heuristic draft-advantage estimate, not a prediction`}>
+    <div className="flex items-center gap-2" title={`${label}: ${pct}% (heuristic draft-advantage estimate, not a prediction)`}>
       <svg viewBox="0 0 84 46" className="h-11 w-20 shrink-0" role="img" aria-label={`${label} ${pct}%`}>
         <path d={arc(0, 1)} stroke="var(--color-panel-3)" strokeWidth={7} fill="none" strokeLinecap="round" />
         {v > 0.005 && <path d={arc(0, v)} stroke={SIDE_VAR[side]} strokeWidth={7} fill="none" strokeLinecap="round" />}
@@ -101,7 +101,7 @@ export function Radar({ values, names }: { values: Record<Side, Attributes>; nam
                   <g key={i}>
                     <circle cx={x} cy={y} r={3.5} fill={SIDE_VAR[side]} stroke="var(--color-panel)" strokeWidth={1.5} />
                     <circle cx={x} cy={y} r={8} fill="transparent">
-                      <title>{`${names[side]} — ${ATTRIBUTES[i].label}: ${Math.round(f * 100)}`}</title>
+                      <title>{`${names[side]} · ${ATTRIBUTES[i].label}: ${Math.round(f * 100)}`}</title>
                     </circle>
                   </g>
                 );
@@ -168,7 +168,7 @@ export function CurveChart({ curves, names }: { curves: Record<Side, PowerCurve>
               <g key={k}>
                 <circle cx={x(i)} cy={y(curves[side][k])} r={4} fill={SIDE_VAR[side]} stroke="var(--color-panel)" strokeWidth={2} />
                 <circle cx={x(i)} cy={y(curves[side][k])} r={9} fill="transparent">
-                  <title>{`${names[side]} — ${k}: ${(Number.isFinite(curves[side][k]) ? curves[side][k] : 0).toFixed(1)} / 3`}</title>
+                  <title>{`${names[side]} · ${k}: ${(Number.isFinite(curves[side][k]) ? curves[side][k] : 0).toFixed(1)} / 3`}</title>
                 </circle>
               </g>
             ))}

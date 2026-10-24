@@ -83,8 +83,8 @@ const TEAMS_PER_DAY = 10;
 const teamNotFound = () => new ApiError(404, "team_not_found", "No team with that id.");
 const inviteNotFound = () => new ApiError(404, "invite_not_found", "This invite link is invalid or has been replaced.");
 const teamFull = () =>
-  new ApiError(409, "team_full", `Teams are capped at ${MAX_PLAYERS} players — remove or reuse a slot first.`);
-const conflict = (msg = "The team changed at the same time — reload and try again.") => new ApiError(409, "conflict", msg);
+  new ApiError(409, "team_full", `Teams are capped at ${MAX_PLAYERS} players. Remove or reuse a slot first.`);
+const conflict = (msg = "The team changed at the same time. Reload and try again.") => new ApiError(409, "conflict", msg);
 
 function param(c: AppContext, name: string, notFound: () => ApiError): string {
   const v = c.req.param(name);
@@ -110,7 +110,7 @@ function findPlayer(team: TeamRecord, playerId: string | undefined): PlayerRecor
  * ignored — see nameKey) so nobody can pose as a teammate, and can't be a system actor name like "Owner".
  */
 function assertNameFree(team: TeamRecord, name: string, exceptId?: string): void {
-  if (isReservedName(name)) throw new ApiError(409, "name_taken", `"${name}" is reserved — pick another name.`);
+  if (isReservedName(name)) throw new ApiError(409, "name_taken", `"${name}" is reserved. Pick another name.`);
   const k = nameKey(name);
   const clash = team.players.find((p) => p.id !== exceptId && nameKey(p.name) === k);
   if (clash) throw new ApiError(409, "name_taken", `There's already a player named "${clash.name}" on this team.`);
@@ -176,7 +176,7 @@ teamsApp.post("/teams", async (c) => {
   const body = await readBody(c, createTeamSchema);
   assertStorageRoom();
   if (!(await takeDaily(c, "team", TEAMS_PER_DAY))) {
-    throw new ApiError(429, "daily_limit", `Only ${TEAMS_PER_DAY} new teams per day can be created from one network — try again tomorrow.`);
+    throw new ApiError(429, "daily_limit", `Only ${TEAMS_PER_DAY} new teams per day can be created from one network. Try again tomorrow.`);
   }
   const db = c.env.DB;
   const now = nowIso();
@@ -316,7 +316,7 @@ teamsApp.put("/teams/:teamId/players/:playerId", async (c) => {
   const p = await requirePrincipal(c, team, ["owner", "player"]);
   if (p.kind === "player") {
     if (p.playerId !== playerId) throw new ApiError(403, "forbidden", "Players can only edit their own profile.");
-    if (team.locked) throw new ApiError(403, "team_locked", "The team is locked — only the owner can edit right now.");
+    if (team.locked) throw new ApiError(403, "team_locked", "The team is locked, so only the owner can edit right now.");
   }
   const player = findPlayer(team, playerId);
   const patch: Partial<PlayerFields> = await readBody(c, playerSchema(team.game));
@@ -365,8 +365,8 @@ teamsApp.put("/teams/:teamId/players/:playerId", async (c) => {
   if (!changed(res[0])) {
     throw conflict(
       p.kind === "player"
-        ? "The team was just locked or your slot was released — reload and try again."
-        : "That player changed at the same time — reload and try again.",
+        ? "The team was just locked or your slot was released. Reload and try again."
+        : "That player changed at the same time. Reload and try again.",
     );
   }
   // The entry to fold into disappeared between read and write (pruned or reverted away): log this edit on its own.
@@ -389,7 +389,7 @@ teamsApp.post("/teams/:teamId/players/:playerId/release", async (c) => {
   const { team } = await getTeam(c);
   const p = await requirePrincipal(c, team, ["owner"]);
   const player = findPlayer(team, c.req.param("playerId"));
-  if (!player.keyHash) throw new ApiError(409, "not_claimed", "That slot hasn't been claimed — there's no key to release.");
+  if (!player.keyHash) throw new ApiError(409, "not_claimed", "That slot hasn't been claimed, so there's no key to release.");
   const db = c.env.DB;
   const now = nowIso();
   const guard = guards.playerKey(team.id, player.id, player.keyHash);
@@ -400,7 +400,7 @@ teamsApp.post("/teams/:teamId/players/:playerId/release", async (c) => {
       ...actorOf(p, team),
       action: "player.release",
       target: `player:${player.id}`,
-      summary: `Released ${player.name}'s player key — the slot can be claimed again`,
+      summary: `Released ${player.name}'s player key, so the slot can be claimed again`,
       before: { claimed: true },
       after: { claimed: false },
       revertible: false,
@@ -437,21 +437,21 @@ teamsApp.post("/teams/:teamId/keys/rotate", async (c) => {
       const inviteCode = newInviteCode();
       stmt = setTeamKeysStmt(db, team.id, { invite_code: inviteCode });
       res = { inviteCode };
-      summary = "Rotated the invite code — old invite links no longer work";
+      summary = "Rotated the invite code, so old invite links no longer work";
       break;
     }
     case "view": {
       const viewKey = randomKey("view");
       stmt = setTeamKeysStmt(db, team.id, { view_key: viewKey });
       res = { viewKey };
-      summary = "Rotated the view key — old view links no longer work";
+      summary = "Rotated the view key, so old view links no longer work";
       break;
     }
     case "owner": {
       const ownerKey = randomKey("own");
       stmt = setTeamKeysStmt(db, team.id, { owner_key_hash: await sha256(ownerKey) });
       res = { ownerKey };
-      summary = "Rotated the owner key — the old owner key no longer works";
+      summary = "Rotated the owner key, so the old owner key no longer works";
       break;
     }
   }
@@ -502,7 +502,7 @@ teamsApp.post("/teams/:teamId/audit/:entryId/revert", async (c) => {
 
 const staleSnapshot = () =>
   new ApiError(409, "stale_snapshot", "That entry's snapshot no longer fits the current rules, so it can't be restored.");
-const nothingToRevert = () => new ApiError(409, "nothing_to_revert", "Nothing to revert — the current values already match.");
+const nothingToRevert = () => new ApiError(409, "nothing_to_revert", "Nothing to revert. The current values already match.");
 
 async function revertTeam(c: AppContext, team: TeamRecord, p: Principal, before: unknown, summary: string) {
   const snap = asObject(before);
@@ -595,7 +595,7 @@ async function revertPlayer(
   }
 
   // Field change (edit / claim) → restore the changed fields; restoring "unclaimed" revokes the key.
-  if (!existing) throw new ApiError(409, "player_removed", "That player was removed — revert the removal first.");
+  if (!existing) throw new ApiError(409, "player_removed", "That player was removed. Revert the removal first.");
   if (snap.claimed === true) throw new ApiError(409, "not_revertible", "A released player key can't be restored.");
   const fields = parsePlayerSnapshot(team, snap);
   const d = diff(pickPlayerFields(existing), fields);
@@ -662,7 +662,7 @@ teamsApp.post("/invites/:teamId/:code/join", async (c) => {
   await rateLimit(c, "WRITE_LIMITER", "teams");
   const { team, code } = await getInviteTeam(c);
   const body = await readBody(c, joinSchema);
-  if (team.locked) throw new ApiError(403, "team_locked", "This team is locked — ask the owner to unlock it before joining.");
+  if (team.locked) throw new ApiError(403, "team_locked", "This team is locked. Ask the owner to unlock it before joining.");
   const db = c.env.DB;
   const now = nowIso();
   const playerKey = randomKey("ply");
@@ -672,7 +672,7 @@ teamsApp.post("/invites/:teamId/:code/join", async (c) => {
 
   if (body.playerId !== undefined) {
     const slot = team.players.find((x) => x.id === body.playerId);
-    if (!slot) throw new ApiError(404, "slot_not_found", "That slot no longer exists — reload the invite.");
+    if (!slot) throw new ApiError(404, "slot_not_found", "That slot no longer exists. Reload the invite.");
     if (slot.keyHash) throw new ApiError(409, "slot_taken", "That slot has already been claimed.");
     const rename = body.name !== undefined && body.name !== slot.name ? body.name : undefined;
     if (rename !== undefined) assertNameFree(team, rename, slot.id);
@@ -702,7 +702,7 @@ teamsApp.post("/invites/:teamId/:code/join", async (c) => {
       touchTeamStmt(db, team.id, now, claimed),
       ...audit.stmts,
     ]);
-    if (!changed(upd)) throw conflict("That slot was just taken, or the team was locked — reload the invite and try again.");
+    if (!changed(upd)) throw conflict("That slot was just taken, or the team was locked. Reload the invite and try again.");
     if (rename !== undefined) slot.name = rename;
     slot.keyHash = keyHash;
     slot.updatedAt = now;
@@ -737,7 +737,7 @@ teamsApp.post("/invites/:teamId/:code/join", async (c) => {
     touchTeamStmt(db, team.id, now, exists),
     ...audit.stmts,
   ]);
-  if (!changed(ins)) throw conflict("The team filled up, was locked, or the invite changed — reload the invite and try again.");
+  if (!changed(ins)) throw conflict("The team filled up, was locked, or the invite changed. Reload the invite and try again.");
   team.players.push(player);
   team.updatedAt = now;
   return json<JoinRes>({ team: toTeamProfile(team), playerId: player.id, playerKey });

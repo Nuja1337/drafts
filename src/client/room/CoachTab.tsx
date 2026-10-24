@@ -11,7 +11,7 @@ const QUESTION_MAX = 300;
 
 function coachError(err: unknown): string {
   if (err instanceof ApiRequestError) {
-    if (err.status === 429) return "You're asking the coach too quickly — give it a minute and try again.";
+    if (err.status === 429) return "You're asking the coach too quickly. Give it a minute and try again.";
     // 503: quota used up / model busy — the server's message says which.
     if (err.status === 503) return err.message || "The coach is unavailable right now. Engine suggestions still work.";
     return err.message;
@@ -72,7 +72,7 @@ export function CoachTab({
     <div className="space-y-3">
       <p className="text-xs text-muted">
         The coach reads this draft from <span className={cn("font-semibold", perspective === "blue" ? "text-blue" : "text-red")}>{perspectiveName}</span>'s point of
-        view — the same facts the engine computed — and gives a short read.
+        view, using the same facts the engine computed, and gives a short read.
       </p>
       <form
         onSubmit={(e) => {
@@ -112,7 +112,7 @@ export function CoachTab({
           <Markdown text={reply.text} />
           <p className="mt-3 border-t border-line pt-2 text-[10px] text-faint">
             {reply.model} · {new Date(reply.at).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
-            {reply.side !== perspective && " · written for the other side"} · AI output can be wrong; trust your team's read.
+            {reply.side !== perspective && " · written for the other side"} · AI output can be wrong, so trust your team's read.
           </p>
         </div>
       )}

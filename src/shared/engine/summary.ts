@@ -33,7 +33,7 @@ export function laneMatchups(m: Model): LaneMatchup[] {
     const text =
       Math.abs(adv) < 0.05
         ? `Even: ${nameOf(ctx, b)} vs ${nameOf(ctx, r)}${tail}`
-        : `${w === "hard" ? `${winner} strongly favored` : w === "clear" ? `${winner} favored` : `Slight edge ${winner}`}${tail}`;
+        : `${w === "hard" ? `${winner} strongly favored` : w === "clear" ? `${winner} favored` : `${winner} slightly favored`}${tail}`;
     return { role, vs, blue: b, red: r, adv, text };
   });
 }

@@ -43,7 +43,7 @@ roomsApp.post("/rooms", async (c) => {
       return c.json(res, 201);
     }
   }
-  throw new ApiError(503, "busy", "Couldn't allocate a room — please try again.");
+  throw new ApiError(503, "busy", "Couldn't allocate a room. Please try again.");
 });
 
 roomsApp.get("/rooms/:roomId", async (c) => {

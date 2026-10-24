@@ -550,7 +550,7 @@ function scoreOurPick(m: Model, ci: ChampInfo, opt: RoleOption, explain: boolean
         .map((mv) => {
           const from = tierOf(ctx, mv.championId, mv.from);
           const to = tierOf(ctx, mv.championId, mv.to);
-          return `${nameOf(ctx, mv.championId)} moves to ${roleName(ctx, mv.to)}${from && to && from !== to ? ` (${from}→${to})` : ""}`;
+          return `${nameOf(ctx, mv.championId)} moves to ${roleName(ctx, mv.to)}${from && to && from !== to ? ` (tier ${from} to ${to})` : ""}`;
         })
         .join(", ") || "Re-shuffles our roles",
     );

@@ -19,7 +19,7 @@ export async function api<T>(method: "GET" | "POST" | "PUT" | "PATCH" | "DELETE"
   try {
     res = await fetch(`/api${path}`, { method, headers, body: body === undefined ? undefined : JSON.stringify(body) });
   } catch {
-    throw new ApiRequestError(0, "network", "Network error — check your connection.");
+    throw new ApiRequestError(0, "network", "Network error. Check your connection.");
   }
   const text = await res.text();
   let json: unknown = null;

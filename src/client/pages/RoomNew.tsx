@@ -25,12 +25,12 @@ const MODES: { id: RoomMode; title: string; text: string }[] = [
   {
     id: "host",
     title: "Single host",
-    text: "One person enters both sides, e.g. mirroring a real in-game champ select; teammates watch suggestions live.",
+    text: "One person enters both sides, for example to mirror a real in-game champ select. Teammates watch the suggestions live.",
   },
 ];
 
 const FEARLESS: { id: FearlessMode; title: string; text: string }[] = [
-  { id: "off", title: "Off", text: "Every game starts fresh — anything can be picked again." },
+  { id: "off", title: "Off", text: "Every game starts fresh, and anything can be picked again." },
   { id: "soft", title: "Soft", text: "A team can't re-pick champions it already played earlier in the series. The other team still can." },
   { id: "hard", title: "Hard", text: "Once a champion is picked in the series, nobody can pick it again." },
 ];
@@ -252,7 +252,7 @@ export function RoomNew() {
                   ))}
                 </div>
                 <p className="mt-1.5 text-xs text-faint">
-                  {bestOf === 1 ? "A single game." : bestOf === 2 ? "Two games; a 1–1 draw is possible." : `First to ${Math.floor(bestOf / 2) + 1} wins.`} Sides and first pick
+                  {bestOf === 1 ? "A single game." : bestOf === 2 ? "Two games, so a 1–1 draw is possible." : `First to ${Math.floor(bestOf / 2) + 1} wins.`} Sides and first pick
                   are chosen before each game.
                 </p>
               </div>
@@ -265,7 +265,7 @@ export function RoomNew() {
                     </OptionCard>
                   ))}
                 </div>
-                {bestOf === 1 && <p className="mt-1.5 text-xs text-faint">Fearless only matters in a series — pick Bo2 or longer to enable it.</p>}
+                {bestOf === 1 && <p className="mt-1.5 text-xs text-faint">Fearless only matters in a series. Pick Bo2 or longer to turn it on.</p>}
               </div>
             </div>
           </Card>
@@ -282,9 +282,9 @@ export function RoomNew() {
               />
               <p className="text-xs text-muted">
                 {timerOn
-                  ? "When time runs out the hovered pick or ban locks; a ban with nothing hovered is skipped; a pick with nothing hovered pauses the draft."
+                  ? "When time runs out, the hovered pick or ban locks in. A ban with nothing hovered is skipped, and a pick with nothing hovered pauses the draft."
                   : "Turns wait until someone locks in."}
-                {mode === "host" && " In single-host mode the in-game client keeps time — turn this on only for practice drafts."}
+                {mode === "host" && " In single-host mode the in-game client keeps time, so only turn this on for practice drafts."}
               </p>
               <div className="grid grid-cols-2 gap-3 sm:max-w-sm">
                 <Field label="Pick seconds">
@@ -367,7 +367,7 @@ export function RoomNew() {
                       </OptionCard>
                     ))}
                   </div>
-                  <p className="mt-1.5 text-xs text-faint">Captains Mode: the coin-toss winner chooses a side or first pick. Later games are set before each game.</p>
+                  <p className="mt-1.5 text-xs text-faint">In Captains Mode the coin-toss winner chooses a side or first pick. Later games are set before each game.</p>
                 </div>
               )}
               <p className="text-xs text-faint">
@@ -425,7 +425,7 @@ function SharePanel({ created, onAnother }: { created: Created; onAnother: () =>
         </h1>
         <p className="mt-1 text-sm text-muted">
           {GAMES[config.game].short} · {config.bestOf === 1 ? "single game" : `best of ${config.bestOf}`} · {captains ? "two captains" : "single host"}. Links are
-          saved in this browser — you can reopen them from the room's Share button.
+          saved in this browser, and you can reopen them from the room's Share button.
         </p>
       </div>
 
@@ -434,21 +434,21 @@ function SharePanel({ created, onAnother }: { created: Created; onAnother: () =>
           {captains && res.captainKeys && (
             <>
               <div>
-                <CopyField label={`Captain link — ${config.teams.A.name}`} value={roomUrl(res.roomId, res.captainKeys.A)} />
+                <CopyField label={`Captain link for ${config.teams.A.name}`} value={roomUrl(res.roomId, res.captainKeys.A)} />
                 <p className="mt-1 text-xs text-faint">Send to {config.teams.A.name}'s captain. It lets them pick and ban for that team.</p>
               </div>
               <div>
-                <CopyField label={`Captain link — ${config.teams.B.name}`} value={roomUrl(res.roomId, res.captainKeys.B)} />
+                <CopyField label={`Captain link for ${config.teams.B.name}`} value={roomUrl(res.roomId, res.captainKeys.B)} />
                 <p className="mt-1 text-xs text-faint">Send to {config.teams.B.name}'s captain.</p>
               </div>
             </>
           )}
           <div>
             <CopyField label="Spectator link" value={roomUrl(res.roomId)} />
-            <p className="mt-1 text-xs text-faint">Read-only. Share with teammates, coaches and viewers — they see the board and suggestions live.</p>
+            <p className="mt-1 text-xs text-faint">Read-only. Share it with teammates, coaches and viewers so they can watch the board and suggestions live.</p>
           </div>
           <div className="rounded-lg border border-warn/30 bg-warn/5 p-3">
-            <CopyField label="Host link — keep private" value={roomUrl(res.roomId, res.hostKey)} />
+            <CopyField label="Host link (keep private)" value={roomUrl(res.roomId, res.hostKey)} />
             <p className="mt-1 text-xs text-warn">
               Full control: start, pause, undo, reset and results{captains ? ", and it can act for either team" : ""}. Use it to open the room on another device.
             </p>

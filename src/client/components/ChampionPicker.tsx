@@ -94,7 +94,7 @@ export function ChampionPicker({
                     type="button"
                     disabled={isDis}
                     aria-pressed={selected ? isSel : undefined}
-                    title={isDis && disabledReason ? `${c.name} — ${disabledReason}` : c.name}
+                    title={isDis && disabledReason ? `${c.name} · ${disabledReason}` : c.name}
                     onClick={() => onPick(c.id)}
                     className={cn(
                       "group flex w-full flex-col items-center gap-1 rounded-lg p-1 text-center transition-colors",

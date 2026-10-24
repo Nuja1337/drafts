@@ -141,7 +141,7 @@
       "jungle": "C"
     },
     "difficulty": 2,
-    "notes": "Drain-tank bruiser who wins extended teamfights with Darkin Blade sweetspots and World Ender healing; bullies immobile tanks in lane. Grievous Wounds, kiting ranged tops (Quinn, Kennen) and parry/dash duelists (Fiora, Irelia) blunt him."
+    "notes": "Drain-tank bruiser who wins extended teamfights with Darkin Blade sweetspots and World Ender healing, and bullies immobile tanks in lane. Grievous Wounds, kiting ranged tops (Quinn, Kennen) and duelists with parries and dashes (Fiora, Irelia) blunt him."
   },
   {
     "id": "Ahri",
@@ -251,7 +251,7 @@
       "mid": "A"
     },
     "difficulty": 2,
-    "notes": "Safe, mobile pick mage: Charm into Spirit Rush finds kills and roams, and she blind-picks into almost any mid. Has no hard counters but is out-roamed by Twisted Fate and all-inned by assassins; wants follow-up CC to convert charms."
+    "notes": "Safe, mobile pick mage whose Charm into Spirit Rush finds kills and roams, and she blind-picks into almost any mid. She has no hard counters, but Twisted Fate out-roams her and assassins all-in her. She wants follow-up CC to convert charms."
   },
   {
     "id": "Akali",
@@ -391,7 +391,7 @@
       "top": "B"
     },
     "difficulty": 3,
-    "notes": "Shroud-based skirmish assassin who bursts squishies and resets fights with Perfect Execution; preys on immobile control mages. Point-and-click CC, Galio/Vex/Twisted Fate and true sight inside the shroud shut her down."
+    "notes": "Shroud-based skirmish assassin who bursts squishies and resets fights with Perfect Execution, and preys on immobile control mages. Point-and-click CC, Galio, Vex, Twisted Fate and true sight inside the shroud shut her down."
   },
   {
     "id": "Akshan",
@@ -504,7 +504,7 @@
       "mid": "C"
     },
     "difficulty": 3,
-    "notes": "Roaming marksman-assassin: camouflage, Heroic Swing and the Comeuppance execute snowball skirmishes, and killing an ally's killer revives them. Falls off late; Yasuo's wind wall and sustained melee all-ins beat him in lane."
+    "notes": "Roaming marksman-assassin whose camouflage, Heroic Swing and Comeuppance execute snowball skirmishes. Killing an ally's killer revives that ally. He falls off late, and Yasuo's wind wall and sustained melee all-ins beat him in lane."
   },
   {
     "id": "Alistar",
@@ -644,7 +644,7 @@
       "support": "A"
     },
     "difficulty": 2,
-    "notes": "Headbutt-Pulverize engage support with a brutal level-2 all-in and a damage-reduction ult to front-line fights; also peels by knocking divers away. Disengage, spell shields and range (Janna, Morgana, Senna, Sona) blunt his engages."
+    "notes": "Headbutt-Pulverize engage support with a strong level-2 all-in and a damage-reduction ult to front-line fights. He also peels by knocking divers away. Disengage, spell shields and range (Janna, Morgana, Senna, Sona) blunt his engages."
   },
   {
     "id": "Ambessa",
@@ -779,7 +779,7 @@
       "jungle": "C"
     },
     "difficulty": 3,
-    "notes": "Energy-based dive bruiser whose passive turns every ability into a dash; Public Execution is an unstoppable, point-and-click engage that suppresses a backliner. High pro-priority mid-game skirmisher (top or jungle); kiting ranged tops and lane bullies (Kennen, Tryndamere, Renekton) blunt her all-ins."
+    "notes": "Energy-based dive bruiser whose passive turns every ability into a dash. Public Execution is an unstoppable, point-and-click engage that suppresses a backliner. Pros prioritize her as a mid-game skirmisher in top or jungle. Kiting ranged tops and lane bullies (Kennen, Tryndamere, Renekton) blunt her all-ins."
   },
   {
     "id": "Amumu",
@@ -891,7 +891,7 @@
       "support": "C"
     },
     "difficulty": 1,
-    "notes": "Simple, reliable AoE engage tank: Bandage Toss into Curse of the Sad Mummy wins grouped teamfights and punishes clumped comps. Weak early to invading junglers; spell shields, cleanses and disengage (Morgana, Janna) waste his ult."
+    "notes": "Simple, reliable AoE engage tank whose Bandage Toss into Curse of the Sad Mummy wins grouped teamfights and punishes clumped comps. He is weak early to invading junglers, and spell shields, cleanses and disengage (Morgana, Janna) waste his ult."
   },
   {
     "id": "Anivia",
@@ -1016,7 +1016,7 @@
       "support": "C"
     },
     "difficulty": 2,
-    "notes": "Zone-control mage with elite waveclear, a wall that splits fights and blocks dives, and an egg passive that makes her hard to kill. Scales into a teamfight anchor and bullies immobile melee tops; long-range mages (Xerath, Syndra), Twisted Fate roams and Sylas stealing Glacial Storm give her trouble."
+    "notes": "Zone-control mage with elite waveclear, a wall that splits fights and blocks dives, and an egg passive that makes her hard to kill. She scales into a teamfight anchor and bullies immobile melee tops. Long-range mages (Xerath, Syndra), Twisted Fate roams and Sylas stealing Glacial Storm give her trouble."
   },
   {
     "id": "Annie",
@@ -1136,7 +1136,7 @@
       "mid": "B"
     },
     "difficulty": 1,
-    "notes": "Point-and-click burst mage whose Flash-Tibbers stun doubles as AoE engage; simple and strong into squishy or melee mids. Short range means long-range mages outpoke her, and she needs frontline to reach fights."
+    "notes": "Point-and-click burst mage whose Flash-Tibbers stun doubles as AoE engage. She is simple and strong into squishy or melee mids. Her short range means long-range mages outpoke her, and she needs frontline to reach fights."
   },
   {
     "id": "Aphelios",
@@ -1231,7 +1231,7 @@
       "bot": "B"
     },
     "difficulty": 3,
-    "notes": "Weapon-rotation hypercarry with huge AoE teamfight damage (Moonlight Vigil plus Infernum/Chakram) but no mobility. Needs peel or a lockdown support; vulnerable in lane to bullies and poke mages and hunted by divers."
+    "notes": "Weapon-rotation hypercarry with huge AoE teamfight damage (Moonlight Vigil plus Infernum or Chakram) but no mobility. He needs peel or a lockdown support, is vulnerable in lane to bullies and poke mages, and gets hunted by divers."
   },
   {
     "id": "Ashe",
@@ -1335,7 +1335,7 @@
       "support": "D"
     },
     "difficulty": 1,
-    "notes": "Utility marksman: permanent slows, a global Enchanted Crystal Arrow for picks or engage, and scouting Hawkshot; a reliable teamfight follow-up ADC. No mobility, so dive and short-range all-in lanes punish her."
+    "notes": "Utility marksman with permanent slows, a global Enchanted Crystal Arrow for picks or engage, and scouting Hawkshot, which makes her a reliable teamfight follow-up ADC. She has no mobility, so dive and short-range all-in lanes punish her."
   },
   {
     "id": "AurelionSol",
@@ -1456,7 +1456,7 @@
       "mid": "C"
     },
     "difficulty": 2,
-    "notes": "Stardust-stacking late-game mage who flies over walls and melts teamfights with Breath of Light, Singularity and a knock-up ult. Very weak early; mobile assassins and melee all-ins (Yone, Fizz, Zed) exploit his lane, so he needs a safe lane and peel."
+    "notes": "Stardust-stacking late-game mage who flies over walls and melts teamfights with Breath of Light, Singularity and a knock-up ult. He is very weak early. Mobile assassins and melee all-ins (Yone, Fizz, Zed) exploit his lane, so he needs a safe lane and peel."
   },
   {
     "id": "Aurora",
@@ -1590,7 +1590,7 @@
       "top": "C"
     },
     "difficulty": 2,
-    "notes": "Mobile ranged mage who hops walls and traps enemies inside her Between Worlds zone; kites melee champions well and flexes top/mid. Point-and-click engage and burst (Ambessa, Annie, Akali) and hard-pushing mages give her trouble."
+    "notes": "Mobile ranged mage who hops walls and traps enemies inside her Between Worlds zone. She kites melee champions well and flexes top and mid. Point-and-click engage and burst (Ambessa, Annie, Akali) and hard-pushing mages give her trouble."
   },
   {
     "id": "Azir",
@@ -1717,7 +1717,7 @@
       "mid": "C"
     },
     "difficulty": 3,
-    "notes": "Late-scaling control mage with sustained soldier DPS, strong siege and a game-changing Shurima Shuffle / Emperor's Divide to peel or flip fights. Weak early and very execution-heavy; LeBlanc, long-range mages and roamers exploit his lane."
+    "notes": "Late-scaling control mage with sustained soldier DPS, strong siege, and a Shurima Shuffle with Emperor's Divide that can peel or flip fights. He is weak early and hard to execute, and LeBlanc, long-range mages and roamers exploit his lane."
   },
   {
     "id": "Bard",
@@ -1823,7 +1823,7 @@
       "support": "B"
     },
     "difficulty": 3,
-    "notes": "Roaming playmaker support: Cosmic Binding stuns against walls, Magical Journey portals and Tempered Fate create picks or disengage. Excellent in coordinated play (a pro staple); leaves his ADC exposed to 2v1 pressure from engage lanes."
+    "notes": "Roaming playmaker support whose Cosmic Binding stuns against walls, while Magical Journey portals and Tempered Fate create picks or disengage. He is excellent in coordinated play and a pro staple, but he leaves his ADC exposed to 2v1 pressure from engage lanes."
   },
   {
     "id": "Belveth",
@@ -1951,7 +1951,7 @@
       "jungle": "B"
     },
     "difficulty": 2,
-    "notes": "Attack-speed scaling jungler who snowballs off objectives (Void Coral) and shreds in extended skirmishes and side lanes. Point-and-click CC and early tank/CC junglers (Rammus, Sejuani) punish her; needs frontline or engage to fight around."
+    "notes": "Attack-speed scaling jungler who snowballs off objectives (Void Coral) and shreds in extended skirmishes and side lanes. Point-and-click CC and early tank and CC junglers (Rammus, Sejuani) punish her. She needs frontline or engage to fight around."
   },
   {
     "id": "Blitzcrank",
@@ -2077,7 +2077,7 @@
       "support": "A"
     },
     "difficulty": 1,
-    "notes": "Hook-based pick support: one landed Rocket Grab wins lanes and fights, and Static Field silences shields and channels. Punishes immobile enchanters/mages; unreliable vs spell shields and tanky engage supports, and weaker once teams group and ward flanks."
+    "notes": "Hook-based pick support whose Rocket Grab wins lanes and fights when it lands. Static Field silences, breaks shields and stops channels. He punishes immobile enchanters and mages but is unreliable against spell shields and tanky engage supports, and weaker once teams group and ward flanks."
   },
   {
     "id": "Brand",
@@ -2180,7 +2180,7 @@
       "mid": "C"
     },
     "difficulty": 1,
-    "notes": "Burn-based AoE mage whose Pyroclasm and Liandry's shred grouped teams and tanks; played as a damage support or mid. Immobile and fragile, so hooks and hard engage punish him; wants CC teammates to set up his combos."
+    "notes": "Burn-based AoE mage whose Pyroclasm and Liandry's shred grouped teams and tanks, played as a damage support or mid. He is immobile and fragile, so hooks and hard engage punish him. He wants CC teammates to set up his combos."
   },
   {
     "id": "Braum",
@@ -2294,7 +2294,7 @@
       "support": "A"
     },
     "difficulty": 2,
-    "notes": "Premier peel/disengage tank: Unbreakable blocks projectiles and hooks, Concussive Blows stuns win lane trades, Glacial Fissure stops dives. Pair with fast-attacking ADCs; weak into sustained ranged poke he cannot close on."
+    "notes": "Top peel and disengage tank whose Unbreakable blocks projectiles and hooks, Concussive Blows stuns win lane trades, and Glacial Fissure stops dives. Pair him with fast-attacking ADCs. He is weak into sustained ranged poke he cannot close on."
   },
   {
     "id": "Briar",
@@ -2407,7 +2407,7 @@
       "jungle": "A"
     },
     "difficulty": 1,
-    "notes": "Frenzied early-game diver with massive self-healing and a long-range fear engage (Certain Death). Snowballs through ganks; loses control in frenzy, so CC and kiting punish her and she falls off if behind."
+    "notes": "Frenzied early-game diver with massive self-healing and a long-range fear engage (Certain Death). She snowballs through ganks but loses control in frenzy, so CC and kiting punish her, and she falls off if behind."
   },
   {
     "id": "Caitlyn",
@@ -2528,7 +2528,7 @@
       "bot": "A"
     },
     "difficulty": 2,
-    "notes": "Longest-range lane bully and siege ADC: traps plus headshots win lane and take early towers, ideal for poke/siege comps. Pairs with root supports for trap setups; falls behind hypercarries late and struggles in long fights vs divers."
+    "notes": "Longest-range lane bully and siege ADC whose traps and headshots win lane and take early towers, which suits poke and siege comps. She pairs with root supports for trap setups. She falls behind hypercarries late and struggles in long fights against divers."
   },
   {
     "id": "Camille",
@@ -2657,7 +2657,7 @@
       "support": "D"
     },
     "difficulty": 3,
-    "notes": "Hookshot dive duelist who isolates a carry with Hextech Ultimatum and scales into a strong split pusher; also a pro-staple engage support. Beats immobile/tanky tops; kiting, blinds and strong early lanes (Teemo, Renekton, Warwick, Gwen) give her trouble."
+    "notes": "Hookshot dive duelist who isolates a carry with Hextech Ultimatum and scales into a strong split pusher. She is also a pro-staple engage support. She beats immobile and tanky tops, while kiting, blinds and strong early lanes (Teemo, Renekton, Warwick, Gwen) give her trouble."
   },
   {
     "id": "Cassiopeia",
@@ -2791,7 +2791,7 @@
       "top": "C"
     },
     "difficulty": 3,
-    "notes": "Bootless DPS mage with enormous sustained damage, Miasma grounding vs dashers and an AoE stun ult; excels into melee and dash-heavy lanes and scales very well (strong in pro). Immobile, so she needs peel; long-range mages and divers (Ekko, Qiyana, Fizz) beat her."
+    "notes": "Bootless DPS mage with enormous sustained damage, Miasma grounding against dashers and an AoE stun ult. She excels into melee and dash-heavy lanes, scales very well and is strong in pro. She is immobile, so she needs peel, and long-range mages and divers (Ekko, Qiyana, Fizz) beat her."
   },
   {
     "id": "Chogath",
@@ -2931,7 +2931,7 @@
       "top": "B"
     },
     "difficulty": 1,
-    "notes": "Stacking tank whose true-damage Feast also secures objectives; Rupture knock-up and Feral Scream silence give solid teamfight CC. Scales into a huge frontline; %HP and anti-tank champions (Urgot, Trundle, Vladimir) and kiting beat him."
+    "notes": "Stacking tank whose true-damage Feast also secures objectives. Rupture knock-up and Feral Scream silence give solid teamfight CC. He scales into a huge frontline, but %HP and anti-tank champions (Urgot, Trundle, Vladimir) and kiting beat him."
   },
   {
     "id": "Corki",
@@ -3028,7 +3028,7 @@
       "bot": "D"
     },
     "difficulty": 2,
-    "notes": "Mixed-damage poke carry with Missile Barrage and The Package; strong mid-game skirmishing and awkward to itemize against. Currently mostly a pro bot-lane pick; outranged by Caitlyn and loses long fights to hypercarries late."
+    "notes": "Mixed-damage poke carry with Missile Barrage and The Package. He skirmishes well mid-game and is awkward to itemize against. Right now he is mostly a pro bot-lane pick. Caitlyn outranges him, and he loses long fights to hypercarries late."
   },
   {
     "id": "Darius",
@@ -3157,7 +3157,7 @@
       "jungle": "C"
     },
     "difficulty": 2,
-    "notes": "Lane-dominant juggernaut who stacks Hemorrhage and chains Noxian Guillotine resets in teamfights. Brutal early/mid vs melee tops; immobile, so ranged kiters (Quinn, Vayne), slows and disengage beat him, and he falls off late."
+    "notes": "Lane-dominant juggernaut who stacks Hemorrhage and chains Noxian Guillotine resets in teamfights. He is very strong early and mid game against melee tops. He is immobile, so ranged kiters (Quinn, Vayne), slows and disengage beat him, and he falls off late."
   },
   {
     "id": "Diana",
@@ -3302,7 +3302,7 @@
       "jungle": "C"
     },
     "difficulty": 2,
-    "notes": "AP dive fighter: Moonfall pulls enemies together for an AoE engage and she bursts squishies after chaining Crescent Strike resets; flexes mid/jungle. Kiting and fears (Vex) and strong early duelists beat her; wants AoE follow-up."
+    "notes": "AP dive fighter whose Moonfall pulls enemies together for an AoE engage, and she bursts squishies after chaining Crescent Strike resets. She flexes mid and jungle. Kiting, fears (Vex) and strong early duelists beat her, and she wants AoE follow-up."
   },
   {
     "id": "Draven",
@@ -3431,7 +3431,7 @@
       "bot": "B"
     },
     "difficulty": 3,
-    "notes": "The premier lane-bully ADC: Spinning Axe damage and Adoration cash-outs snowball games, best with engage supports. A coin-flip carry who falls off if denied kills; disengage, sustain and poke lanes stall him."
+    "notes": "One of the strongest lane-bully ADCs. Spinning Axe damage and Adoration cash-outs snowball games, and he is best with engage supports. He is a coin-flip carry who falls off if denied kills, and disengage, sustain and poke lanes stall him."
   },
   {
     "id": "DrMundo",
@@ -3575,7 +3575,7 @@
       "jungle": "C"
     },
     "difficulty": 1,
-    "notes": "Near-unkillable scaling tank who shrugs off a CC with his passive and regenerates huge HP with Maximum Dosage; soaks side-lane pressure top or front-lines from the jungle (a pro staple there). Grievous Wounds and %HP/true-damage duelists (Aatrox, Gwen, Camille, Fiora) beat him."
+    "notes": "Near-unkillable scaling tank who shrugs off a CC with his passive and regenerates huge HP with Maximum Dosage. He soaks side-lane pressure top or front-lines from the jungle, where he is a pro staple. Grievous Wounds and %HP or true-damage duelists (Aatrox, Gwen, Camille, Fiora) beat him."
   },
   {
     "id": "Ekko",
@@ -3700,7 +3700,7 @@
       "mid": "A"
     },
     "difficulty": 3,
-    "notes": "Time-rewinding AP skirmisher: fast clears and strong ganks in jungle, burst and waveclear mid, with Chronobreak as heal and escape. Excels vs immobile mages; point-and-click CC, fears and Vladimir/Sylas-style sustain punish his dives."
+    "notes": "Time-rewinding AP skirmisher with fast clears and strong ganks in the jungle, burst and waveclear mid, and Chronobreak as a heal and escape. He excels against immobile mages. Point-and-click CC, fears and sustain like Vladimir's or Sylas's punish his dives."
   },
   {
     "id": "Elise",
@@ -3799,7 +3799,7 @@
       "support": "C"
     },
     "difficulty": 3,
-    "notes": "Early-game gank and tower-dive specialist: Cocoon stun into spider-form burst, Rappel to dodge tower shots. Must snowball early and falls off; early skirmishers (Talon, Diana) contest her and scaling teams outlast her."
+    "notes": "Early-game gank and tower-dive specialist who lands Cocoon into spider-form burst and uses Rappel to dodge tower shots. She must snowball early and falls off. Early skirmishers (Talon, Diana) contest her, and scaling teams outlast her."
   },
   {
     "id": "Evelynn",
@@ -3906,7 +3906,7 @@
       "jungle": "B"
     },
     "difficulty": 3,
-    "notes": "Stealth assassin who hunts isolated squishies after level 6 and finishes fights with Last Caress. Weak early, so invaders and early skirmishers punish her; Control Wards, Oracle Lens and grouped tanky comps neutralize her."
+    "notes": "Stealth assassin who hunts isolated squishies after level 6 and finishes fights with Last Caress. She is weak early, so invaders and early skirmishers punish her. Control Wards, Oracle Lens and grouped tanky comps neutralize her."
   },
   {
     "id": "Ezreal",
@@ -4015,7 +4015,7 @@
       "bot": "C"
     },
     "difficulty": 3,
-    "notes": "Safe, mobile poke ADC with Arcane Shift and long-range Mystic Shot; a blind-pick staple in pro play that fits poke/siege comps. Low sustained DPS late; wind walls, projectile blockers and hard-shove waveclear lanes (Sivir) limit him."
+    "notes": "Safe, mobile poke ADC with Arcane Shift and long-range Mystic Shot. He is a blind-pick staple in pro play and fits poke and siege comps. His sustained DPS is low late, and wind walls, projectile blockers and hard-shove waveclear lanes (Sivir) limit him."
   },
   {
     "id": "Fiddlesticks",
@@ -4128,7 +4128,7 @@
       "support": "C"
     },
     "difficulty": 2,
-    "notes": "Fog-of-war flanker whose Crowstorm blink wins teamfights on its own when it lands on a grouped team. Needs vision denial and patience; Control Wards, spread positioning and early invaders counter him."
+    "notes": "Fog-of-war flanker whose Crowstorm blink wins teamfights on its own when it lands on a grouped team. He needs vision denial and patience. Control Wards, spread positioning and early invaders counter him."
   },
   {
     "id": "Fiora",
@@ -4271,6 +4271,6 @@
       "top": "B"
     },
     "difficulty": 3,
-    "notes": "Benchmark split-push duelist: vital true damage and Riposte win 1v1s and take towers, while Grand Challenge heals her team in fights. Tanks and engage that ignore duels (Malphite, Shen) and kiting tops beat her; needs a team that can play 4v4 or stall."
+    "notes": "One of the best split-push duelists. True damage on vitals and Riposte win 1v1s and take towers, and Grand Challenge heals her team in fights. Tanks and engage that ignore duels (Malphite, Shen) and kiting tops beat her. She needs a team that can play 4v4 or stall."
   }
 ]

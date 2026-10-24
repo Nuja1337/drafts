@@ -107,7 +107,7 @@ export function JoinTeam() {
         <Banner tone="neutral" action={<ButtonLink to={`/t/${encodeURIComponent(teamId)}`} size="sm">Open team</ButtonLink>}>
           This device already has <b className="text-text">{KEY_ROLE_LABEL[existing.role].toLowerCase()}</b> access to this team.
           {existing.role === "owner"
-            ? " As owner you can already edit every player — join here only if you also play on the team."
+            ? " As owner you can already edit every player, so only join here if you also play on the team."
             : existing.role === "player"
               ? " Joining again switches this device to the new slot."
               : ""}
@@ -128,7 +128,7 @@ export function JoinTeam() {
                 checked={choice === s.id}
                 onSelect={() => setChoice(s.id)}
                 label={s.name}
-                hint={choice === s.id ? `You'll edit ${s.name}'s profile — only pick this if it's you.` : "Open slot — claim it if this is you"}
+                hint={choice === s.id ? `You'll edit ${s.name}'s profile. Only pick this if it's you.` : "Claim this open slot if it's you"}
               />
             ))}
             {canCreate && (
@@ -154,7 +154,7 @@ export function JoinTeam() {
           </fieldset>
           {error && <ErrorNote error={error} />}
           <div className="flex flex-col-reverse gap-3 border-t border-line pt-4 sm:flex-row sm:items-center sm:justify-between">
-            <p className="text-xs text-faint">You'll get a personal link, saved in this browser. No account needed.</p>
+            <p className="text-xs text-faint">You'll get a personal link that's saved in this browser. You don't need an account.</p>
             <Button type="submit" variant="primary" loading={busy} disabled={!canSubmit} className="sm:shrink-0 sm:whitespace-nowrap">
               {isNew ? "Join team" : slot ? `Claim ${slot.name}'s slot` : "Choose who you are"}
             </Button>

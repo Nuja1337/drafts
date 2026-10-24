@@ -33,7 +33,7 @@
     ],
     "meta": { "support": "B" },
     "difficulty": 2,
-    "notes": "Mobile engage/peel support: Grand Entrance knockup and The Quickness charm start fights, Battle Dance dashes to shield allies. Best with Xayah and AoE follow-up (Yasuo, Orianna); struggles into Neeko, long-range Senna and dash-stoppers/disengage (Poppy, Janna)."
+    "notes": "Mobile engage and peel support whose Grand Entrance knockup and The Quickness charm start fights, while Battle Dance dashes to shield allies. He is best with Xayah and AoE follow-up (Yasuo, Orianna). He struggles into Neeko, long-range Senna, and dash-stoppers and disengage (Poppy, Janna)."
   },
   {
     "id": "Rammus",
@@ -68,7 +68,7 @@
     ],
     "meta": { "jungle": "A" },
     "difficulty": 1,
-    "notes": "Powerball gank-and-taunt tank jungler; Defensive Ball Curl punishes auto-attack divers (Rengar, Yi, Tryndamere). Weaker into kiting/early-duel junglers (Lillia, Rek'Sai, Trundle); wants magic-damage allies and follow-up for his engage."
+    "notes": "Tank jungler who ganks with Powerball and taunts, and whose Defensive Ball Curl punishes auto-attack divers (Rengar, Yi, Tryndamere). He is weaker into kiting or early-duel junglers (Lillia, Rek'Sai, Trundle) and wants magic-damage allies and follow-up for his engage."
   },
   {
     "id": "RekSai",
@@ -102,7 +102,7 @@
     ],
     "meta": { "jungle": "B" },
     "difficulty": 2,
-    "notes": "Early tunnel ganker with Unburrow knockup and a long-range Void Rush execute; wants to snowball side lanes before tanks outscale. Beats Rammus, Kayn and Briar early but struggles into Sejuani and hard-CC tank junglers."
+    "notes": "Early tunnel ganker with an Unburrow knockup and a long-range Void Rush execute, who wants to snowball side lanes before tanks outscale her. She beats Rammus, Kayn and Briar early but struggles into Sejuani and hard-CC tank junglers."
   },
   {
     "id": "Rell",
@@ -139,7 +139,7 @@
     ],
     "meta": { "support": "A" },
     "difficulty": 2,
-    "notes": "Hard-engage tank support: Crash Down knockup, Full Tilt stun and Magnet Storm pull make her a premier teamfight initiator. Pairs with AoE follow-up (Miss Fortune, Orianna, Samira); weak into drain/disengage supports (Swain, Janna, Neeko) and Poppy W."
+    "notes": "Hard-engage tank support whose Crash Down knockup, Full Tilt stun and Magnet Storm pull make her one of the best teamfight initiators. She pairs with AoE follow-up (Miss Fortune, Orianna, Samira). She is weak into drain and disengage supports (Swain, Janna, Neeko) and Poppy W."
   },
   {
     "id": "Renata",
@@ -172,7 +172,7 @@
     ],
     "meta": { "support": "B" },
     "difficulty": 2,
-    "notes": "Utility enchanter: Bailout revives aggressive carries and Hostile Takeover turns enemy dive/clumped teamfights on itself. Good vs Pyke and all-in lanes; bullied by long-range mage supports (Vel'Koz, Xerath) and Lulu."
+    "notes": "Utility enchanter whose Bailout revives aggressive carries and whose Hostile Takeover turns a diving or clumped enemy team on itself. She is good against Pyke and all-in lanes, and long-range mage supports (Vel'Koz, Xerath) and Lulu bully her."
   },
   {
     "id": "Renekton",
@@ -212,7 +212,7 @@
     ],
     "meta": { "top": "B" },
     "difficulty": 2,
-    "notes": "Lane-bully bruiser with double dash and empowered W stun; wants to win lane and convert into early dives with his jungler. Falls off late and struggles into sustain/scaling tops (Dr. Mundo, Illaoi, Gangplank), Vayne and Teemo."
+    "notes": "Lane-bully bruiser with a double dash and an empowered W stun, who wants to win lane and turn it into early dives with his jungler. He falls off late and struggles into sustain and scaling tops (Dr. Mundo, Illaoi, Gangplank), Vayne and Teemo."
   },
   {
     "id": "Rengar",
@@ -248,7 +248,7 @@
     ],
     "meta": { "jungle": "D" },
     "difficulty": 3,
-    "notes": "Bush-leaping one-shot assassin that snowballs picks on squishy carries and squishy junglers. Hard-countered by tanky taunt/CC junglers (Rammus, Sejuani) and Poppy W; needs an early lead to matter."
+    "notes": "Bush-leaping one-shot assassin that snowballs picks on squishy carries and squishy junglers. Tanky taunt and CC junglers (Rammus, Sejuani) and Poppy W hard-counter him, and he needs an early lead to matter."
   },
   {
     "id": "Riven",
@@ -286,7 +286,7 @@
     ],
     "meta": { "top": "C" },
     "difficulty": 3,
-    "notes": "High-skill mobile skirmisher with animation-cancel burst and strong split-push; beats immobile bruisers/tanks (Sett, Sion, Yasuo, Gwen). Countered by ranged/stun tops (Kennen, Vayne) and sustain juggernauts (Illaoi, Singed)."
+    "notes": "High-skill mobile skirmisher with animation-cancel burst and a strong split-push, who beats immobile bruisers and tanks (Sett, Sion, Yasuo, Gwen). Ranged and stun tops (Kennen, Vayne) and sustain juggernauts (Illaoi, Singed) counter her."
   },
   {
     "id": "Rumble",
@@ -324,7 +324,7 @@
     ],
     "meta": { "top": "B", "jungle": "C", "mid": "C" },
     "difficulty": 2,
-    "notes": "Mech-mage teamfighter: Flamespitter wins trades vs melee and The Equalizer zones whole fights; a high-priority pro flex (top/jungle/mid) that wants CC to lock enemies in the ult. Struggles into Kayle, Gragas and Tahm Kench, and is a weak solo-queue blind."
+    "notes": "Mech-mage teamfighter whose Flamespitter wins trades against melee while The Equalizer zones whole fights. He is a high-priority pro flex (top, jungle, mid) who wants CC to lock enemies in his ult. He struggles into Kayle, Gragas and Tahm Kench, and is a weak blind pick in solo queue."
   },
   {
     "id": "Ryze",
@@ -364,7 +364,7 @@
     ],
     "meta": { "mid": "C", "top": "C" },
     "difficulty": 3,
-    "notes": "Scaling battlemage with high sustained single-target DPS and Realm Warp for team flanks/escapes; a pro staple but a weak solo-queue lane. Needs time and items; bullied by mobile mids (Irelia, Qiyana, Zoe)."
+    "notes": "Scaling battlemage with high sustained single-target DPS and Realm Warp for team flanks and escapes. He is a pro staple but weak in solo-queue lanes. He needs time and items, and mobile mids (Irelia, Qiyana, Zoe) bully him."
   },
   {
     "id": "Samira",
@@ -405,7 +405,7 @@
     ],
     "meta": { "bot": "B" },
     "difficulty": 3,
-    "notes": "All-in hypercarry who builds Style to unleash Inferno Trigger; wants hard-engage supports (Nautilus, Leona, Rell, Rakan) and knockups. Wind Wall eats projectiles, but she is kited by long-range/drain mages (Swain, Veigar) and interrupts (Janna, Poppy)."
+    "notes": "All-in hypercarry who builds Style to unleash Inferno Trigger, and wants hard-engage supports (Nautilus, Leona, Rell, Rakan) and knockups. Wind Wall eats projectiles, but long-range and drain mages (Swain, Veigar) kite her and interrupts (Janna, Poppy) stop her."
   },
   {
     "id": "Sejuani",
@@ -442,7 +442,7 @@
     ],
     "meta": { "jungle": "B" },
     "difficulty": 2,
-    "notes": "Tank engage jungler with Glacial Prison and frost-stun passive; a reliable teamfight initiator and anti-dive frontline that loves melee-heavy allies. Beats snowball assassin junglers (Rengar, Rek'Sai, Kindred, Shaco); weak to kiting magic junglers (Lillia, Diana) and Trundle."
+    "notes": "Tank engage jungler with Glacial Prison and a frost-stun passive. She is a reliable teamfight initiator and anti-dive frontline who loves melee-heavy allies. She beats snowball assassin junglers (Rengar, Rek'Sai, Kindred, Shaco) and is weak to kiting magic junglers (Lillia, Diana) and Trundle."
   },
   {
     "id": "Senna",
@@ -477,7 +477,7 @@
     ],
     "meta": { "support": "A" },
     "difficulty": 2,
-    "notes": "Scaling ranged support/carry: collects Mist for infinite range and AD, heals with Piercing Darkness and global-shields with Dawning Shadow. Wants long-range ADCs; vulnerable to point-and-click engage (Nautilus) and outranged by Xerath."
+    "notes": "Scaling ranged support or carry who collects Mist for infinite range and AD, heals with Piercing Darkness and shields globally with Dawning Shadow. She wants long-range ADCs. She is vulnerable to point-and-click engage (Nautilus), and Xerath outranges her."
   },
   {
     "id": "Seraphine",
@@ -514,7 +514,7 @@
     ],
     "meta": { "support": "A", "bot": "B" },
     "difficulty": 2,
-    "notes": "Scaling teamfight mage (support or bot) with long-range Encore charm engage, AoE shield/heal and solid waveclear. Needs frontline to cast behind; punished by dive/hook supports, Sivir's spell shield and Yasuo's Wind Wall."
+    "notes": "Scaling teamfight mage (support or bot) with long-range Encore charm engage, an AoE shield and heal, and solid waveclear. She needs frontline to cast behind. Dive and hook supports, Sivir's spell shield and Yasuo's Wind Wall punish her."
   },
   {
     "id": "Sett",
@@ -553,7 +553,7 @@
     ],
     "meta": { "top": "A" },
     "difficulty": 1,
-    "notes": "Early/mid-game juggernaut with true-damage Haymaker and The Show Stopper suplex engage; bullies melee lanes and starts fights. Kited by ranged tops (Vayne, Ryze) and outplayed by Riven; falls off vs late-game scalers."
+    "notes": "Early and mid-game juggernaut with a true-damage Haymaker and The Show Stopper suplex engage. He bullies melee lanes and starts fights. Ranged tops (Vayne, Ryze) kite him, Riven outplays him, and he falls off against late-game scalers."
   },
   {
     "id": "Shaco",
@@ -588,7 +588,7 @@
     ],
     "meta": { "jungle": "B", "support": "D" },
     "difficulty": 3,
-    "notes": "Invade-heavy trickster (AD jungle, occasionally AP support) with stealth, Jack in the Box fears and a clone; snowballs early and picks off carries. Falls off late; countered by tanky CC junglers (Sejuani) and strong early duelists."
+    "notes": "Invade-heavy trickster (AD jungle, occasionally AP support) with stealth, Jack in the Box fears and a clone. He snowballs early and picks off carries, but falls off late. Tanky CC junglers (Sejuani) and strong early duelists counter him."
   },
   {
     "id": "Shen",
@@ -626,7 +626,7 @@
     ],
     "meta": { "top": "A", "support": "C" },
     "difficulty": 2,
-    "notes": "Global-presence tank: Stand United shields and joins fights anywhere while he split-pushes; Shadow Dash taunt engages and Spirit's Refuge blocks autos. Good vs Fiora, Yorick and tanks; struggles into Quinn, Singed and extended-trade bruisers (Olaf, Sett, Tryndamere)."
+    "notes": "Global-presence tank whose Stand United shields an ally and joins fights anywhere while he split-pushes. Shadow Dash taunts to engage, and Spirit's Refuge blocks autos. He is good against Fiora, Yorick and tanks, and struggles into Quinn, Singed and extended-trade bruisers (Olaf, Sett, Tryndamere)."
   },
   {
     "id": "Shyvana",
@@ -660,7 +660,7 @@
     ],
     "meta": { "jungle": "A" },
     "difficulty": 2,
-    "notes": "Reworked in 26.6: bruiser-tank dragon who farms Scalemail defensive stacks, then engages with the fear-leap Dragon's Descent and brawls with empowered abilities. Needs farm and time; hard-countered by Sylas (steals ult) and weak into Ivern and Udyr."
+    "notes": "Bruiser-tank dragon, reworked in 26.6, who farms Scalemail defensive stacks, then engages with the fear-leap Dragon's Descent and brawls with empowered abilities. She needs farm and time. Sylas hard-counters her by stealing her ult, and she is weak into Ivern and Udyr."
   },
   {
     "id": "Singed",
@@ -698,7 +698,7 @@
     ],
     "meta": { "top": "B" },
     "difficulty": 2,
-    "notes": "Proxy-farming split-pusher who drags enemies into chases with Poison Trail and flings targets into his team. Frustrates melee tops (Yasuo, Mordekaiser, Riven, Jax); weak into ranged/burst scalers (Gangplank, Kayle, Kennen)."
+    "notes": "Proxy-farming split-pusher who drags enemies into chases with Poison Trail and flings targets into his team. He frustrates melee tops (Yasuo, Mordekaiser, Riven, Jax) and is weak into ranged or burst scalers (Gangplank, Kayle, Kennen)."
   },
   {
     "id": "Sion",
@@ -736,7 +736,7 @@
     ],
     "meta": { "top": "B" },
     "difficulty": 2,
-    "notes": "Scaling HP-stacking tank with long-range Unstoppable Onslaught engage, Decimating Smash knockup and strong side-wave shove; a pro-play staple. Weak lane vs Riven, Yone, Shen and true-damage/ranged tops (Zaahen, Quinn, Gwen)."
+    "notes": "Scaling HP-stacking tank with long-range Unstoppable Onslaught engage, a Decimating Smash knockup and a strong side-wave shove. He is a pro-play staple. His lane is weak against Riven, Yone, Shen and true-damage or ranged tops (Zaahen, Quinn, Gwen)."
   },
   {
     "id": "Sivir",
@@ -772,7 +772,7 @@
     ],
     "meta": { "bot": "B" },
     "difficulty": 1,
-    "notes": "Waveclear/siege ADC with Spell Shield and team-wide On The Hunt speed; enables fast pushes, engages and disengages. Strong into mage/poke bots (Seraphine, Vel'Koz, Veigar); out-DPSed late by Kog'Maw and Twitch."
+    "notes": "Waveclear and siege ADC with Spell Shield and team-wide On The Hunt speed, which enables fast pushes, engages and disengages. She is strong into mage and poke bots (Seraphine, Vel'Koz, Veigar), and Kog'Maw and Twitch out-DPS her late."
   },
   {
     "id": "Skarner",
@@ -808,7 +808,7 @@
     ],
     "meta": { "jungle": "B" },
     "difficulty": 2,
-    "notes": "Tank jungler whose Impale suppresses and drags carries into his team, with Ixtal's Impact wall-stun charges for engage. Strong pick/anti-dive vs Nocturne, Graves and Sylas; weak to kiting and duelist junglers (Udyr, Gwen, Lillia)."
+    "notes": "Tank jungler whose Impale suppresses and drags carries into his team, with Ixtal's Impact wall-stun charges for engage. He is a strong pick and anti-dive tool against Nocturne, Graves and Sylas, and weak to kiting and duelist junglers (Udyr, Gwen, Lillia)."
   },
   {
     "id": "Smolder",
@@ -844,7 +844,7 @@
     ],
     "meta": { "bot": "C" },
     "difficulty": 2,
-    "notes": "Stack-scaling dragon ADC: quiet lane, then huge AoE waveclear and max-HP executes vs tanks at high stacks. Needs enchanter protection (Lulu, Milio) and time; long-range mage bots (Lux, Ziggs, Vel'Koz) and Twitch/Zeri out-trade him."
+    "notes": "Stack-scaling dragon ADC with a quiet lane, then huge AoE waveclear and max-HP executes against tanks at high stacks. He needs enchanter protection (Lulu, Milio) and time. Long-range mage bots (Lux, Ziggs, Vel'Koz), Twitch and Zeri out-trade him."
   },
   {
     "id": "Sona",
@@ -874,7 +874,7 @@
     ],
     "meta": { "support": "B" },
     "difficulty": 1,
-    "notes": "Scaling aura enchanter with heals, team speed and an AoE Crescendo stun; strong late-teamfight value. Fragile and immobile, so she needs a bot laner who can hold early pressure and frontline to protect her."
+    "notes": "Scaling aura enchanter with heals, team speed and an AoE Crescendo stun, and strong value in late teamfights. She is fragile and immobile, so she needs a bot laner who can hold early pressure and frontline to protect her."
   },
   {
     "id": "Soraka",
@@ -907,7 +907,7 @@
     ],
     "meta": { "support": "A" },
     "difficulty": 1,
-    "notes": "Premier sustain enchanter: Astral Infusion heals and global Wish negate poke and extend fights; Equinox silences. Great vs poke and all-in comps that can't burst through heals; countered by Grievous Wounds and out-traded by Senna and Nami."
+    "notes": "Top sustain enchanter whose Astral Infusion heals and global Wish negate poke and extend fights, while Equinox silences. She is great against poke and all-in comps that can't burst through heals. Grievous Wounds counters her, and Senna and Nami out-trade her."
   },
   {
     "id": "Swain",
@@ -944,7 +944,7 @@
     ],
     "meta": { "support": "B", "bot": "B", "mid": "D", "top": "D" },
     "difficulty": 2,
-    "notes": "Drain-tank battlemage (mostly support/bot, also mid/top) with Nevermove pull-root and Demonic Ascension sustain; wins brawls vs melee/all-in lanes (Rell, Leona, Nautilus, Samira). Kited by long-range mages and enchanters (Syndra, Zeri, Nami, Karma)."
+    "notes": "Drain-tank battlemage (mostly support or bot, also mid and top) with a Nevermove pull-root and Demonic Ascension sustain. He wins brawls against melee and all-in lanes (Rell, Leona, Nautilus, Samira). Long-range mages and enchanters (Syndra, Zeri, Nami, Karma) kite him."
   },
   {
     "id": "Sylas",
@@ -987,7 +987,7 @@
     ],
     "meta": { "jungle": "S", "mid": "B" },
     "difficulty": 3,
-    "notes": "Skirmish mage (jungle or mid) who steals enemy ultimates; his value scales with the enemy's ults (hard-counters Malphite, Shyvana). Struggles into Taliyah, Gwen, Skarner, Pantheon and drain/anti-dash champions."
+    "notes": "Skirmish mage (jungle or mid) who steals enemy ultimates, so his value grows with the enemy's ults, and he hard-counters Malphite and Shyvana. He struggles into Taliyah, Gwen, Skarner, Pantheon and drain or anti-dash champions."
   },
   {
     "id": "Syndra",
@@ -1027,7 +1027,7 @@
     ],
     "meta": { "mid": "A", "bot": "B" },
     "difficulty": 3,
-    "notes": "Burst/control mage (mid, also bot) with Scatter the Weak stun and point-and-click Unleashed Power execute; strong pick threat and lane control. Vulnerable to mobile assassins that dive past her stun (Fizz, Katarina, Locke)."
+    "notes": "Burst and control mage (mid, also bot) with a Scatter the Weak stun and a point-and-click Unleashed Power execute, which give her a strong pick threat and lane control. She is vulnerable to mobile assassins that dive past her stun (Fizz, Katarina, Locke)."
   },
   {
     "id": "TahmKench",
@@ -1067,7 +1067,7 @@
     ],
     "meta": { "support": "B", "top": "C" },
     "difficulty": 2,
-    "notes": "Peel tank (support or top): Devour saves carries and grey-health bulk makes him a strong anti-assassin frontline. Beats melee/short-range tops (Irelia, Jayce, Rumble); weak to tanky scalers (Sion, Ornn, Singed) and Gwen's true damage."
+    "notes": "Peel tank (support or top) whose Devour saves carries, and his grey-health bulk makes him a strong anti-assassin frontline. He beats melee and short-range tops (Irelia, Jayce, Rumble) and is weak to tanky scalers (Sion, Ornn, Singed) and Gwen's true damage."
   },
   {
     "id": "Taliyah",
@@ -1106,7 +1106,7 @@
     ],
     "meta": { "mid": "B", "jungle": "C" },
     "difficulty": 3,
-    "notes": "Roaming waveclear mage (mid or jungle): Weaver's Wall splits fights and enables roams, Seismic Shove + Unraveled Earth punish dashers. Strong vs Yasuo/Sylas; weak to assassins (Zed, Katarina, Kassadin, LeBlanc) and long-range Xerath."
+    "notes": "Roaming waveclear mage (mid or jungle) whose Weaver's Wall splits fights and enables roams, while Seismic Shove and Unraveled Earth punish dashers. She is strong against Yasuo and Sylas, and weak to assassins (Zed, Katarina, Kassadin, LeBlanc) and long-range Xerath."
   },
   {
     "id": "Talon",
@@ -1145,7 +1145,7 @@
     ],
     "meta": { "jungle": "A", "mid": "B" },
     "difficulty": 2,
-    "notes": "Roaming AD assassin with wall-hop parkour; snowballs early picks from jungle or mid and punishes squishy carries. Falls off late; weak vs Rengar, Fiddlesticks and mobile/CC mids (Ekko, Qiyana, Azir)."
+    "notes": "Roaming AD assassin with wall-hop parkour who snowballs early picks from jungle or mid and punishes squishy carries. He falls off late and is weak against Rengar, Fiddlesticks and mobile or CC mids (Ekko, Qiyana, Azir)."
   },
   {
     "id": "Taric",
@@ -1182,7 +1182,7 @@
     ],
     "meta": { "support": "B" },
     "difficulty": 2,
-    "notes": "Protect/dive tank-enchanter: Cosmic Radiance invulnerability and linked Dazzle stuns enable all-ins and dives (Master Yi, Kai'Sa). Weak lane into ranged/poke and anti-engage supports (Senna, Milio, Morgana)."
+    "notes": "Tank-enchanter for protect and dive comps, whose Cosmic Radiance invulnerability and linked Dazzle stuns enable all-ins and dives (Master Yi, Kai'Sa). His lane is weak into ranged, poke and anti-engage supports (Senna, Milio, Morgana)."
   },
   {
     "id": "Teemo",
@@ -1221,7 +1221,7 @@
     ],
     "meta": { "top": "A" },
     "difficulty": 1,
-    "notes": "Ranged top that blinds auto-attackers (Vayne, Volibear, Renekton, Camille) and zones with Noxious Traps; split-pusher with poor teamfight. Countered by tanky engage and magic damage (Olaf, Sion, Ryze, Akali)."
+    "notes": "Ranged top that blinds auto-attackers (Vayne, Volibear, Renekton, Camille) and zones with Noxious Traps. He split-pushes well but teamfights poorly. Tanky engage and magic damage (Olaf, Sion, Ryze, Akali) counter him."
   },
   {
     "id": "Thresh",
@@ -1253,7 +1253,7 @@
     ],
     "meta": { "support": "S" },
     "difficulty": 3,
-    "notes": "Pick-and-peel playmaker: Death Sentence hooks and Flay engage, while Dark Passage lantern saves or repositions allies. Fits almost any comp; best with Kalista/Draven. Mage supports (Brand) and spell shields blunt his hooks."
+    "notes": "Pick-and-peel playmaker whose Death Sentence hooks and Flay engage, while his Dark Passage lantern saves or repositions allies. He fits almost any comp and is best with Kalista or Draven. Mage supports (Brand) and spell shields blunt his hooks."
   },
   {
     "id": "Tristana",
@@ -1290,6 +1290,6 @@
     ],
     "meta": { "bot": "S", "mid": "D" },
     "difficulty": 2,
-    "notes": "Scaling siege ADC with Rocket Jump resets, tower-shredding Explosive Charge and self-peel Buster Shot; all-in capable with engage supports. Strong into immobile mage bots (Vel'Koz, Xerath); struggles vs Nilah and drain/burst mages (Karthus, Veigar, Vladimir)."
+    "notes": "Scaling siege ADC with Rocket Jump resets, a tower-shredding Explosive Charge and self-peel from Buster Shot. She can all-in with engage supports. She is strong into immobile mage bots (Vel'Koz, Xerath) and struggles against Nilah and drain or burst mages (Karthus, Veigar, Vladimir)."
   }
 ]

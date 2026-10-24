@@ -13,7 +13,7 @@ const ROTATE_COPY: Record<Which, { title: string; body: ReactNode; label: string
   invite: {
     title: "Rotate the invite link?",
     label: "Rotate invite",
-    body: <p>The current invite link stops working. Players who already joined keep their access — only new joins need the new link.</p>,
+    body: <p>The current invite link stops working. Players who already joined keep their access. Only people joining from now on need the new link.</p>,
   },
   view: {
     title: "Rotate the view link?",
@@ -26,7 +26,7 @@ const ROTATE_COPY: Record<Which, { title: string; body: ReactNode; label: string
     body: (
       <>
         <p>
-          Your current owner link stops working everywhere — including other devices and anyone it may have leaked to. This browser switches to the new key
+          Your current owner link stops working everywhere, including on other devices and for anyone it may have leaked to. This browser switches to the new key
           automatically.
         </p>
         <p className="rounded-lg border border-warn/40 bg-warn/10 px-3 py-2 text-warn">The new owner link is shown once. Save it right away.</p>
@@ -87,13 +87,13 @@ export function AccessPanel({
   const rotate = async (which: Which) => {
     const res = await teamApi.rotateKey(team.id, ownerKey, which);
     if (which === "invite") {
-      if (!res.inviteCode) throw new Error("The server didn't return a new invite code — reload and try again.");
+      if (!res.inviteCode) throw new Error("The server didn't return a new invite code. Reload and try again.");
       onSecrets({ inviteCode: res.inviteCode });
     } else if (which === "view") {
-      if (!res.viewKey) throw new Error("The server didn't return a new view key — reload and try again.");
+      if (!res.viewKey) throw new Error("The server didn't return a new view key. Reload and try again.");
       onSecrets({ viewKey: res.viewKey });
     } else {
-      if (!res.ownerKey) throw new Error("The server didn't return a new owner key — reload before doing anything else.");
+      if (!res.ownerKey) throw new Error("The server didn't return a new owner key. Reload before doing anything else.");
       setShowOwner(false);
       onOwnerRotated(res.ownerKey);
     }
@@ -113,14 +113,14 @@ export function AccessPanel({
                 : "Players open this to claim their slot (or create one) and edit their own profile. Safe to share in your team chat."
             }
           >
-            {inviteCode ? <CopyField value={inviteUrl(team.id, inviteCode)} /> : <p className="text-sm text-faint">Invite link unavailable — rotate it to create a new one.</p>}
+            {inviteCode ? <CopyField value={inviteUrl(team.id, inviteCode)} /> : <p className="text-sm text-faint">The invite link isn't available. Rotate it to create a new one.</p>}
             <Button size="sm" variant="ghost" onClick={() => setRotating("invite")}>
               ↻ Rotate invite
             </Button>
           </LinkBlock>
 
-          <LinkBlock title="View link" description="Read-only access to the whole profile — for coaches, analysts or subs. Holders can't edit anything.">
-            {viewKey ? <CopyField value={teamUrl(team.id, viewKey)} /> : <p className="text-sm text-faint">View link unavailable — rotate it to create a new one.</p>}
+          <LinkBlock title="View link" description="Read-only access to the whole profile, for coaches, analysts or subs. Holders can't edit anything.">
+            {viewKey ? <CopyField value={teamUrl(team.id, viewKey)} /> : <p className="text-sm text-faint">The view link isn't available. Rotate it to create a new one.</p>}
             <Button size="sm" variant="ghost" onClick={() => setRotating("view")}>
               ↻ Rotate view link
             </Button>
@@ -132,7 +132,7 @@ export function AccessPanel({
                 Owner link <Badge tone="warn">Master key</Badge>
               </span>
             }
-            description="Full control: edit everything, manage links, delete the team. Keep it private — use it to sign in on another device."
+            description="Full control: edit everything, manage links, delete the team. Keep it private, and use it to sign in on another device."
           >
             {showOwner ? (
               <div className="space-y-2">
@@ -160,8 +160,8 @@ export function AccessPanel({
           <div className="space-y-3">
             <Toggle checked={team.locked} onChange={setLocked} disabled={lockBusy} label={<span className="font-semibold">{team.locked ? "Locked" : "Unlocked"}</span>} />
             <p className="text-xs text-muted">
-              While locked, only you can edit anything: players can't change their profiles and nobody can join with the invite link. Lock before a match to freeze the
-              roster; unlock when players should update their pools.
+              While the team is locked, only you can edit it. Players can't change their profiles and nobody can join with the invite link. Lock it before a match to
+              freeze the roster, and unlock it when players should update their pools.
             </p>
             <ErrorNote error={lockError} />
           </div>
@@ -183,7 +183,7 @@ export function AccessPanel({
               ))}
             </ul>
           )}
-          <p className="mt-3 text-xs text-faint">Releasing a link revokes it; the slot can then be claimed again via the invite link.</p>
+          <p className="mt-3 text-xs text-faint">Releasing a link revokes it, and the slot can then be claimed again with the invite link.</p>
         </Card>
       </div>
 

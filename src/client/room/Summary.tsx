@@ -98,10 +98,10 @@ function NextGameDialog({ state, view, open, onClose, send }: { state: RoomState
               </label>
             ))}
           </div>
-          {result === null && <p className="text-xs text-warn">Record the result now — it can't be entered after the next game starts.</p>}
+          {result === null && <p className="text-xs text-warn">Record the result now. It can't be entered after the next game starts.</p>}
           {decided && winner && (
             <p className="rounded-lg border border-accent/40 bg-accent/10 px-3 py-2 text-xs text-accent">
-              That makes it {after.A}–{after.B}: {teams[winner].name} win the series, so no further game is needed.
+              That makes it {after.A}–{after.B}, so {teams[winner].name} win the series and no further game is needed.
             </p>
           )}
         </fieldset>
@@ -246,14 +246,14 @@ export function Summary({
                 <Button variant="primary" onClick={() => setNextOpen(true)}>
                   Next game ({state.gameNumber + 1} of {state.config.bestOf})
                 </Button>
-                {!winner && <span className="text-xs text-warn">No result recorded yet — you'll be asked for it before the next game starts.</span>}
+                {!winner && <span className="text-xs text-warn">No result recorded yet. You'll be asked for it before the next game starts.</span>}
               </div>
             ) : (
               state.config.bestOf > 1 &&
               !view.seriesWinner &&
               !view.seriesDrawn && (
                 <p className="border-t border-line pt-3 text-sm text-muted">
-                  That was the last game of the series{winner ? "." : " — record its result to finish the series."}
+                  That was the last game of the series{winner ? "." : ". Record its result to finish the series."}
                 </p>
               )
             )}

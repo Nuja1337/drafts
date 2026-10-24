@@ -41,7 +41,7 @@ export function PlayerAdminActions({
         }}
       >
         <p>
-          The player link held by <b className="text-text">{player.name}</b> stops working immediately. Their profile stays; the slot becomes open so anyone with the
+          The player link held by <b className="text-text">{player.name}</b> stops working immediately. Their profile stays, and the slot opens up so anyone with the
           invite link can claim it again.
         </p>
         <p>Use this when a player lost their link, left the team, or the link leaked.</p>
@@ -58,7 +58,7 @@ export function PlayerAdminActions({
         }}
       >
         <p>
-          Deletes <b className="text-text">{player.name}</b>'s profile — pool, preferences and notes — and revokes their link. You can undo this from the Activity tab.
+          Deletes <b className="text-text">{player.name}</b>'s profile (pool, preferences and notes) and revokes their link. You can undo this from the Activity tab.
         </p>
       </ConfirmModal>
     </div>

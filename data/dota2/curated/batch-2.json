@@ -28,7 +28,7 @@
     ],
     "meta": { "pos5": "B", "pos4": "B", "pos2": "C" },
     "difficulty": 2,
-    "notes": "Tower-razing nuker: Nether Blast takes buildings fast (Oblivion Savant adds spell amp per tower), Decrepify saves allies from physical burst or amplifies magic combos, Nether Ward punishes spell-spammers. Very fragile; dies to invisible/mana-burn gankers and silences."
+    "notes": "Tower-razing nuker whose Nether Blast takes buildings fast (Oblivion Savant adds spell amp per tower). Decrepify saves allies from physical burst or amplifies magic combos, and Nether Ward punishes spell-spammers. He is very fragile and dies to invisible or mana-burn gankers and silences."
   },
   {
     "id": "templar_assassin",
@@ -39,15 +39,15 @@
     "powerCurve": { "early": 2, "mid": 3, "late": 2 },
     "archetypes": ["skirmish", "pick", "early"],
     "strongVs": [
-      { "id": "meepo", "s": 2, "note": "Psi Blades split onto clones; Refraction blocks Poof instances" },
+      { "id": "meepo", "s": 2, "note": "Psi Blades split onto clones, and Refraction blocks Poof instances" },
       { "id": "huskar", "s": 2, "lane": true, "note": "Refraction absorbs Burning Spear attacks in lane" },
       { "id": "broodmother", "s": 2 },
       { "id": "phantom_lancer", "s": 1 }
     ],
     "weakVs": [
-      { "id": "shredder", "s": 2, "note": "Chakram/Whirling Death ticks strip Refraction; Reactive Armor soaks her burst" },
+      { "id": "shredder", "s": 2, "note": "Chakram and Whirling Death ticks strip Refraction, and Reactive Armor soaks her burst" },
       { "id": "bristleback", "s": 2, "note": "Quill Spray instances strip Refraction" },
-      { "id": "slardar", "s": 2, "note": "Corrosive Haze armor loss + True Sight on a low-armor carry" },
+      { "id": "slardar", "s": 2, "note": "Corrosive Haze armor loss and True Sight on a low-armor carry" },
       { "id": "razor", "s": 2, "lane": true, "note": "Static Link drains her attack damage in lane" },
       { "id": "venomancer", "s": 1 }
     ],
@@ -57,7 +57,7 @@
     ],
     "meta": { "pos1": "B", "pos2": "C" },
     "difficulty": 3,
-    "notes": "Refraction-shielded burst carry, now mostly played pos1, who snowballs off early kills, towers and Roshan; Psi Blades shred illusions/summons. Collapses vs damage-over-time that strips Refraction (Bristleback, Venomancer, Timbersaw), armor reduction and True Sight."
+    "notes": "Refraction-shielded burst carry, now mostly played pos1, who snowballs off early kills, towers and Roshan. Psi Blades shred illusions and summons. She collapses against damage over time that strips Refraction (Bristleback, Venomancer, Timbersaw), armor reduction and True Sight."
   },
   {
     "id": "viper",
@@ -68,7 +68,7 @@
     "powerCurve": { "early": 3, "mid": 2, "late": 1 },
     "archetypes": ["early", "skirmish"],
     "strongVs": [
-      { "id": "huskar", "s": 3, "lane": true, "note": "Viper Strike breaks Berserker's Blood; Poison Attack wins the ranged lane" },
+      { "id": "huskar", "s": 3, "lane": true, "note": "Viper Strike breaks Berserker's Blood, and Poison Attack wins the ranged lane" },
       { "id": "bristleback", "s": 2, "note": "Viper Strike breaks Bristleback's damage reduction" },
       { "id": "spectre", "s": 2, "note": "Viper Strike breaks Dispersion and Desolate" },
       { "id": "shredder", "s": 2, "note": "Break disables Reactive Armor" },
@@ -89,7 +89,7 @@
     ],
     "meta": { "pos2": "B", "pos3": "C" },
     "difficulty": 1,
-    "notes": "Relentless lane bully; Viper Strike (2 charges) breaks passives (Bristleback, Spectre, PA, Huskar, Timbersaw) and Nethertoxin zones attack-speed carries. Strong early/mid, falls off late and its single-target damage struggles vs illusion carries (PL, Naga)."
+    "notes": "Strong lane bully whose Viper Strike (2 charges) breaks passives (Bristleback, Spectre, PA, Huskar, Timbersaw), while Nethertoxin zones attack-speed carries. Viper is strong early and mid game, falls off late, and its single-target damage struggles against illusion carries (PL, Naga)."
   },
   {
     "id": "luna",
@@ -121,7 +121,7 @@
     ],
     "meta": { "pos1": "B" },
     "difficulty": 1,
-    "notes": "Fast-farming Moon Glaives carry who clears waves and punishes illusion/summon heroes, spiking mid-game with Manta/BKB. Low armor and HP; needs frontline and gets jumped by Legion Commander, PA and Bristleback."
+    "notes": "Fast-farming Moon Glaives carry who clears waves, punishes illusion and summon heroes, and spikes mid-game with Manta and BKB. She has low armor and HP, needs frontline, and gets jumped by Legion Commander, PA and Bristleback."
   },
   {
     "id": "dragon_knight",
@@ -152,7 +152,7 @@
     ],
     "meta": { "pos2": "B", "pos3": "B", "pos1": "C" },
     "difficulty": 1,
-    "notes": "Tanky pusher whose Elder Dragon Form now evolves by level (corrosive, then splash, then frost slow) to take towers and win extended fights while shrugging off physical damage. Good vs illusions and melee; weak to break (Viper), pure damage (Timbersaw) and kiting."
+    "notes": "Tanky pusher whose Elder Dragon Form now evolves by level (corrosive, then splash, then frost slow) to take towers and win extended fights while shrugging off physical damage. He is good against illusions and melee, and weak to break (Viper), pure damage (Timbersaw) and kiting."
   },
   {
     "id": "dazzle",
@@ -183,7 +183,7 @@
     ],
     "meta": { "pos5": "B", "pos4": "C" },
     "difficulty": 2,
-    "notes": "Save support: Shallow Grave negates burst/Duel/Rupture kills, Shadow Wave heals, Weave swings armor for physical lineups. Must stay alive and un-silenced; hard-countered by Ice Blast, Doom and Global Silence."
+    "notes": "Save support whose Shallow Grave negates kills from burst, Duel or Rupture, while Shadow Wave heals and Weave swings armor for physical lineups. He must stay alive and unsilenced. Ice Blast, Doom and Global Silence hard-counter him."
   },
   {
     "id": "rattletrap",
@@ -213,7 +213,7 @@
     ],
     "meta": { "pos4": "A", "pos5": "A" },
     "difficulty": 2,
-    "notes": "Hookshot/Power Cogs pickoff initiator who isolates squishy backliners early; played as both pos4 and pos5. Needs follow-up damage; weak vs spell immunity/dispel carries (Lifestealer Rage, Jugg spin, Slark Dark Pact)."
+    "notes": "Pick-off initiator whose Hookshot and Power Cogs isolate squishy backliners early, played at both pos4 and pos5. He needs follow-up damage and is weak against carries with spell immunity or dispels (Lifestealer Rage, Jugg spin, Slark Dark Pact)."
   },
   {
     "id": "leshrac",
@@ -244,7 +244,7 @@
     ],
     "meta": { "pos2": "C" },
     "difficulty": 2,
-    "notes": "Diabolic Edict tower-destroyer and Pulse Nova AoE fighter; one of the best at fast pushes and clearing illusions/summons. Mana-hungry: countered by mana burn (Anti-Mage, Nyx) and silences."
+    "notes": "Leshrac destroys towers with Diabolic Edict and fights with Pulse Nova AoE, which makes him one of the best at fast pushes and clearing illusions and summons. He is mana-hungry, so mana burn (Anti-Mage, Nyx) and silences counter him."
   },
   {
     "id": "furion",
@@ -273,7 +273,7 @@
     ],
     "meta": { "pos1": "B", "pos2": "B", "pos3": "C", "pos4": "C" },
     "difficulty": 2,
-    "notes": "Global split-pusher, now mostly a pos1: Teleportation + treants (which feed Spirit of the Forest damage) create map pressure and fast tower damage, Sprout sets up picks. Punished when caught alone by global/fast gankers (Spirit Breaker) and Timbersaw clearing trees."
+    "notes": "Global split-pusher, now mostly a pos1, whose Teleportation and treants (which feed Spirit of the Forest damage) create map pressure and fast tower damage, while Sprout sets up picks. Global or fast gankers (Spirit Breaker) punish him when he is caught alone, and Timbersaw clears his trees."
   },
   {
     "id": "life_stealer",
@@ -304,7 +304,7 @@
     ],
     "meta": { "pos1": "A" },
     "difficulty": 1,
-    "notes": "Rage-immune melee carry whose Feast shreds high-HP tanks; Infest lets him ride allies (Spirit Breaker, Batrider) into fights. Countered by anti-heal, debuff-immunity-piercing disables (Doom, Beastmaster) and pure damage."
+    "notes": "Rage-immune melee carry whose Feast shreds high-HP tanks, and Infest lets him ride allies (Spirit Breaker, Batrider) into fights. Anti-heal, disables that pierce debuff immunity (Doom, Beastmaster) and pure damage counter him."
   },
   {
     "id": "dark_seer",
@@ -337,7 +337,7 @@
     ],
     "meta": { "pos3": "A" },
     "difficulty": 2,
-    "notes": "Offlane enabler: Ion Shell wins lanes and deletes illusions/summons, Surge speeds cores, Vacuum + Wall of Replica set up AoE wombos. Needs AoE follow-up; spell-reliant, so silences and mana burn blunt him."
+    "notes": "Offlane enabler whose Ion Shell wins lanes and deletes illusions and summons, while Surge speeds cores and Vacuum into Wall of Replica sets up AoE wombos. He needs AoE follow-up and relies on spells, so silences and mana burn blunt him."
   },
   {
     "id": "clinkz",
@@ -367,7 +367,7 @@
     ],
     "meta": { "pos1": "B", "pos2": "C" },
     "difficulty": 2,
-    "notes": "Invisible armor-piercing carry (Infernal Shred, Searing Arrows, Skeleton Walk archers) who picks off isolated supports. Fragile; hard-countered by detection and reveals (Track, Corrosive Haze, Zeus)."
+    "notes": "Invisible armor-piercing carry (Infernal Shred, Searing Arrows, Skeleton Walk archers) who picks off isolated supports. He is fragile, and detection and reveals (Track, Corrosive Haze, Zeus) hard-counter him."
   },
   {
     "id": "omniknight",
@@ -397,7 +397,7 @@
     ],
     "meta": { "pos5": "C", "pos3": "C", "pos4": "D" },
     "difficulty": 1,
-    "notes": "Anti-physical protector: Guardian Angel is now a 700-radius aura around Omni with no linger, so he must stand in the fight; Repel grants debuff immunity and Purification/Hammer heal. Useless vs magic-heavy lineups and countered by silences and anti-heal."
+    "notes": "Anti-physical protector whose Guardian Angel is now a 700-radius aura around him with no linger, so he must stand in the fight. Repel grants debuff immunity, and Purification and Hammer heal. He is useless against magic-heavy lineups, and silences and anti-heal counter him."
   },
   {
     "id": "enchantress",
@@ -408,7 +408,7 @@
     "powerCurve": { "early": 2, "mid": 2, "late": 2 },
     "archetypes": ["poke", "protect", "skirmish"],
     "strongVs": [
-      { "id": "troll_warlord", "s": 2, "note": "Untouchable slows attack speed; Impetus kites" },
+      { "id": "troll_warlord", "s": 2, "note": "Untouchable slows attack speed, and Impetus kites" },
       { "id": "ursa", "s": 2, "note": "Untouchable guts melee attack speed" },
       { "id": "sven", "s": 1 },
       { "id": "juggernaut", "s": 1 },
@@ -427,7 +427,7 @@
     ],
     "meta": { "pos5": "B", "pos4": "B" },
     "difficulty": 2,
-    "notes": "Long-range Impetus poke with heals and Untouchable, which cripples melee right-click carries. Needs a frontline to hide behind; vulnerable to magic burst and mobile divers."
+    "notes": "Enchantress has long-range Impetus poke, heals and Untouchable, which cripples melee right-click carries. She needs a frontline to hide behind and is vulnerable to magic burst and mobile divers."
   },
   {
     "id": "huskar",
@@ -459,7 +459,7 @@
     ],
     "meta": { "pos2": "C", "pos3": "C" },
     "difficulty": 2,
-    "notes": "Low-HP berserker who dominates melee/strength lanes and dives with Life Break; needs save supports (Dazzle, Oracle). Heavily banned but poor when picked into prepared drafts; falls off late and is hard-countered by break, anti-heal, Necrophos and Culling Blade."
+    "notes": "Low-HP berserker who dominates melee and strength lanes and dives with Life Break. He needs save supports (Dazzle, Oracle). He is banned a lot but does poorly when picked into prepared drafts. He falls off late, and break, anti-heal, Necrophos and Culling Blade hard-counter him."
   },
   {
     "id": "night_stalker",
@@ -470,7 +470,7 @@
     "powerCurve": { "early": 3, "mid": 3, "late": 1 },
     "archetypes": ["pick", "dive", "early"],
     "strongVs": [
-      { "id": "storm_spirit", "s": 2, "note": "Crippling Fear silence + Void catch blinkers" },
+      { "id": "storm_spirit", "s": 2, "note": "Crippling Fear silence and Void catch blinkers" },
       { "id": "puck", "s": 2 },
       { "id": "queenofpain", "s": 2 },
       { "id": "ember_spirit", "s": 1 },
@@ -490,7 +490,7 @@
     ],
     "meta": { "pos3": "B" },
     "difficulty": 1,
-    "notes": "Night-time ganker: Void and Crippling Fear silence catch mobile spellcasters, Dark Ascension gives flying vision, Midnight Feast sustains. Wants early fights and night timings; weak vs tanky/pure-damage offlaners and when games go late."
+    "notes": "Night-time ganker whose Void and Crippling Fear silence catch mobile spellcasters, while Dark Ascension gives flying vision and Midnight Feast sustains him. He wants early fights and night timings, and is weak against tanky or pure-damage offlaners and when games go late."
   },
   {
     "id": "broodmother",
@@ -552,7 +552,7 @@
     ],
     "meta": { "pos4": "A" },
     "difficulty": 1,
-    "notes": "Roaming invisible pos4: Track grants True Sight and pays team gold, Big Game Hunter adds kill gold on the enemy's top-3 net-worth heroes, and marks targets for global/fast gankers. Premier counter to invis heroes; weak to reveals and tanky melee."
+    "notes": "Roaming invisible pos4 whose Track grants True Sight, pays team gold and marks targets for global or fast gankers. Big Game Hunter adds kill gold on the enemy's three highest net-worth heroes. He is one of the best counters to invisible heroes, and weak to reveals and tanky melee."
   },
   {
     "id": "weaver",
@@ -580,7 +580,7 @@
     ],
     "meta": { "pos1": "C", "pos4": "D" },
     "difficulty": 2,
-    "notes": "Elusive Shukuchi/Time Lapse skirmisher; Swarm armor reduction, Threads of Fate and Geminate Attack burst immobile targets. Hard to pin down but flimsy; countered by True Sight/reveals (Track, Corrosive Haze)."
+    "notes": "Elusive skirmisher with Shukuchi and Time Lapse, whose Swarm armor reduction, Threads of Fate and Geminate Attack burst immobile targets. He is hard to pin down but flimsy, and True Sight and reveals (Track, Corrosive Haze) counter him."
   },
   {
     "id": "jakiro",
@@ -611,7 +611,7 @@
     ],
     "meta": { "pos5": "C", "pos4": "C" },
     "difficulty": 1,
-    "notes": "Lane-bully pushing support: Liquid Fire/Frost melt towers, Ice Path + Macropyre zone teamfights and clear illusions. Slow and immobile; punished by divers and invisible gankers."
+    "notes": "Lane-bully pushing support whose Liquid Fire and Liquid Frost melt towers, while Ice Path and Macropyre zone teamfights and clear illusions. Jakiro is slow and immobile, which divers and invisible gankers punish."
   },
   {
     "id": "batrider",
@@ -633,12 +633,12 @@
       { "id": "doom_bringer", "s": 1 }
     ],
     "synergies": [
-      { "id": "wisp", "s": 2, "note": "Relocate/Tether + Lasso drags targets across the map" },
+      { "id": "wisp", "s": 2, "note": "Relocate, Tether and Lasso drag targets across the map" },
       { "id": "life_stealer", "s": 1 }
     ],
     "meta": { "pos3": "B", "pos4": "C", "pos2": "C" },
     "difficulty": 2,
-    "notes": "Blink + Firefly + Flaming Lasso drags one key target into the team; elite pick/initiation plus Sticky Napalm lane pressure. Needs follow-up; Rubick stealing Lasso and silences punish him."
+    "notes": "Batrider uses Blink, Firefly and Flaming Lasso to drag one key target into his team, which gives elite picks and initiation, and Sticky Napalm adds lane pressure. He needs follow-up, and Rubick stealing Lasso and silences punish him."
   },
   {
     "id": "chen",
@@ -668,7 +668,7 @@
     ],
     "meta": { "pos5": "C", "pos4": "D" },
     "difficulty": 3,
-    "notes": "Creep-army micro support for early pushes, with global Hand of God heals and Zealot/Penitence utility. Must end early; creeps get deleted by AoE (Ion Shell, Leshrac) and the hero falls off late."
+    "notes": "Creep-army micro support for early pushes, with global Hand of God heals and Zealot and Penitence utility. He must end early. AoE (Ion Shell, Leshrac) deletes his creeps, and Chen himself falls off late."
   },
   {
     "id": "spectre",
@@ -700,7 +700,7 @@
     ],
     "meta": { "pos1": "B" },
     "difficulty": 1,
-    "notes": "Global hyper-carry: Haunt joins every fight, Shadow Step is a long-range illusion gap-closer, Dispersion reflects burst and innate Desolate adds pure damage. Slow early; break (Viper, Doom scepter) and lane pressure are her kryptonite."
+    "notes": "Global hyper-carry whose Haunt joins every fight. Shadow Step is a long-range illusion gap-closer, Dispersion reflects burst and innate Desolate adds pure damage. She is slow early, and break (Viper, Doom scepter) and lane pressure are her main weaknesses."
   },
   {
     "id": "ancient_apparition",
@@ -733,7 +733,7 @@
     ],
     "meta": { "pos5": "B", "pos4": "C" },
     "difficulty": 2,
-    "notes": "Global Ice Blast shuts off healing and shatters low-HP targets; Cold Feet/Ice Vortex give long-range zoning and Bone Chill saps Strength. The go-to counter-pick vs regen/heal heroes; fragile vs divers."
+    "notes": "Global Ice Blast shuts off healing and shatters low-HP targets. Cold Feet and Ice Vortex give long-range zoning, and Bone Chill saps Strength. He is the go-to counter-pick against regen and heal heroes, and fragile against divers."
   },
   {
     "id": "doom_bringer",
@@ -765,7 +765,7 @@
     ],
     "meta": { "pos3": "S", "pos1": "C" },
     "difficulty": 2,
-    "notes": "Tanky offlaner (occasionally safelane) whose Doom dispels, silences and blocks healing on the enemy's key hero, with Scepter adding Break; farms fast via Devour. Premier answer to spell/save-reliant cores; single-target ult is weak vs illusion carries."
+    "notes": "Tanky offlaner (occasionally safelane) whose Doom dispels, silences and blocks healing on the enemy's key hero, and Scepter adds Break. He farms fast with Devour. He is one of the best answers to cores that rely on spells or saves, but his single-target ult is weak against illusion carries."
   },
   {
     "id": "ursa",
@@ -797,7 +797,7 @@
     ],
     "meta": { "pos1": "A" },
     "difficulty": 1,
-    "notes": "Early Roshan and single-target melee shredder (Fury Swipes, Enrage, HP-scaling Maul). Wants to end mid-game; countered by kiting, evasion, Untouchable/Guardian Angel and Winter's Curse."
+    "notes": "Early Roshan and single-target melee shredder (Fury Swipes, Enrage, HP-scaling Maul). She wants to end mid-game. Kiting, evasion, Untouchable, Guardian Angel and Winter's Curse counter her."
   },
   {
     "id": "spirit_breaker",
@@ -828,7 +828,7 @@
     ],
     "meta": { "pos4": "B", "pos5": "C", "pos3": "C" },
     "difficulty": 1,
-    "notes": "Global Charge of Darkness ganker who punishes split-pushers and immobile backliners; Greater Bash chain-stuns. Best early-mid; weak vs illusions, break and saves on the charge target."
+    "notes": "Global Charge of Darkness ganker who punishes split-pushers and immobile backliners, and Greater Bash chain-stuns. He is best early to mid game, and weak against illusions, break and saves on the charge target."
   },
   {
     "id": "gyrocopter",
@@ -854,13 +854,13 @@
       { "id": "spirit_breaker", "s": 1 }
     ],
     "synergies": [
-      { "id": "wisp", "s": 3, "note": "Tether + Flak Cannon: classic pairing" },
+      { "id": "wisp", "s": 3, "note": "Tether with Flak Cannon is a classic pairing" },
       { "id": "magnataur", "s": 1 },
       { "id": "vengefulspirit", "s": 1 }
     ],
     "meta": { "pos1": "D", "pos4": "C" },
     "difficulty": 1,
-    "notes": "Flak Cannon/Rocket Barrage multi-target damage that farms fast and wrecks illusions and summons. No escape; gets jumped by Duel, PA and mobile gankers. Io + Gyro is a classic combo."
+    "notes": "Gyrocopter's Flak Cannon and Rocket Barrage deal multi-target damage that farms fast and wrecks illusions and summons. He has no escape, so Duel, PA and mobile gankers jump him. Io and Gyro are a classic combo."
   },
   {
     "id": "alchemist",
@@ -890,7 +890,7 @@
     ],
     "meta": { "pos1": "B", "pos2": "C", "pos3": "D" },
     "difficulty": 2,
-    "notes": "Fastest farmer in the game; Chemical Rage regen makes him a durable mid-game fighter, and he can melt Aghanim's Scepters into allies. Needs space early; anti-heal (Ice Blast, Heartstopper) and pure damage cut his sustain."
+    "notes": "Alchemist is the fastest farmer in the game. Chemical Rage regen makes him a durable mid-game fighter, and he can melt Aghanim's Scepters into allies. He needs space early, and anti-heal (Ice Blast, Heartstopper) and pure damage cut his sustain."
   },
   {
     "id": "invoker",
@@ -920,7 +920,7 @@
     ],
     "meta": { "pos2": "A", "pos4": "C" },
     "difficulty": 3,
-    "notes": "Level-scaling spellcaster with global Sun Strike, Tornado-Meteor-Blast teamfight burst and EMP vs mana heroes. Needs levels and space; mana burn, Doom and gap-closers punish him."
+    "notes": "Level-scaling spellcaster with global Sun Strike, Tornado-Meteor-Blast teamfight burst and EMP against mana heroes. He needs levels and space, and mana burn, Doom and gap-closers punish him."
   },
   {
     "id": "silencer",
@@ -953,7 +953,7 @@
     ],
     "meta": { "pos5": "B", "pos4": "C" },
     "difficulty": 1,
-    "notes": "Global Silence and Last Word shut down spell-reliant heroes and blink/BKB-less initiators; steals Int over the game. Little impact vs right-click lineups that ignore silence."
+    "notes": "Global Silence and Last Word shut down spell-reliant heroes and Blink initiators without BKB, and Silencer steals Int over the game. He has little impact against right-click lineups that ignore silence."
   },
   {
     "id": "obsidian_destroyer",
@@ -980,7 +980,7 @@
     ],
     "meta": { "pos2": "A" },
     "difficulty": 2,
-    "notes": "Mana-scaling mid: Arcane Orb pure damage melts high-HP heroes, Objurgation barrier and Astral Imprisonment save himself or allies, Sanity's Eclipse punishes low-mana teams. Mana burn and silences counter him."
+    "notes": "Mana-scaling mid whose Arcane Orb pure damage melts high-HP heroes. Objurgation's barrier and Astral Imprisonment save him or his allies, and Sanity's Eclipse punishes low-mana teams. Mana burn and silences counter him."
   },
   {
     "id": "lycan",
@@ -1011,7 +1011,7 @@
     ],
     "meta": { "pos3": "B" },
     "difficulty": 2,
-    "notes": "Offlane wolf-pack tower pusher and Shapeshift ganker who must convert early pressure into buildings. Falls off if stalled; AoE that kills wolves (Axe, Leshrac) blunts him."
+    "notes": "Offlane wolf-pack tower pusher and Shapeshift ganker who must convert early pressure into buildings. He falls off if stalled, and AoE that kills wolves (Axe, Leshrac) blunts him."
   },
   {
     "id": "brewmaster",
@@ -1037,7 +1037,7 @@
     ],
     "meta": { "pos3": "B" },
     "difficulty": 3,
-    "notes": "Primal Split initiator: Earth tank, Storm Cyclone/Dispel and Fire damage let him dictate fights; stances work while silenced. Very micro-intensive; Doom and silence before Split shut him down."
+    "notes": "Primal Split initiator whose Earth tank, Storm's Cyclone and Dispel, and Fire damage let him dictate fights, and his stances work while silenced. He is very micro-intensive, and Doom or silence before Split shuts him down."
   },
   {
     "id": "shadow_demon",
@@ -1066,7 +1066,7 @@
     ],
     "meta": { "pos4": "B", "pos5": "C" },
     "difficulty": 3,
-    "notes": "Disruption saves allies and sets up skillshots, Demonic Purge dispels enemy buffs and slows. Combos with point-target nukers (Split Earth, Sun Strike, Light Strike); fragile vs divers."
+    "notes": "Disruption saves allies and sets up skillshots, and Demonic Purge dispels enemy buffs and slows. Shadow Demon combos with point-target nukers (Split Earth, Sun Strike, Light Strike) and is fragile against divers."
   },
   {
     "id": "lone_druid",
@@ -1095,7 +1095,7 @@
     ],
     "meta": { "pos1": "S", "pos2": "C" },
     "difficulty": 3,
-    "notes": "Innate Spirit Bear + Entangle root lane dominance that snowballs into tower pressure and split-pushing; top-tier pro pick/ban. Micro-heavy; Doom/Axe/Winter's Curse on the bear or druid ruin fights."
+    "notes": "Lone Druid's innate Spirit Bear and Entangle root give lane dominance that snowballs into tower pressure and split-pushing, and he is a top-tier pick or ban in pro. He is micro-heavy, and Doom, Axe or Winter's Curse on the bear or the druid ruins fights."
   },
   {
     "id": "chaos_knight",
@@ -1124,7 +1124,7 @@
     ],
     "meta": { "pos1": "B", "pos3": "C" },
     "difficulty": 1,
-    "notes": "Reality Rift + Chaos Bolt + crit illusions burst a single target in seconds. Strong mid-game diver; AoE illusion killers (Axe, Earthshaker, Leshrac) punish Phantasm."
+    "notes": "Reality Rift, Chaos Bolt and crit illusions burst a single target in seconds. Chaos Knight is a strong mid-game diver, and AoE illusion killers (Axe, Earthshaker, Leshrac) punish Phantasm."
   },
   {
     "id": "meepo",
@@ -1140,7 +1140,7 @@
       { "id": "crystal_maiden", "s": 1 }
     ],
     "weakVs": [
-      { "id": "earthshaker", "s": 3, "note": "Echo Slam + Aftershock hit all clones; one dies, all die" },
+      { "id": "earthshaker", "s": 3, "note": "Echo Slam and Aftershock hit all clones, and if one dies, all die" },
       { "id": "leshrac", "s": 2, "lane": true },
       { "id": "templar_assassin", "s": 2 },
       { "id": "luna", "s": 2 },
@@ -1155,7 +1155,7 @@
     ],
     "meta": { "pos2": "B", "pos1": "C" },
     "difficulty": 3,
-    "notes": "Multi-body ganker: Earthbind + Poof burst, farms and split-pushes everywhere, now copying items across clones. One clone dies, all die, so AoE (Earthshaker, Leshrac, TA, Ember) hard-counters him."
+    "notes": "Multi-body ganker who bursts with Earthbind and Poof and farms and split-pushes everywhere, and his clones now copy his items. If one clone dies they all die, so AoE (Earthshaker, Leshrac, TA, Ember) hard-counters him."
   },
   {
     "id": "treant",
@@ -1185,7 +1185,7 @@
     ],
     "meta": { "pos5": "B", "pos4": "B" },
     "difficulty": 2,
-    "notes": "Overgrowth AoE root stops blinks and escapes; Living Armor and Leech Seed sustain the team, Nature's Guise lets him roam invisibly. Top contested pos5 of 7.41d-e before the 7.41f nerfs; Timbersaw and debuff-immune carries blunt him."
+    "notes": "Overgrowth's AoE root stops blinks and escapes. Living Armor and Leech Seed sustain the team, and Nature's Guise lets him roam invisibly. He was one of the most contested pos5 heroes of 7.41d-e before the 7.41f nerfs. Timbersaw and debuff-immune carries blunt him."
   },
   {
     "id": "ogre_magi",
@@ -1214,7 +1214,7 @@
     ],
     "meta": { "pos5": "B", "pos4": "C", "pos3": "C" },
     "difficulty": 1,
-    "notes": "Unkillable lane support with Multicast Fireblast stuns and Bloodlust for attack-speed cores. Strong early; low late impact and weak to pure damage and silence."
+    "notes": "Unkillable lane support with Multicast Fireblast stuns and Bloodlust for attack-speed cores. He is strong early, has low late impact, and is weak to pure damage and silence."
   },
   {
     "id": "undying",
@@ -1241,7 +1241,7 @@
     ],
     "meta": { "pos5": "A", "pos3": "B", "pos4": "C" },
     "difficulty": 1,
-    "notes": "Decay Strength-steal lane bully, Tombstone zone control and Flesh Golem frontline for early fights; a heavily contested pos5 that also flexes to offlane. Tombstone combos with trapping ults (Arena, Kinetic Field); falls off late."
+    "notes": "Lane bully who steals Strength with Decay, with Tombstone zone control and a Flesh Golem frontline for early fights. He is a heavily contested pos5 who also flexes to offlane. Tombstone combos with trapping ults (Arena, Kinetic Field). He falls off late."
   },
   {
     "id": "rubick",
@@ -1272,7 +1272,7 @@
     ],
     "meta": { "pos4": "A", "pos5": "B", "pos2": "C" },
     "difficulty": 3,
-    "notes": "Flexible pos4: Telekinesis peel/setup and Spell Steal turns enemy teamfight ultimates (Black Hole, RP, Ravage, Echo Slam, Lasso) against them. Squishy; divers and invisible gankers punish him."
+    "notes": "Flexible pos4 with Telekinesis for peel and setup, and a Spell Steal that turns enemy teamfight ultimates (Black Hole, RP, Ravage, Echo Slam, Lasso) against them. He is squishy, and divers and invisible gankers punish him."
   },
   {
     "id": "disruptor",
@@ -1283,8 +1283,8 @@
     "powerCurve": { "early": 2, "mid": 3, "late": 2 },
     "archetypes": ["pick", "engage"],
     "strongVs": [
-      { "id": "antimage", "s": 2, "note": "Glimpse returns blinked heroes; Static Storm silences" },
-      { "id": "storm_spirit", "s": 2, "note": "Glimpse undoes Ball Lightning; Static Storm silences" },
+      { "id": "antimage", "s": 2, "note": "Glimpse returns blinked heroes, and Static Storm silences" },
+      { "id": "storm_spirit", "s": 2, "note": "Glimpse undoes Ball Lightning, and Static Storm silences" },
       { "id": "queenofpain", "s": 2 },
       { "id": "ember_spirit", "s": 2 },
       { "id": "puck", "s": 2 },
@@ -1304,6 +1304,6 @@
     ],
     "meta": { "pos5": "B", "pos4": "C" },
     "difficulty": 2,
-    "notes": "Glimpse and Kinetic Field trap mobile/blink heroes; Static Storm silences whole teams. Excellent vs escape-reliant cores; fragile vs divers and debuff-immune carries."
+    "notes": "Glimpse and Kinetic Field trap mobile and blink heroes, and Static Storm silences whole teams. Disruptor is excellent against escape-reliant cores and fragile against divers and debuff-immune carries."
   }
 ]

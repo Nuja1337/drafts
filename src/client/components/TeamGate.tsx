@@ -51,7 +51,7 @@ export function TeamGate({ state, children }: { state: UseTeam; children: (ready
         }
       >
         {stored?.role === "owner"
-          ? "The owner key saved here was rotated — probably from another device. Open the newest owner link to regain access."
+          ? "The owner key saved here was rotated, probably from another device. Open the newest owner link to regain access."
           : stored?.role === "player"
             ? "Your player key was released or replaced by the team owner. Ask them for a fresh invite link."
             : "The view link was rotated by the team owner. Ask them for the new one."}
@@ -70,7 +70,7 @@ export function TeamGate({ state, children }: { state: UseTeam; children: (ready
           </div>
         }
       >
-        This team doesn't exist anymore — its owner may have deleted it.
+        This team doesn't exist anymore. Its owner may have deleted it.
       </EmptyState>
     );
   }

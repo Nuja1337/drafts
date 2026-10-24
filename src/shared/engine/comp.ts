@@ -233,7 +233,7 @@ export function addComposition(
     add("composition", dmg, () =>
       dmg > 0
         ? `Adds ${kind} damage (${who} comp is mostly ${ours >= 0.5 ? "physical" : "magic"})`
-        : `Another ${kind} threat — ${who} damage gets one-sided`,
+        : `Another ${kind} threat, so ${who} damage gets one-sided`,
     );
   }
   // Power-curve coherence.
@@ -306,10 +306,10 @@ export function analyzeComp(ctx: Ctx, side: Side, ids: string[], s: CompState, e
 
   // Warnings, most important first.
   const warnings: string[] = [];
-  if (n >= 3 && physShare >= 0.9) warnings.push("All physical damage — enemies can stack armor");
-  else if (n >= 3 && physShare <= 0.1) warnings.push("All magic damage — enemies can stack magic resist");
-  else if (n >= 4 && physShare >= 0.78) warnings.push("Mostly physical damage — armor stacking hurts");
-  else if (n >= 4 && physShare <= 0.22) warnings.push("Mostly magic damage — magic resist stacking hurts");
+  if (n >= 3 && physShare >= 0.9) warnings.push("All physical damage, so enemies can stack armor");
+  else if (n >= 3 && physShare <= 0.1) warnings.push("All magic damage, so enemies can stack magic resist");
+  else if (n >= 4 && physShare >= 0.78) warnings.push("Mostly physical damage, so armor stacking hurts");
+  else if (n >= 4 && physShare <= 0.22) warnings.push("Mostly magic damage, so magic resist stacking hurts");
   if (n >= 3 && at("frontline") <= 1.5) warnings.push("No frontline");
   else if (n >= 4 && at("frontline") < 0.45 * tgt("frontline")) warnings.push("Little frontline");
   if (n >= 4 && at("engage") <= 1.5) warnings.push("No reliable engage");
@@ -324,9 +324,9 @@ export function analyzeComp(ctx: Ctx, side: Side, ids: string[], s: CompState, e
   if (enemy.n >= 3 && n >= 4) {
     const poke = enemyWith("poke") >= 2 || enemyArch?.id === "poke";
     if (poke && at("engage") < 0.5 * tgt("engage") && at("sustain") < 0.5 * tgt("sustain"))
-      warnings.push("Vulnerable to poke — little engage or sustain");
+      warnings.push("Vulnerable to poke, with little engage or sustain");
     const dive = enemyWith("burst", "mobility") >= 2 || enemyArch?.id === "dive";
-    if (dive && at("peel") < 0.4 * tgt("peel")) warnings.push("Vulnerable to dive — little peel");
+    if (dive && at("peel") < 0.4 * tgt("peel")) warnings.push("Vulnerable to dive, with little peel");
   }
   if (n >= 4 && at("waveclear") < 0.45 * tgt("waveclear")) warnings.push("Little waveclear");
   if (n >= 4 && at("cc") < 0.4 * tgt("cc")) warnings.push("Little crowd control");

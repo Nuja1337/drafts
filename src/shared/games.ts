@@ -105,14 +105,14 @@ export const ATTRIBUTES: AttributeDef[] = [
   { id: "poke", label: "Poke", description: "Long-range chip damage before fights start." },
   { id: "burst", label: "Burst", description: "Deletes a target in a short window." },
   { id: "dps", label: "Sustained DPS", description: "Consistent damage over extended fights." },
-  { id: "frontline", label: "Frontline", description: "Tankiness; absorbs damage and holds space." },
+  { id: "frontline", label: "Frontline", description: "Tanky enough to absorb damage and hold space." },
   { id: "cc", label: "Crowd Control", description: "Stuns, roots, slows, displacements." },
   { id: "mobility", label: "Mobility", description: "Dashes, blinks, movement speed, global presence." },
   { id: "waveclear", label: "Waveclear", description: "Clears minion waves / creep waves quickly and safely." },
   { id: "splitpush", label: "Split Push", description: "Side-lane pressure and 1v1 dueling." },
   { id: "pick", label: "Pick", description: "Catches isolated targets." },
   { id: "sustain", label: "Sustain", description: "Heals and shields for self or team." },
-  { id: "siege", label: "Siege", description: "Structure and objective damage; pushing towers." },
+  { id: "siege", label: "Siege", description: "Structure and objective damage, and pushing towers." },
 ];
 
 export interface ArchetypeDef {
@@ -253,7 +253,7 @@ export const TRAITS: TraitDef[] = [
   { id: "macro", label: "Macro / rotations", description: "Map movements, side lanes, objective setups.", team: { archetypes: ["split", "pick"] } },
   { id: "mechanics", label: "Mechanics", description: "Execution on high-skill champions." },
   { id: "early-game", label: "Early game", description: "Proactive early plays.", team: { curve: { early: 1 }, archetypes: ["early"] } },
-  { id: "late-game", label: "Late game", description: "Decision making when it matters most.", team: { curve: { late: 1 }, archetypes: ["scaling"] } },
+  { id: "late-game", label: "Late game", description: "Late-game decision making.", team: { curve: { late: 1 }, archetypes: ["scaling"] } },
   { id: "vs-poke", label: "Vs. poke", description: "Dealing with long-range harass.", enemy: { attr: "poke" } },
   { id: "vs-burst", label: "Vs. burst / assassins", description: "Surviving burst and dive.", enemy: { attr: "burst" } },
   { id: "vs-cc", label: "Vs. heavy CC", description: "Playing around stuns and catches.", enemy: { attr: "cc" } },

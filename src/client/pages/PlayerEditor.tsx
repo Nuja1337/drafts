@@ -125,7 +125,7 @@ function EditorGate({ state, team, you, playerId }: { state: UseTeam; team: Team
   if (!player) {
     return (
       <EmptyState title="Player not found" action={<ButtonLink to={`/t/${encodeURIComponent(team.id)}`}>Back to {team.name}</ButtonLink>}>
-        This player isn't on the roster anymore — the owner may have removed them.
+        This player isn't on the roster anymore. The owner may have removed them.
       </EmptyState>
     );
   }
@@ -301,7 +301,7 @@ function Editor({ state, team, you, player }: { state: UseTeam; team: TeamProfil
           >
             <p className="mb-3 text-xs text-muted">
               {scout
-                ? `${unit}s this player struggles into — suggestions will lean toward picking them.`
+                ? `${unit}s this player struggles into. Suggestions lean toward picking them.`
                 : `${unit}s you'd rather not face. Suggestions lean toward banning them and avoid picks that leave you exposed.`}
             </p>
             {form.avoid.length === 0 ? (
@@ -416,7 +416,7 @@ function Editor({ state, team, you, player }: { state: UseTeam; team: TeamProfil
               rows={5}
               disabled={!canEdit}
               onChange={(e) => set("notes", e.target.value)}
-              placeholder={canEdit ? (scout ? "Habits, tells, what tilts them…" : "Anything the drafter should know — comfort picks for stage, champs you're practicing…") : ""}
+              placeholder={canEdit ? (scout ? "Habits, tells, what tilts them…" : "Anything the drafter should know, like comfort picks for stage or champs you're practicing…") : ""}
             />
             <div className="mt-1 text-right text-xs text-faint">
               {form.notes.length}/{TEAM_LIMITS.notes}

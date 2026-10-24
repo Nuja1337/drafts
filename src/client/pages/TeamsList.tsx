@@ -61,14 +61,14 @@ export function TeamsList() {
             </div>
           }
         >
-          Create a team to store your players' pools and preferences, or open an invite/view link someone shared with you — it will show up here.
+          Create a team to store your players' pools and preferences, or open an invite or view link someone shared with you. It will show up here.
         </EmptyState>
       ) : (
         <div className="space-y-10">
           <Group title="Your teams" hint="Rosters you own, play on or can view." entries={own} onForget={setForgetting} />
           <Group title="Opponent profiles" hint="Scouting notes on teams you draft against." entries={scouts} onForget={setForgetting} />
           <p className="text-xs text-faint">
-            Switching devices? Open your owner backup link (from the team's <span className="text-muted">Access</span> tab) or ask the owner for a fresh invite.
+            To switch devices, open your owner backup link (from the team's <span className="text-muted">Access</span> tab) or ask the owner for a fresh invite.
             There are no accounts yet, so lost links can't be recovered.
           </p>
         </div>

@@ -155,7 +155,7 @@ export function RoomHeader({
           <button
             onClick={onSwitchToHost}
             className="rounded-md px-1.5 py-1 font-semibold whitespace-nowrap text-accent hover:bg-panel-2"
-            title="This browser also has the host link for this room — reconnect as host"
+            title="This browser also has the host link for this room. Reconnect as host."
           >
             Switch to host
           </button>

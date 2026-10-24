@@ -192,7 +192,7 @@ describe("pick scoring", () => {
     const pyke = find(out.picksByRole.support, "Pyke")!;
     expect(leona.reasons.some((r) => r.kind === "composition" && r.text.includes("magic damage") && r.delta > 0)).toBe(true);
     expect(pyke.reasons.some((r) => r.kind === "composition" && r.text.includes("physical threat") && r.delta < 0)).toBe(true);
-    expect(out.comps.blue.warnings).toContain("All physical damage — enemies can stack armor");
+    expect(out.comps.blue.warnings).toContain("All physical damage, so enemies can stack armor");
     expect(find(out.picksByRole.support, "Lulu")!.reasons.some((r) => r.kind === "synergy" && r.text === "Strong synergy with Jinx")).toBe(true);
   });
 
@@ -269,7 +269,7 @@ describe("suggestion quality", () => {
     const base = reshuffle(LOL);
     expect(base.text).toBe("Gragas moves to Top");
     const weak = reshuffle(withMeta("Gragas", "top", "D"));
-    expect(weak.text).toBe("Gragas moves to Top (B→D)");
+    expect(weak.text).toBe("Gragas moves to Top (tier B to D)");
     expect(weak.delta).toBeCloseTo(base.delta - 12, 5); // B (+3) → D (-9)
   });
 
@@ -310,8 +310,8 @@ describe("suggestion quality", () => {
     const bans = ["Soraka", "Jax", "KSante", "Thresh", "Lulu", "Varus"];
     // Blue Darius/LeeSin/Zed/Jinx (no peel) vs a bursty red with a single diver (Ahri), then with two (Ahri, Kai'Sa).
     const vs = (red3: string) => analyzeDraft(lol([...bans, "Darius", "Ahri", "Syndra", "LeeSin", "Zed", red3, "Garen", "Janna", "Fiora", "Nautilus", "Yasuo", "Jinx"]));
-    expect(vs("Graves").comps.blue.warnings).not.toContain("Vulnerable to dive — little peel");
-    expect(vs("Kaisa").comps.blue.warnings).toContain("Vulnerable to dive — little peel");
+    expect(vs("Graves").comps.blue.warnings).not.toContain("Vulnerable to dive, with little peel");
+    expect(vs("Kaisa").comps.blue.warnings).toContain("Vulnerable to dive, with little peel");
   });
 
   it("doesn't favour a side just because only its profile is known", () => {

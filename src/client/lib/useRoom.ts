@@ -240,7 +240,7 @@ export function useRoom(roomId: string, key: string | null): UseRoomResult {
   const send = useCallback((msg: ClientMsg | RoomControlMsg) => {
     const ws = wsRef.current;
     if (!ws || ws.readyState !== WebSocket.OPEN) {
-      setError("Not connected to the room — reconnecting…");
+      setError("Not connected to the room. Reconnecting…");
       return;
     }
     ws.send(JSON.stringify(msg));

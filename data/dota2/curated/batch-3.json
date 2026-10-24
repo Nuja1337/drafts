@@ -8,7 +8,7 @@
     "powerCurve": { "early": 2, "mid": 3, "late": 1 },
     "archetypes": ["pick", "skirmish"],
     "strongVs": [
-      { "id": "storm_spirit", "s": 2, "note": "Mana Burn + Spiked Carapace punish Ball Lightning dives" },
+      { "id": "storm_spirit", "s": 2, "note": "Mana Burn and Spiked Carapace punish Ball Lightning dives" },
       { "id": "tinker", "s": 2 },
       { "id": "zuus", "s": 2 },
       { "id": "skywrath_mage", "s": 2 },
@@ -19,7 +19,7 @@
     "weakVs": [
       { "id": "bounty_hunter", "s": 2, "note": "Track reveals and punishes invisible roaming" },
       { "id": "slardar", "s": 1, "note": "Corrosive Haze reveals Vendetta" },
-      { "id": "terrorblade", "s": 1, "note": "Low-int illusion carry; Mana Burn and burst do little" }
+      { "id": "terrorblade", "s": 1, "note": "A low-int illusion carry, so Mana Burn and burst do little" }
     ],
     "synergies": [
       { "id": "lion", "s": 1 },
@@ -28,7 +28,7 @@
     ],
     "meta": { "pos4": "A", "pos5": "B" },
     "difficulty": 2,
-    "notes": "Invisible roaming ganker: Vendetta into Impale bursts squishy int cores, and Spiked Carapace punishes anyone who dives him. Needs early kills; true sight (Slardar, Bounty Hunter, Dust) shuts him down."
+    "notes": "Invisible roaming ganker whose Vendetta into Impale bursts squishy int cores, while Spiked Carapace punishes anyone who dives him. He needs early kills, and true sight (Slardar, Bounty Hunter, Dust) shuts him down."
   },
   {
     "id": "naga_siren",
@@ -39,7 +39,7 @@
     "powerCurve": { "early": 1, "mid": 2, "late": 3 },
     "archetypes": ["split", "scaling", "push"],
     "strongVs": [
-      { "id": "ursa", "s": 2, "note": "Fury Swipes wasted on illusions; Ensnare roots him" },
+      { "id": "ursa", "s": 2, "note": "Fury Swipes are wasted on illusions, and Ensnare roots him" },
       { "id": "phantom_assassin", "s": 1 },
       { "id": "slark", "s": 1 }
     ],
@@ -61,7 +61,7 @@
     ],
     "meta": { "pos1": "B" },
     "difficulty": 3,
-    "notes": "Illusion split-pusher who farms and takes buildings faster than almost anyone; Song of the Siren resets fights and sets up AoE combos. Hard countered by AoE (Earthshaker, Ember, Leshrac, Medusa) so draft around it."
+    "notes": "Illusion split-pusher who farms and takes buildings faster than almost anyone. Song of the Siren resets fights and sets up AoE combos. AoE (Earthshaker, Ember, Leshrac, Medusa) hard-counters her, so draft around it."
   },
   {
     "id": "keeper_of_the_light",
@@ -94,7 +94,7 @@
     ],
     "meta": { "pos4": "S", "pos2": "A", "pos5": "B" },
     "difficulty": 2,
-    "notes": "Top-contested 7.41 hero (~100 TI 2026 bans), played as roaming pos4 in pro and as a mid: Illuminate gives elite waveclear and poke, Chakra Magic and Recall fuel pushes. Very squishy; gap closers and pick heroes (Storm, Batrider, Nyx, Clockwerk) punish him."
+    "notes": "Keeper was one of the most contested 7.41 heroes, with about 100 bans at TI 2026, and is played as a roaming pos4 in pro and as a mid. Illuminate gives elite waveclear and poke, and Chakra Magic and Recall fuel pushes. He is very squishy, and gap closers and pick heroes (Storm, Batrider, Nyx, Clockwerk) punish him."
   },
   {
     "id": "wisp",
@@ -126,7 +126,7 @@
     ],
     "meta": { "pos5": "A", "pos4": "B" },
     "difficulty": 3,
-    "notes": "Tethers to a core for huge sustain and uses global Relocate for surprise ganks and saves. Needs a strong right-click core to empower; Ancient Apparition, Silencer and Doom neuter him."
+    "notes": "Io tethers to a core for huge sustain and uses global Relocate for surprise ganks and saves. Io needs a strong right-click core to empower, and Ancient Apparition, Silencer and Doom neuter it."
   },
   {
     "id": "visage",
@@ -153,7 +153,7 @@
     ],
     "meta": { "pos3": "A", "pos2": "B", "pos4": "C" },
     "difficulty": 3,
-    "notes": "Micro-heavy tempo hero, most often an offlaner in current pro play (also mid): familiars stun, gank and take towers early while Soul Assumption bursts. Wants to end mid-game; AoE that kills familiars stalls him."
+    "notes": "Micro-heavy tempo hero, most often an offlaner in current pro play and also a mid. His familiars stun, gank and take towers early while Soul Assumption bursts. He wants to end mid-game, and AoE that kills familiars stalls him."
   },
   {
     "id": "slark",
@@ -184,7 +184,7 @@
     ],
     "meta": { "pos1": "A", "pos2": "B" },
     "difficulty": 2,
-    "notes": "Slippery skirmish carry who steals agility, purges disables with Dark Pact and escapes with Shadow Dance. Preys on immobile supports and backliners; undispellable lockdown (Rupture, Duel, Doom, Fiend's Grip) is the answer."
+    "notes": "Slippery skirmish carry who steals agility, purges disables with Dark Pact and escapes with Shadow Dance. He preys on immobile supports and backliners. Undispellable lockdown (Rupture, Duel, Doom, Fiend's Grip) is the answer."
   },
   {
     "id": "medusa",
@@ -215,7 +215,7 @@
     ],
     "meta": { "pos1": "C" },
     "difficulty": 2,
-    "notes": "Hyper-carry with elite late-game DPS: Mana Shield makes her tanky and Stone Gaze turns fights. Needs space to farm; mana burn (Anti-Mage, EMP, Diffusal) and early pressure beat her."
+    "notes": "Hyper-carry with elite late-game DPS, whose Mana Shield makes her tanky while Stone Gaze turns fights. She needs space to farm, and mana burn (Anti-Mage, EMP, Diffusal) and early pressure beat her."
   },
   {
     "id": "troll_warlord",
@@ -234,7 +234,7 @@
       { "id": "winter_wyvern", "s": 2, "note": "Winter's Curse turns him on his team" },
       { "id": "axe", "s": 2 },
       { "id": "abaddon", "s": 1, "note": "Borrowed Time turns his damage into healing" },
-      { "id": "shredder", "s": 1, "note": "Reactive Armor vs attack speed; pure damage" },
+      { "id": "shredder", "s": 1, "note": "Reactive Armor counters attack speed, and Timbersaw deals pure damage" },
       { "id": "razor", "s": 1, "note": "Static Link drains his damage" },
       { "id": "centaur", "s": 1, "note": "Retaliate punishes high attack speed" },
       { "id": "omniknight", "s": 1 },
@@ -248,7 +248,7 @@
     ],
     "meta": { "pos1": "B" },
     "difficulty": 1,
-    "notes": "Straightforward right-click carry with huge attack speed (Fervor) and Battle Trance to win all-ins; knocks down towers fast. Kiting, Static Link, Winter's Curse and Helix-style punish counter him."
+    "notes": "Straightforward right-click carry with huge attack speed (Fervor) and Battle Trance to win all-ins, and he knocks down towers fast. Kiting, Static Link, Winter's Curse and attack punishers like Counter Helix counter him."
   },
   {
     "id": "centaur",
@@ -280,7 +280,7 @@
     ],
     "meta": { "pos3": "S" },
     "difficulty": 1,
-    "notes": "Most-picked offlaner of TI 2026: tanky Blink + Hoof Stomp initiator with a global Stampede that works for engage or escape. Weak to pure/%HP damage and Break (Timbersaw, Lifestealer, Necrophos, Viper)."
+    "notes": "Centaur was the most-picked offlaner of TI 2026. He is a tanky Blink and Hoof Stomp initiator with a global Stampede that works for engage or escape. He is weak to pure or %HP damage and Break (Timbersaw, Lifestealer, Necrophos, Viper)."
   },
   {
     "id": "magnataur",
@@ -304,13 +304,13 @@
       { "id": "viper", "s": 1 }
     ],
     "synergies": [
-      { "id": "sven", "s": 3, "note": "Empower cleave + RP setup" },
+      { "id": "sven", "s": 3, "note": "Empower cleave and RP setup" },
       { "id": "phantom_lancer", "s": 3 },
       { "id": "troll_warlord", "s": 2 }
     ],
     "meta": { "pos3": "B", "pos2": "C" },
     "difficulty": 3,
-    "notes": "Blink + Reverse Polarity is one of the best teamfight initiations; Skewer repositions enemies into his team and Empower fuels melee cores. Needs Blink timing; Rubick, silences and saves (Oracle, Wyvern) blunt it."
+    "notes": "Blink into Reverse Polarity is one of the best teamfight initiations. Skewer moves enemies into his team, and Empower fuels melee cores. Magnus needs Blink timing, and Rubick, silences and saves (Oracle, Wyvern) blunt it."
   },
   {
     "id": "shredder",
@@ -321,7 +321,7 @@
     "powerCurve": { "early": 2, "mid": 3, "late": 2 },
     "archetypes": ["skirmish", "early"],
     "strongVs": [
-      { "id": "pudge", "s": 1, "lane": true, "note": "Whirling Death strips strength; pure damage" },
+      { "id": "pudge", "s": 1, "lane": true, "note": "Whirling Death strips strength and deals pure damage" },
       { "id": "centaur", "s": 1 },
       { "id": "troll_warlord", "s": 1 },
       { "id": "hoodwink", "s": 1, "note": "Cuts the trees Bushwhack and Scurry rely on" },
@@ -345,7 +345,7 @@
     ],
     "meta": { "pos3": "A", "pos2": "B" },
     "difficulty": 3,
-    "notes": "Slippery pure-damage frontliner: Reactive Armor soaks right-clicks and Timber Chain makes him hard to pin down; Chakram gives sustained teamfight damage. Very mana-hungry; silences and mana burn shut him off."
+    "notes": "Slippery pure-damage frontliner whose Reactive Armor soaks right-clicks while Timber Chain makes him hard to pin down. Chakram gives sustained teamfight damage. He is very mana-hungry, so silences and mana burn shut him off."
   },
   {
     "id": "bristleback",
@@ -376,7 +376,7 @@
     ],
     "meta": { "pos3": "D", "pos1": "D" },
     "difficulty": 1,
-    "notes": "Unkillable-from-behind frontliner who spams Quill Spray and Goo; great vs illusions and melee skirmishers. Break, %HP damage and heal reduction (Viper, Lifestealer, AA) are his hard counters."
+    "notes": "Frontliner who is nearly unkillable from behind and spams Quill Spray and Goo. He is great against illusions and melee skirmishers. Break, %HP damage and heal reduction (Viper, Lifestealer, AA) are his hard counters."
   },
   {
     "id": "tusk",
@@ -403,7 +403,7 @@
     ],
     "meta": { "pos5": "A", "pos4": "A" },
     "difficulty": 2,
-    "notes": "Roaming playmaker, one of the most-picked supports in 7.41 pro (pos5 or pos4): Snowball engages (and carries allies in), Ice Shards trap, Walrus Punch bursts. Falls off if early fights are lost."
+    "notes": "Tusk is a roaming playmaker and one of the most-picked supports in 7.41 pro, at pos5 or pos4. Snowball engages and carries allies in, Ice Shards trap, and Walrus Punch bursts. He falls off if early fights are lost."
   },
   {
     "id": "skywrath_mage",
@@ -437,7 +437,7 @@
     ],
     "meta": { "pos4": "B", "pos5": "C" },
     "difficulty": 1,
-    "notes": "Glass-cannon magic burster: Ancient Seal + Mystic Flare deletes non-BKB targets and silences elusive mids. Extremely fragile; magic resistance, spell immunity and gap closers punish him."
+    "notes": "Glass-cannon magic burster whose Ancient Seal into Mystic Flare deletes targets without BKB, and the Seal silences elusive mids. He is extremely fragile, and magic resistance, spell immunity and gap closers punish him."
   },
   {
     "id": "abaddon",
@@ -466,7 +466,7 @@
     ],
     "meta": { "pos1": "B", "pos3": "B", "pos5": "B" },
     "difficulty": 1,
-    "notes": "Flexible durable hero: Aphotic Shield dispels and absorbs, Mist Coil heals, Borrowed Time makes him very hard to kill. Anti-heal and undispellable disables (AA, Doom) are the answer."
+    "notes": "Flexible, durable hero whose Aphotic Shield dispels and absorbs damage, while Mist Coil heals and Borrowed Time makes him very hard to kill. Anti-heal and undispellable disables (AA, Doom) are the answer."
   },
   {
     "id": "elder_titan",
@@ -477,7 +477,7 @@
     "powerCurve": { "early": 2, "mid": 3, "late": 2 },
     "archetypes": ["engage", "skirmish"],
     "strongVs": [
-      { "id": "dragon_knight", "s": 2, "note": "Natural Order strips armor; Earth Splitter %HP" },
+      { "id": "dragon_knight", "s": 2, "note": "Natural Order strips armor, and Earth Splitter deals %HP damage" },
       { "id": "huskar", "s": 1, "note": "Natural Order removes his magic resistance" },
       { "id": "centaur", "s": 1, "note": "Earth Splitter %HP damage and Natural Order punish tanky frontliners" }
     ],
@@ -493,7 +493,7 @@
     ],
     "meta": { "pos5": "B", "pos4": "C" },
     "difficulty": 2,
-    "notes": "Teamfight support: Echo Stomp sleeps groups, Natural Order removes armor and magic resistance, Earth Splitter deals %HP damage to lines of enemies. Best vs tanky lineups; pairs with nukers and physical cores."
+    "notes": "Teamfight support whose Echo Stomp sleeps groups, Natural Order removes armor and magic resistance, and Earth Splitter deals %HP damage to lines of enemies. He is best against tanky lineups and pairs with nukers and physical cores."
   },
   {
     "id": "legion_commander",
@@ -530,7 +530,7 @@
     ],
     "meta": { "pos3": "A" },
     "difficulty": 1,
-    "notes": "Blink + Duel picks off a core and snowballs damage stacks; a steady offlane pick. Save-heavy supports (Oracle, Dazzle, Omniknight, Abaddon) and Troll's Battle Trance ruin Duels."
+    "notes": "Blink into Duel picks off a core and snowballs damage stacks, and Legion Commander is a steady offlane pick. Save-heavy supports (Oracle, Dazzle, Omniknight, Abaddon) and Troll's Battle Trance ruin Duels."
   },
   {
     "id": "techies",
@@ -559,7 +559,7 @@
     ],
     "meta": { "pos4": "B", "pos5": "B" },
     "difficulty": 2,
-    "notes": "Area-denial nuker: Sticky Bomb, Blast Off! and Proximity Mines give burst, zoning and strong high-ground defense. Fragile; gap closers and magic resistance punish him."
+    "notes": "Area-denial nuker whose Sticky Bomb, Blast Off! and Proximity Mines give burst, zoning and strong high-ground defense. Techies are fragile, and gap closers and magic resistance punish them."
   },
   {
     "id": "ember_spirit",
@@ -590,7 +590,7 @@
     ],
     "meta": { "pos2": "S", "pos1": "C" },
     "difficulty": 3,
-    "notes": "One of the most contested mids at TI 2026: Fire Remnants give elite mobility for split-pushing and skirmishing, Sleight of Fist wipes illusions. Silences, Duel and Doom pin him down."
+    "notes": "Ember was one of the most contested mids at TI 2026. Fire Remnants give elite mobility for split-pushing and skirmishing, and Sleight of Fist wipes illusions. Silences, Duel and Doom pin him down."
   },
   {
     "id": "earth_spirit",
@@ -621,7 +621,7 @@
     ],
     "meta": { "pos2": "S", "pos4": "A" },
     "difficulty": 3,
-    "notes": "One of the most contested heroes at TI 2026, now played mainly mid: stone remnants give roaming mobility, stuns, silences and repositioning (kicking enemies in or allies out). Silence and spell immunity blunt him."
+    "notes": "Earth Spirit was one of the most contested heroes at TI 2026 and is now played mainly mid. His stone remnants give roaming mobility, stuns, silences and repositioning (kicking enemies in or allies out). Silence and spell immunity blunt him."
   },
   {
     "id": "abyssal_underlord",
@@ -652,7 +652,7 @@
     ],
     "meta": { "pos3": "C" },
     "difficulty": 1,
-    "notes": "Durable AoE offlaner: Firestorm and Pit of Malice control fights and clear illusions, Atrophy Aura weakens enemy damage and Fiend's Gate moves the whole team. Slow; kiting and spell immunity handle him."
+    "notes": "Durable AoE offlaner whose Firestorm and Pit of Malice control fights and clear illusions, while Atrophy Aura weakens enemy damage and Fiend's Gate moves the whole team. He is slow, and kiting and spell immunity handle him."
   },
   {
     "id": "terrorblade",
@@ -684,7 +684,7 @@
     ],
     "meta": { "pos1": "B" },
     "difficulty": 2,
-    "notes": "Illusion hyper-carry with top-tier DPS and tower damage under Metamorphosis; Sunder turns low HP into a comeback. Low early impact; AoE (Axe, Earthshaker, Centaur, Dark Seer) and Borrowed Time are his weakness."
+    "notes": "Illusion hyper-carry with top-tier DPS and tower damage under Metamorphosis, and Sunder turns low HP into a comeback. He has low early impact, and AoE (Axe, Earthshaker, Centaur, Dark Seer) and Borrowed Time are his weakness."
   },
   {
     "id": "phoenix",
@@ -702,7 +702,7 @@
     ],
     "weakVs": [
       { "id": "ancient_apparition", "s": 2 },
-      { "id": "juggernaut", "s": 1, "note": "Blade Fury ignores his spells; fast attacks pop Supernova" },
+      { "id": "juggernaut", "s": 1, "note": "Blade Fury ignores his spells, and fast attacks pop Supernova" },
       { "id": "doom_bringer", "s": 1 },
       { "id": "silencer", "s": 1 }
     ],
@@ -712,7 +712,7 @@
     ],
     "meta": { "pos4": "A", "pos5": "B", "pos3": "B" },
     "difficulty": 2,
-    "notes": "Teamfight hero: Icarus Dive engages, Sun Ray heals allies and burns enemies, Supernova is a fight-winning AoE stun if the egg survives. Anti-heal, spell immunity and fast attackers popping the egg counter it."
+    "notes": "Teamfight hero whose Icarus Dive engages, Sun Ray heals allies and burns enemies, and Supernova is a fight-winning AoE stun if the egg survives. Anti-heal, spell immunity and fast attackers popping the egg counter it."
   },
   {
     "id": "oracle",
@@ -740,7 +740,7 @@
     ],
     "meta": { "pos5": "A" },
     "difficulty": 3,
-    "notes": "Elite save support: False Promise, Fate's Edict and Fortune's End dispels undo burst and pick-offs. Weak laner who needs good timing; Ancient Apparition and Doom negate his saves."
+    "notes": "Elite save support whose False Promise, Fate's Edict and Fortune's End dispels undo burst and pick-offs. He is a weak laner who needs good timing, and Ancient Apparition and Doom negate his saves."
   },
   {
     "id": "winter_wyvern",
@@ -771,7 +771,7 @@
     ],
     "meta": { "pos5": "S", "pos4": "A" },
     "difficulty": 2,
-    "notes": "Staple 7.41 hard support: Winter's Curse turns a diving core against its own team and Cold Embrace saves from physical damage. Best vs right-click carries; weaker vs magic burst and silences."
+    "notes": "Staple 7.41 hard support whose Winter's Curse turns a diving core against its own team, while Cold Embrace saves from physical damage. She is best against right-click carries and weaker against magic burst and silences."
   },
   {
     "id": "arc_warden",
@@ -799,7 +799,7 @@
     ],
     "meta": { "pos2": "B", "pos1": "B" },
     "difficulty": 3,
-    "notes": "Tempest Double doubles items and spells for relentless split-pushing and late-game power; mostly played mid. Hard to play; gap closers that catch the real hero punish him."
+    "notes": "Tempest Double doubles items and spells for constant split-pushing and late-game power. Arc Warden is mostly played mid and is hard to play, and gap closers that catch the real hero punish him."
   },
   {
     "id": "monkey_king",
@@ -828,7 +828,7 @@
     ],
     "meta": { "pos1": "B", "pos2": "C", "pos4": "D" },
     "difficulty": 3,
-    "notes": "Strong early laner and skirmisher: Jingu Mastery sustain, Boundless Strike stun-crit and Tree Dance mobility; Wukong's Command zones teamfights. Falls behind hard carries late."
+    "notes": "Strong early laner and skirmisher with Jingu Mastery sustain, a Boundless Strike stun-crit and Tree Dance mobility, while Wukong's Command zones teamfights. He falls behind hard carries late."
   },
   {
     "id": "dark_willow",
@@ -856,7 +856,7 @@
     ],
     "meta": { "pos4": "A", "pos5": "B" },
     "difficulty": 2,
-    "notes": "Control-heavy soft support: Bramble Maze roots, Cursed Crown stuns, Terrorize fears a whole team off a fight, and Bedlam bursts from Shadow Realm. Fragile; gap closers catch her."
+    "notes": "Control-heavy soft support whose Bramble Maze roots, Cursed Crown stuns, Terrorize fears a whole team off a fight, and Bedlam bursts from Shadow Realm. She is fragile, and gap closers catch her."
   },
   {
     "id": "pangolier",
@@ -886,7 +886,7 @@
     ],
     "meta": { "pos2": "A", "pos3": "B" },
     "difficulty": 3,
-    "notes": "Rolling Thunder initiator, now mostly a mid, with great mobility; Shield Crash and Swashbuckle make him a slippery skirmisher. Silences, walls (Disruptor) and Blade Fury shut down the roll."
+    "notes": "Rolling Thunder initiator with great mobility, now mostly a mid. Shield Crash and Swashbuckle make him a slippery skirmisher. Silences, walls (Disruptor) and Blade Fury shut down the roll."
   },
   {
     "id": "grimstroke",
@@ -914,7 +914,7 @@
     ],
     "meta": { "pos5": "B", "pos4": "C" },
     "difficulty": 2,
-    "notes": "Lane bully with silence (Phantom's Embrace), AoE stun (Ink Swell) and Soulbind, which copies single-target spells onto a second enemy. Great with hex/stun teammates; spell immunity blunts him."
+    "notes": "Lane bully with silence (Phantom's Embrace), AoE stun (Ink Swell) and Soulbind, which copies single-target spells onto a second enemy. He is great with hex and stun teammates, and spell immunity blunts him."
   },
   {
     "id": "hoodwink",
@@ -941,7 +941,7 @@
     ],
     "meta": { "pos4": "S", "pos5": "A" },
     "difficulty": 2,
-    "notes": "One of the two most-picked heroes at TI 2026: Bushwhack stuns near trees, Acorn Shot and Sharpshooter give long-range poke, burst and Break, Scurry makes her slippery. Gap closers and tree-clearing heroes pressure her."
+    "notes": "Hoodwink was one of the two most-picked heroes at TI 2026. Bushwhack stuns near trees, Acorn Shot and Sharpshooter give long-range poke, burst and Break, and Scurry makes her slippery. Gap closers and tree-clearing heroes pressure her."
   },
   {
     "id": "void_spirit",
@@ -958,7 +958,7 @@
       { "id": "drow_ranger", "s": 1 }
     ],
     "weakVs": [
-      { "id": "nyx_assassin", "s": 2, "note": "Carapace punishes Astral Step; Mana Burn" },
+      { "id": "nyx_assassin", "s": 2, "note": "Carapace punishes Astral Step, and Mana Burn drains him" },
       { "id": "silencer", "s": 2 },
       { "id": "phoenix", "s": 1 },
       { "id": "doom_bringer", "s": 1 },
@@ -970,7 +970,7 @@
     ],
     "meta": { "pos2": "B" },
     "difficulty": 3,
-    "notes": "Elusive magic-burst mid: Astral Step and Dissimilate give elite mobility, Aether Remnant pulls and Resonant Pulse shields. Picks off squishies; silences shut him down."
+    "notes": "Elusive magic-burst mid whose Astral Step and Dissimilate give elite mobility, while Aether Remnant pulls and Resonant Pulse shields. He picks off squishies, and silences shut him down."
   },
   {
     "id": "snapfire",
@@ -998,7 +998,7 @@
     ],
     "meta": { "pos2": "A", "pos4": "B", "pos3": "B", "pos5": "C" },
     "difficulty": 2,
-    "notes": "Flexible zoner played mid, offlane and support: Mortimer Kisses and Scatterblast deal heavy AoE, Firesnap Cookie stuns or saves allies. Pairs with trapping setups like Arena; fragile vs invisible divers."
+    "notes": "Flexible zoner, played mid, offlane and support, whose Mortimer Kisses and Scatterblast deal heavy AoE while Firesnap Cookie stuns or saves allies. She pairs with trapping setups like Arena and is fragile against invisible divers."
   },
   {
     "id": "mars",
@@ -1011,7 +1011,7 @@
     "strongVs": [
       { "id": "drow_ranger", "s": 2, "lane": true },
       { "id": "sniper", "s": 1, "lane": true, "note": "Bulwark blocks frontal ranged attacks" },
-      { "id": "medusa", "s": 1, "note": "Bulwark blocks her attacks; Arena traps her" }
+      { "id": "medusa", "s": 1, "note": "Bulwark blocks her attacks, and Arena traps her" }
     ],
     "weakVs": [
       { "id": "shadow_demon", "s": 2, "note": "Disruption pulls allies out of Arena" },
@@ -1028,7 +1028,7 @@
     ],
     "meta": { "pos3": "B" },
     "difficulty": 2,
-    "notes": "Arena of Blood traps enemies for AoE follow-up and Spear of Mars pins targets; Bulwark tanks ranged physical damage. Strong laner and initiator that wants AoE partners."
+    "notes": "Arena of Blood traps enemies for AoE follow-up and Spear of Mars pins targets, while Bulwark tanks ranged physical damage. Mars is a strong laner and initiator who wants AoE partners."
   },
   {
     "id": "ringmaster",
@@ -1057,7 +1057,7 @@
     ],
     "meta": { "pos5": "B", "pos4": "C" },
     "difficulty": 2,
-    "notes": "Control support: Tame the Beasts fears, Wheel of Wonder mesmerizes a group, Impalement Arts bleeds and Escape Act boxes an ally to save them. Frequently picked; fragile and low-damage, so push lineups and mobile cores outpace him."
+    "notes": "Control support whose Tame the Beasts fears, Wheel of Wonder mesmerizes a group, Impalement Arts bleeds and Escape Act boxes an ally to save them. He is picked often, but he is fragile and low-damage, so push lineups and mobile cores outpace him."
   },
   {
     "id": "dawnbreaker",
@@ -1086,7 +1086,7 @@
     ],
     "meta": { "pos3": "A" },
     "difficulty": 1,
-    "notes": "Durable skirmisher whose global Solar Guardian lets her join any fight and heal allies; Starbreaker stuns and Luminosity sustains. Anti-heal and silences cut her impact."
+    "notes": "Durable skirmisher whose global Solar Guardian lets her join any fight and heal allies, while Starbreaker stuns and Luminosity sustains. Anti-heal and silences cut her impact."
   },
   {
     "id": "marci",
@@ -1113,7 +1113,7 @@
     ],
     "meta": { "pos4": "B", "pos5": "D", "pos2": "D" },
     "difficulty": 2,
-    "notes": "Aggressive diver: Rebound engages or saves, Dispose throws enemies into her team and Unleash bursts squishies. Strongest early-mid; disarms and saves blunt her damage."
+    "notes": "Aggressive diver whose Rebound engages or saves, Dispose throws enemies into her team and Unleash bursts squishies. She is strongest early to mid game, and disarms and saves blunt her damage."
   },
   {
     "id": "primal_beast",
@@ -1140,7 +1140,7 @@
     ],
     "meta": { "pos3": "B", "pos2": "B" },
     "difficulty": 2,
-    "notes": "Tanky brawler: Onslaught charges in and stuns, Trample deals heavy AoE damage while moving, Pulverize locks one target through BKB. Kiting, Static Link and Doom hurt him."
+    "notes": "Tanky brawler whose Onslaught charges in and stuns, Trample deals heavy AoE damage while moving, and Pulverize locks one target through BKB. Kiting, Static Link and Doom hurt him."
   },
   {
     "id": "muerta",
@@ -1168,7 +1168,7 @@
     ],
     "meta": { "pos1": "B", "pos4": "D", "pos2": "D" },
     "difficulty": 2,
-    "notes": "Ranged carry whose Pierce the Veil turns her attacks into magic damage and grants physical immunity. Dead Shot fears, The Calling silences; weak early and vulnerable to magic burst and gap closers."
+    "notes": "Ranged carry whose Pierce the Veil turns her attacks into magic damage and grants physical immunity. Dead Shot fears and The Calling silences. She is weak early and vulnerable to magic burst and gap closers."
   },
   {
     "id": "kez",
@@ -1197,7 +1197,7 @@
     ],
     "meta": { "pos1": "A", "pos2": "C" },
     "difficulty": 3,
-    "notes": "Stance-swapping melee carry: Katana for sustained damage and Raven's Veil pick-offs, Sai for Talon Toss silence and BKB-piercing Raptor Dance. Most-picked carry at TI 2026 despite a low pub win rate; Keeper, Treant and ranged kiters handle him."
+    "notes": "Stance-swapping melee carry who uses Katana for sustained damage and Raven's Veil pick-offs, and Sai for the Talon Toss silence and BKB-piercing Raptor Dance. He was the most-picked carry at TI 2026 despite a low pub win rate. Keeper, Treant and ranged kiters handle him."
   },
   {
     "id": "largo",
@@ -1226,6 +1226,6 @@
     ],
     "meta": { "pos3": "A", "pos5": "B", "pos4": "B" },
     "difficulty": 3,
-    "notes": "Newest hero and a top ban at TI 2026, mostly played as an aura offlaner: rhythm-based Amphibian Rhapsody heals, speeds or spell-amps allies, Catchy Lick dispels/saves, Frogstomp zones. Disarmed while singing, so ranged harass and lane pressure punish him."
+    "notes": "Largo is the newest hero and was a top ban at TI 2026, mostly played as an aura offlaner. His rhythm-based Amphibian Rhapsody heals, speeds or spell-amps allies, Catchy Lick dispels and saves, and Frogstomp zones. He is disarmed while singing, so ranged harass and lane pressure punish him."
   }
 ]

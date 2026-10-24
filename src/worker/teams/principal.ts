@@ -58,7 +58,7 @@ export const hasCredentials = (c: AppContext): boolean => bearer(c) !== null;
 export async function requirePrincipal(c: AppContext, team: TeamRecord, allowed: PrincipalKind[]): Promise<Principal> {
   const p = await resolvePrincipal(c, team);
   if (!p) {
-    if (!hasCredentials(c)) throw new ApiError(401, "unauthorized", "This team is private — a team key is required.");
+    if (!hasCredentials(c)) throw new ApiError(401, "unauthorized", "This team is private. A team key is required.");
     throw new ApiError(401, "invalid_key", "That key isn't valid for this team (it may have been rotated or released).");
   }
   if (!allowed.includes(p.kind)) {
@@ -66,7 +66,7 @@ export async function requirePrincipal(c: AppContext, team: TeamRecord, allowed:
       allowed.length === 1 && allowed[0] === "owner"
         ? "Only the team owner can do that."
         : p.kind === "viewer"
-          ? "A view key can only see the team profile — that needs a player or owner key."
+          ? "A view key can only see the team profile. That needs a player or owner key."
           : "You don't have permission to do that.";
     throw new ApiError(403, "forbidden", msg);
   }

@@ -92,7 +92,7 @@ export function ChampionGrid({
       const origins = view.fearlessOrigins.get(c.id) ?? [];
       const o = (state.config.fearless === "soft" ? origins.find((x) => x.slot === gridSlot) : undefined) ?? origins[origins.length - 1];
       reason = o ? `Picked in game ${o.game} by ${teams[o.slot].name} (fearless)` : "Locked by fearless rules";
-      if (stepType === "ban") reason += " — can still be banned";
+      if (stepType === "ban") reason += ", but can still be banned";
     }
     const blocked = !isSelectable(view, gridSide, stepType, c.id);
     if (blocked && !reason) reason = "Unavailable";
@@ -222,7 +222,7 @@ export function ChampionGrid({
               const highlighted = !st.unavailable && sug !== undefined && sug.rank < 10;
               const isSel = selected === c.id;
               const hoveredBy = (["blue", "red"] as const).find((s) => state.hovers[s] === c.id);
-              const title = [c.name, st.reason, highlighted ? `Suggested #${sug!.rank + 1} (score ${Math.round(sug!.score)})` : null].filter(Boolean).join(" — ");
+              const title = [c.name, st.reason, highlighted ? `Suggested #${sug!.rank + 1} (score ${Math.round(sug!.score)})` : null].filter(Boolean).join(" · ");
               return (
                 <li key={c.id}>
                   <button
@@ -280,7 +280,7 @@ export function ChampionGrid({
             })}
           </ul>
         )}
-        {!selectable && <p className="mt-3 text-center text-xs text-muted">Browsing only — you can't lock for this turn.</p>}
+        {!selectable && <p className="mt-3 text-center text-xs text-muted">You can browse, but you can't lock in this turn.</p>}
       </div>
     </div>
   );

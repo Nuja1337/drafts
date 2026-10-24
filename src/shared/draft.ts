@@ -466,7 +466,7 @@ export function applyTimeout(state: RoomState, now: number): TimeoutOutcome | nu
     state: { ...state, status: "paused", turnDeadline: null, pausedRemainingMs: null, updatedAt: now },
     expired: {
       code: "timer_expired",
-      message: `Timer expired on ${sideName(state, step.side)}'s pick with no ${unit(state)} hovered — draft paused until the host resumes.`,
+      message: `Timer expired on ${sideName(state, step.side)}'s pick with no ${unit(state)} hovered. The draft is paused until the host resumes.`,
     },
   };
 }
@@ -494,12 +494,12 @@ export function reduce(state: RoomState, role: RoomRole, msg: ClientMsg, now: nu
       const step = currentStep(state);
       if (!step) return fail("draft_complete", "The draft is already complete.");
       // optional stale-turn guard: a client may send the step index it meant to act on
-      if (typeof msg.index === "number" && msg.index !== step.index) return fail("stale", "The draft moved on — try again.");
+      if (typeof msg.index === "number" && msg.index !== step.index) return fail("stale", "The draft moved on. Try again.");
       const side = captainSlot ? sideOfSlot(state, captainSlot) : step.side;
       return msg.t === "hover" ? applyHover(state, side, msg.championId, now) : applyLock(state, side, msg.championId, now);
     }
     case "ready":
-      if (!captainSlot) return fail("forbidden", "Only team captains ready up — the host can start the draft instead.");
+      if (!captainSlot) return fail("forbidden", "Only team captains ready up. The host can start the draft instead.");
       return setReady(state, captainSlot, msg.ready, now);
     case "setTeam":
       if (captainSlot && captainSlot !== msg.slot) return fail("forbidden", "Captains can only edit their own team.");

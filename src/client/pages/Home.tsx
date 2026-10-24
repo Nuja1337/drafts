@@ -19,20 +19,20 @@ const STEPS = [
   },
   {
     title: "Open a draft room",
-    body: "Tournament, ranked, Captains Mode or All Pick — with timers and fearless series. Share captain links or run both sides yourself as host.",
+    body: "Choose tournament, ranked, Captains Mode or All Pick, and add timers or a fearless series. Share captain links, or run both sides yourself as host.",
   },
   {
     title: "Draft with suggestions",
-    body: "Every turn, picks and bans are ranked by matchups, synergies, comp needs, meta and your players — with the reasons spelled out.",
+    body: "Every turn, picks and bans are ranked by matchups, synergies, comp needs, meta and your players, and each one shows why.",
   },
 ];
 
 const FACTORS = [
   { label: "Matchups & counters", body: "Lane-weighted counters against what's already locked, and blind-pick risk for what's still to come." },
-  { label: "Synergy & comp", body: "Fills what the comp is missing — engage, frontline, damage split — and fits your win condition." },
+  { label: "Synergy & comp", body: "Fills what the comp is missing (engage, frontline, damage split) and fits your win condition." },
   { label: "Meta", body: "Per-role tiers and win rates, refreshed automatically." },
   { label: "Your players", body: "Pools and comfort, role preferences, playstyles, strengths and weaknesses." },
-  { label: "Hated matchups", body: "Flags enemy picks your players struggle against — and suggests banning them." },
+  { label: "Hated matchups", body: "Flags enemy picks your players struggle against and suggests banning them." },
   { label: "Deny", body: "Knows what the scouted enemy wants and when to take it away." },
 ];
 
@@ -75,7 +75,7 @@ function ExampleSuggestions() {
           </li>
         ))}
       </ul>
-      <div className="mt-3 rounded-lg border border-bad/30 bg-bad/5 px-3 py-2 text-xs text-bad">Ban suggestion: LeBlanc — Nova hates facing it (auto-lose)</div>
+      <div className="mt-3 rounded-lg border border-bad/30 bg-bad/5 px-3 py-2 text-xs text-bad">Ban suggestion: LeBlanc, because Nova hates facing it (auto-lose)</div>
     </div>
   );
 }
@@ -104,11 +104,11 @@ export function Home() {
             <span className="text-red">Dota 2</span>
           </div>
           <h1 className="font-display text-4xl leading-[1.05] font-bold sm:text-5xl lg:text-6xl">
-            Draft for <span className="text-accent">your</span> team, not a tier list.
+            Draft suggestions built around <span className="text-accent">your</span> team.
           </h1>
           <p className="mt-5 max-w-xl text-base text-muted sm:text-lg">
-            Get pick and ban suggestions live during champ select, weighing matchups, synergies, comp needs and the meta against what your players actually play,
-            how they like to play, and the matchups they hate.
+            Drafts suggests picks and bans live during champ select. It weighs matchups, synergies, comp needs and the meta against what your players play, how
+            they like to play, and the matchups they hate.
           </p>
 
           <div className="mt-7 space-y-3">
@@ -200,7 +200,7 @@ export function Home() {
       <section className="rounded-2xl border border-line bg-panel/60 p-5 sm:p-8">
         <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <h2 className="font-display text-2xl font-semibold">Every suggestion shows its work</h2>
+            <h2 className="font-display text-2xl font-semibold">What each suggestion weighs</h2>
             <p className="mt-1 max-w-2xl text-sm text-muted">Scores are built from weighted, explainable factors you can tune during the draft.</p>
           </div>
           <div className="flex gap-2">

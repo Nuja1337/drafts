@@ -14,8 +14,8 @@ import type { DraftView } from "./view";
 
 const FEARLESS_TEXT: Record<RoomState["config"]["fearless"], string> = {
   off: "Off",
-  soft: "Soft — a team can't re-pick its own earlier picks",
-  hard: "Hard — nobody can pick anything picked earlier in the series",
+  soft: "Soft: a team can't re-pick its own earlier picks",
+  hard: "Hard: nobody can pick anything picked earlier in the series",
 };
 
 /** Inline team-name editor that commits on blur / Enter. */
@@ -120,13 +120,13 @@ export function ProfileSelect({
         </Select>
       )}
       {ownOnOpponent && (
-        <p className="text-xs text-warn">Your team's profile is attached to the opponent — ask the host to remove it there.</p>
+        <p className="text-xs text-warn">Your team's profile is attached to the opponent. Ask the host to remove it there.</p>
       )}
       <div className="text-xs">
         {profile.status === "loading" && <span className="text-muted">Loading profile…</span>}
         {profile.status === "ok" && profile.profile && (
           <span className="text-good">
-            {profile.profile.players.length} player{profile.profile.players.length === 1 ? "" : "s"} loaded — suggestions use their pools
+            {profile.profile.players.length} player{profile.profile.players.length === 1 ? "" : "s"} loaded, so suggestions use their pools
           </span>
         )}
         {profile.status === "nokey" && <span className="text-muted">Only holders of this team's key see player-aware suggestions.</span>}
@@ -270,7 +270,7 @@ export function Lobby({
               {captains && !(state.ready.A && state.ready.B) && <p className="text-xs text-faint">You can start before both captains are ready (admin override).</p>}
             </>
           ) : view.yourSlot ? (
-            <p className="text-sm text-muted">{state.ready[view.yourSlot] ? "You're ready — waiting for the other captain or the host." : "Ready up when your team is set."}</p>
+            <p className="text-sm text-muted">{state.ready[view.yourSlot] ? "You're ready. Waiting for the other captain or the host." : "Ready up when your team is set."}</p>
           ) : (
             <p className="text-sm text-muted">Waiting for the host to start the draft…</p>
           )}

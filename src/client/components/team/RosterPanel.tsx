@@ -93,7 +93,7 @@ export function RosterPanel({
             <p className="text-xs text-muted">
               {scout
                 ? "Add each opponent you want to track, then fill in their pools and habits."
-                : "Create a slot per player (subs too). Players claim their slot with the invite link and fill in their own profile — or you fill it in for them."}
+                : "Create a slot per player (subs too). Players claim their slot with the invite link and fill in their own profile, or you can fill it in for them."}
             </p>
           </div>
           <AddPlayerForm team={team} ownerKey={ownerKey} onTeam={onTeam} />

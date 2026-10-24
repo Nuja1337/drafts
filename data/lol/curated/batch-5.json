@@ -127,7 +127,7 @@
       "support": "C"
     },
     "difficulty": 1,
-    "notes": "Early-duel tank-killer: Chomp and Subjugate steal AD/resistances and Pillar isolates targets. Excellent into tank-heavy comps and as a side-lane/skirmish threat; struggles vs ranged kiters (Vayne, Teemo, Quinn) and falls off vs scaled carries."
+    "notes": "Early-duel tank-killer whose Chomp and Subjugate steal AD and resistances, while Pillar isolates targets. He is excellent into tank-heavy comps and as a side-lane and skirmish threat. He struggles against ranged kiters (Vayne, Teemo, Quinn) and falls off against scaled carries."
   },
   {
     "id": "Tryndamere",
@@ -255,7 +255,7 @@
       "mid": "D"
     },
     "difficulty": 2,
-    "notes": "Crit split-pusher whose Undying Rage makes him unkillable for 5s; wins through 1-3-1 side pressure that forces two-man answers. Hard-countered by armor/attack-speed-slow tanks (Malphite), Nasus Wither and point-click CC; adds almost no teamfight utility."
+    "notes": "Crit split-pusher whose Undying Rage makes him unkillable for 5 seconds. He wins through 1-3-1 side pressure that forces two players to answer him. Armor and attack-speed-slow tanks (Malphite), Nasus Wither and point-click CC hard-counter him, and he adds almost no teamfight utility."
   },
   {
     "id": "TwistedFate",
@@ -359,7 +359,7 @@
       "mid": "A"
     },
     "difficulty": 2,
-    "notes": "Global pick mage: Destiny + Gold Card lets him collapse on side lanes and turn cross-map skirmishes, with strong waveclear to free his lane. Needs follow-up (Nocturne, Galio) and lane priority; loses 1v1 all-ins to Kassadin/Fizz/Yasuo and is blanked by spell shields."
+    "notes": "Global pick mage whose Destiny and Gold Card let him collapse on side lanes and turn cross-map skirmishes, with strong waveclear to free his lane. He needs follow-up (Nocturne, Galio) and lane priority. He loses 1v1 all-ins to Kassadin, Fizz and Yasuo, and spell shields blank him."
   },
   {
     "id": "Twitch",
@@ -474,7 +474,7 @@
       "bot": "A"
     },
     "difficulty": 2,
-    "notes": "Stealth scaling hypercarry: ambushes out of Camouflage and melts front-to-back fights with Spray and Pray's piercing range. Wants an enchanter (Lulu, Yuumi) and peel; weak early and to Windwall, Braum and hard dive."
+    "notes": "Stealth scaling hypercarry who ambushes out of Camouflage and melts front-to-back fights with Spray and Pray's piercing range. He wants an enchanter (Lulu, Yuumi) and peel. He is weak early and to Windwall, Braum and hard dive."
   },
   {
     "id": "Udyr",
@@ -578,7 +578,7 @@
       "top": "C"
     },
     "difficulty": 1,
-    "notes": "Stance-swapping juggernaut with fast full clears, strong early duels and run-down ganks via Blazing Stampede's stun. Wants skirmishes and a front-to-back fight; kiting/ranged comps and scaled carries beat him."
+    "notes": "Stance-swapping juggernaut with fast full clears, strong early duels and run-down ganks via Blazing Stampede's stun. He wants skirmishes and a front-to-back fight. Kiting or ranged comps and scaled carries beat him."
   },
   {
     "id": "Urgot",
@@ -695,7 +695,7 @@
       "top": "B"
     },
     "difficulty": 2,
-    "notes": "Ranged juggernaut who wins extended fights with Purge and shotgun-knee passive, flips targets with Disdain and executes with Fear Beyond Death. Beats short-range melee bruisers (Darius, Aatrox); struggles vs armor-stacking tanks and ranged/kiting tops."
+    "notes": "Ranged juggernaut who wins extended fights with Purge and shotgun-knee passive, flips targets with Disdain and executes with Fear Beyond Death. He beats short-range melee bruisers (Darius, Aatrox) and struggles against armor-stacking tanks and ranged kiting tops."
   },
   {
     "id": "Varus",
@@ -833,7 +833,7 @@
       "mid": "C"
     },
     "difficulty": 2,
-    "notes": "Long-range poke/lethality (or on-hit) marksman: Piercing Arrow sieges, Chain of Corruption starts picks and fights, Hail of Arrows applies Grievous Wounds. Pro staple for poke/pick comps (Karma, Jayce); weaker in hard all-in lanes and vs hyper-scalers late."
+    "notes": "Long-range poke marksman, built lethality or on-hit. Piercing Arrow sieges, Chain of Corruption starts picks and fights, and Hail of Arrows applies Grievous Wounds. He is a pro staple for poke and pick comps (Karma, Jayce), and weaker in hard all-in lanes and against hyper-scalers late."
   },
   {
     "id": "Vayne",
@@ -984,7 +984,7 @@
       "top": "C"
     },
     "difficulty": 3,
-    "notes": "Tank-shredding hypercarry: Silver Bolts true damage and Tumble/Final Hour stealth make her a late-game 1v5 threat and a duelist top. Weak early lane, short range; needs peel/enchanters (Lulu, Janna) and falls to hard CC, burst and ranged bullies."
+    "notes": "Tank-shredding hypercarry whose Silver Bolts true damage and stealth from Tumble and Final Hour make her a late-game 1v5 threat and a duelist top. She has a weak early lane and short range. She needs peel and enchanters (Lulu, Janna), and falls to hard CC, burst and ranged bullies."
   },
   {
     "id": "Veigar",
@@ -1088,7 +1088,7 @@
       "support": "D"
     },
     "difficulty": 2,
-    "notes": "Infinitely scaling burst mage: stacks AP from farming and one-shots carries with Primordial Burst, while Event Horizon zones divers. Weak early and to mobile assassins (Katarina, LeBlanc); pairs with AoE engage that shoves enemies into the cage."
+    "notes": "Infinitely scaling burst mage who stacks AP from farming and one-shots carries with Primordial Burst, while Event Horizon zones divers. He is weak early and to mobile assassins (Katarina, LeBlanc). He pairs with AoE engage that shoves enemies into the cage."
   },
   {
     "id": "Velkoz",
@@ -1198,7 +1198,7 @@
       "bot": "B"
     },
     "difficulty": 2,
-    "notes": "Artillery mage with the longest reliable poke and true-damage passive that also punishes tanks; Life Form Disintegration Ray shreds grouped teams. Immobile: needs frontline/disengage and loses to hooks (Blitzcrank) and assassins that reach him."
+    "notes": "Artillery mage with the longest reliable poke and a true-damage passive that also punishes tanks, and his Life Form Disintegration Ray shreds grouped teams. He is immobile, so he needs frontline or disengage and loses to hooks (Blitzcrank) and assassins that reach him."
   },
   {
     "id": "Vex",
@@ -1314,7 +1314,7 @@
       "mid": "A"
     },
     "difficulty": 2,
-    "notes": "Anti-mobility burst mage: Gloom punishes dashes and Personal Space/Doom fear dive, making her a premier counter to Yasuo, Yone, LeBlanc and Akali. Good waveclear and R follow-up on picks; outranged by immobile artillery mages (Xerath, Hwei) and out-sustained by Vladimir."
+    "notes": "Anti-mobility burst mage whose Gloom punishes dashes, while Personal Space and her Doom passive fear divers. That makes her one of the best counters to Yasuo, Yone, LeBlanc and Akali. She has good waveclear and R follow-up on picks. Immobile artillery mages (Xerath, Hwei) outrange her, and Vladimir out-sustains her."
   },
   {
     "id": "Vi",
@@ -1421,7 +1421,7 @@
       "jungle": "B"
     },
     "difficulty": 2,
-    "notes": "Dive/pick jungler: Cease and Desist is an unstoppable point-and-click lockdown on the priority carry, great for starting fights and securing picks; strong gank pressure. Weaker into peel/kite comps and early duelists (Warwick, Zac)."
+    "notes": "Dive and pick jungler whose Cease and Desist is an unstoppable point-and-click lockdown on the priority carry, great for starting fights and securing picks. She has strong gank pressure. She is weaker into peel and kite comps and early duelists (Warwick, Zac)."
   },
   {
     "id": "Viego",
@@ -1513,7 +1513,7 @@
       "jungle": "A"
     },
     "difficulty": 3,
-    "notes": "Reset-based skirmisher: possessing kills chains fights and heals him, snowballing messy teamfights. Needs early leads and chaotic fights; struggles vs early duelists (Warwick), heavy chain-CC and disciplined front-to-back comps."
+    "notes": "Reset-based skirmisher who possesses kills to chain fights and heal, snowballing messy teamfights. He needs early leads and chaotic fights. He struggles against early duelists (Warwick), heavy chain CC and disciplined front-to-back comps."
   },
   {
     "id": "Viktor",
@@ -1630,7 +1630,7 @@
       "bot": "A"
     },
     "difficulty": 2,
-    "notes": "Scaling control mage: Hextech Ray waveclear/poke, Gravity Field zone-stun and Arcane Storm give strong teamfight zone once Hex Fragment augments come online; also flexes bot as a lane-bully mage. Immobile, so vulnerable to longer-range mages (Xerath) and assassins."
+    "notes": "Scaling control mage whose Hextech Ray waveclear and poke, Gravity Field zone-stun and Arcane Storm give strong teamfight zone control once his Hex Fragment augments come online. He also flexes bot as a lane-bully mage. He is immobile, so longer-range mages (Xerath) and assassins threaten him."
   },
   {
     "id": "Vladimir",
@@ -1745,7 +1745,7 @@
       "bot": "C"
     },
     "difficulty": 2,
-    "notes": "Self-sustaining AP scaler: Transfusion healing and Sanguine Pool make him hard to kill, and Hemoplague bursts grouped enemies late. Weak pre-6/early levels; hates Grievous Wounds, long-range control mages (Malzahar) and early lane bullies top."
+    "notes": "Self-sustaining AP scaler whose Transfusion healing and Sanguine Pool make him hard to kill, and Hemoplague bursts grouped enemies late. He is weak in the early levels before 6. He hates Grievous Wounds, long-range control mages (Malzahar) and early lane bullies in top lane."
   },
   {
     "id": "Volibear",
@@ -1855,7 +1855,7 @@
       "jungle": "D"
     },
     "difficulty": 1,
-    "notes": "Early-game dive juggernaut: Thundering Smash stun, Frenzied Maul healing and Stormbringer tower-disable let him dive backlines and towers. Snowballs early; weak to kiting/ranged tops (Teemo, Quinn) and scales poorly."
+    "notes": "Early-game dive juggernaut whose Thundering Smash stun, Frenzied Maul healing and Stormbringer tower-disable let him dive backlines and towers. He snowballs early, is weak to kiting ranged tops (Teemo, Quinn) and scales poorly."
   },
   {
     "id": "Warwick",
@@ -1965,7 +1965,7 @@
       "top": "B"
     },
     "difficulty": 1,
-    "notes": "Drain-tank early ganker: Blood Hunt tracks low-HP targets and Infinite Duress suppresses a carry for follow-up; wins early duels and 2v2s with self-healing. Falls off late; hates Grievous Wounds, Rammus and kiting junglers."
+    "notes": "Drain-tank early ganker whose Blood Hunt tracks low-HP targets and whose Infinite Duress suppresses a carry for follow-up. He wins early duels and 2v2s with self-healing. He falls off late and hates Grievous Wounds, Rammus and kiting junglers."
   },
   {
     "id": "Xayah",
@@ -2076,7 +2076,7 @@
       "bot": "A"
     },
     "difficulty": 2,
-    "notes": "Teamfight marksman with built-in anti-dive: Featherstorm's untargetability and Bladecaller's feather root punish divers and all-ins (Samira, Kai'Sa). Best with Rakan; outscaled by Jinx and poked out by long-range mages (Hwei, Lux)."
+    "notes": "Teamfight marksman with built-in anti-dive. Featherstorm's untargetability and Bladecaller's feather root punish divers and all-ins (Samira, Kai'Sa). She is best with Rakan. Jinx outscales her, and long-range mages (Hwei, Lux) poke her out."
   },
   {
     "id": "Xerath",
@@ -2186,7 +2186,7 @@
       "bot": "C"
     },
     "difficulty": 2,
-    "notes": "Premier artillery mage: extreme-range poke and Rite of the Arcane siege objectives and whittle teams before fights. Immobile and squishy — needs frontline/disengage and lane priority; hard-punished by assassins (Fizz, Katarina, Kassadin) and engage supports."
+    "notes": "Top artillery mage whose extreme-range poke and Rite of the Arcane siege objectives and whittle teams down before fights. He is immobile and squishy, so he needs frontline or disengage and lane priority. Assassins (Fizz, Katarina, Kassadin) and engage supports punish him hard."
   },
   {
     "id": "XinZhao",
@@ -2295,7 +2295,7 @@
       "top": "C"
     },
     "difficulty": 1,
-    "notes": "Early skirmish diver: Audacious Charge engage, Three Talon Strike knockup and Crescent Guard (blocks ranged damage) win early fights and dives. Pro-favored ball-carrier for Orianna; falls off late and loses to strong early duelists (Udyr, Sylas)."
+    "notes": "Early skirmish diver whose Audacious Charge engage, Three Talon Strike knockup and Crescent Guard (which blocks ranged damage) win early fights and dives. Pros favor him as a ball-carrier for Orianna. He falls off late and loses to strong early duelists (Udyr, Sylas)."
   },
   {
     "id": "Yasuo",
@@ -2459,7 +2459,7 @@
       "bot": "A"
     },
     "difficulty": 3,
-    "notes": "Crit skirmisher with double crit chance, Wind Wall vs projectiles and Last Breath off any airborne effect. Draft knock-ups (Malphite, Yone, Wukong, Alistar); countered by point-click/anti-dash control (Vex, Lissandra, Taliyah) and early armor bullies."
+    "notes": "Crit skirmisher with double crit chance, a Wind Wall that blocks projectiles and a Last Breath that works off any airborne effect. Draft knock-ups with him (Malphite, Yone, Wukong, Alistar). Point-click and anti-dash control (Vex, Lissandra, Taliyah) and early armor bullies counter him."
   },
   {
     "id": "Yone",
@@ -2578,7 +2578,7 @@
       "mid": "A"
     },
     "difficulty": 3,
-    "notes": "Mixed-damage crit skirmisher: Spirit Cleave dashes/knockups and Fate Sealed give AoE engage, while Soul Unbound lets him dive and return. Hard to itemize against; countered by anti-dash control (Vex) and early duelists (Irelia, Olaf, Jax)."
+    "notes": "Mixed-damage crit skirmisher whose Spirit Cleave dashes and knockups and Fate Sealed give AoE engage, while Soul Unbound lets him dive and return. He is hard to itemize against. Anti-dash control (Vex) and early duelists (Irelia, Olaf, Jax) counter him."
   },
   {
     "id": "Yorick",
@@ -2690,7 +2690,7 @@
       "top": "C"
     },
     "difficulty": 2,
-    "notes": "Side-lane siege engine: ghouls and the Maiden of the Mist shred towers and win 1v1s, forcing multiple defenders. Team should play 4v4 with waveclear/disengage; weak to AoE-clearing duelists (Yone, Gwen) and Shen's cross-map answers."
+    "notes": "Side-lane siege engine whose ghouls and Maiden of the Mist shred towers and win 1v1s, which forces multiple defenders. His team should play 4v4 with waveclear or disengage. He is weak to duelists with AoE clear (Yone, Gwen) and to Shen's cross-map answers."
   },
   {
     "id": "Yunara",
@@ -2799,7 +2799,7 @@
       "bot": "A"
     },
     "difficulty": 2,
-    "notes": "On-hit/crit scaling marksman with hybrid (magic on-hit) damage; Cultivation of Spirit splashes attacks into grouped enemies and Transcend upgrades her W laser and E into a dash. Weak to dive when R is down and to early lane bullies; wants peel/enchanters and front-to-back fights."
+    "notes": "On-hit and crit scaling marksman with hybrid damage from magic on-hit. Cultivation of Spirit splashes attacks into grouped enemies, and Transcend upgrades her W laser and turns her E into a dash. She is weak to dive when R is down and to early lane bullies. She wants peel or enchanters and front-to-back fights."
   },
   {
     "id": "Yuumi",
@@ -2917,7 +2917,7 @@
       "support": "C"
     },
     "difficulty": 1,
-    "notes": "Attach-and-heal enchanter: untargetable while attached, providing heals, move speed and stats to a hypercarry. Weak lane presence and low CC; loses to engage supports (Alistar, Thresh) and Grievous Wounds; best on scaling on-hit carries."
+    "notes": "Attach-and-heal enchanter who is untargetable while attached and gives heals, move speed and stats to a hypercarry. She has weak lane presence and low CC, and loses to engage supports (Alistar, Thresh) and Grievous Wounds. She is best on scaling on-hit carries."
   },
   {
     "id": "Zaahen",
@@ -3041,7 +3041,7 @@
       "jungle": "C"
     },
     "difficulty": 2,
-    "notes": "Darkin drain-juggernaut who wins long fights: Determination stacks grant AD and eventually a revive, with heals on Q and R; Q-recast knockup and W pull give catch. Bullies level 1 and scales into an unkillable late-game frontline; weak to ranged/kiting tops (Teemo, Vayne, Quinn) that keep trades short."
+    "notes": "Darkin drain-juggernaut who wins long fights. Determination stacks grant AD and eventually a revive, and his Q and R heal him. His Q-recast knockup and W pull give catch. He bullies at level 1 and scales into an unkillable late-game frontline. Ranged kiting tops (Teemo, Vayne, Quinn) that keep trades short beat him."
   },
   {
     "id": "Zac",
@@ -3160,7 +3160,7 @@
       "support": "C"
     },
     "difficulty": 2,
-    "notes": "Long-range engage tank: Elastic Slingshot starts fights from fog and over walls, with blob heals and a passive revive keeping him in the fight. Premier engage for AoE follow-up comps; weak to Grievous Wounds, kiting and early invade/duel junglers."
+    "notes": "Long-range engage tank whose Elastic Slingshot starts fights from fog and over walls, while blob heals and a passive revive keep him in the fight. He is one of the best engages for AoE follow-up comps. He is weak to Grievous Wounds, kiting and junglers who invade or duel early."
   },
   {
     "id": "Zed",
@@ -3265,7 +3265,7 @@
       "jungle": "D"
     },
     "difficulty": 3,
-    "notes": "Shadow assassin: Death Mark one-shots isolated squishies and shadows give elusive side-lane pressure. Pick/split win condition; poor into tanky or armor-stacking comps (Malphite), Zhonya's and point-click lockdown."
+    "notes": "Shadow assassin whose Death Mark one-shots isolated squishies, while shadows give elusive side-lane pressure. He wins through picks and split-pushing. He is poor into tanky or armor-stacking comps (Malphite), Zhonya's and point-click lockdown."
   },
   {
     "id": "Zeri",
@@ -3372,7 +3372,7 @@
       "bot": "A"
     },
     "difficulty": 3,
-    "notes": "Hyper-mobile scaling marksman: Spark Surge wall-hops and Lightning Crash move speed let her kite and chain fights. Needs enchanter support (Lulu, Yuumi) and farm; weak early lane vs bullies and to hard CC."
+    "notes": "Hyper-mobile scaling marksman whose Spark Surge wall-hops and Lightning Crash move speed let her kite and chain fights. She needs enchanter support (Lulu, Yuumi) and farm. Her early lane is weak against bullies, and hard CC punishes her."
   },
   {
     "id": "Ziggs",
@@ -3499,7 +3499,7 @@
       "mid": "C"
     },
     "difficulty": 2,
-    "notes": "Siege artillery mage: Satchel Charge/Hexplosive bombs demolish towers and waves, and Mega Inferno Bomb pokes from across the map. Wins by taking objectives early; needs frontline/disengage and is punished by assassins and hard dive."
+    "notes": "Siege artillery mage whose Satchel Charge and Hexplosive bombs demolish towers and waves, while Mega Inferno Bomb pokes from across the map. He wins by taking objectives early. He needs frontline or disengage, and assassins and hard dive punish him."
   },
   {
     "id": "Zilean",
@@ -3591,7 +3591,7 @@
       "mid": "C"
     },
     "difficulty": 2,
-    "notes": "Utility mage: double-bomb AoE stun, Time Warp speed/slow and Chronoshift revive make him a flexible disengage/peel and chase support. Chronoshift blanks assassin burst on the carry; scales with levels and wants a hypercarry to protect."
+    "notes": "Utility mage whose double-bomb AoE stun, Time Warp speed or slow and Chronoshift revive make him a flexible support for peel, disengage and chasing. Chronoshift blanks assassin burst on the carry. He scales with levels and wants a hypercarry to protect."
   },
   {
     "id": "Zoe",
@@ -3700,7 +3700,7 @@
       "support": "C"
     },
     "difficulty": 3,
-    "notes": "Long-range burst/pick mage: Sleepy Trouble Bubble into Paddle Star one-shots squishies and wins sieges through fog. High skill ceiling; weak to divers/assassins and Malzahar/Annie in lane, and to tanky comps she can't burst."
+    "notes": "Long-range burst and pick mage whose Sleepy Trouble Bubble into Paddle Star one-shots squishies and wins sieges through fog. She has a high skill ceiling. She is weak to divers and assassins, to Malzahar and Annie in lane, and to tanky comps she can't burst."
   },
   {
     "id": "Zyra",
@@ -3812,6 +3812,6 @@
       "jungle": "B"
     },
     "difficulty": 2,
-    "notes": "Plant-mage zone controller: Grasping Roots and plants poke and punish melee, and Stranglethorns is a strong AoE knockup/zone in teamfights; also a fast-clearing ganky jungler. Immobile; vulnerable to hooks and hard engage."
+    "notes": "Plant-mage zone controller whose Grasping Roots and plants poke and punish melee, while Stranglethorns is a strong AoE knockup and zone in teamfights. She is also a fast-clearing jungler with good ganks. She is immobile and vulnerable to hooks and hard engage."
   }
 ]

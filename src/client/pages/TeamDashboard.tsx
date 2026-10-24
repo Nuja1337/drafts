@@ -70,14 +70,14 @@ export function TeamDashboard() {
         const kept = before && now && now.key !== urlKey.trim() && now.role !== principalRole(res.you);
         setImp({
           status: "done",
-          notice: kept ? `You opened a ${KEY_ROLE_LABEL[principalRole(res.you)].toLowerCase()} link, but this browser already has ${KEY_ROLE_LABEL[now.role].toLowerCase()} access — keeping that.` : null,
+          notice: kept ? `You opened a ${KEY_ROLE_LABEL[principalRole(res.you)].toLowerCase()} link, but this browser already has ${KEY_ROLE_LABEL[now.role].toLowerCase()} access, so it keeps that.` : null,
         });
       },
       (e: unknown) =>
         setImp({
           status: "error",
           message: isKeyRejected(e)
-            ? "The link you opened has an outdated key — it was probably rotated or released. Ask the owner for a fresh link."
+            ? "The link you opened has an outdated key. It was probably rotated or released. Ask the owner for a fresh link."
             : isNotFound(e)
               ? "The team in that link doesn't exist anymore."
               : `Couldn't check the link: ${errorMessage(e)}`,
@@ -193,7 +193,7 @@ function Dashboard({ state, team, you }: { state: UseTeam; team: TeamProfile; yo
       {scout && you.kind === "owner" && team.players.length === 0 && tab === "roster" && (
         <div className="mb-4">
           <Banner tone="accent">
-            This is an opponent profile. Add their players and what they're comfortable on — when you attach it to a draft room, suggestions will target their pools and
+            This is an opponent profile. Add their players and what they're comfortable on. When you attach it to a draft room, suggestions will target their pools and
             weaknesses.
           </Banner>
         </div>
@@ -221,7 +221,7 @@ function Dashboard({ state, team, you }: { state: UseTeam; team: TeamProfile; yo
       <Modal open={!!newOwnerKey} onClose={() => setNewOwnerKey(null)} title="Your new owner link">
         <div className="space-y-4">
           <p className="rounded-lg border border-warn/40 bg-warn/10 px-3 py-2 text-sm text-warn">
-            The old owner link no longer works. This browser now uses the new key — save this link somewhere safe (password manager). It's the only way to regain
+            The old owner link no longer works. This browser now uses the new key. Save this link somewhere safe, like a password manager. It's the only way to regain
             owner access on another device.
           </p>
           {newOwnerKey && <CopyField label="Owner backup link" value={teamUrl(team.id, newOwnerKey)} />}

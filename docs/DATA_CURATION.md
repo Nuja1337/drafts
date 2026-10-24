@@ -7,16 +7,16 @@ Valid ids: `data/sources/lol-roster.json` (Data Dragon ids, e.g. `MonkeyKing`, `
 `obsidian_destroyer`, `rattletrap`, `shredder`, `magnataur`, `doom_bringer`, `abyssal_underlord`, `windrunner`, `zuus`).
 
 The engine turns these numbers into draft advice, so **calibration and consistency matter more than prose**.
-Think "what would a high-elo coach / analyst say about the current patch", not patch-notes trivia.
+Write what a high-elo coach or analyst would say about the current patch, and leave out patch-notes trivia.
 
 ## Fields
 
-- `roles` — positions it is genuinely played in, most common first. Include an off-role only if it is a real,
+- `roles`: positions it is genuinely played in, most common first. Include an off-role only if it is a real,
   recurring pick there (solo queue or pro flex). LoL: `top|jungle|mid|bot|support`. Dota 2: `pos1..pos5`.
-- `damage` — `physical` | `magic` | `mixed` (mixed only when it genuinely deals a substantial share of both).
-- `range` — `melee` | `ranged` (basic attack).
-- `attributes` — integers 0–3, **relative to the whole roster**:
-  - 3 = elite; one of the best at this (top ~10% of the roster).
+- `damage`: `physical` | `magic` | `mixed` (mixed only when it genuinely deals a substantial share of both).
+- `range`: `melee` | `ranged` (basic attack).
+- `attributes`: integers 0–3, **relative to the whole roster**:
+  - 3 = elite, one of the best at this (top ~10% of the roster).
   - 2 = clearly strong / a reason to pick it.
   - 1 = has some.
   - 0 = none / negligible.
@@ -33,22 +33,22 @@ Think "what would a high-elo coach / analyst say about the current patch", not p
   waveclear 3 Death Prophet, Leshrac, Gyrocopter, Luna · splitpush 3 Nature's Prophet, Tinker, Anti-Mage ·
   pick 3 Pudge, Bounty Hunter, Riki, Spirit Breaker · sustain 3 Dazzle, Oracle, Necrophos, Huskar(self) ·
   siege 3 Lycan, Death Prophet, Chen, Broodmother.
-- `powerCurve` — early / mid / late, 0–3 each. Early-game bullies (Renekton, Lee Sin, Draven, Huskar, Ursa) have high
-  early and fall off; hyper-carries (Kassadin, Kayle, Jinx, Medusa, Spectre, Anti-Mage) are low early and 3 late.
-- `archetypes` — 1–4 of `engage | poke | pick | split | protect | dive | skirmish | early | scaling | push`, best first.
-  `push` = deathball / early tower pushing (mostly Dota; also LoL siege comps).
-- `strongVs` / `weakVs` — 3–8 each (up to 12 for very common champions). `s`: 3 = well-known hard counter,
-  2 = clear advantage, 1 = slight edge. Set `lane: true` when it is a lane matchup (same lane in LoL; lane opponents in
-  Dota), omit for general teamfight/kit interactions (e.g. Anti-Mage vs mana-reliant heroes, grievous-wounds style
-  interactions, Silencer vs channelers). **Direction matters:** `strongVs` = champions THIS one beats; `weakVs` =
+- `powerCurve`: early / mid / late, 0–3 each. Early-game bullies (Renekton, Lee Sin, Draven, Huskar, Ursa) have high
+  early and fall off, while hyper-carries (Kassadin, Kayle, Jinx, Medusa, Spectre, Anti-Mage) are low early and 3 late.
+- `archetypes`: 1–4 of `engage | poke | pick | split | protect | dive | skirmish | early | scaling | push`, best first.
+  `push` = deathball / early tower pushing (mostly Dota, also LoL siege comps).
+- `strongVs` / `weakVs`: 3–8 each (up to 12 for very common champions). `s`: 3 = well-known hard counter,
+  2 = clear advantage, 1 = slight edge. Set `lane: true` when it is a lane matchup (same lane in LoL, lane opponents in
+  Dota) and omit it for general teamfight/kit interactions (e.g. Anti-Mage vs mana-reliant heroes, grievous-wounds style
+  interactions, Silencer vs channelers). **Direction matters:** `strongVs` = champions THIS one beats, and `weakVs` =
   champions that beat THIS one. Double-check you didn't swap them. A champion must not appear in both lists.
-- `synergies` — 2–6 teammates it combos with (e.g. Yasuo+Malphite, Xayah+Rakan, Kalista+Thresh, Magnus+Sven/Phantom
+- `synergies`: 2–6 teammates it combos with (e.g. Yasuo+Malphite, Xayah+Rakan, Kalista+Thresh, Magnus+Sven/Phantom
   Lancer, Io+Gyrocopter). `s` as above.
-- `meta` — tier per role it is played in: `S` (must-pick/ban, ~5%), `A` (strong, ~20%), `B` (solid, ~40%),
+- `meta`: tier per role it is played in: `S` (must-pick/ban, ~5%), `A` (strong, ~20%), `B` (solid, ~40%),
   `C` (situational, ~25%), `D` (weak, ~10%). Base this on your best knowledge of the **current 2026 meta**
   (LoL patch ~26.x / Data Dragon 16.x; Dota 2 7.39+). When unsure, use `B`. Only roles in `roles`.
-- `difficulty` — 1 easy, 2 medium, 3 hard (mechanics + game knowledge).
-- `notes` — 1–2 sentences, draft-relevant: identity, win condition, what it needs from teammates, what beats it.
+- `difficulty`: 1 easy, 2 medium, 3 hard (mechanics + game knowledge).
+- `notes`: 1–2 sentences, draft-relevant: identity, win condition, what it needs from teammates, what beats it.
 
 ## Unknown / new champions
 
@@ -57,7 +57,7 @@ Ambessa, Aurora, or Dota's Largo, Kez, Ringmaster), look it up before writing:
 - LoL kit: `https://ddragon.leagueoflegends.com/cdn/16.18.1/data/en_US/champion/<Id>.json` (spells, passive, tags, info),
   plus a web search for its role/matchups.
 - Dota kit: Liquipedia / the Dota 2 wiki via web search.
-Never invent matchups for a champion you don't understand — fewer, accurate relations beat many guesses.
+Never invent matchups for a champion you don't understand. A few accurate relations are better than many guesses.
 
 ## Example (LoL)
 
@@ -75,6 +75,6 @@ Never invent matchups for a champion you don't understand — fewer, accurate re
   "synergies": [{ "id": "Yasuo", "s": 3 }, { "id": "Yone", "s": 2 }, { "id": "Orianna", "s": 2 }, { "id": "MissFortune", "s": 2 }],
   "meta": { "top": "B", "support": "C", "mid": "C" },
   "difficulty": 1,
-  "notes": "Point-and-click wombo engage with Unstoppable Force; huge armor stacking vs AD-heavy comps. Weak into AP lanes and gets outscaled by split pushers if ult is played around."
+  "notes": "Point-and-click wombo engage with Unstoppable Force, and huge armor stacking vs AD-heavy comps. Weak into AP lanes, and split pushers outscale him if the enemy plays around his ult."
 }
 ```

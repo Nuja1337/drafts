@@ -66,7 +66,7 @@ export function PlayerCard({
               Linked
             </Badge>
           ) : (
-            <Badge title="No one has claimed this slot yet — share the invite link">Open slot</Badge>
+            <Badge title="No one has claimed this slot yet. Share the invite link.">Open slot</Badge>
           )}
         </div>
       </header>
@@ -81,7 +81,7 @@ export function PlayerCard({
             </h4>
             <ul className="flex flex-wrap gap-1.5">
               {pool.slice(0, POOL_PREVIEW).map((e) => (
-                <li key={e.championId} className="w-9" title={`${name(e.championId)} — comfort ${e.comfort}/5${e.note ? ` — ${e.note}` : ""}`}>
+                <li key={e.championId} className="w-9" title={`${name(e.championId)} · comfort ${e.comfort}/5${e.note ? ` · ${e.note}` : ""}`}>
                   <ChampIcon champ={data?.byId.get(e.championId)} size={36} title="" />
                   <ComfortMeter value={e.comfort} className="mt-0.5" />
                 </li>
@@ -129,7 +129,7 @@ export function PlayerCard({
                 <li
                   key={a.championId}
                   className="relative"
-                  title={`${name(a.championId)} — ${["", "dislikes", "struggles", "hates"][a.severity]}${a.note ? ` — ${a.note}` : ""}`}
+                  title={`${name(a.championId)} · ${["", "dislikes", "struggles", "hates"][a.severity]}${a.note ? ` · ${a.note}` : ""}`}
                 >
                   <ChampIcon champ={data?.byId.get(a.championId)} size={28} className="ring-1 ring-bad/60" title="" />
                   <span className="absolute -right-1 -bottom-1 rounded bg-bad px-0.5 text-[9px] leading-tight font-bold text-bg">{"!".repeat(a.severity)}</span>

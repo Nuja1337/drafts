@@ -33,7 +33,7 @@
     ],
     "meta": { "jungle": "A" },
     "difficulty": 3,
-    "notes": "Early-game playmaker: invades, ganks and Insec kicks a carry into his team. Must snowball before tanks and scalers come online; falls off late, Zaahen, Naafiri and Rek'Sai match his early skirmishing, and Taliyah/Ivern out-tempo his ganks."
+    "notes": "Early-game playmaker who invades, ganks and Insec-kicks a carry into his team. He must snowball before tanks and scalers come online, and he falls off late. Zaahen, Naafiri and Rek'Sai match his early skirmishing, and Taliyah and Ivern out-tempo his ganks."
   },
   {
     "id": "Leona",
@@ -72,7 +72,7 @@
     ],
     "meta": { "support": "A" },
     "difficulty": 1,
-    "notes": "All-in engage support with a point-and-click stun chain and wide R; wins lane on level 2/3 and sets up picks for the team. Wants a follow-up ADC (Samira, MF, Kalista); hates Janna and Black Shield, and gets out-sustained by Swain, Renata and Soraka lanes."
+    "notes": "All-in engage support with a point-and-click stun chain and a wide R. She wins lane at level 2 or 3 and sets up picks for the team. She wants a follow-up ADC (Samira, MF, Kalista). She hates Janna and Black Shield, and Swain, Renata and Soraka lanes out-sustain her."
   },
   {
     "id": "Lillia",
@@ -109,7 +109,7 @@
     ],
     "meta": { "jungle": "B" },
     "difficulty": 2,
-    "notes": "Fast-clearing, kiting magic-damage jungler whose AoE sleep R turns messy teamfights. Strong into tank junglers and melee comps; vulnerable to early invaders (Rengar, Rek'Sai, Kha'Zix) and needs frontline/engage allies so she can run circles around the fight."
+    "notes": "Fast-clearing, kiting magic-damage jungler whose AoE sleep R turns messy teamfights. She is strong into tank junglers and melee comps but vulnerable to early invaders (Rengar, Rek'Sai, Kha'Zix). She needs frontline or engage allies so she can run circles around the fight."
   },
   {
     "id": "Lissandra",
@@ -148,7 +148,7 @@
     ],
     "meta": { "mid": "A", "top": "C" },
     "difficulty": 2,
-    "notes": "Anti-dive control mage: point-and-click R, E flanks and W root lock down assassins and divers, then chain into team engage. Excellent into melee mids; outranged by artillery and control mages (Hwei, Viktor, Xerath), and Sylas steals her R."
+    "notes": "Anti-dive control mage whose point-and-click R, E flanks and W root lock down assassins and divers, then chain into team engage. She is excellent into melee mids. Artillery and control mages (Hwei, Viktor, Xerath) outrange her, and Sylas steals her R."
   },
   {
     "id": "Locke",
@@ -221,7 +221,7 @@
     ],
     "meta": { "bot": "C" },
     "difficulty": 2,
-    "notes": "Short-range lane bully with a dash-reset combo; wants to win lane with an aggressive enchanter (Nami, Milio) or Braum and take early towers. Loses value late vs hypercarries and struggles into APC mage bots (Seraphine, Brand) and long-range poke (Varus, Caitlyn)."
+    "notes": "Short-range lane bully with a dash-reset combo who wants to win lane with an aggressive enchanter (Nami, Milio) or Braum and take early towers. He loses value late against hypercarries and struggles into APC mage bots (Seraphine, Brand) and long-range poke (Varus, Caitlyn)."
   },
   {
     "id": "Lulu",
@@ -257,7 +257,7 @@
     ],
     "meta": { "support": "S" },
     "difficulty": 1,
-    "notes": "Premier peel enchanter: polymorph, shields and Wild Growth knock-up keep a hypercarry alive through dives. Draft her with an on-hit scaling carry (Kog'Maw, Twitch, Jinx); handles engage and mage supports well but is out-roamed by Bard and punished by Fiddlesticks/Elise/Zoe picks."
+    "notes": "Top peel enchanter whose polymorph, shields and Wild Growth knock-up keep a hypercarry alive through dives. Draft her with an on-hit scaling carry (Kog'Maw, Twitch, Jinx). She handles engage and mage supports well, but Bard out-roams her and picks from Fiddlesticks, Elise and Zoe punish her."
   },
   {
     "id": "Lux",
@@ -296,7 +296,7 @@
     ],
     "meta": { "support": "A", "mid": "A", "bot": "B" },
     "difficulty": 1,
-    "notes": "Long-range poke/pick mage: double-root binding into long-range R executes. Best in poke or pick comps with follow-up (Caitlyn traps); immobile, so she is punished by assassins (Locke, Zed), hooks and engage supports like Camille and Pantheon."
+    "notes": "Long-range poke and pick mage who lands a double-root binding into a long-range R execute. She is best in poke or pick comps with follow-up (Caitlyn traps). She is immobile, so assassins (Locke, Zed), hooks and engage supports like Camille and Pantheon punish her."
   },
   {
     "id": "Malphite",
@@ -336,7 +336,7 @@
     ],
     "meta": { "top": "S", "mid": "C", "jungle": "D", "support": "D" },
     "difficulty": 1,
-    "notes": "Point-and-click wombo engage with Unstoppable Force; armor stacking and his attack-speed slow crush auto-attack tops (Tryndamere, Vayne, Irelia). Weak into AP and sustained tanks he cannot kill (Sylas, Mundo, Gwen, Mordekaiser, Shen)."
+    "notes": "Point-and-click wombo engage with Unstoppable Force. Armor stacking and his attack-speed slow crush auto-attack tops (Tryndamere, Vayne, Irelia). He is weak into AP and sustained tanks he cannot kill (Sylas, Mundo, Gwen, Mordekaiser, Shen)."
   },
   {
     "id": "Malzahar",
@@ -373,7 +373,7 @@
     ],
     "meta": { "mid": "B", "top": "D" },
     "difficulty": 1,
-    "notes": "Safe, push-heavy control mage whose point-and-click suppression R locks down one carry or diver. Great into dash assassins and carries (LeBlanc, Zoe, Yasuo, Master Yi); out-ranged by artillery mages and Smolder, dived by Locke, and Olaf/QSS ignore his R."
+    "notes": "Safe, push-heavy control mage whose point-and-click suppression R locks down one carry or diver. He is great into dash assassins and carries (LeBlanc, Zoe, Yasuo, Master Yi). Artillery mages and Smolder outrange him, Locke dives him, and Olaf and QSS ignore his R."
   },
   {
     "id": "Maokai",
@@ -409,7 +409,7 @@
     ],
     "meta": { "support": "B", "jungle": "D", "top": "D" },
     "difficulty": 1,
-    "notes": "Flexible tank with point-and-click root, sapling vision control and a long-range root wave that both starts and stops fights. Low damage, so he needs carries to follow up; loses lane to Zilean, Taric, Braum and Swain, and Nocturne dives him in the jungle."
+    "notes": "Flexible tank with point-and-click root, sapling vision control and a long-range root wave that both starts and stops fights. He has low damage, so he needs carries to follow up. He loses lane to Zilean, Taric, Braum and Swain, and Nocturne dives him in the jungle."
   },
   {
     "id": "MasterYi",
@@ -449,7 +449,7 @@
     ],
     "meta": { "jungle": "S" },
     "difficulty": 1,
-    "notes": "Farming hypercarry jungler whose resets win late fights against low-CC comps. Needs a free early game and enchanter support; punished by point-and-click CC (Malzahar R, Rammus taunt), Lulu polymorph and early pressure from Zac, Rek'Sai and Elise."
+    "notes": "Farming hypercarry jungler whose resets win late fights against low-CC comps. He needs a free early game and enchanter support. Point-and-click CC (Malzahar R, Rammus taunt), Lulu polymorph and early pressure from Zac, Rek'Sai and Elise punish him."
   },
   {
     "id": "Mel",
@@ -486,7 +486,7 @@
     ],
     "meta": { "mid": "D", "bot": "D", "support": "D" },
     "difficulty": 2,
-    "notes": "Scaling artillery mage whose Overwhelm stacks execute and whose global R finishes anyone marked; W reflects projectiles (punishes skillshot ults and ranged poke). Currently weak in every role: out-traded by Aurelion Sol, Syndra and Viktor, and dived by Fizz and Locke once W is down."
+    "notes": "Scaling artillery mage whose Overwhelm stacks execute and whose global R finishes anyone marked. Her W reflects projectiles, which punishes skillshot ults and ranged poke. She is weak in every role right now. Aurelion Sol, Syndra and Viktor out-trade her, and Fizz and Locke dive her once W is down."
   },
   {
     "id": "Milio",
@@ -524,7 +524,7 @@
     ],
     "meta": { "support": "B" },
     "difficulty": 1,
-    "notes": "Enchanter whose W extends ally attack range and whose R cleanses CC and heals the whole team; out-sustains mage and Morgana lanes. Pair with range-hungry carries (Jinx, Kog'Maw, Zeri); fragile against hook and all-in engage (Blitzcrank, Nautilus, Amumu)."
+    "notes": "Enchanter whose W extends ally attack range and whose R cleanses CC and heals the whole team. He out-sustains mage and Morgana lanes. Pair him with range-hungry carries (Jinx, Kog'Maw, Zeri). He is fragile against hooks and all-in engage (Blitzcrank, Nautilus, Amumu)."
   },
   {
     "id": "MissFortune",
@@ -561,7 +561,7 @@
     ],
     "meta": { "bot": "B" },
     "difficulty": 1,
-    "notes": "Lane-bully ADC with bouncing Q poke and a Bullet Time R that deletes grouped teams. Draft with AoE lockdown (Amumu, Rell, Malphite, Leona) to channel R safely; struggles into APC mages (Viktor, Ziggs, Corki), and Braum E or dive that interrupts R shuts her down."
+    "notes": "Lane-bully ADC with bouncing Q poke and a Bullet Time R that deletes grouped teams. Draft her with AoE lockdown (Amumu, Rell, Malphite, Leona) so she can channel R safely. She struggles into APC mages (Viktor, Ziggs, Corki), and Braum E or dive that interrupts R shuts her down."
   },
   {
     "id": "MonkeyKing",
@@ -597,7 +597,7 @@
     ],
     "meta": { "jungle": "S", "top": "B" },
     "difficulty": 2,
-    "notes": "Bruiser-diver whose double-cast Cyclone knocks up clumped enemies; strong ganks with W stealth and E dash. Combos with knock-up follow-up (Yasuo, Yone) and wombo mages; wants engage angles, not kiting comps."
+    "notes": "Bruiser-diver whose double-cast Cyclone knocks up clumped enemies, with strong ganks from W stealth and E dash. He combos with knock-up follow-up (Yasuo, Yone) and wombo mages, and wants engage angles instead of kiting comps."
   },
   {
     "id": "Mordekaiser",
@@ -632,7 +632,7 @@
     ],
     "meta": { "top": "B" },
     "difficulty": 1,
-    "notes": "Immobile AP juggernaut whose Realm of Death isolates a carry 1v1 and turns fights into 4v4. Bullies tanks and immobile bruisers (Illaoi, Tahm, Malphite); kited by Vayne/Singed and outplayed by Yone, Gwen and Fiora, so he needs teammates who win the 4v4."
+    "notes": "Immobile AP juggernaut whose Realm of Death isolates a carry 1v1 and turns fights into 4v4. He bullies tanks and immobile bruisers (Illaoi, Tahm, Malphite). Vayne and Singed kite him and Yone, Gwen and Fiora outplay him, so he needs teammates who win the 4v4."
   },
   {
     "id": "Morgana",
@@ -669,7 +669,7 @@
     ],
     "meta": { "support": "B", "mid": "D" },
     "difficulty": 1,
-    "notes": "Anti-engage pick support: Black Shield denies hooks and CC chains while a long Dark Binding catches targets. Hard counter to CC-reliant engage supports; loses lane to enchanter/poke-sustain lanes (Karma, Milio, Janna, Yuumi) and Shaco."
+    "notes": "Anti-engage pick support whose Black Shield denies hooks and CC chains, while a long Dark Binding catches targets. She hard-counters CC-reliant engage supports. She loses lane to enchanters and poke-sustain lanes (Karma, Milio, Janna, Yuumi) and Shaco."
   },
   {
     "id": "Naafiri",
@@ -705,7 +705,7 @@
     ],
     "meta": { "jungle": "C", "mid": "C" },
     "difficulty": 1,
-    "notes": "Lethality pack-assassin with a point-and-click dash onto champions and a roaming R; excels at hunting isolated squishies and out-skirmishes Lee Sin/Kha'Zix early. Falls off vs tanky comps and loses to sturdier divers (Hecarim, Nocturne, Bel'Veth, Xin Zhao)."
+    "notes": "Lethality pack-assassin with a point-and-click dash onto champions and a roaming R. She excels at hunting isolated squishies and out-skirmishes Lee Sin and Kha'Zix early. She falls off against tanky comps and loses to sturdier divers (Hecarim, Nocturne, Bel'Veth, Xin Zhao)."
   },
   {
     "id": "Nami",
@@ -742,7 +742,7 @@
     ],
     "meta": { "support": "A" },
     "difficulty": 2,
-    "notes": "Aggressive enchanter: bubble, empowered E trades and Tidal Wave give lane pressure, heals and teamfight disengage/engage. Best with multi-hit lane bullies (Lucian, Draven); beats mage supports but is vulnerable to hard engage (Nautilus, Amumu) and anti-heal."
+    "notes": "Aggressive enchanter whose bubble, empowered E trades and Tidal Wave give lane pressure, heals, and engage or disengage in teamfights. She is best with multi-hit lane bullies (Lucian, Draven). She beats mage supports but is vulnerable to hard engage (Nautilus, Amumu) and anti-heal."
   },
   {
     "id": "Nasus",
@@ -778,7 +778,7 @@
     ],
     "meta": { "top": "S", "mid": "B" },
     "difficulty": 1,
-    "notes": "Stacking juggernaut: weak early, then Siphoning Strike and Fury of the Sands make him a tanky split-pusher and tower-taker; Wither shuts down auto-attack carries. Current sustain lets him survive old ranged-top counters (Vayne, Kennen); durable duelists like K'Sante, Ambessa and Camille handle him best."
+    "notes": "Stacking juggernaut who is weak early, then Siphoning Strike and Fury of the Sands make him a tanky split-pusher and tower-taker. Wither shuts down auto-attack carries. His current sustain lets him survive old ranged-top counters (Vayne, Kennen), and durable duelists like K'Sante, Ambessa and Camille handle him best."
   },
   {
     "id": "Nautilus",
@@ -817,7 +817,7 @@
     ],
     "meta": { "support": "B" },
     "difficulty": 1,
-    "notes": "Tanky hook engage support with point-and-click R and auto-attack root; relentless all-ins and picks into squishy mage/enchanter supports. Pairs with all-in ADCs (Samira, Kalista, Draven, Nilah); loses tank-vs-tank lanes (Taric, Rell, Braum) and Black Shield blunts him."
+    "notes": "Tanky hook engage support with a point-and-click R and an auto-attack root. He all-ins and picks off squishy mage and enchanter supports. He pairs with all-in ADCs (Samira, Kalista, Draven, Nilah). He loses tank-vs-tank lanes (Taric, Rell, Braum), and Black Shield blunts him."
   },
   {
     "id": "Neeko",
@@ -852,7 +852,7 @@
     ],
     "meta": { "support": "C", "mid": "B" },
     "difficulty": 2,
-    "notes": "Disguise-based engage mage: long root E and a flash-in Pop Blossom AoE stun that wins grouped fights. Needs follow-up AoE (MF, Seraphine); predictable once spotted, beats other engage supports but is poked out by Karma/Zyra and blunted by Black Shield."
+    "notes": "Disguise-based engage mage with a long root E and a flash-in Pop Blossom AoE stun that wins grouped fights. She needs follow-up AoE (MF, Seraphine) and is predictable once spotted. She beats other engage supports, but Karma and Zyra poke her out and Black Shield blunts her."
   },
   {
     "id": "Nidalee",
@@ -889,7 +889,7 @@
     ],
     "meta": { "jungle": "A" },
     "difficulty": 3,
-    "notes": "High-tempo early jungler: fast clear, invades and long-range spear poke into cougar burst. Must convert early leads; falls off late and struggles into tanky, CC-heavy jungles and comps that hard-engage onto her."
+    "notes": "High-tempo early jungler with a fast clear, invades, and long-range spear poke into cougar burst. She must convert early leads, falls off late, and struggles into tanky, CC-heavy junglers and comps that hard-engage onto her."
   },
   {
     "id": "Nilah",
@@ -925,7 +925,7 @@
     ],
     "meta": { "bot": "B" },
     "difficulty": 2,
-    "notes": "Melee skirmish carry who dodges auto attacks with W, shares heals/shields and pulls the enemy in with R. Needs hard-engage or enchanter supports to reach targets; beats auto-attack ADCs (Twitch, Kalista, MF) but is hard-countered by Xayah and ranged mage bots (Corki, Viktor)."
+    "notes": "Melee skirmish carry who dodges auto attacks with W, shares heals and shields, and pulls enemies in with R. She needs hard-engage or enchanter supports to reach targets. She beats auto-attack ADCs (Twitch, Kalista, MF) but is hard-countered by Xayah and ranged mage bots (Corki, Viktor)."
   },
   {
     "id": "Nocturne",
@@ -964,7 +964,7 @@
     ],
     "meta": { "jungle": "A" },
     "difficulty": 2,
-    "notes": "Map-wide diver: Paranoia removes vision and lets him drop on an isolated carry, with spell shield and fear for the kill. Combos with global/flank follow-up (TF, Galio, Lissandra); weak when enemies group tightly and into sturdy early duelists (Ambessa, Udyr, Skarner)."
+    "notes": "Map-wide diver whose Paranoia removes vision and lets him drop on an isolated carry, with spell shield and fear for the kill. He combos with global or flank follow-up (TF, Galio, Lissandra). He is weak when enemies group tightly and into sturdy early duelists (Ambessa, Udyr, Skarner)."
   },
   {
     "id": "Nunu",
@@ -998,7 +998,7 @@
     ],
     "meta": { "jungle": "B", "mid": "D" },
     "difficulty": 1,
-    "notes": "Roaming tank jungler: Consume secures objectives and heals, while the snowball roll ganks from long range. Brings engage, frontline and objective control rather than damage; loses tempo to strong early skirmishers and kiting junglers."
+    "notes": "Roaming tank jungler whose Consume secures objectives and heals, while the snowball roll ganks from long range. He brings engage, frontline and objective control instead of damage, and loses tempo to strong early skirmishers and kiting junglers."
   },
   {
     "id": "Olaf",
@@ -1034,7 +1034,7 @@
     ],
     "meta": { "top": "B", "jungle": "C" },
     "difficulty": 1,
-    "notes": "Early-game berserker with true-damage E, lifesteal W and a CC-immune R that runs straight at carries. Dominates early skirmishes and CC-heavy comps; falls off late and gets kited by ranged or mobile laners."
+    "notes": "Early-game berserker with true-damage E, lifesteal W and a CC-immune R that runs straight at carries. He dominates early skirmishes and CC-heavy comps, falls off late, and gets kited by ranged or mobile laners."
   },
   {
     "id": "Orianna",
@@ -1073,7 +1073,7 @@
     ],
     "meta": { "mid": "C" },
     "difficulty": 2,
-    "notes": "Scaling control mage: ball-on-diver Shockwave wins teamfights, while shields and Dissonance peel carries. Wants engage teammates to deliver the ball (Malphite, J4, Wukong); weak in lane vs Locke, Irelia and long-range poke (Zoe, Vel'Koz, Xerath)."
+    "notes": "Scaling control mage whose Shockwave wins teamfights once the ball is on a diver, while shields and Dissonance peel carries. She wants engage teammates to deliver the ball (Malphite, J4, Wukong). She is weak in lane against Locke, Irelia and long-range poke (Zoe, Vel'Koz, Xerath)."
   },
   {
     "id": "Ornn",
@@ -1110,7 +1110,7 @@
     ],
     "meta": { "top": "A" },
     "difficulty": 2,
-    "notes": "Scaling frontline tank with knock-up engage (R + E) and free item upgrades for his team. Plays safe in lane then anchors teamfights; K'Sante, Fiora and Ambessa out-duel and split-push him."
+    "notes": "Scaling frontline tank with knock-up engage (R and E) and free item upgrades for his team. He plays safe in lane, then anchors teamfights. K'Sante, Fiora and Ambessa out-duel and split-push him."
   },
   {
     "id": "Pantheon",
@@ -1150,7 +1150,7 @@
     ],
     "meta": { "support": "C", "top": "A", "mid": "B", "jungle": "C" },
     "difficulty": 2,
-    "notes": "Flexible early-game bully: point-and-click stun leap, spear poke and a global R for skirmishes and roams. Must snowball the lane or map early; falls off late and struggles against tanky or sustain lanes (Soraka, Taric, Rell, Mundo)."
+    "notes": "Flexible early-game bully with a point-and-click stun leap, spear poke and a global R for skirmishes and roams. He must snowball the lane or map early. He falls off late and struggles against tanky or sustain lanes (Soraka, Taric, Rell, Mundo)."
   },
   {
     "id": "Poppy",
@@ -1187,7 +1187,7 @@
     ],
     "meta": { "support": "B", "top": "C", "jungle": "C" },
     "difficulty": 2,
-    "notes": "Anti-dive tank: Steadfast Presence grounds dashes, Heroic Charge wall-stuns and Keeper's Verdict knocks divers away. Hard-counters dash-reliant champions (Irelia, Jax, Kalista, Yasuo, Lee); low damage, and loses lanes to sustain/poke supports and juggernauts (Darius, Olaf)."
+    "notes": "Anti-dive tank whose Steadfast Presence grounds dashes, Heroic Charge wall-stuns and Keeper's Verdict knocks divers away. She hard-counters dash-reliant champions (Irelia, Jax, Kalista, Yasuo, Lee). She has low damage and loses lanes to sustain or poke supports and juggernauts (Darius, Olaf)."
   },
   {
     "id": "Pyke",
@@ -1225,7 +1225,7 @@
     ],
     "meta": { "support": "B" },
     "difficulty": 2,
-    "notes": "Assassin support: hook, stun dash and resetting execute R snowball through picks and roams. Preys on immobile mage supports (Lux, Xerath, Vel'Koz); provides no frontline or peel, and engage/disengage supports (Renata, Camille, Rakan, Nautilus) blunt him."
+    "notes": "Assassin support whose hook, stun dash and resetting execute R snowball through picks and roams. He preys on immobile mage supports (Lux, Xerath, Vel'Koz). He gives no frontline or peel, and engage and disengage supports (Renata, Camille, Rakan, Nautilus) blunt him."
   },
   {
     "id": "Qiyana",
@@ -1264,7 +1264,7 @@
     ],
     "meta": { "jungle": "B", "mid": "B" },
     "difficulty": 3,
-    "notes": "Elemental burst assassin whose terrain-based R stuns whole teams near walls, rivers and brush. Deletes immobile squishies and enables wombo follow-up; needs terrain and leads, and folds to dash-denial (Poppy), Malphite's armor and Rengar/Nidalee early skirmishing."
+    "notes": "Elemental burst assassin whose terrain-based R stuns whole teams near walls, rivers and brush. She deletes immobile squishies and enables wombo follow-up. She needs terrain and leads, and folds to dash denial (Poppy), Malphite's armor and early skirmishing from Rengar and Nidalee."
   },
   {
     "id": "Quinn",
@@ -1300,6 +1300,6 @@
     ],
     "meta": { "jungle": "C", "top": "B" },
     "difficulty": 2,
-    "notes": "Ranged lethality skirmisher played jungle or top: bullies melee laners, then uses Behind Enemy Lines for fast rotations, picks and split pressure. Falls off late and is fragile into armor tanks and point-and-click engage."
+    "notes": "Ranged lethality skirmisher played in the jungle or top. She bullies melee laners, then uses Behind Enemy Lines for fast rotations, picks and split pressure. She falls off late and is fragile into armor tanks and point-and-click engage."
   }
 ]

@@ -113,7 +113,7 @@ export function Suggestions({
             Done
           </Button>
         </div>
-        <p className="text-xs text-muted">Tune how much each factor matters to you. Saved in this browser; affects only your view.</p>
+        <p className="text-xs text-muted">Tune how much each factor matters to you. Your weights are saved in this browser and only change your view.</p>
         {WEIGHT_INFO.map((w) => (
           <div key={w.id}>
             <Slider label={w.label} value={weights[w.id]} onChange={(v) => setWeight(w.id, v)} min={0} max={2} step={0.1} />
@@ -153,7 +153,7 @@ export function Suggestions({
             ))}
           </div>
         )}
-        <SuggestionList items={items} game={game} side={perspective} lookup={lookup} onSelect={onSelect} isAvailable={isAvailable} empty="No picks to suggest — all roles are filled." />
+        <SuggestionList items={items} game={game} side={perspective} lookup={lookup} onSelect={onSelect} isAvailable={isAvailable} empty="No picks to suggest. All roles are filled." />
       </div>
     );
   } else if (tab === "bans") {
@@ -214,7 +214,7 @@ export function Suggestions({
           ))}
         </div>
         {!profiles[perspective] && !showWeights && (
-          <p className="text-[11px] text-muted">No team profile loaded for {names[perspective]} — suggestions ignore player pools.</p>
+          <p className="text-[11px] text-muted">No team profile loaded for {names[perspective]}, so suggestions ignore player pools.</p>
         )}
       </div>
       <div role="tablist" aria-label="Analysis views" className="grid grid-cols-6 border-b border-line px-1 pt-1">

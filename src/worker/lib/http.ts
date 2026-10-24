@@ -31,7 +31,7 @@ export async function rateLimit(c: AppContext, limiter: "WRITE_LIMITER" | "AI_LI
   if (!binding) return;
   try {
     const { success } = await binding.limit({ key: `${scope}:${clientKey(c)}` });
-    if (!success) throw new ApiError(429, "rate_limited", "Too many requests — slow down and try again in a minute.");
+    if (!success) throw new ApiError(429, "rate_limited", "Too many requests. Slow down and try again in a minute.");
   } catch (e) {
     if (e instanceof ApiError) throw e;
     // limiter failure should not take the API down

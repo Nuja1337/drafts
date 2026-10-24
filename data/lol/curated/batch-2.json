@@ -12,7 +12,7 @@
     "synergies": [{ "id": "JarvanIV", "s": 1 }, { "id": "Amumu", "s": 1 }, { "id": "Nocturne", "s": 1 }],
     "meta": { "mid": "A" },
     "difficulty": 2,
-    "notes": "AP melee assassin: E (Playful/Trickster) dodges key spells and the shark ult one-shots isolated carries from mid game. Best into immobile artillery/control mages; struggles into Vex fear, Kassadin, Vladimir and point-click CC."
+    "notes": "AP melee assassin whose E (Playful/Trickster) dodges key spells and whose shark ult one-shots isolated carries from mid game. He is best into immobile artillery and control mages, and struggles into Vex fear, Kassadin, Vladimir and point-click CC."
   },
   {
     "id": "Galio",
@@ -27,7 +27,7 @@
     "synergies": [{ "id": "Nocturne", "s": 3 }, { "id": "JarvanIV", "s": 2 }, { "id": "Vi", "s": 2 }, { "id": "Yasuo", "s": 2 }, { "id": "Camille", "s": 1 }],
     "meta": { "mid": "B", "support": "B" },
     "difficulty": 2,
-    "notes": "Anti-magic tank mage: Hero's Entrance follows a diving ally from across the map and W taunts a whole team. Best into AP-heavy comps and with divers (Nocturne, J4, Vi); outscaled and out-ranged by control mages."
+    "notes": "Anti-magic tank mage whose Hero's Entrance follows a diving ally from across the map, while his W taunts a whole team. He is best into AP-heavy comps and with divers (Nocturne, J4, Vi). Control mages outscale and outrange him."
   },
   {
     "id": "Gangplank",
@@ -42,7 +42,7 @@
     "synergies": [{ "id": "Amumu", "s": 2 }, { "id": "JarvanIV", "s": 2 }, { "id": "Sejuani", "s": 1 }, { "id": "MissFortune", "s": 1 }],
     "meta": { "top": "A", "mid": "C" },
     "difficulty": 3,
-    "notes": "Scaling barrel crit carry with global ult pressure; wins by surviving lane and then side-laning and chunking whole teams with barrels. Struggles into durable tanks (Ornn, Mundo) and Kayle's scaling; wants teammates with AoE lockdown to hold enemies on barrels."
+    "notes": "Scaling barrel crit carry with global ult pressure. He wins by surviving lane, then side-laning and chunking whole teams with barrels. He struggles into durable tanks (Ornn, Mundo) and Kayle's scaling, and wants teammates with AoE lockdown to hold enemies on barrels."
   },
   {
     "id": "Garen",
@@ -57,7 +57,7 @@
     "synergies": [{ "id": "Lulu", "s": 1 }, { "id": "JarvanIV", "s": 1 }],
     "meta": { "top": "A" },
     "difficulty": 1,
-    "notes": "Simple, durable juggernaut: silence + spin + execute ult. Strong solo-queue side laner who bullies melee duelists; kited by ranged tops (Quinn, Vayne, Teemo), outscaled by Kayle, and lacks hard engage or reliable CC for teamfights."
+    "notes": "Simple, durable juggernaut with a silence, a spin and an execute ult. He is a strong solo-queue side laner who bullies melee duelists. Ranged tops (Quinn, Vayne, Teemo) kite him, Kayle outscales him, and he lacks hard engage or reliable CC for teamfights."
   },
   {
     "id": "Gnar",
@@ -72,7 +72,7 @@
     "synergies": [{ "id": "JarvanIV", "s": 2 }, { "id": "Orianna", "s": 1 }, { "id": "Sejuani", "s": 1 }],
     "meta": { "top": "B" },
     "difficulty": 3,
-    "notes": "Ranged Mini Gnar kites melee in lane, then Mega Gnar ult into a wall is a game-winning multi-man engage. Needs rage management to time fights; pressured by lane bullies that punish Mini form."
+    "notes": "Mini Gnar is ranged and kites melee in lane, then Mega Gnar's ult into a wall is a game-winning multi-man engage. He needs rage management to time fights, and lane bullies punish his Mini form."
   },
   {
     "id": "Gragas",
@@ -87,7 +87,7 @@
     "synergies": [{ "id": "Yasuo", "s": 2 }, { "id": "Orianna", "s": 2 }, { "id": "MissFortune", "s": 2 }],
     "meta": { "top": "B", "jungle": "B", "mid": "B" },
     "difficulty": 2,
-    "notes": "Flex AP bruiser: Body Slam and Explosive Cask reposition enemies into (or out of) fights, making him a top-tier disengage and a solid pick tool. Bullies early-weak scalers (Kayle) and dash-reliant Yasuo; tanky sustain tops (Urgot, Yorick, Mundo) out-trade him."
+    "notes": "Flex AP bruiser whose Body Slam and Explosive Cask move enemies into or out of fights, which makes him a top-tier disengage and a solid pick tool. He bullies scalers that are weak early (Kayle) and dash-reliant Yasuo. Tanky sustain tops (Urgot, Yorick, Mundo) out-trade him."
   },
   {
     "id": "Graves",
@@ -102,7 +102,7 @@
     "synergies": [{ "id": "Renekton", "s": 1 }, { "id": "Galio", "s": 1 }],
     "meta": { "jungle": "B" },
     "difficulty": 2,
-    "notes": "Farm-heavy carry jungler who out-duels most skirmish junglers, then fights with high burst and bonus armor. Lacks CC, so wants lanes that set up ganks; struggles into armor-stacking tank junglers (Sejuani, Amumu, Rammus) and fast-scaling Karthus."
+    "notes": "Farm-heavy carry jungler who out-duels most skirmish junglers, then fights with high burst and bonus armor. He lacks CC, so he wants lanes that set up ganks. He struggles into armor-stacking tank junglers (Sejuani, Amumu, Rammus) and fast-scaling Karthus."
   },
   {
     "id": "Gwen",
@@ -117,7 +117,7 @@
     "synergies": [{ "id": "Lulu", "s": 1 }, { "id": "Orianna", "s": 1 }, { "id": "Sejuani", "s": 1 }],
     "meta": { "top": "A", "jungle": "B", "mid": "B" },
     "difficulty": 2,
-    "notes": "AP skirmisher with true damage that melts tanks; Hallowed Mist blocks outside damage and turrets. Scales into a strong side-laner and teamfight DPS. Yasuo/Jax-style duelists and ranged tops trouble her; needs frontline/engage to access targets."
+    "notes": "AP skirmisher with true damage that melts tanks, and her Hallowed Mist blocks outside damage and turrets. She scales into a strong side-laner and teamfight DPS. Duelists like Yasuo and Jax and ranged tops trouble her, and she needs frontline or engage to reach targets."
   },
   {
     "id": "Hecarim",
@@ -132,7 +132,7 @@
     "synergies": [{ "id": "Orianna", "s": 3 }, { "id": "Lulu", "s": 2 }, { "id": "Karma", "s": 1 }],
     "meta": { "jungle": "B" },
     "difficulty": 2,
-    "notes": "Fast-clearing, high-speed diver: E charge plus fear ult runs straight onto the backline. Loves speed/shield enchanters and Orianna ball deliveries; shut down by dash-stoppers (Poppy W), taunts and knockback disengage."
+    "notes": "Fast-clearing, high-speed diver whose E charge and fear ult run straight onto the backline. He loves enchanters with speed and shields, and Orianna ball deliveries. Dash-stoppers (Poppy W), taunts and knockback disengage shut him down."
   },
   {
     "id": "Heimerdinger",
@@ -147,7 +147,7 @@
     "synergies": [{ "id": "Zyra", "s": 1 }, { "id": "Amumu", "s": 1 }],
     "meta": { "top": "C", "mid": "C", "support": "C" },
     "difficulty": 2,
-    "notes": "Turret-zone lane bully that punishes melee duelists who must walk into his turrets; strong at holding and sieging chokes. Weak to tanks that shrug off turrets (Sion, Ornn, Malphite), Gangplank barrels and long-range artillery, and loses value in open-map late fights."
+    "notes": "Turret-zone lane bully that punishes melee duelists who must walk into his turrets. He is strong at holding and sieging chokes. He is weak to tanks that shrug off turrets (Sion, Ornn, Malphite), Gangplank barrels and long-range artillery, and loses value in open-map late fights."
   },
   {
     "id": "Hwei",
@@ -162,7 +162,7 @@
     "synergies": [{ "id": "MissFortune", "s": 1 }, { "id": "Jhin", "s": 1 }, { "id": "Amumu", "s": 1 }],
     "meta": { "mid": "B", "support": "C", "bot": "B" },
     "difficulty": 3,
-    "notes": "Ten-spell control mage: long-range poke, root/fear picks and a zoning ult. Flexes mid/support/bot and scales well; out-ranged by pure artillery (Xerath, Vel'Koz) and immobile against assassins and hard dive."
+    "notes": "Ten-spell control mage with long-range poke, root and fear picks, and a zoning ult. He flexes mid, support and bot and scales well. Pure artillery (Xerath, Vel'Koz) outranges him, and he is immobile against assassins and hard dive."
   },
   {
     "id": "Illaoi",
@@ -177,7 +177,7 @@
     "synergies": [{ "id": "Lulu", "s": 1 }, { "id": "JarvanIV", "s": 1 }],
     "meta": { "top": "B" },
     "difficulty": 2,
-    "notes": "Immobile juggernaut who wins any fight on her tentacles; E (Test of Spirit) and ult punish enemies who dive her. Dominant 1v1 side-laner into melee tanks; ranged kiters (Teemo, Vayne), Kayle and Mordekaiser's ult beat her."
+    "notes": "Immobile juggernaut who wins any fight on her tentacles, and her E (Test of Spirit) and ult punish enemies who dive her. She dominates 1v1 side lanes into melee tanks. Ranged kiters (Teemo, Vayne), Kayle and Mordekaiser's ult beat her."
   },
   {
     "id": "Irelia",
@@ -192,7 +192,7 @@
     "synergies": [{ "id": "JarvanIV", "s": 1 }, { "id": "Orianna", "s": 1 }, { "id": "Lulu", "s": 1 }],
     "meta": { "top": "A", "mid": "C" },
     "difficulty": 3,
-    "notes": "Minion-reset duelist with elite mobility and a strong stun; snowballs through skirmishes once stacked. Wants lanes where she can trade freely; shut down by dash-stoppers, grounding/point-click CC and tanky bruisers."
+    "notes": "Minion-reset duelist with elite mobility and a strong stun who snowballs through skirmishes once stacked. She wants lanes where she can trade freely. Dash-stoppers, grounding, point-click CC and tanky bruisers shut her down."
   },
   {
     "id": "Ivern",
@@ -207,7 +207,7 @@
     "synergies": [{ "id": "Jinx", "s": 2 }, { "id": "KogMaw", "s": 2 }, { "id": "Aphelios", "s": 1 }, { "id": "Kaisa", "s": 1 }],
     "meta": { "jungle": "B" },
     "difficulty": 3,
-    "notes": "Enchanter jungler: shields, Daisy and root ganks enable hyper-carries rather than carrying himself. Wants a scaling DPS carry to protect; very weak to early invades and counter-jungling."
+    "notes": "Enchanter jungler whose shields, Daisy and root ganks enable hyper-carries instead of carrying himself. He wants a scaling DPS carry to protect and is very weak to early invades and counter-jungling."
   },
   {
     "id": "Janna",
@@ -222,7 +222,7 @@
     "synergies": [{ "id": "Jinx", "s": 2 }, { "id": "KogMaw", "s": 2 }, { "id": "Zeri", "s": 2 }, { "id": "Twitch", "s": 2 }, { "id": "Aphelios", "s": 1 }, { "id": "Vayne", "s": 1 }],
     "meta": { "support": "A" },
     "difficulty": 1,
-    "notes": "The premier disengage enchanter: tornado, shield and Monsoon undo dives and engages. Pairs with hyper-carry ADCs in protect-the-carry comps; low kill pressure, slightly outvalued by other enchanters and hook supports in lane."
+    "notes": "Top disengage enchanter whose tornado, shield and Monsoon undo dives and engages. She pairs with hyper-carry ADCs in protect-the-carry comps. She has low kill pressure, and other enchanters and hook supports slightly outvalue her in lane."
   },
   {
     "id": "JarvanIV",
@@ -237,7 +237,7 @@
     "synergies": [{ "id": "MissFortune", "s": 2 }, { "id": "Rumble", "s": 2 }, { "id": "Orianna", "s": 2 }, { "id": "Yasuo", "s": 2 }, { "id": "Galio", "s": 2 }, { "id": "Gnar", "s": 1 }],
     "meta": { "jungle": "B" },
     "difficulty": 2,
-    "notes": "Pro-staple early-game engage jungler: EQ knock-up ganks and Cataclysm traps enemies for AoE follow-up (MF, Rumble, Orianna). Wants to snowball early objectives; falls off late and is hard-stopped by Poppy W."
+    "notes": "Pro-staple early-game engage jungler. He ganks with his EQ knock-up and traps enemies in Cataclysm for AoE follow-up (MF, Rumble, Orianna). He wants to snowball early objectives, falls off late, and is hard-stopped by Poppy W."
   },
   {
     "id": "Jax",
@@ -252,7 +252,7 @@
     "synergies": [{ "id": "Lulu", "s": 1 }, { "id": "Karma", "s": 1 }],
     "meta": { "top": "B", "jungle": "D" },
     "difficulty": 2,
-    "notes": "Scaling hybrid duelist: Counter Strike shuts down auto-attackers and melee duelists, and he becomes an elite split-pusher late. Poppy, Garen and ranged/kiting tops (Kennen, Gnar) keep him down; pulls pressure to side lanes rather than starting fights."
+    "notes": "Scaling hybrid duelist whose Counter Strike shuts down auto-attackers and melee duelists, and he becomes an elite split-pusher late. Poppy, Garen and ranged kiting tops (Kennen, Gnar) keep him down. He pulls pressure to side lanes instead of starting fights."
   },
   {
     "id": "Jayce",
@@ -267,7 +267,7 @@
     "synergies": [{ "id": "Varus", "s": 2 }, { "id": "Karma", "s": 1 }, { "id": "Ezreal", "s": 1 }],
     "meta": { "top": "C", "mid": "C" },
     "difficulty": 3,
-    "notes": "Lane bully with elite Shock Blast poke; flexes top/mid and anchors poke/siege comps. Must convert early leads into towers and dragons because he falls off late and struggles into armor-stacking tanks (Malphite, Ornn) and Irelia."
+    "notes": "Lane bully with elite Shock Blast poke who flexes top and mid and anchors poke and siege comps. He must convert early leads into towers and dragons because he falls off late and struggles into armor-stacking tanks (Malphite, Ornn) and Irelia."
   },
   {
     "id": "Jhin",
@@ -282,7 +282,7 @@
     "synergies": [{ "id": "Zyra", "s": 2 }, { "id": "Morgana", "s": 2 }, { "id": "Neeko", "s": 1 }, { "id": "Lux", "s": 1 }],
     "meta": { "bot": "B" },
     "difficulty": 2,
-    "notes": "Utility marksman with long-range W root, 4th-shot burst and a curtain-call ult that picks off and finishes fights from afar. Pairs well with CC supports that enable his root; immobile, vulnerable to dive, and outscaled by hyper-carries like Zeri."
+    "notes": "Utility marksman with long-range W root, 4th-shot burst and a curtain-call ult that picks off and finishes fights from afar. He pairs well with CC supports that enable his root. He is immobile, vulnerable to dive, and outscaled by hyper-carries like Zeri."
   },
   {
     "id": "Jinx",
@@ -297,7 +297,7 @@
     "synergies": [{ "id": "Lulu", "s": 3 }, { "id": "Milio", "s": 2 }, { "id": "Janna", "s": 2 }, { "id": "Braum", "s": 2 }, { "id": "Nami", "s": 2 }, { "id": "Ivern", "s": 2 }],
     "meta": { "bot": "S" },
     "difficulty": 2,
-    "notes": "Hyper-carry ADC whose Get Excited resets turn one takedown into a teamfight wipe; rockets give siege range. Wants peel/enchanter supports and a frontline; immobile, so dive and assassins are her real weakness rather than lane opponents."
+    "notes": "Hyper-carry ADC whose Get Excited resets turn one takedown into a teamfight wipe, and her rockets give siege range. She wants peel or enchanter supports and a frontline. She is immobile, so dive and assassins threaten her more than lane opponents do."
   },
   {
     "id": "Kaisa",
@@ -312,7 +312,7 @@
     "synergies": [{ "id": "Nautilus", "s": 3 }, { "id": "Leona", "s": 2 }, { "id": "Rell", "s": 2 }, { "id": "Alistar", "s": 2 }, { "id": "Ivern", "s": 1 }],
     "meta": { "bot": "A" },
     "difficulty": 2,
-    "notes": "Hybrid-damage diving ADC: Killer Instinct follows engage-support CC for isolated Icathian Rain bursts. Best with hard-engage supports; out-scaled by range/attack-speed hyper-carries (Zeri, Kog'Maw)."
+    "notes": "Hybrid-damage diving ADC who uses Killer Instinct to follow her support's CC and burst isolated targets with Icathian Rain. She is best with hard-engage supports. Hyper-carries with more range or attack speed (Zeri, Kog'Maw) outscale her."
   },
   {
     "id": "Kalista",
@@ -327,7 +327,7 @@
     "synergies": [{ "id": "Thresh", "s": 3 }, { "id": "Alistar", "s": 2 }, { "id": "Nautilus", "s": 2 }, { "id": "Rell", "s": 2 }, { "id": "Leona", "s": 1 }],
     "meta": { "bot": "C" },
     "difficulty": 3,
-    "notes": "Early-game lane bully with hop-kiting mobility, Rend objective control and a Fate's Call throw that turns her support into engage. Wants a hard-engage support and early skirmishes; falls off hard and loses to scaling hyper-carries if the lead stalls."
+    "notes": "Early-game lane bully with hop-kiting mobility, Rend objective control and a Fate's Call throw that turns her support into engage. She wants a hard-engage support and early skirmishes. She falls off hard and loses to scaling hyper-carries if the lead stalls."
   },
   {
     "id": "Karma",
@@ -342,7 +342,7 @@
     "synergies": [{ "id": "Ezreal", "s": 2 }, { "id": "Lucian", "s": 1 }, { "id": "Varus", "s": 1 }, { "id": "Jayce", "s": 1 }],
     "meta": { "support": "B", "mid": "B", "top": "C" },
     "difficulty": 2,
-    "notes": "Blind-pickable flex enchanter/poke mage: Mantra Q poke dominates lane and team-wide shield + speed enables both disengage and engage. Strongest early; loses value into late-game fights."
+    "notes": "Blind-pickable flex enchanter and poke mage whose Mantra Q poke dominates lane, while her team-wide shield and speed enable both disengage and engage. She is strongest early and loses value in late-game fights."
   },
   {
     "id": "Karthus",
@@ -357,7 +357,7 @@
     "synergies": [{ "id": "Amumu", "s": 2 }, { "id": "Morgana", "s": 1 }, { "id": "Zilean", "s": 1 }],
     "meta": { "jungle": "D", "bot": "B" },
     "difficulty": 2,
-    "notes": "Farming AP scaler: fast full clears, global Requiem and huge teamfight DPS (even after death). Played jungle or as a bot-lane mage carry; very weak to early invades and dive, so he needs lanes that hold pressure."
+    "notes": "Farming AP scaler with fast full clears, global Requiem and huge teamfight DPS, even after death. He is played in the jungle or as a bot-lane mage carry. He is very weak to early invades and dive, so he needs lanes that hold pressure."
   },
   {
     "id": "Kassadin",
@@ -372,7 +372,7 @@
     "synergies": [{ "id": "Zilean", "s": 1 }, { "id": "Janna", "s": 1 }],
     "meta": { "mid": "B" },
     "difficulty": 2,
-    "notes": "Hyper-scaling blink assassin: miserable pre-6, then Riftwalk spam at 16 makes him nearly uncatchable and deadly to backlines. Draft him when the team can play for late game; punished hard by early lane bullies and roaming AD assassins."
+    "notes": "Hyper-scaling blink assassin who is miserable before level 6, then at 16 Riftwalk spam makes him nearly uncatchable and deadly to backlines. Draft him when the team can play for late game. Early lane bullies and roaming AD assassins punish him hard."
   },
   {
     "id": "Katarina",
@@ -387,7 +387,7 @@
     "synergies": [{ "id": "Amumu", "s": 2 }, { "id": "Malphite", "s": 2 }, { "id": "Rell", "s": 2 }, { "id": "Sejuani", "s": 1 }],
     "meta": { "mid": "A" },
     "difficulty": 3,
-    "notes": "Reset assassin who cleans up fights with Shunpo/dagger resets and a channelled AoE ult. Needs teammates with AoE engage to start fights she can jump into; hard-countered by point-click CC and interrupts."
+    "notes": "Reset assassin who cleans up fights with Shunpo and dagger resets and a channelled AoE ult. She needs teammates with AoE engage to start fights she can jump into, and point-click CC and interrupts hard-counter her."
   },
   {
     "id": "Kayle",
@@ -402,7 +402,7 @@
     "synergies": [{ "id": "Lulu", "s": 1 }, { "id": "Zilean", "s": 1 }, { "id": "Janna", "s": 1 }],
     "meta": { "top": "B", "mid": "C" },
     "difficulty": 2,
-    "notes": "The purest late-game hyper-carry: weak melee early, then ranged AoE DPS from 11/16 that shreds everyone. Draft when the team can survive to late; early all-in bruisers and lane bullies punish her pre-6."
+    "notes": "The most extreme late-game hyper-carry. She is a weak melee champion early, then at levels 11 and 16 gains ranged AoE DPS that shreds everyone. Draft her when the team can survive to late game. Early all-in bruisers and lane bullies punish her before level 6."
   },
   {
     "id": "Kayn",
@@ -417,7 +417,7 @@
     "synergies": [{ "id": "Galio", "s": 1 }, { "id": "Rell", "s": 1 }],
     "meta": { "jungle": "B" },
     "difficulty": 3,
-    "notes": "Wall-walking form jungler: Rhaast (vs melee comps) is a sustain drain-tank bruiser, Shadow Assassin (vs ranged comps) is a pick/burst diver. Weak before transforming, so strong early duelists (Bel'Veth, Wukong, Udyr) can deny his scaling."
+    "notes": "Wall-walking jungler with two forms. Rhaast (against melee comps) is a sustain drain-tank bruiser, and Shadow Assassin (against ranged comps) is a pick and burst diver. He is weak before transforming, so strong early duelists (Bel'Veth, Wukong, Udyr) can deny his scaling."
   },
   {
     "id": "Kennen",
@@ -432,7 +432,7 @@
     "synergies": [{ "id": "JarvanIV", "s": 2 }, { "id": "Orianna", "s": 1 }, { "id": "MissFortune", "s": 1 }],
     "meta": { "top": "B" },
     "difficulty": 2,
-    "notes": "Ranged AP top who kites melee duelists with shuriken poke, then flash-Slicing Maelstrom delivers an AoE stun engage. Great secondary engage for J4/Orianna comps; fragile, and out-sustained by tanky laners (Illaoi, Ornn, Mundo) and Irelia."
+    "notes": "Ranged AP top who kites melee duelists with shuriken poke, then flashes in with Slicing Maelstrom for an AoE stun engage. He is a great secondary engage for J4 or Orianna comps. He is fragile, and tanky laners (Illaoi, Ornn, Mundo) and Irelia out-sustain him."
   },
   {
     "id": "Khazix",
@@ -447,7 +447,7 @@
     "synergies": [{ "id": "TwistedFate", "s": 1 }, { "id": "Blitzcrank", "s": 1 }],
     "meta": { "jungle": "B" },
     "difficulty": 2,
-    "notes": "Isolation-burst assassin jungler who counter-jungles and one-shots lone squishies; evolutions add stealth resets and mobility. Thrives vs immobile, grouped-poorly comps; peel-heavy teams and tanky early junglers blunt him."
+    "notes": "Isolation-burst assassin jungler who counter-jungles and one-shots lone squishies, and his evolutions add stealth resets and mobility. He thrives against immobile comps that group poorly. Peel-heavy teams and tanky early junglers blunt him."
   },
   {
     "id": "Kindred",
@@ -462,7 +462,7 @@
     "synergies": [{ "id": "Lulu", "s": 1 }, { "id": "Janna", "s": 1 }],
     "meta": { "jungle": "C" },
     "difficulty": 3,
-    "notes": "Ranged marksman jungler who scales off marks (invades) and brings Lamb's Respite, a team-wide anti-dive/anti-death ult. Needs early control to stack marks; tanky early duelists (Wukong, Rammus, Sejuani) and Kayn punish her."
+    "notes": "Ranged marksman jungler who scales off marks from invades and brings Lamb's Respite, a team-wide ult that stops dives and deaths. She needs early control to stack marks. Tanky early duelists (Wukong, Rammus, Sejuani) and Kayn punish her."
   },
   {
     "id": "Kled",
@@ -477,7 +477,7 @@
     "synergies": [{ "id": "Nocturne", "s": 1 }, { "id": "Rell", "s": 1 }],
     "meta": { "top": "B" },
     "difficulty": 2,
-    "notes": "Aggressive all-in top laner: bear-trap pull, dismount/remount second life and a long-range Chaaaaaaaarge ult that drags the team into fights. Wants to snowball early and dive; falls off if the lane stalls."
+    "notes": "Aggressive all-in top laner with a bear-trap pull, a second life from dismounting and remounting, and a long-range Chaaaaaaaarge ult that drags the team into fights. He wants to snowball early and dive, and falls off if the lane stalls."
   },
   {
     "id": "KogMaw",
@@ -492,7 +492,7 @@
     "synergies": [{ "id": "Lulu", "s": 3 }, { "id": "Janna", "s": 2 }, { "id": "Ivern", "s": 2 }, { "id": "Milio", "s": 2 }, { "id": "Braum", "s": 1 }, { "id": "Nami", "s": 1 }],
     "meta": { "bot": "B" },
     "difficulty": 2,
-    "notes": "Immobile hyper-carry: Bio-Arcane Barrage %HP on-hit shreds frontline at long range and out-scales early bullies like Kalista. The textbook protect-the-carry pick (Lulu/Janna/Ivern); dies to dive and assassins."
+    "notes": "Immobile hyper-carry whose Bio-Arcane Barrage %HP on-hit shreds frontline at long range, and he outscales early bullies like Kalista. He is the classic protect-the-carry pick (Lulu, Janna, Ivern) and dies to dive and assassins."
   },
   {
     "id": "KSante",
@@ -507,7 +507,7 @@
     "synergies": [{ "id": "Orianna", "s": 1 }, { "id": "JarvanIV", "s": 1 }],
     "meta": { "top": "C" },
     "difficulty": 3,
-    "notes": "Pro-favored tank with elite frontline and a flexible kit: Q3 knock-up, W charge and All Out ult that kicks a carry through a wall to isolate it. Mechanically demanding and weak in solo queue; Kayle, true-damage duelists and sustain tanks beat him in lane."
+    "notes": "Pro-favored tank with elite frontline and a flexible kit, including a Q3 knock-up, a W charge and an All Out ult that kicks a carry through a wall to isolate it. He is mechanically demanding and weak in solo queue. Kayle, true-damage duelists and sustain tanks beat him in lane."
   },
   {
     "id": "Leblanc",
@@ -522,6 +522,6 @@
     "synergies": [{ "id": "Nocturne", "s": 1 }, { "id": "Elise", "s": 1 }],
     "meta": { "mid": "A" },
     "difficulty": 3,
-    "notes": "Slippery burst mage/assassin: Distortion trades, chain root picks and Mimic double-combos delete squishies, then escape. Strong mid-game roamer for pick comps; falls off late and is countered by Malzahar/Vex, point-click CC and MR tanks."
+    "notes": "Slippery burst mage and assassin who deletes squishies with Distortion trades, chain root picks and Mimic double-combos, then escapes. She is a strong mid-game roamer for pick comps. She falls off late and is countered by Malzahar, Vex, point-click CC and MR tanks."
   }
 ]

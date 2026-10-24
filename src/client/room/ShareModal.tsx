@@ -83,9 +83,9 @@ export function ShareModal({
             return (
               <div key={slot}>
                 {capKeys[slot] ? (
-                  <CopyField label={`Captain link — ${name}`} value={roomUrl(roomId, capKeys[slot])} />
+                  <CopyField label={`Captain link for ${name}`} value={roomUrl(roomId, capKeys[slot])} />
                 ) : (
-                  <div className="text-xs font-semibold tracking-wider text-muted uppercase">Captain link — {name}</div>
+                  <div className="text-xs font-semibold tracking-wider text-muted uppercase">Captain link for {name}</div>
                 )}
                 <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1">
                   <p className="min-w-0 flex-1 text-xs text-faint">
@@ -109,14 +109,14 @@ export function ShareModal({
                     ))}
                 </div>
                 {pending?.slot === slot && !waiting && (
-                  <p className="mt-1 text-xs text-good">New link ready — the old one no longer works.</p>
+                  <p className="mt-1 text-xs text-good">New link ready. The old one no longer works.</p>
                 )}
               </div>
             );
           })}
         {hostKey && (
           <div>
-            <CopyField label="Host link — keep private" value={roomUrl(roomId, hostKey)} />
+            <CopyField label="Host link (keep private)" value={roomUrl(roomId, hostKey)} />
             <p className="mt-1 text-xs text-warn">Full control of the room (start, undo, reset, results). Use it to open the room on another device.</p>
           </div>
         )}

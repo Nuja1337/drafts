@@ -429,7 +429,7 @@ function ConnectionBanner({ status, hasLiveState }: { status: RoomHook["status"]
     <div className={cn("flex items-center justify-center gap-2 border-b px-3 py-1.5 text-center text-xs font-medium", tone)} role="status">
       {status !== "closed" && <Spinner className="size-3.5" />}
       {status === "connecting" && "Connecting to the live room… showing the last known state."}
-      {status === "reconnecting" && "Connection lost — reconnecting. The board may be out of date."}
+      {status === "reconnecting" && "Connection lost, reconnecting. The board may be out of date."}
       {status === "closed" && (
         <>
           Disconnected from the room.

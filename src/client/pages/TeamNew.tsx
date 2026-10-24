@@ -44,14 +44,14 @@ function OwnerLinkPanel({ created, onContinue }: { created: CreateTeamRes; onCon
       <PageHeader
         eyebrow={<span className="text-good">{scout ? "Opponent profile created" : "Team created"}</span>}
         title={created.team.name}
-        subtitle="One last thing before you continue — save your owner link."
+        subtitle="Before you continue, save your owner link."
       />
       <Card>
         <div className="space-y-4">
           <div className="rounded-lg border border-warn/40 bg-warn/10 px-4 py-3 text-sm text-warn">
             <p className="font-semibold">This link is the master key for {scout ? "this profile" : "your team"}.</p>
             <p className="mt-1 text-warn/90">
-              Anyone who has it can edit or delete everything. It's saved in this browser, but there are no accounts yet — if you clear your browser data or switch
+              Anyone who has it can edit or delete everything. It's saved in this browser, but there are no accounts yet, so if you clear your browser data or switch
               devices, this link is the only way back in. Keep it in a password manager and never paste it in public channels.
             </p>
           </div>
@@ -117,7 +117,7 @@ export function TeamNew() {
         title={scout ? "Scout an opponent" : "Create your team"}
         subtitle={
           scout
-            ? "Keep notes on a team you'll draft against — their players' pools, comfort picks and weaknesses — so suggestions can target them."
+            ? "Keep notes on a team you'll draft against (their players' pools, comfort picks and weaknesses) so suggestions can target them."
             : "Set up your roster once. Players fill in their own pools and preferences through an invite link."
         }
       />
@@ -171,7 +171,7 @@ export function TeamNew() {
           </div>
           {error && <ErrorNote error={error} />}
           <div className="flex flex-col-reverse gap-3 border-t border-line pt-4 sm:flex-row sm:items-center sm:justify-between">
-            <p className="text-xs text-faint">You'll get an owner link that controls this {scout ? "profile" : "team"}. No account needed.</p>
+            <p className="text-xs text-faint">You'll get an owner link that controls this {scout ? "profile" : "team"}. You don't need an account.</p>
             <Button type="submit" variant="primary" loading={busy} disabled={!valid}>
               {scout ? "Create profile" : "Create team"}
             </Button>

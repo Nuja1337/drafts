@@ -35,7 +35,7 @@
     ],
     "meta": { "pos1": "B" },
     "difficulty": 2,
-    "notes": "Fastest farmer and elite split-pusher who burns mana and punishes mana-reliant heroes with Mana Void; needs space and a team that can stall. Weak early and to lockdown that stops Blink (Axe Call, Duel, Rupture, Chrono, Doom)."
+    "notes": "Fastest farmer and elite split-pusher who burns mana and punishes mana-reliant heroes with Mana Void. He needs space and a team that can stall. He is weak early and to lockdown that stops Blink (Axe Call, Duel, Rupture, Chrono, Doom)."
   },
   {
     "id": "axe",
@@ -70,7 +70,7 @@
     ],
     "meta": { "pos3": "A" },
     "difficulty": 1,
-    "notes": "Blink + Berserker's Call is one of the best initiations in the game, and Counter Helix shreds illusion and summon heroes. Strong lane bully who falls off late; kited by ranged harass and undone by saves like False Promise."
+    "notes": "Blink into Berserker's Call is one of the best initiations in the game, and Counter Helix shreds illusion and summon heroes. Axe is a strong lane bully who falls off late. Ranged harass kites him, and saves like False Promise undo his engages."
   },
   {
     "id": "bane",
@@ -100,7 +100,7 @@
     ],
     "meta": { "pos5": "A", "pos4": "B" },
     "difficulty": 2,
-    "notes": "Fiend's Grip is a long single-target disable that pierces spell immunity, so it locks down a BKB carry; Nightmare adds pick and save utility. Grip is a channel, so it can be interrupted, and Counterspell or Rubick can reflect or steal it."
+    "notes": "Fiend's Grip is a long single-target disable that pierces spell immunity, so it locks down a BKB carry. Nightmare adds pick and save utility. Grip is a channel, so it can be interrupted, and Counterspell or Rubick can reflect or steal it."
   },
   {
     "id": "bloodseeker",
@@ -135,7 +135,7 @@
     ],
     "meta": { "pos1": "B", "pos3": "C" },
     "difficulty": 1,
-    "notes": "Snowbally skirmisher: Thirst hunts low-HP heroes and Rupture punishes blink and mobility heroes. Pairs well with forced movement (Lasso, Swap, Skewer). Falls off late and struggles vs Reincarnation, saves, and sustained right-click."
+    "notes": "Snowbally skirmisher whose Thirst hunts low-HP heroes and whose Rupture punishes blink and mobility heroes. He pairs well with forced movement (Lasso, Swap, Skewer). He falls off late and struggles against Reincarnation, saves and sustained right-click."
   },
   {
     "id": "crystal_maiden",
@@ -148,7 +148,7 @@
     "strongVs": [
       { "id": "antimage", "s": 1 },
       { "id": "phantom_lancer", "s": 1 },
-      { "id": "sniper", "s": 1, "note": "Frostbite + Crystal Nova catch the immobile Sniper" },
+      { "id": "sniper", "s": 1, "note": "Frostbite and Crystal Nova catch the immobile Sniper" },
       { "id": "naga_siren", "s": 1, "note": "AoE slows and Freezing Field punish illusions" }
     ],
     "weakVs": [
@@ -236,7 +236,7 @@
     ],
     "meta": { "pos4": "S", "pos2": "B", "pos5": "B" },
     "difficulty": 2,
-    "notes": "Premier teamfight initiator: Fissure zoning plus a Blink Echo Slam that scales with the number of enemy units, making him the go-to answer to illusion and summon heroes. Needs Blink timing, and Rubick stealing Echo is a real threat."
+    "notes": "Top teamfight initiator with Fissure zoning and a Blink Echo Slam that scales with the number of enemy units, which makes him the go-to answer to illusion and summon heroes. He needs Blink timing, and Rubick stealing Echo is a real threat."
   },
   {
     "id": "juggernaut",
@@ -293,7 +293,7 @@
     ],
     "meta": { "pos4": "A", "pos5": "A" },
     "difficulty": 2,
-    "notes": "Most-picked support of the 7.41 pro meta (mostly pos4, also pos5): Sacred Arrow gives long-range picks and Moonlight Shadow sets up team-wide invisible engages or escapes. Nerfed in 7.41f; fragile, and Moonlight is countered by true sight (Haze, Track, Gem)."
+    "notes": "Mirana was the most-picked support of the 7.41 pro meta, mostly at pos4 and also pos5. Sacred Arrow gives long-range picks, and Moonlight Shadow sets up team-wide invisible engages or escapes. She was nerfed in 7.41f and is fragile, and true sight (Haze, Track, Gem) counters Moonlight."
   },
   {
     "id": "morphling",
@@ -323,7 +323,7 @@
     ],
     "meta": { "pos1": "B" },
     "difficulty": 3,
-    "notes": "High-skill scaling carry: Waveform and Attribute Shift make him slippery and hard to burst, and Morph lets him borrow an enemy hero's basic abilities. Io Tether is his classic enabler. Silences, Doom and mana burn shut him down."
+    "notes": "High-skill scaling carry whose Waveform and Attribute Shift make him slippery and hard to burst, while Morph lets him borrow an enemy hero's basic abilities. Io Tether is his classic enabler. Silences, Doom and mana burn shut him down."
   },
   {
     "id": "nevermore",
@@ -357,7 +357,7 @@
     ],
     "meta": { "pos1": "C", "pos2": "D" },
     "difficulty": 2,
-    "notes": "Farm-hungry core with fast Raze waveclear, an armor-reduction aura and Requiem teamfight burst. Played mostly as pos1 in pro. Nerfed in 7.41f; zero escape, so he is vulnerable to catch and lane bullies like Viper."
+    "notes": "Farm-hungry core with fast Raze waveclear, an armor-reduction aura and Requiem teamfight burst. Pros play him mostly as pos1. He was nerfed in 7.41f and has no escape, so he is vulnerable to catch and lane bullies like Viper."
   },
   {
     "id": "phantom_lancer",
@@ -390,7 +390,7 @@
     ],
     "meta": { "pos1": "A" },
     "difficulty": 2,
-    "notes": "Illusion army carry who spreads damage, burns mana with Diffusal and escapes with Doppelganger; strong vs single-target heroes. Hard-countered by AoE: Counter Helix, Echo Slam, cleave, Timbersaw and Bristleback quills."
+    "notes": "Illusion army carry who spreads damage, burns mana with Diffusal and escapes with Doppelganger, which makes him strong against single-target heroes. AoE hard-counters him: Counter Helix, Echo Slam, cleave, Timbersaw and Bristleback quills."
   },
   {
     "id": "puck",
@@ -450,7 +450,7 @@
     ],
     "meta": { "pos4": "B", "pos3": "B", "pos5": "C", "pos2": "C" },
     "difficulty": 2,
-    "notes": "Roaming pick-off hero: Meat Hook and Dismember isolate immobile targets, and he gets tankier with Flesh Heap and Meat Shield. Relies on hook accuracy and vision. Loses to %max-HP damage (Lifestealer, Ursa) and kiting."
+    "notes": "Roaming pick-off hero whose Meat Hook and Dismember isolate immobile targets, and he gets tankier with Flesh Heap and Meat Shield. He relies on hook accuracy and vision. He loses to %max-HP damage (Lifestealer, Ursa) and kiting."
   },
   {
     "id": "razor",
@@ -480,7 +480,7 @@
     ],
     "meta": { "pos3": "B", "pos1": "B", "pos2": "C" },
     "difficulty": 1,
-    "notes": "Lane-dominant, easy-to-execute core: Static Link drains right-click carries' damage and Eye of the Storm pushes towers fast. Strong in the early and mid game but weak to kiting, magic burst and heal-denying sustain like Necrophos."
+    "notes": "Lane-dominant, easy-to-play core whose Static Link drains right-click carries' damage while Eye of the Storm pushes towers fast. He is strong in the early and mid game but weak to kiting, magic burst and heal-denying sustain like Necrophos."
   },
   {
     "id": "sand_king",
@@ -509,7 +509,7 @@
     ],
     "meta": { "pos2": "B", "pos3": "B", "pos4": "C" },
     "difficulty": 2,
-    "notes": "AoE initiator played mostly mid in pro: Burrowstrike stun plus a Blink Epicenter that wrecks illusions and clumped teams, with good waveclear and a Sand Storm escape. Epicenter now has only a cast point, not a channel; he falls off late."
+    "notes": "AoE initiator played mostly mid in pro, with a Burrowstrike stun, a Blink Epicenter that wrecks illusions and clumped teams, good waveclear and a Sand Storm escape. Epicenter now has only a cast point instead of a channel. He falls off late."
   },
   {
     "id": "storm_spirit",
@@ -599,7 +599,7 @@
     ],
     "meta": { "pos1": "A", "pos2": "B", "pos4": "C" },
     "difficulty": 2,
-    "notes": "Avalanche + Toss burst-stun kills squishy heroes. Tiny is flexible between a tree-grab right-click carry (common pro pos1), a burst mid, and a roaming support. Classic Io tether-toss combo. Slow attack and struggles when kited."
+    "notes": "Avalanche and Toss together stun and burst down squishy heroes. Tiny is flexible between a tree-grab right-click carry (common pro pos1), a burst mid and a roaming support. He has the classic Io tether-toss combo. His attack is slow, and he struggles when kited."
   },
   {
     "id": "vengefulspirit",
@@ -630,7 +630,7 @@
     ],
     "meta": { "pos5": "B", "pos4": "B", "pos1": "C" },
     "difficulty": 2,
-    "notes": "Aggressive lane support: Magic Missile stun, armor-reducing Wave of Terror and a damage aura for ranged pushes. Nether Swap pulls an enemy into the team or saves an ally. Also an occasional pro carry. Fragile; she needs vision to use Swap well."
+    "notes": "Aggressive lane support with a Magic Missile stun, armor-reducing Wave of Terror and a damage aura for ranged pushes. Nether Swap pulls an enemy into the team or saves an ally. She is also an occasional pro carry. She is fragile and needs vision to use Swap well."
   },
   {
     "id": "windrunner",
@@ -656,7 +656,7 @@
     ],
     "meta": { "pos1": "A", "pos4": "A", "pos2": "C" },
     "difficulty": 2,
-    "notes": "Flexible core/support: Shackleshot is a long stun that pairs with trees or units, Windrun evasion blanks right-click carries, and Focus Fire gives her carry damage. Vulnerable to magic burst and silences."
+    "notes": "Flexible core or support whose Shackleshot is a long stun that pairs with trees or units, while Windrun evasion blanks right-click carries and Focus Fire gives her carry damage. She is vulnerable to magic burst and silences."
   },
   {
     "id": "zuus",
@@ -688,7 +688,7 @@
     ],
     "meta": { "pos2": "B", "pos4": "B", "pos5": "C" },
     "difficulty": 1,
-    "notes": "Spammable magic nukes plus global Thundergod's Wrath. His true sight reveals invisible heroes, and Static Field chunks high-HP targets. Zero escape beyond Heavenly Jump, so he is a prime target for divers and magic-resistant cores."
+    "notes": "Zeus has spammable magic nukes and a global Thundergod's Wrath. His true sight reveals invisible heroes, and Static Field chunks high-HP targets. He has no escape beyond Heavenly Jump, so he is a prime target for divers and magic-resistant cores."
   },
   {
     "id": "kunkka",
@@ -717,7 +717,7 @@
     ],
     "meta": { "pos2": "C", "pos3": "C" },
     "difficulty": 2,
-    "notes": "Tanky teamfighter: Tidebringer cleave, Torrent and X Marks combos, and Ghost Ship for AoE stun and damage delay. Strong mid-game fights, but ranged mid lanes and magic-immune right-clickers give him trouble."
+    "notes": "Tanky teamfighter with Tidebringer cleave, Torrent and X Marks combos, and Ghost Ship for AoE stun and damage delay. He is strong in mid-game fights, but ranged mid lanes and magic-immune right-clickers give him trouble."
   },
   {
     "id": "lina",
@@ -748,7 +748,7 @@
     ],
     "meta": { "pos2": "A", "pos1": "B", "pos4": "C" },
     "difficulty": 2,
-    "notes": "Heavily contested at TI 2026 (nerfed in 7.41f): elite magic burst (LSA, Laguna) plus Fiery Soul right-click lets her play mid, carry or support. Squishy and immobile, so she needs protection from divers and Anti-Mage's Counterspell."
+    "notes": "Lina was heavily contested at TI 2026 and nerfed in 7.41f. Her elite magic burst (LSA, Laguna) and Fiery Soul right-click let her play mid, carry or support. She is squishy and immobile, so she needs protection from divers and Anti-Mage's Counterspell."
   },
   {
     "id": "lion",
@@ -779,7 +779,7 @@
     ],
     "meta": { "pos5": "B", "pos4": "B" },
     "difficulty": 1,
-    "notes": "Two disables (Hex, Earth Spike) plus Finger of Death for easy pick-offs; Mana Drain instantly kills illusions. Very fragile and falls off late, so he relies on Blink positioning and on setting up his cores."
+    "notes": "Lion has two disables (Hex, Earth Spike) and Finger of Death for easy pick-offs, and Mana Drain instantly kills illusions. He is very fragile and falls off late, so he relies on Blink positioning and on setting up his cores."
   },
   {
     "id": "shadow_shaman",
@@ -807,7 +807,7 @@
     ],
     "meta": { "pos5": "B", "pos4": "B" },
     "difficulty": 1,
-    "notes": "Best-in-class single-target lockdown (Hex into Shackles) and Mass Serpent Wards that take towers in seconds. Great for early push lineups. Shackles is a channel, and he is fragile to gap-closers."
+    "notes": "Shadow Shaman has the best single-target lockdown (Hex into Shackles) and Mass Serpent Wards that take towers in seconds. He is great for early push lineups. Shackles is a channel, and he is fragile to gap-closers."
   },
   {
     "id": "slardar",
@@ -839,7 +839,7 @@
     ],
     "meta": { "pos3": "B", "pos2": "C" },
     "difficulty": 1,
-    "notes": "Guardian Sprint + Slithereen Crush initiator whose Corrosive Haze gives huge armor reduction and true sight, making him a hard counter to invisible heroes. Falls off late and is kited by ranged lanes."
+    "notes": "Initiator who uses Guardian Sprint into Slithereen Crush, and whose Corrosive Haze gives huge armor reduction and true sight, which makes him a hard counter to invisible heroes. He falls off late, and ranged lanes kite him."
   },
   {
     "id": "tidehunter",
@@ -870,7 +870,7 @@
     ],
     "meta": { "pos3": "B" },
     "difficulty": 1,
-    "notes": "Durable frontliner whose Blink Ravage is one of the best AoE teamfight engages; Kraken Shell shrugs off harass. Pair with AoE follow-up. Rubick stealing Ravage and break or pure damage are his main problems."
+    "notes": "Durable frontliner whose Blink Ravage is one of the best AoE teamfight engages, and Kraken Shell shrugs off harass. Pair him with AoE follow-up. Rubick stealing Ravage, and break or pure damage, are his main problems."
   },
   {
     "id": "witch_doctor",
@@ -902,7 +902,7 @@
     ],
     "meta": { "pos5": "A", "pos4": "B" },
     "difficulty": 1,
-    "notes": "Teamfight support: bouncing Paralyzing Cask, heals, Maledict, and a Death Ward that shreds anything held in place by Chrono, Black Hole or Call. The Ward is a channel, so stuns, silences and divers answer it."
+    "notes": "Teamfight support with a bouncing Paralyzing Cask, heals, Maledict, and a Death Ward that shreds anything held in place by Chrono, Black Hole or Call. The Ward is a channel, so stuns, silences and divers answer it."
   },
   {
     "id": "lich",
@@ -961,7 +961,7 @@
     ],
     "meta": { "pos4": "B", "pos1": "C" },
     "difficulty": 2,
-    "notes": "Permanently invisible ganker: Blink Strike, Smoke Screen silence and Backstab burst delete isolated supports. Hard-countered by true sight (Haze, Zeus, Track, Gem) and AoE."
+    "notes": "Permanently invisible ganker whose Blink Strike, Smoke Screen silence and Backstab burst delete isolated supports. True sight (Haze, Zeus, Track, Gem) and AoE hard-counter him."
   },
   {
     "id": "enigma",
@@ -991,7 +991,7 @@
     ],
     "meta": { "pos3": "A", "pos4": "C" },
     "difficulty": 2,
-    "notes": "Blink Black Hole is one of the strongest AoE lockdowns in the game and pierces spell immunity; a strong pro offlaner in 7.41. Needs AoE follow-up (Death Ward, Freezing Field, Requiem). Global Silence and Rubick punish it."
+    "notes": "Blink Black Hole is one of the strongest AoE lockdowns in the game and pierces spell immunity. Enigma is a strong pro offlaner in 7.41 and needs AoE follow-up (Death Ward, Freezing Field, Requiem). Global Silence and Rubick punish it."
   },
   {
     "id": "tinker",
@@ -1054,7 +1054,7 @@
     ],
     "meta": { "pos2": "B", "pos1": "C" },
     "difficulty": 1,
-    "notes": "Extreme-range right-click poke and high-ground siege with Shrapnel and Assassinate. Needs a frontline and peel. Any gap-closer or invisible ganker kills him."
+    "notes": "Sniper brings extreme-range right-click poke and high-ground siege with Shrapnel and Assassinate. He needs a frontline and peel, and any gap-closer or invisible ganker kills him."
   },
   {
     "id": "necrolyte",
@@ -1087,7 +1087,7 @@
     ],
     "meta": { "pos1": "A", "pos3": "B", "pos2": "B" },
     "difficulty": 1,
-    "notes": "Sustain-heavy flex core (Death Pulse heals, Heartstopper aura, Ghost Shroud); Reaper's Scythe executes and delays buyback. Eats strength heroes and physical melee. Countered by anti-heal (Ice Blast), silences and mana burn."
+    "notes": "Sustain-heavy flex core (Death Pulse heals, Heartstopper aura, Ghost Shroud) whose Reaper's Scythe executes and delays buyback. He eats strength heroes and physical melee. Anti-heal (Ice Blast), silences and mana burn counter him."
   },
   {
     "id": "warlock",
@@ -1114,7 +1114,7 @@
     ],
     "meta": { "pos5": "B", "pos4": "C" },
     "difficulty": 2,
-    "notes": "Teamfight support: Fatal Bonds, heals, Upheaval and a Chaotic Offering AoE stun that drops a Golem for frontline. Strong in clumped fights, but slow and fragile vs divers."
+    "notes": "Teamfight support with Fatal Bonds, heals, Upheaval and a Chaotic Offering AoE stun that drops a Golem for frontline. He is strong in clumped fights, but slow and fragile against divers."
   },
   {
     "id": "beastmaster",
@@ -1280,7 +1280,7 @@
     ],
     "meta": { "pos2": "B", "pos3": "B" },
     "difficulty": 1,
-    "notes": "Premier tower-pusher: Exorcism spirits siege buildings, and Spirit Siphon plus Silence help her skirmish. Wants to force fights at towers early to mid game and falls off if the game drags."
+    "notes": "Top tower-pusher whose Exorcism spirits siege buildings, while Spirit Siphon and Silence help her skirmish. She wants to force fights at towers early to mid game and falls off if the game drags."
   },
   {
     "id": "phantom_assassin",
@@ -1311,6 +1311,6 @@
     ],
     "meta": { "pos1": "B" },
     "difficulty": 2,
-    "notes": "Crit-burst assassin carry: Phantom Strike and Blur let her jump squishy targets. Evasion blanks many physical cores. Countered by armor, pure or magic damage (Helix, Timbersaw), ethereal and kiting."
+    "notes": "Crit-burst assassin carry whose Phantom Strike and Blur let her jump squishy targets. Evasion blanks many physical cores. Armor, pure or magic damage (Helix, Timbersaw), ethereal and kiting counter her."
   }
 ]

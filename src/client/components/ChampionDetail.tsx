@@ -119,7 +119,7 @@ export function ChampionDetail({ game, data, champ, onSelect }: { game: GameId; 
             <Badge>{champ.range}</Badge>
             <Badge title="Difficulty 1 (easy) to 3 (hard)">Difficulty {"◆".repeat(Math.max(1, Math.min(3, Math.round(champ.difficulty))))}</Badge>
             {!champ.curated && (
-              <Badge tone="warn" title={`Not hand-curated yet: attributes are derived heuristically from source data for this ${unit}.`}>
+              <Badge tone="warn" title={`Not hand-curated yet. Attributes for this ${unit} are derived heuristically from source data.`}>
                 Derived
               </Badge>
             )}
@@ -175,7 +175,7 @@ export function ChampionDetail({ game, data, champ, onSelect }: { game: GameId; 
                   })}
                 </tbody>
               </table>
-              {!stats && <p className="mt-1 text-[11px] text-muted">Tier data only — this data set has no win, pick or ban rates.</p>}
+              {!stats && <p className="mt-1 text-[11px] text-muted">Tier data only. This data set has no win, pick or ban rates.</p>}
             </div>
           ) : (
             <p className="text-xs text-faint">No role data.</p>

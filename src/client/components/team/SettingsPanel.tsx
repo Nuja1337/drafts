@@ -196,12 +196,12 @@ function ReadOnlySettings({ team, data }: { team: TeamProfile; data: GameData | 
                 <ChampIcon champ={data?.byId.get(o.b)} size={28} />
                 <span>{name(o.b)}</span>
                 <span className={o.adv > 0 ? "font-semibold text-good" : o.adv < 0 ? "font-semibold text-bad" : "text-muted"}>{signed(o.adv, 1)}</span>
-                {o.note && <span className="w-full text-xs text-muted sm:w-auto">— {o.note}</span>}
+                {o.note && <span className="w-full text-xs text-muted sm:w-auto">{o.note}</span>}
               </li>
             ))}
           </ul>
         ) : (
-          <p className="text-sm text-faint">No overrides — the dataset's matchups are used as-is.</p>
+          <p className="text-sm text-faint">No overrides. The dataset's matchups are used as-is.</p>
         )}
       </Card>
     </div>
@@ -339,8 +339,8 @@ function OwnerSettings({ team, ownerKey, data, onTeam }: { team: TeamProfile; ow
         }
       >
         <p className="mb-3 text-xs text-muted">
-          Disagree with the data? Set how {scout ? "this team" : "your team"} rates a matchup: slide toward the {unit} that wins it. Overrides replace the dataset's value in
-          suggestions for {scout ? "this profile" : "your team"}.
+          If you disagree with the data, set how {scout ? "this team" : "your team"} rates a matchup by sliding toward the {unit} that wins it. Overrides replace the
+          dataset's value in suggestions for {scout ? "this profile" : "your team"}.
         </p>
         {form.overrides.length ? (
           <ul className="space-y-2">

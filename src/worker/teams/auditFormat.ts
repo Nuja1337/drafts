@@ -225,7 +225,7 @@ export function describeTeamChange(before: Record<string, unknown>, after: Recor
 
 export function describePlayerChange(playerName: string, before: Record<string, unknown>, after: Record<string, unknown>): string {
   const parts = Object.keys(after).map((k) => {
-    if (k === "name") return `name → "${String(after.name)}"`;
+    if (k === "name") return `renamed to "${String(after.name)}"`;
     if (k === "pool") return `champion pool${listDelta(before.pool as Champ[] | undefined, after.pool as Champ[], (p) => p.championId)}`;
     if (k === "avoid") return `avoid list${listDelta(before.avoid as Champ[] | undefined, after.avoid as Champ[], (p) => p.championId)}`;
     return PLAYER_LABELS[k] ?? k;

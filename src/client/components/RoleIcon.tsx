@@ -80,7 +80,7 @@ export function RoleChip({ game, role, level, className }: { game: GameId; role:
   const label = roleLabel(game, role);
   return (
     <span
-      title={level ? `${label} — ${LEVEL_LABEL[level]}` : label}
+      title={level ? `${label} (${LEVEL_LABEL[level].toLowerCase()})` : label}
       className={cn(
         "inline-flex items-center gap-1 rounded-md border px-1.5 py-0.5 text-[11px] font-semibold tracking-wide whitespace-nowrap",
         level ? LEVEL_STYLE[level] : "border-line-strong bg-panel-3 text-muted",

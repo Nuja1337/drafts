@@ -162,7 +162,7 @@ export class DraftRoom extends DurableObject<Env> {
       server.serializeAttachment({ role: SPECTATOR, at: now, net } satisfies Attachment);
       this.welcome(server, SPECTATOR);
       // An out-of-date page still putting its key in the URL: it only gets spectator access now.
-      if (url.searchParams.has("key")) this.sendError(server, "reload_required", "This page is out of date — reload it to use your room link.");
+      if (url.searchParams.has("key")) this.sendError(server, "reload_required", "This page is out of date. Reload it to use your room link.");
       this.schedulePresence();
     }
 
@@ -230,7 +230,7 @@ export class DraftRoom extends DurableObject<Env> {
     }
     ws.serializeAttachment({ role, at: att.at, net: att.net } satisfies Attachment);
     this.welcome(ws, role);
-    if (badKey) this.sendError(ws, "bad_key", "That room key isn't valid — you joined as a spectator.");
+    if (badKey) this.sendError(ws, "bad_key", "That room key isn't valid, so you joined as a spectator.");
     this.schedulePresence();
   }
 
@@ -272,7 +272,7 @@ export class DraftRoom extends DurableObject<Env> {
     const result = reduce(room, att.role, msg, Date.now());
     if (!result.ok) return this.sendError(ws, result.error.code, result.error.message);
     if (result.state === room) return;
-    if (!this.spend(att.role)) return this.sendError(ws, "rate_limited", "Too many changes — slow down.");
+    if (!this.spend(att.role)) return this.sendError(ws, "rate_limited", "Too many changes. Slow down.");
     if (msg.t === "hover") return this.commitHover(result.state);
     await this.commit(result.state);
   }
@@ -294,7 +294,7 @@ export class DraftRoom extends DurableObject<Env> {
     if (!this.room || !this.keys || this.room.config.mode !== "captains") {
       return this.sendError(ws, "no_captains", "This room has no captain links.");
     }
-    if (!this.spend(role)) return this.sendError(ws, "rate_limited", "Too many changes — slow down.");
+    if (!this.spend(role)) return this.sendError(ws, "rate_limited", "Too many changes. Slow down.");
     const key = randomKey("cap");
     const hash = await sha256(key);
     if (!this.keys) return;
@@ -303,7 +303,7 @@ export class DraftRoom extends DurableObject<Env> {
     this.send(ws, { t: "keyRotated", slot, key });
     for (const c of this.connections()) {
       if (c.att.role.kind !== "captain" || c.att.role.slot !== slot) continue;
-      this.sendError(c.ws, "key_revoked", "The host replaced this captain link — ask them for the new one.");
+      this.sendError(c.ws, "key_revoked", "The host replaced this captain link. Ask them for the new one.");
       this.closeQuietly(c.ws, CLOSE_REVOKED, "Key revoked");
     }
     this.schedulePresence();
@@ -529,7 +529,7 @@ export class DraftRoom extends DurableObject<Env> {
       this.closeQuietly(ws, 1008, "Too many messages");
     } else if (!r.warned) {
       r.warned = true;
-      this.sendError(ws, "rate_limited", "Too many messages — slow down.");
+      this.sendError(ws, "rate_limited", "Too many messages. Slow down.");
     }
     return false;
   }
